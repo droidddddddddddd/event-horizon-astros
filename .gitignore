@@ -1,0 +1,29 @@
+# dependencies / build output
+node_modules/
+dist/
+mint/dist/
+# full-resolution art archive (back up + upload to permanent storage; verified by art-manifest.json sha256)
+art/
+launch-kit/metadata/
+launch-kit/metadata-draft/
+# secrets & keys: NEVER commit
+*.keypair.json
+*keypair*.json
+id.json
+*.pem
+.env
+.env.*
+!.env.example
+mint/deployment.json
+mint/deployment-state.json
+mint/deployment-public.json
+mint/items.json
+mint/.test-state/
+# test validator artifacts
+test-ledger/
+*.ledger/
+# misc
+.DS_Store
+__pycache__/
+*.pyc
+screenshots/*.tmp

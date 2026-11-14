@@ -1,0 +1,37 @@
+{
+  "_note": "Edit freely. 'threshold' is the market cap in USD at which a log unlocks on the site. Thresholds are story checkpoints, NOT price targets or predictions. Exactly one chapter should have \"horizon\": true; the meter measures the distance to it. Chapters unlock in order of threshold.",
+  "chapters": [
+    {
+      "id": "000", "title": "Departure", "threshold": 0,
+      "text": "Mission log 000. Suit sealed. Oxygen: fine. Judgment: debatable. Ahead, a perfectly dark circle that every instrument calls a bad idea and nobody can stop looking at. The black hole is the chart. I'm going in."
+    },
+    {
+      "id": "001", "title": "Gravity Notices You", "threshold": 25000,
+      "text": "The pull is subtle at first. A little drift, a little faster each hour. Nothing dramatic. That's the whole trick: you don't feel the edge. You feel 'just one more look.'"
+    },
+    {
+      "id": "002", "title": "Redshift", "threshold": 100000,
+      "text": "Light from the people behind me is stretching toward red. They're getting quieter, and further away. From in here, the old world looks like a sunset."
+    },
+    {
+      "id": "003", "title": "Time Dilation", "threshold": 250000,
+      "text": "My clock runs slow now, compared to everyone watching. To them I'm frozen at the edge. To me it's been a calm afternoon. Both are true. Physics is the original meme."
+    },
+    {
+      "id": "004", "title": "Spaghettification", "threshold": 500000,
+      "text": "Tidal forces stretch whatever can't hold together. Astronomers call it spaghettification. Paper hands call it 'selling the bottom.' Diamond hands call it someone else's problem."
+    },
+    {
+      "id": "005", "title": "The Point of No Return", "threshold": 1000000, "horizon": true,
+      "text": "This is the line. Past here, even light can't turn around. There's no announcement, just a quiet realization: we are the Crossed. The only way out is up. (That's lore, not a promise.)"
+    },
+    {
+      "id": "006", "title": "Inside", "threshold": 5000000,
+      "text": "Inside the horizon, 'forward' stops being a direction and becomes a time. Every map I brought is obsolete. Good thing I'm a meme and not a navigator."
+    },
+    {
+      "id": "007", "title": "Singularity", "threshold": 10000000,
+      "text": "At the center, the math runs out. Nobody has made it here and filed a report. I'll keep logging anyway."
+    }
+  ]
+}

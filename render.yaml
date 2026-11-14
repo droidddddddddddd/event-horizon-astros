@@ -1,6 +1,44 @@
+# Render blueprint for EVENT HORIZON / ASTROS (prepared only: nothing is created, pushed or deployed from here).
+# 1) Static site: publishes dist/ (built by tools/build-site.mjs: public files only) with security headers.
+# 2) OPTIONAL read-only RPC proxy (proxy/rpc-proxy.js): keeps a keyed RPC URL on the server. Not needed for launch.
 services:
   - type: web
-    name: event-horizon
+    name: event-horizon-astros
     runtime: static
-    buildCommand: echo "Static site"
-    staticPublishPath: .
+    buildCommand: node tools/build-site.mjs
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://api.dexscreener.com https://solana-rpc.publicnode.com https://api.mainnet-beta.solana.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: no-referrer
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: Permissions-Policy
+        value: "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+      - path: /*
+        name: Cross-Origin-Opener-Policy
+        value: same-origin
+      - path: /*
+        name: Strict-Transport-Security
+        value: "max-age=31536000; includeSubDomains"
+      - path: /launch-config.js
+        name: Cache-Control
+        value: no-cache
+      - path: /collection.js
+        name: Cache-Control
+        value: no-cache
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /fonts/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable

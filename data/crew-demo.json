@@ -1,0 +1,21 @@
+{
+ "_note": "DEMO ONLY: shown on localhost with ?demo_rank=... Not real people.",
+ "entries": [
+  {
+   "callsign": "Demo Pilot",
+   "rank": "Singularity"
+  },
+  {
+   "callsign": "Demo Drifter",
+   "rank": "Drifter"
+  },
+  {
+   "callsign": "Demo Navigator",
+   "rank": "Navigator"
+  },
+  {
+   "callsign": "Demo Edge",
+   "rank": "Event Horizon"
+  }
+ ]
+}

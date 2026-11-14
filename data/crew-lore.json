@@ -1,0 +1,31 @@
+{
+ "_note": "Crew-only story extras. Fiction. These are cosmetic perks behind a SOFT gate: the site only reveals them after the rank checker confirms a rank, but this file is a plain public file, so never put anything sensitive in it.",
+ "early": [
+  {
+   "id": "E-01",
+   "title": "Early transmission: The Quiet Part",
+   "minRank": "Event Horizon",
+   "text": "Off the record: the first thing that goes quiet near the edge is the radio. Not because anyone stopped talking. Because the words take longer and longer to reach you. I keep logging anyway. Somebody on the other side is reading it, eventually."
+  },
+  {
+   "id": "E-02",
+   "title": "Early transmission: Manifest (draft)",
+   "minRank": "Event Horizon",
+   "text": "Crew manifest, draft 1. Name: the astronaut. Cargo: one oxygen tank, one lollipop, one very questionable sense of direction. Destination: the line. Return trip: not scheduled."
+  }
+ ],
+ "classified": [
+  {
+   "id": "C-001",
+   "title": "CLASSIFIED 001: What the instruments say",
+   "minRank": "Singularity",
+   "text": "Every gauge on the console agrees on exactly one thing: nothing agrees. Pressure reads poetry. Altitude reads 'yes'. The compass has stopped pointing north and started pointing at me. I have decided this is fine."
+  },
+  {
+   "id": "C-002",
+   "title": "CLASSIFIED 002: The one who wasn't stretched",
+   "minRank": "Singularity",
+   "text": "Tidal forces stretch everything that can't hold together. I checked the crew roster for anyone holding together this well. The list is short, and it is you. (Lore only. Not a promise of anything.)"
+  }
+ ]
+}

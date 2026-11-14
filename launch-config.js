@@ -1,6 +1,11 @@
+// EVENT HORIZON / ASTROS launch configuration. Every release flag defaults to false/empty (fail closed).
+// This file is informational for the website only. It is NOT a security boundary: real enforcement lives on-chain
+// (Candy Machine guards) and in mint/deploy.mjs. Never put keys, seed phrases or RPC keys in here.
 window.LAUNCH = Object.freeze({
   "network": "Solana",
   "status": "prelaunch",
+  "cluster": "devnet",
+  "mainnetPaymentsEnabled": false,
   "tokenMint": "",
   "collectionMint": "",
   "mintUrl": "",
@@ -18,6 +23,7 @@ window.LAUNCH = Object.freeze({
   "reserveAllocation": 20,
   "royaltyBps": 250,
   "publicWalletLimit": 2,
+  "earlyWalletLimit": 1,
   "sequence": "simultaneous",
   "launchTime": null,
   "artApproved": false,

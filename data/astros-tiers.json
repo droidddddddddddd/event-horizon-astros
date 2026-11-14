@@ -1,0 +1,83 @@
+{
+ "_note": "Written by astros/v3/plan.py. Concept collection of 1,000 AI-illustrated Astros; nothing minted.",
+ "collection": {
+  "name": "Astros",
+  "symbol": "ASTRO",
+  "supply": 1000,
+  "seed": 20261112
+ },
+ "tiers": [
+  {
+   "id": "Common",
+   "level": 1,
+   "share": 0.55,
+   "color": "#b9b4ac",
+   "stars": 1,
+   "look": "A chubby astronaut in a worn pastel suit, visor lifted, a bored face. Plain and proud.",
+   "backdrop": "#b6afa2"
+  },
+  {
+   "id": "Uncommon",
+   "level": 2,
+   "share": 0.25,
+   "color": "#3fcf8e",
+   "stars": 2,
+   "look": "Trim stripes, mirrored shades or goggles, and a hand-drawn extra: lollipop, straw, bubblegum, a silly hat.",
+   "backdrop": "#87cca1"
+  },
+  {
+   "id": "Rare",
+   "level": 3,
+   "share": 0.12,
+   "color": "#4aa3ff",
+   "stars": 3,
+   "look": "Shiny metallic suit, glowing visor rim, gold chain or comms gear, sparks in the air.",
+   "backdrop": "#7dc9fd"
+  },
+  {
+   "id": "Epic",
+   "level": 4,
+   "share": 0.06,
+   "color": "#a56bff",
+   "stars": 4,
+   "look": "Dark plasma-veined suit, glowing eyes, alien skin, a halo, particles and dripping plasma.",
+   "backdrop": "#68488b"
+  },
+  {
+   "id": "Legendary",
+   "level": 5,
+   "share": 0.02,
+   "color": "#ffb040",
+   "stars": 5,
+   "look": "Gilded, void or cosmic suit, a face lost to fire or void, crown or halo, wings, aura rays. Includes five hand-made 1/1s.",
+   "backdrop": "#cb7005"
+  }
+ ],
+ "oneOfOnes": [
+  {
+   "n": 1,
+   "title": "The Original",
+   "note": "The first astronaut: worn white suit, smoked visor, the most bored face in the galaxy."
+  },
+  {
+   "n": 183,
+   "title": "Spaghettified",
+   "note": "Helmet intact, body stretched into a noodle by tidal forces."
+  },
+  {
+   "n": 196,
+   "title": "Singularity",
+   "note": "A void-black suit with molten gold cracks, burning eyes and a halo."
+  },
+  {
+   "n": 275,
+   "title": "Time Dilation",
+   "note": "Echoes of one astronaut, caught between ticks."
+  },
+  {
+   "n": 287,
+   "title": "The Crossed",
+   "note": "Gilded suit, crown of light, photon wings: past the point of no return."
+  }
+ ]
+}
