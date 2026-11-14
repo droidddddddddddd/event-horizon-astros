@@ -1,6 +1,6 @@
 {
  "note": "sha256 of full-res art/NNNN.jpg for every approved token",
- "approved": 332,
+ "approved": 340,
  "files": {
   "0001.jpg": {
    "sha256": "68ac3bebfc8382b0ab04922db904bca9b0eb4749f3bac2207c4d22e0840e24a0",
@@ -1322,13 +1322,45 @@
    "sha256": "f39656c5e23377be071cde8f3fb6ff92d5546483eff405d44876c5bd5141b300",
    "bytes": 381877
   },
+  "0629.jpg": {
+   "sha256": "57d8cc1fc2512efd708c6edc30908d5a4935a722328ba0cdbe07d119705a2be1",
+   "bytes": 471963
+  },
   "0730.jpg": {
    "sha256": "a226f3f2bdf9ed4ca1c5776ab85c078f880d1d3edecc2f71783882ac64b0321d",
    "bytes": 508640
   },
+  "0762.jpg": {
+   "sha256": "aedf0d6b877c727e0c91c4b6ab2c2672b4c739ecb7e501825b9897ee23f3eab7",
+   "bytes": 460319
+  },
+  "0789.jpg": {
+   "sha256": "c1c9a7d848502792cf0f7f5e314c43043185c0e0656dc3550d74483757f18117",
+   "bytes": 458051
+  },
+  "0819.jpg": {
+   "sha256": "6b764456cd421307f2c3330d7ce31bfe37f73b107bca918705d2ee592cc0a643",
+   "bytes": 527250
+  },
   "0832.jpg": {
    "sha256": "afbab37f8c7272264b40862004a66e54bfda33e0ae8fefdcc154c6d8dc8b86ca",
    "bytes": 554533
+  },
+  "0849.jpg": {
+   "sha256": "32ca06257887835e18c30b26a2b7a0ffcd8f1c060a6d0777b792ff37da3c382d",
+   "bytes": 429554
+  },
+  "0917.jpg": {
+   "sha256": "3e171ad2176fac557a64991b6cac0050c5679f08488a7d9fbddb1c316f3eff66",
+   "bytes": 455614
+  },
+  "0918.jpg": {
+   "sha256": "7173836169f951e99d9b619f905cf25421bf6913a66f74756dfd35f40f2be10b",
+   "bytes": 460370
+  },
+  "0991.jpg": {
+   "sha256": "e0afb21aab474df6972ab4ac42712514e74c4e627224bedd901c28dddf305b55",
+   "bytes": 389079
   }
  }
 }
