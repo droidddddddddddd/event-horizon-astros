@@ -1,0 +1,24 @@
+{
+  "name": "Astro #935",
+  "symbol": "ASTROS",
+  "description": "Event Horizon concept variation; not approved for mint.",
+  "image": "../../assets/genesis/0935.webp",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Base concept",
+      "value": "first-21"
+    },
+    {
+      "trait_type": "Color treatment",
+      "value": "Slate"
+    },
+    {
+      "trait_type": "Mission insignia",
+      "value": "2"
+    }
+  ]
+}

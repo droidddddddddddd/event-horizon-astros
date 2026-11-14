@@ -1,0 +1,24 @@
+{
+  "name": "Astro #464",
+  "symbol": "ASTROS",
+  "description": "Event Horizon concept variation; not approved for mint.",
+  "image": "../../assets/genesis/0464.webp",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Base concept",
+      "value": "second-08"
+    },
+    {
+      "trait_type": "Color treatment",
+      "value": "Moss"
+    },
+    {
+      "trait_type": "Mission insignia",
+      "value": "2"
+    }
+  ]
+}

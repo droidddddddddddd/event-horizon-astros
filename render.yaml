@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: event-horizon
+    runtime: static
+    buildCommand: echo "Static site"
+    staticPublishPath: .

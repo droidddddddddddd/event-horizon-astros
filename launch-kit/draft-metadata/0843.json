@@ -1,0 +1,24 @@
+{
+  "name": "Astro #843",
+  "symbol": "ASTROS",
+  "description": "Event Horizon concept variation; not approved for mint.",
+  "image": "../../assets/genesis/0843.webp",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Base concept",
+      "value": "first-05"
+    },
+    {
+      "trait_type": "Color treatment",
+      "value": "Slate"
+    },
+    {
+      "trait_type": "Mission insignia",
+      "value": "2"
+    }
+  ]
+}
