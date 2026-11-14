@@ -1,8 +1,8 @@
 {
  "supply": 1000,
  "stats": {
-  "calls": 434,
-  "accepted": 405,
+  "calls": 445,
+  "accepted": 416,
   "rejected": 21,
   "swapped": 8
  },
@@ -13882,8 +13882,38 @@
    "attempts": 0
   },
   "593": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Deep",
+    "Expression": "Deadpan",
+    "Eyes": "Normal",
+    "Visor": "Glow Rim Cyan",
+    "Suit": "Cobalt",
+    "Mouth Item": "Straw",
+    "Neck": "Silver Chain",
+    "Headgear": "Antenna",
+    "Effect": "Rim Light",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 1.1,
+    "bg_dist": 11.0,
+    "top": 0.005,
+    "width50": 0.643,
+    "fg_frac": 0.649,
+    "struct_corr": 0.387
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "594": {
    "status": "pending",
@@ -13894,12 +13924,72 @@
    "attempts": 0
   },
   "596": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Pale",
+    "Expression": "Bored",
+    "Eyes": "Glowing Cyan",
+    "Visor": "Glow Rim Pink",
+    "Suit": "Copper",
+    "Mouth Item": "None",
+    "Neck": "Scarf",
+    "Headgear": "None",
+    "Effect": "Sparks",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 1.1,
+    "bg_dist": 7.3,
+    "top": 0.042,
+    "width50": 0.642,
+    "fg_frac": 0.671,
+    "struct_corr": 0.613
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "597": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Deep",
+    "Expression": "Bored",
+    "Eyes": "Glowing Cyan",
+    "Visor": "Glow Rim Pink",
+    "Suit": "Steel Blue",
+    "Mouth Item": "Bubblegum",
+    "Neck": "Gold Chain",
+    "Headgear": "None",
+    "Effect": "Sparks",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 1.2,
+    "bg_dist": 8.1,
+    "top": 0.042,
+    "width50": 0.642,
+    "fg_frac": 0.66,
+    "struct_corr": 0.488
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "598": {
    "status": "pending",
@@ -14120,8 +14210,38 @@
    "qa": "visual-ok"
   },
   "630": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Mint",
+    "Expression": "Bored",
+    "Eyes": "Normal",
+    "Visor": "Glow Rim Pink",
+    "Suit": "Emerald",
+    "Mouth Item": "None",
+    "Neck": "Dog Tag",
+    "Headgear": "Comms Dish",
+    "Effect": "Rim Light",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 1.0,
+    "bg_dist": 5.1,
+    "top": 0.041,
+    "width50": 0.645,
+    "fg_frac": 0.682,
+    "struct_corr": 0.644
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "631": {
    "status": "pending",
@@ -14300,8 +14420,38 @@
    "attempts": 0
   },
   "660": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Pale",
+    "Expression": "Bored",
+    "Eyes": "Glowing Cyan",
+    "Visor": "Glow Rim Orange",
+    "Suit": "Rose Gold",
+    "Mouth Item": "None",
+    "Neck": "Scarf",
+    "Headgear": "Headlamp",
+    "Effect": "Sparks",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 1.0,
+    "bg_dist": 5.7,
+    "top": 0.042,
+    "width50": 0.646,
+    "fg_frac": 0.668,
+    "struct_corr": 0.532
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "661": {
    "status": "pending",
@@ -14328,12 +14478,72 @@
    "attempts": 0
   },
   "667": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Brown",
+    "Expression": "Deadpan",
+    "Eyes": "Normal",
+    "Visor": "Glow Rim Pink",
+    "Suit": "Copper",
+    "Mouth Item": "None",
+    "Neck": "Dog Tag",
+    "Headgear": "None",
+    "Effect": "Sparks",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 1.2,
+    "bg_dist": 11.8,
+    "top": 0.042,
+    "width50": 0.641,
+    "fg_frac": 0.666,
+    "struct_corr": 0.529
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "668": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Tan",
+    "Expression": "Smirk",
+    "Eyes": "Hidden by shades",
+    "Visor": "Chrome Mirror",
+    "Suit": "Titanium",
+    "Mouth Item": "None",
+    "Neck": "Silver Chain",
+    "Headgear": "None",
+    "Effect": "Sparks",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 1.0,
+    "bg_dist": 7.7,
+    "top": 0.042,
+    "width50": 0.643,
+    "fg_frac": 0.663,
+    "struct_corr": 0.633
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "669": {
    "status": "pending",
@@ -14348,12 +14558,72 @@
    "attempts": 0
   },
   "672": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Tan",
+    "Expression": "Cocky Grin",
+    "Eyes": "Normal",
+    "Visor": "Glow Rim Cyan",
+    "Suit": "Copper",
+    "Mouth Item": "Straw",
+    "Neck": "Gold Chain",
+    "Headgear": "Antenna",
+    "Effect": "Sparks",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 0.8,
+    "bg_dist": 7.3,
+    "top": 0.012,
+    "width50": 0.643,
+    "fg_frac": 0.654,
+    "struct_corr": 0.459
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "673": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Peach",
+    "Expression": "Deadpan",
+    "Eyes": "Hidden by shades",
+    "Visor": "Chrome Mirror",
+    "Suit": "Steel Blue",
+    "Mouth Item": "Lollipop",
+    "Neck": "Gold Chain",
+    "Headgear": "None",
+    "Effect": "Sparks",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 0.9,
+    "bg_dist": 9.8,
+    "top": 0.042,
+    "width50": 0.643,
+    "fg_frac": 0.659,
+    "struct_corr": 0.526
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "674": {
    "status": "pending",
@@ -14364,12 +14634,72 @@
    "attempts": 0
   },
   "676": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Brown",
+    "Expression": "Cocky Grin",
+    "Eyes": "Hidden by shades",
+    "Visor": "Chrome Mirror",
+    "Suit": "Emerald",
+    "Mouth Item": "Straw",
+    "Neck": "Scarf",
+    "Headgear": "None",
+    "Effect": "Rim Light",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 0.7,
+    "bg_dist": 5.1,
+    "top": 0.042,
+    "width50": 0.641,
+    "fg_frac": 0.662,
+    "struct_corr": 0.576
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "677": {
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 1,
+   "traits": {
+    "Skin": "Sky",
+    "Expression": "Cocky Grin",
+    "Eyes": "Hidden by shades",
+    "Visor": "Chrome Mirror",
+    "Suit": "Rose Gold",
+    "Mouth Item": "None",
+    "Neck": "Scarf",
+    "Headgear": "Antenna",
+    "Effect": "Rim Light",
+    "Hair": "None",
+    "Facial Hair": "None",
+    "Face Mark": "None",
+    "Helmet Detail": "None",
+    "Suit Detail": "None"
+   },
+   "backdrop": {
+    "name": "Sky",
+    "hex": "#7dc9fd"
+   },
+   "metrics": {
+    "top_strip_std": 0.9,
+    "bg_dist": 7.7,
+    "top": 0.0,
+    "width50": 0.65,
+    "fg_frac": 0.59,
+    "struct_corr": 0.331
+   },
+   "reasons": [],
+   "qa": "visual-ok"
   },
   "678": {
    "status": "pending",

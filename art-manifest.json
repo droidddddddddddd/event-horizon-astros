@@ -1,6 +1,6 @@
 {
  "note": "sha256 of full-res art/NNNN.jpg for every approved token",
- "approved": 415,
+ "approved": 426,
  "files": {
   "0001.jpg": {
    "sha256": "68ac3bebfc8382b0ab04922db904bca9b0eb4749f3bac2207c4d22e0840e24a0",
@@ -1530,6 +1530,18 @@
    "sha256": "a1dcab9f3e9b3b7935713d20750a9014d715cae380cb7d23fdba4ba6deffbb36",
    "bytes": 396752
   },
+  "0593.jpg": {
+   "sha256": "d3fcf333341fd9bd8d67e6a1a069cd9c19295ad4aae22ce6b9de4dc4b6395a26",
+   "bytes": 411803
+  },
+  "0596.jpg": {
+   "sha256": "a1ca4c664b26f63de4decc91baa1c5b6ce5ba70815be77bdeba289dd103a51f3",
+   "bytes": 443300
+  },
+  "0597.jpg": {
+   "sha256": "053ca0e205206c3ac067ca472a8574631d3890f5c6dbdf062119226a3a890439",
+   "bytes": 414732
+  },
   "0625.jpg": {
    "sha256": "f39656c5e23377be071cde8f3fb6ff92d5546483eff405d44876c5bd5141b300",
    "bytes": 381877
@@ -1542,6 +1554,10 @@
    "sha256": "57d8cc1fc2512efd708c6edc30908d5a4935a722328ba0cdbe07d119705a2be1",
    "bytes": 471963
   },
+  "0630.jpg": {
+   "sha256": "c9fdf2193e0a83a6b2f7b0c0921b9816f4ff0d28b1a63a1632609779ee840845",
+   "bytes": 429656
+  },
   "0648.jpg": {
    "sha256": "46fd4e0231e092b00fd659cb8a5a8f45c8fb15525a513987949d920e12619781",
    "bytes": 379589
@@ -1549,6 +1565,34 @@
   "0655.jpg": {
    "sha256": "e692f40dc33e41d1255d64b7de9f4ba20d279dbecd7619e99385127dac1873b5",
    "bytes": 391532
+  },
+  "0660.jpg": {
+   "sha256": "5678b1d64b4b88b81ce9f84cbe83dcafcac6999cfc28a4c1f4a665c2bf0cea0f",
+   "bytes": 425463
+  },
+  "0667.jpg": {
+   "sha256": "394fb07a1c01e814a063089d579486ce45f41a26ceb0d18d3627858994bc744a",
+   "bytes": 429956
+  },
+  "0668.jpg": {
+   "sha256": "8447078f325fc0dbfb8fd82856b834785e91c03101ca01e5ee912487fa83aaab",
+   "bytes": 397846
+  },
+  "0672.jpg": {
+   "sha256": "79c1ebf61acf871e5bd7e412313a76820edaaac14bf9396e6b03688a7edfe2f3",
+   "bytes": 439238
+  },
+  "0673.jpg": {
+   "sha256": "281190942cd3e69bc79554b07e29f5e7ea5c70284826cd1fe8212b0891e24cab",
+   "bytes": 442913
+  },
+  "0676.jpg": {
+   "sha256": "5e17cb5e6c07a6646a5cf4c74b3bd9b356b2e2f0665a347b3fb601fc9ca8bf06",
+   "bytes": 397748
+  },
+  "0677.jpg": {
+   "sha256": "32dbd26df882873b26e6c65627a4be872886ae2d7f1f590b2065f66623a0125d",
+   "bytes": 404969
   },
   "0684.jpg": {
    "sha256": "373a1d307d7a02387f3ff46fe84265d09ec46f080bf250fb1dbcf85f03fa64a1",
