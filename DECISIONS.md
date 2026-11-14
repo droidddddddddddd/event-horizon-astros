@@ -6,7 +6,7 @@ Nothing below has been guessed or filled in. Items marked ◆ block mainnet.
 1. ◆ **Operator identity, contact and jurisdiction** (privacy/terms pages carry placeholders and prelaunch disclaimers; not legal advice).
 2. ◆ **Art rights and holder license**: AI-generated art copyright status, platform terms, what NFT holders actually get (personal vs commercial use).
 3. ◆ **Legal review** of selling NFTs and launching a token where you/buyers are.
-4. **Character resemblance:** the mockup hero is close in style to a recognisable TV cartoon character. Decide whether to keep it, change it or get counsel's view.
+4. **Character resemblance:** the mockup hero (smoking, reclining astronaut) was close to a recognisable TV cartoon character and has been REPLACED with an original hero (Nov 14). Still open: have counsel review the collection Astros' shared round-head / heavy-lidded look for resemblance, and the AI-art rights question.
 5. ◆ **Brand clearance** for Event Horizon / Astros / $ASTRO (names are common; clear them).
 
 ## Money and wallets

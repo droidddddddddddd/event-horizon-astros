@@ -1,6 +1,6 @@
 # EVENT HORIZON / ASTROS: V7
 
-Solana NFT collection (1,000 "Astros") + $ASTRO Pump.fun token plan. **PRELAUNCH CONCEPT PHASE: no live mint, no token on sale.** Nothing in this repo has been pushed, deployed, or run on mainnet.
+Solana NFT collection (1,000 "Astros") + $ASTRO Pump.fun token plan. **PRELAUNCH CONCEPT PHASE: no live mint, no token on sale.** Never run on mainnet. Hosted in a private GitHub repo (`droidddddddddddd/event-horizon-astros`) so the static site can be previewed on Render; see Deploying.
 
 ## Layout
 | Path | What |
@@ -31,12 +31,12 @@ Requires Node >=20; Python 3 with Pillow/numpy for audit tools; Playwright + Chr
 | Area | State |
 |---|---|
 | Website, studio, mission control, ported modules | Built; **33/33 browser checks pass** on desktop Chromium under the strict CSP. Phantom connect path and mobile layouts **not tested**. |
-| Art | **332 / 1,000 approved**, 668 pending (`ART_STATUS.md`). Not complete. |
-| Metadata | Generated in draft mode for the 332 only; strict build refuses until 1,000 exist. |
+| Art | **426 / 1,000 approved**, 574 pending (`ART_STATUS.md`). Not complete. |
+| Metadata | Generated in draft mode for the approved pieces only; strict build refuses until 1,000 exist. |
 | Mint (Metaplex Core, 3 machines) | **30/30 local-validator checks pass at full 200/780/20 size.** Never run on real devnet. Mainnet disabled and triple-gated. |
 | Token | Documented runbook only. |
 | Security | Self-review plus automated checks; **no independent audit**. 16 moderate npm advisories in mint tooling (transitive). |
-| Deploy | `render.yaml` prepared; not deployed. No GitHub repo created. |
+| Deploy | `render.yaml` validated and ready (static site); private GitHub repo created; Render service not created yet. |
 
 ## Deploying (when you decide to)
 1. `git remote add origin <your repo>` and push (not done here). 2. In Render: New > Blueprint > pick the repo (`render.yaml`, static service, build `node tools/build-site.mjs`, publish `dist`). 3. Add the custom domain. 4. Verify headers with `curl -I`. 5. Keep `launch-config.js` in prelaunch state until every item in `DECISIONS.md` marked ◆ is closed and `launch-kit/mint/preflight.py` passes.

@@ -1,0 +1,113 @@
+{
+ "count": 426,
+ "hash": "dHash 33x32 (1024-bit)",
+ "thresholds": {
+  "0.1": {
+   "distinct_clusters": 426,
+   "redundant_images": 0,
+   "images_with_a_near_duplicate": 0,
+   "largest_cluster": 1,
+   "clusters_of_2plus": 0,
+   "examples": []
+  },
+  "0.15": {
+   "distinct_clusters": 359,
+   "redundant_images": 67,
+   "images_with_a_near_duplicate": 72,
+   "largest_cluster": 52,
+   "clusters_of_2plus": 5,
+   "examples": [
+    [
+     11,
+     31,
+     41,
+     43,
+     51,
+     64,
+     75,
+     76,
+     79,
+     86
+    ],
+    [
+     10,
+     107,
+     153,
+     256,
+     390,
+     450,
+     480,
+     518,
+     547,
+     561
+    ],
+    [
+     21,
+     158,
+     894
+    ],
+    [
+     20,
+     26
+    ],
+    [
+     330,
+     332
+    ]
+   ]
+  }
+ },
+ "closest_pairs": [
+  [
+   136,
+   289,
+   0.114
+  ],
+  [
+   103,
+   329,
+   0.116
+  ],
+  [
+   308,
+   832,
+   0.12
+  ],
+  [
+   140,
+   213,
+   0.121
+  ],
+  [
+   109,
+   207,
+   0.121
+  ],
+  [
+   86,
+   193,
+   0.121
+  ],
+  [
+   10,
+   597,
+   0.122
+  ],
+  [
+   140,
+   289,
+   0.122
+  ],
+  [
+   109,
+   136,
+   0.122
+  ],
+  [
+   120,
+   140,
+   0.122
+  ]
+ ],
+ "min_distance": 0.114
+}

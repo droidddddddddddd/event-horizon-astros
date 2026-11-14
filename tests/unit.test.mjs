@@ -65,7 +65,8 @@ test('render.yaml: CSP has no unsafe-inline/unsafe-eval/wildcards; all security 
   const y = read('render.yaml'); const csp = y.match(/Content-Security-Policy\n\s+value: "([^"]+)"/)[1];
   assert.ok(!/unsafe-|\*/.test(csp), csp); assert.match(csp, /frame-ancestors 'none'/); assert.match(csp, /object-src 'none'/);
   for (const h of ['X-Content-Type-Options', 'Referrer-Policy', 'X-Frame-Options', 'Permissions-Policy', 'Cross-Origin-Opener-Policy', 'Strict-Transport-Security']) assert.ok(y.includes(h), h);
-  assert.match(y, /staticPublishPath: \.\/dist/); assert.ok(!/envVars|sync: false|privateKey|keypair/i.test(y));
+  assert.match(y, /staticPublishPath: \.\/dist/); assert.ok(!/sync: false|privateKey|keypair|secret|password|api[-_]?key/i.test(y)); const keys = [...y.matchAll(/- key: (\S+)/g)].map(m => m[1]); assert.deepEqual(keys, ['NODE_VERSION'], 'only NODE_VERSION env var allowed (no secrets)');
+  assert.ok(!/immutable/i.test(y), 'no immutable caching on unhashed assets');
 });
 test('build: dist contains only public files (no art/, mint/, legacy/, launch-kit/, reports/, keys)', () => {
   const r = spawnSync('node', ['tools/build-site.mjs'], { cwd: root, encoding: 'utf8' }); assert.equal(r.status, 0, r.stderr);

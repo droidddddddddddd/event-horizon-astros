@@ -5,6 +5,9 @@ services:
     name: event-horizon-astros
     runtime: static
     buildCommand: node tools/build-site.mjs
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
     staticPublishPath: ./dist
     pullRequestPreviewsEnabled: false
     headers:
@@ -29,15 +32,31 @@ services:
       - path: /*
         name: Strict-Transport-Security
         value: "max-age=31536000; includeSubDomains"
+      # Cache policy: nothing here is content-hashed, so no never-expire caching and no long max-age on code/data (a deploy must show up quickly).
+      - path: /index.html
+        name: Cache-Control
+        value: no-cache
       - path: /launch-config.js
+        name: Cache-Control
+        value: no-cache
+      - path: /astro-config.js
         name: Cache-Control
         value: no-cache
       - path: /collection.js
         name: Cache-Control
         value: no-cache
+      - path: /js/*
+        name: Cache-Control
+        value: public, max-age=300, must-revalidate
+      - path: /css/*
+        name: Cache-Control
+        value: public, max-age=300, must-revalidate
+      - path: /data/*
+        name: Cache-Control
+        value: public, max-age=300, must-revalidate
       - path: /assets/*
         name: Cache-Control
-        value: public, max-age=31536000, immutable
+        value: public, max-age=3600, must-revalidate
       - path: /fonts/*
         name: Cache-Control
-        value: public, max-age=31536000, immutable
+        value: public, max-age=604800
