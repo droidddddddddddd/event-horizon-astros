@@ -1,0 +1,452 @@
+{
+  "supply": 1000,
+  "seed": 20261112,
+  "tiers": {
+    "Common": {
+      "count": 550,
+      "percent": 55.0,
+      "tokens_1_1": []
+    },
+    "Uncommon": {
+      "count": 250,
+      "percent": 25.0,
+      "tokens_1_1": []
+    },
+    "Rare": {
+      "count": 120,
+      "percent": 12.0,
+      "tokens_1_1": []
+    },
+    "Epic": {
+      "count": 60,
+      "percent": 6.0,
+      "tokens_1_1": []
+    },
+    "Legendary": {
+      "count": 20,
+      "percent": 2.0,
+      "tokens_1_1": [
+        1,
+        183,
+        196,
+        275,
+        287
+      ]
+    }
+  },
+  "traits": {
+    "Common": {
+      "Skin": {
+        "Ruddy": 69,
+        "Peach": 64,
+        "Tan": 78,
+        "Pale": 59,
+        "Brown": 64,
+        "Deep": 64,
+        "Olive": 77,
+        "Golden": 75
+      },
+      "Expression": {
+        "Unimpressed": 53,
+        "Smug": 51,
+        "Bored": 86,
+        "Deadpan": 57,
+        "Grumpy": 37,
+        "Cocky Grin": 34,
+        "Yawn": 31,
+        "Sleepy": 52,
+        "Smirk": 52,
+        "Chewing": 53,
+        "Side-Eye": 44
+      },
+      "Eyes": {
+        "Normal": 550
+      },
+      "Visor": {
+        "Smoked Glass": 161,
+        "Open": 389
+      },
+      "Suit": {
+        "Olive Drab": 50,
+        "Maroon": 33,
+        "Rust": 34,
+        "Faded Teal": 43,
+        "Navy": 45,
+        "Classic White": 44,
+        "Sand": 40,
+        "Forest Green": 45,
+        "Slate": 49,
+        "Mustard": 53,
+        "Dusty Blue": 42,
+        "Ash Grey": 35,
+        "Charcoal": 37
+      },
+      "Hair": {
+        "None": 455,
+        "Curly Tuft": 24,
+        "Sideburns": 38,
+        "Messy Fringe": 33
+      },
+      "Facial Hair": {
+        "None": 423,
+        "Soul Patch": 25,
+        "Mustache": 43,
+        "Short Beard": 38,
+        "Stubble": 21
+      },
+      "Face Mark": {
+        "None": 416,
+        "Bruise": 34,
+        "Nose Plaster": 26,
+        "Eyebrow Scar": 26,
+        "Cheek Bandage": 26,
+        "Freckles": 22
+      },
+      "Mouth Item": {
+        "None": 480,
+        "Straw": 35,
+        "Toothpick": 35
+      },
+      "Neck": {
+        "None": 445,
+        "Headphones": 56,
+        "Bandana": 49
+      },
+      "Headgear": {
+        "None": 341,
+        "Antenna": 68,
+        "Daisy": 50,
+        "Mic Boom": 54,
+        "Forehead Bandana": 37
+      },
+      "Helmet Detail": {
+        "Scratched Paint": 39,
+        "Tape Patch": 44,
+        "None": 249,
+        "Dent": 51,
+        "Planet Sticker": 33,
+        "Bolt Sticker": 42,
+        "Crack": 47,
+        "Star Sticker": 45
+      },
+      "Suit Detail": {
+        "None": 333,
+        "Hazard Tape": 52,
+        "Oil Stains": 43,
+        "Stitched Patches": 64,
+        "Torn Seam": 58
+      },
+      "Effect": {
+        "None": 550
+      }
+    },
+    "Uncommon": {
+      "Skin": {
+        "Brown": 37,
+        "Peach": 31,
+        "Pale": 48,
+        "Deep": 42,
+        "Tan": 31,
+        "Ruddy": 35,
+        "Olive": 26
+      },
+      "Expression": {
+        "Smirk": 20,
+        "Cocky Grin": 37,
+        "Bored": 60,
+        "Tongue Out": 33,
+        "Smug": 29,
+        "Side-Eye": 37,
+        "Unimpressed": 31,
+        "Sleepy": 3
+      },
+      "Eyes": {
+        "Hidden by shades": 204,
+        "Normal": 46
+      },
+      "Visor": {
+        "Mirror Shades Blue": 44,
+        "Mirror Shades Gold": 50,
+        "Amber Goggles": 57,
+        "Mirror Shades Red": 54,
+        "Open": 45
+      },
+      "Suit": {
+        "Navy Trim": 41,
+        "Red Trim": 42,
+        "Violet Trim": 41,
+        "Teal Trim": 50,
+        "Mustard Trim": 36,
+        "Orange Trim": 40
+      },
+      "Hair": {
+        "None": 223,
+        "Sideburns": 27
+      },
+      "Facial Hair": {
+        "None": 188,
+        "Mustache": 21,
+        "Stubble": 18,
+        "Short Beard": 23
+      },
+      "Face Mark": {
+        "None": 194,
+        "Cheek Bandage": 18,
+        "Bruise": 14,
+        "Freckles": 24
+      },
+      "Mouth Item": {
+        "None": 114,
+        "Lollipop": 36,
+        "Straw": 41,
+        "Bubblegum": 23,
+        "Toothpick": 36
+      },
+      "Neck": {
+        "None": 57,
+        "Scarf": 45,
+        "Dog Tag": 55,
+        "Headphones": 56,
+        "Bandana": 37
+      },
+      "Headgear": {
+        "Headlamp": 40,
+        "Party Hat": 34,
+        "Propeller Cap": 40,
+        "None": 57,
+        "Antenna": 51,
+        "Mic Boom": 28
+      },
+      "Helmet Detail": {
+        "None": 161,
+        "Star Sticker": 25,
+        "Tape Patch": 19,
+        "Planet Sticker": 27,
+        "Dent": 18
+      },
+      "Suit Detail": {
+        "None": 203,
+        "Oil Stains": 28,
+        "Stitched Patches": 19
+      },
+      "Effect": {
+        "None": 250
+      }
+    },
+    "Rare": {
+      "Skin": {
+        "Deep": 16,
+        "Peach": 17,
+        "Mint": 13,
+        "Tan": 17,
+        "Brown": 25,
+        "Pale": 19,
+        "Sky": 13
+      },
+      "Expression": {
+        "Deadpan": 18,
+        "Bored": 26,
+        "Cocky Grin": 32,
+        "Smirk": 25,
+        "Smug": 19
+      },
+      "Eyes": {
+        "Glowing Cyan": 43,
+        "Normal": 57,
+        "Hidden by shades": 20
+      },
+      "Visor": {
+        "Glow Rim Orange": 25,
+        "Glow Rim Cyan": 16,
+        "Glow Rim Green": 30,
+        "Glow Rim Pink": 29,
+        "Chrome Mirror": 20
+      },
+      "Suit": {
+        "Copper": 26,
+        "Steel Blue": 21,
+        "Cobalt": 17,
+        "Emerald": 16,
+        "Titanium": 18,
+        "Rose Gold": 22
+      },
+      "Hair": {
+        "None": 120
+      },
+      "Facial Hair": {
+        "None": 120
+      },
+      "Face Mark": {
+        "None": 120
+      },
+      "Mouth Item": {
+        "None": 33,
+        "Bubblegum": 27,
+        "Straw": 32,
+        "Lollipop": 28
+      },
+      "Neck": {
+        "Dog Tag": 27,
+        "Gold Chain": 31,
+        "Silver Chain": 24,
+        "Scarf": 38
+      },
+      "Headgear": {
+        "None": 38,
+        "Headlamp": 32,
+        "Antenna": 23,
+        "Comms Dish": 27
+      },
+      "Helmet Detail": {
+        "None": 120
+      },
+      "Suit Detail": {
+        "None": 120
+      },
+      "Effect": {
+        "Rim Light": 51,
+        "Sparks": 69
+      }
+    },
+    "Epic": {
+      "Skin": {
+        "Moonstone": 11,
+        "Mint": 14,
+        "Sky": 14,
+        "Lavender": 10,
+        "Deep": 11
+      },
+      "Expression": {
+        "Bored": 11,
+        "Smirk": 12,
+        "Deadpan": 15,
+        "Smug": 11,
+        "Grumpy": 11
+      },
+      "Eyes": {
+        "Glowing Violet": 16,
+        "Glowing Crimson": 18,
+        "Glowing Cyan": 13,
+        "Glowing Lime": 13
+      },
+      "Visor": {
+        "Open": 41,
+        "Glow Rim Violet": 19
+      },
+      "Suit": {
+        "Plasma Violet": 19,
+        "Plasma Cyan": 12,
+        "Plasma Lime": 16,
+        "Plasma Crimson": 13
+      },
+      "Hair": {
+        "None": 60
+      },
+      "Facial Hair": {
+        "None": 60
+      },
+      "Face Mark": {
+        "None": 60
+      },
+      "Mouth Item": {
+        "None": 48,
+        "Lollipop": 12
+      },
+      "Neck": {
+        "Gold Chain": 20,
+        "None": 15,
+        "Scarf": 25
+      },
+      "Headgear": {
+        "Halo Ring": 24,
+        "Comms Dish": 19,
+        "Headlamp": 17
+      },
+      "Helmet Detail": {
+        "None": 60
+      },
+      "Suit Detail": {
+        "None": 60
+      },
+      "Effect": {
+        "Particle Storm": 33,
+        "Plasma Drip": 27
+      }
+    },
+    "Legendary": {
+      "Skin": {
+        "Tan": 3,
+        "Pale": 1,
+        "Hidden by visor": 13,
+        "Peach": 2,
+        "Moonstone": 1
+      },
+      "Expression": {
+        "Bored": 6,
+        "Hidden by visor": 13,
+        "Smug": 1
+      },
+      "Eyes": {
+        "Normal": 4,
+        "Hidden by shades": 3,
+        "Burning White": 4,
+        "Burning Gold": 4,
+        "None": 5
+      },
+      "Visor": {
+        "Smoked Glass": 1,
+        "Mirror Gold": 3,
+        "Supernova Face": 4,
+        "Open": 3,
+        "Void": 1,
+        "Eclipse Void": 5,
+        "Burning Eyes Void": 3
+      },
+      "Suit": {
+        "Classic White": 1,
+        "Prismatic": 8,
+        "Gilded": 4,
+        "Spaghettified": 1,
+        "Void Black": 4,
+        "Cosmic Indigo": 2
+      },
+      "Hair": {
+        "None": 20
+      },
+      "Facial Hair": {
+        "None": 20
+      },
+      "Face Mark": {
+        "None": 20
+      },
+      "Mouth Item": {
+        "None": 17,
+        "Lollipop": 3
+      },
+      "Neck": {
+        "Gold Collar Ring": 1,
+        "Gold Chain": 6,
+        "None": 13
+      },
+      "Headgear": {
+        "None": 3,
+        "Crown of Light": 7,
+        "Halo Ring": 10
+      },
+      "Helmet Detail": {
+        "None": 20
+      },
+      "Suit Detail": {
+        "None": 20
+      },
+      "Effect": {
+        "None": 1,
+        "Time Echo": 5,
+        "Molten Drip": 9,
+        "Stretch Glow": 1,
+        "Aura Rays": 2,
+        "Photon Wings": 2
+      }
+    }
+  }
+}

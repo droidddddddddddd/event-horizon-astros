@@ -1,1 +1,15 @@
-{"collectionUri":"","itemsFile":"items.json","treasury":"","reserveWallet":"","allowlist":[],"earlyStart":"","publicStart":""}
+{
+  "cluster": "devnet",
+  "rpc": "",
+  "treasury": "<PUBLIC address that receives mint proceeds: you must decide>",
+  "reserveWallet": "<PUBLIC address of the disclosed community reserve wallet>",
+  "allowlist": ["<public address of early-crew member>"],
+  "earlyStart": "2027-01-01T18:00:00Z",
+  "publicStart": "2027-01-01T20:00:00Z",
+  "shuffleSeed": "<disclosed seed string, publish before launch>",
+  "collectionUri": "https://arweave.net/<collection.json id>",
+  "metadataBase": "https://arweave.net/<43-char folder manifest id of the uploaded metadata/ folder>",
+  "collectionName": "Astros",
+  "allowTestUris": false,
+  "mainnetEnabled": false
+}

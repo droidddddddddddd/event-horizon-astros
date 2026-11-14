@@ -1,0 +1,4 @@
+body{background:#0b0907;color:#f3e6cf;font:17px/1.5 system-ui,sans-serif;margin:0}main{max-width:640px;margin:48px auto;padding:0 20px}
+.badge{background:#2a1506;border:1px solid #ff8a1f;color:#ffb05a;padding:10px 14px;border-radius:6px;font-weight:700;font-size:13px;letter-spacing:.06em}
+button,select{font:inherit;padding:11px 16px;margin:8px 8px 8px 0;border-radius:6px;border:1px solid #ff8a1f;background:#15100b;color:#f3e6cf}button{background:#ff8a1f;color:#1a0d03;font-weight:700;cursor:pointer}button:disabled{opacity:.5}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#15100b;border:1px solid #3a2514;padding:12px;border-radius:6px}

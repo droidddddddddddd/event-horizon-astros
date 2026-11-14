@@ -1,1 +1,29 @@
-{"private":true,"type":"module","scripts":{"build":"vite build","dev":"vite","deploy:devnet":"node deploy.mjs"},"dependencies":{"@metaplex-foundation/mpl-core":"^1.0.0","@metaplex-foundation/mpl-core-candy-machine":"^0.3.0","@metaplex-foundation/umi":"^1.0.0","@metaplex-foundation/umi-bundle-defaults":"^1.0.0","@metaplex-foundation/umi-signer-wallet-adapters":"^1.0.0","@metaplex-foundation/mpl-toolbox":"^0.10.0","vite":"^6.0.0"}}
+{
+  "name": "astros-mint",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "test": "node --test test/*.test.mjs",
+    "test:local": "node scripts/test-local.mjs",
+    "deploy:dry": "node deploy.mjs --dry-run",
+    "deploy": "node deploy.mjs",
+    "validator": "bash scripts/start-local-validator.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.10.0",
+    "@metaplex-foundation/mpl-core-candy-machine": "^0.3.0",
+    "@metaplex-foundation/mpl-toolbox": "^0.10.0",
+    "@metaplex-foundation/umi": "^1.6.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.6.0",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^1.6.0",
+    "buffer": "^6.0.3"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

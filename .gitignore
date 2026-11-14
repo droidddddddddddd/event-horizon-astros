@@ -27,3 +27,12 @@ test-ledger/
 __pycache__/
 *.pyc
 screenshots/*.tmp
+
+# art pipeline working dirs (large; keep backups outside git)
+tools/art-pipeline/images/
+tools/art-pipeline/raw/
+tools/art-pipeline/rejected/
+tools/art-pipeline/__pycache__/
+mint/out/
+mint/test-results/
+mint/test-ledger/

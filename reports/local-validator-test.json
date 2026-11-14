@@ -1,0 +1,130 @@
+{
+ "when": "Sat Nov 14 2026 16:19:14 GMT-0500 (Eastern Standard Time)",
+ "rpc": "http://127.0.0.1:8899",
+ "validator": "solana-test-validator (Agave) with mpl_core, core_candy_machine, core_candy_guard dumped from devnet",
+ "passed": 30,
+ "total": 30,
+ "failed": [],
+ "results": [
+  {
+   "name": "local validator is not devnet/mainnet/testnet",
+   "ok": true
+  },
+  {
+   "name": "FULL: early=200 / public=780 / reserve=20 items loaded on-chain",
+   "ok": true
+  },
+  {
+   "name": "FULL: on-chain guards match plan (prices, treasury, limits, gate, allowlist, end date)",
+   "ok": true
+  },
+  {
+   "name": "FULL: pools are disjoint and cover tokens 1..1000",
+   "ok": true
+  },
+  {
+   "name": "FULL: early mint before start is rejected on-chain",
+   "ok": true
+  },
+  {
+   "name": "FULL: public mint before start is rejected on-chain",
+   "ok": true
+  },
+  {
+   "name": "FULL: collection royalties = 2.5% (250 bps) to treasury",
+   "ok": true
+  },
+  {
+   "name": "SCALED: deployment verifies",
+   "ok": true
+  },
+  {
+   "name": "early mint before earlyStart rejected",
+   "ok": true
+  },
+  {
+   "name": "non-allowlisted wallet cannot early-mint (client check)",
+   "ok": true
+  },
+  {
+   "name": "non-allowlisted wallet rejected ON-CHAIN (no proof)",
+   "ok": true
+  },
+  {
+   "name": "early mint #1 (allowlisted): asset owned by minter, name \"Astro #8\", uri ok, in collection, token in the correct pool",
+   "ok": true
+  },
+  {
+   "name": "treasury received exactly 0.025 SOL for the early mint",
+   "ok": true
+  },
+  {
+   "name": "early wallet limit (1 per wallet) enforced",
+   "ok": true
+  },
+  {
+   "name": "reserve: non-reserve wallet rejected",
+   "ok": true
+  },
+  {
+   "name": "reserve mint #1: asset owned by minter, name \"Astro #9\", uri ok, in collection, token in the correct pool",
+   "ok": true
+  },
+  {
+   "name": "reserve mint #2: asset owned by minter, name \"Astro #7\", uri ok, in collection, token in the correct pool",
+   "ok": true
+  },
+  {
+   "name": "reserve mints are free (treasury unchanged)",
+   "ok": true
+  },
+  {
+   "name": "reserve sold out after 2/2",
+   "ok": true
+  },
+  {
+   "name": "public mint before publicStart rejected",
+   "ok": true
+  },
+  {
+   "name": "early mint after publicStart rejected (endDate)",
+   "ok": true
+  },
+  {
+   "name": "public mint A1: asset owned by minter, name \"Astro #1\", uri ok, in collection, token in the correct pool",
+   "ok": true
+  },
+  {
+   "name": "public mint A2: asset owned by minter, name \"Astro #2\", uri ok, in collection, token in the correct pool",
+   "ok": true
+  },
+  {
+   "name": "treasury received exactly 0.1 SOL for two public mints",
+   "ok": true
+  },
+  {
+   "name": "public wallet limit (2 per wallet) enforced",
+   "ok": true
+  },
+  {
+   "name": "public mint B1: asset owned by minter, name \"Astro #5\", uri ok, in collection, token in the correct pool",
+   "ok": true
+  },
+  {
+   "name": "public mint B2: asset owned by minter, name \"Astro #6\", uri ok, in collection, token in the correct pool",
+   "ok": true
+  },
+  {
+   "name": "public sold out after 4/4",
+   "ok": true
+  },
+  {
+   "name": "no token minted twice",
+   "ok": true
+  },
+  {
+   "name": "items redeemed on-chain: early 1, public 4, reserve 2",
+   "ok": true
+  }
+ ]
+}

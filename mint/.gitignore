@@ -2,4 +2,8 @@ node_modules/
 dist/
 deployment.json
 deployment-state.json
+deployment-public.json
+public/deployment-public.json
 *.keypair.json
+*keypair*.json
+test-results/

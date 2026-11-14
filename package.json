@@ -1,0 +1,18 @@
+{
+  "name": "event-horizon-astros-site",
+  "version": "7.0.0",
+  "private": true,
+  "description": "EVENT HORIZON / ASTROS static site (prelaunch). No runtime dependencies.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node tools/build-site.mjs",
+    "serve": "node tools/serve.mjs 8802",
+    "test:unit": "node --test tests/unit.test.mjs",
+    "test:e2e": "python3 tests/e2e.py",
+    "scan": "python3 tools/secret_scan.py",
+    "validate:art": "python3 launch-kit/validate_collection.py --allow-partial",
+    "test": "node tools/run-tests.mjs"
+  }
+}

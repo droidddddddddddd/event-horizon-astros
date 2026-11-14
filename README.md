@@ -1,23 +1,45 @@
-# EVENT HORIZON / ASTROS
-Static website MVP. No dependencies, backend, wallet or live token. Open index.html or deploy the entire directory to GitHub Pages / Render Static Site (publish directory `.`; no build command). For local HTTP: `python -m http.server 8000`.
+# EVENT HORIZON / ASTROS: V7
 
-## Included
-50 cropped concept portraits from supplied sheets, searchable explorer, planned rarity counts, animated black hole, local photo/PFP and meme studio with PNG export, X text sharing (attach saved image manually), local mission checklist and lore. No uploads leave the browser. Source images are previews, not final mint art. The 5 extra legendary crops are not used in the gallery.
+Solana NFT collection (1,000 "Astros") + $ASTRO Pump.fun token plan. **PRELAUNCH CONCEPT PHASE: no live mint, no token on sale.** Nothing in this repo has been pushed, deployed, or run on mainnet.
 
-## Launch gates
-Confirm brand rights and original art rights; create and review 1,000 distinct final assets, including 550 common, 250 uncommon, 120 rare, 60 epic and 20 legendary (including five 1/1s). Generate final metadata only after art approval. Choose audited Solana mint tooling, test on devnet, verify authority and supply, publish actual contract and terms. No tokenomics or mint date is assumed. Add official links, privacy policy, accessibility review, hosting and monitoring. Local mission progress is not verified or rewarded; server-side accounts, dynamic NFTs and on-chain functionality are future work.
+## Layout
+| Path | What |
+|---|---|
+| `index.html`, `css/`, `js/`, `assets/`, `fonts/`, `data/`, `collection.js`, `launch-config.js`, `astro-config.js`, `privacy.html`, `terms.html` | The static website (single page: Home, Collection, Astro Studio, Mission Control, Roadmap/$ASTRO, FAQ). Matches `design-reference/approved-mockup.png`. |
+| `js/studio.js` | Astro Studio: meme maker, PFP creator, frames, styles, caption, export, Black Hole Scene (photo PFP generator ported from $HORIZON) |
+| `js/rank.js`, `js/crew.js`, `js/meter.js`, `js/pfp.js` | Ported $HORIZON features rebranded to $ASTRO: rank checker/rank card, crew perks and badges, DexScreener meter, photo PFP. Rank checker and meter stay closed until a verified CA exists. |
+| `launch-config.js`, `js/gate.js` | Release gate, fail-closed: every approval flag false |
+| `mint/` | Metaplex Core + Core Candy Machine tooling, devnet/localnet only (see `mint/README.md`) |
+| `launch-kit/` | manifest (1,000 rows), `validate_collection.py`, `build_metadata.py`, mainnet `preflight.py`, runbooks incl. `PUMPFUN_RUNBOOK.md` |
+| `tools/` | build, local server, art pipeline (`art-pipeline/`), pHash audit, collection builder, secret scan, test runner |
+| `legacy/` | The restored V6 site and V6 drafts, kept, not published |
+| `render.yaml` | Render static blueprint with security headers (prepared only) |
+| `ART_STATUS.md`, `SECURITY_REVIEW.md`, `DECISIONS.md` | Read these first |
 
-## Creative playbook
-Common: tired crew, patched suits, coffee, bandages. Uncommon: bagholder, insider, party degen, ridiculous glasses. Rare: cybernetic eyes, diamond gloves, chrome suits. Epic: plasma mutation, alien features, fractured helmets. Legendary: Original, Spaghettified, Singularity, Time Dilation, Crossed. Keep silhouette and face consistent. Publish reaction art before mint; invite fans to create memes; release weekly mission logs. Avoid paid engagement deception or financial promises.
+## Run
+```bash
+npm run build && npm run serve     # http://127.0.0.1:8802 , same headers/CSP as render.yaml
+npm test                           # everything below that can run without a validator
+cd mint && npm install && npm run validator   # + (other terminal) npm run test:local
+```
+Requires Node >=20; Python 3 with Pillow/numpy for audit tools; Playwright + Chrome for `tests/e2e.py`.
 
-## V3
-See launch-kit/RELEASE_V3.md for confirmed launch preferences, art production manifest and metadata builder. Optional Phantom identity connection added. Existing art remains concept previews.
+## Economics (preserved exactly, asserted by tests)
+1,000 NFTs: 550 Common / 250 Uncommon / 120 Rare / 60 Epic / 20 Legendary (incl. five 1/1s). 200 early crew @ 0.025 SOL (allowlist, 1 per wallet), 780 public @ 0.05 SOL (2 per wallet), 20 reserve. 2.5% royalty. Simultaneous Pump.fun launch, 1B supply, $ASTRO.
 
-## V4
-Release gate blocks sale links unless all manual approval flags, addresses, price, date and official URLs are populated. It is not a security boundary or blockchain verifier. See launch-kit/FINAL_RUNBOOK.md. Artwork and on-chain deployment remain outstanding. Deploy the website in prelaunch mode only.
+## Honest status
+| Area | State |
+|---|---|
+| Website, studio, mission control, ported modules | Built; **33/33 browser checks pass** on desktop Chromium under the strict CSP. Phantom connect path and mobile layouts **not tested**. |
+| Art | **332 / 1,000 approved**, 668 pending (`ART_STATUS.md`). Not complete. |
+| Metadata | Generated in draft mode for the 332 only; strict build refuses until 1,000 exist. |
+| Mint (Metaplex Core, 3 machines) | **30/30 local-validator checks pass at full 200/780/20 size.** Never run on real devnet. Mainnet disabled and triple-gated. |
+| Token | Documented runbook only. |
+| Security | Self-review plus automated checks; **no independent audit**. 16 moderate npm advisories in mint tooling (transitive). |
+| Deploy | `render.yaml` prepared; not deployed. No GitHub repo created. |
 
-## V5
-Approved pricing and allocation are now reflected in site config and mint plan. See `launch-kit/mint/DEPLOY.md` and run `python launch-kit/mint/preflight.py`. This is a fail-closed planning validator, not an on-chain deployment script. Final artwork, actual guard setup, wallet addresses and integration testing remain blockers.
+## Deploying (when you decide to)
+1. `git remote add origin <your repo>` and push (not done here). 2. In Render: New > Blueprint > pick the repo (`render.yaml`, static service, build `node tools/build-site.mjs`, publish `dist`). 3. Add the custom domain. 4. Verify headers with `curl -I`. 5. Keep `launch-config.js` in prelaunch state until every item in `DECISIONS.md` marked ◆ is closed and `launch-kit/mint/preflight.py` passes.
 
-## V6 draft collection
-The explorer now includes 1,000 individually exported 512px WebP concept variations from the supplied 55 source portraits, using color treatments and mission insignia. These are NOT 1,000 independently illustrated NFTs, nor are the 20 legendary entries individually illustrated 1/1s. Source sheets are included for reproducibility. Draft metadata uses local relative paths, not permanent storage. The original production manifest and release gate intentionally remain unapproved. Do not mint these drafts. Run `python launch-kit/generate_drafts.py` to regenerate, and `python launch-kit/validate_collection.py genesis-draft.json` to check counts and file hashes. Visual quality, source rights, final 1024px art, permanent metadata, actual mint implementation, treasury, devnet and security review remain required. Existing website wallet connection is identity only.
+## Rules this repo follows
+No private keys, seed phrases, RPC keys or passwords in the repo (scanner enforced). Keypairs are file paths outside the repo. Mainnet payments are off.
