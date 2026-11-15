@@ -5,7 +5,7 @@ import fs from 'node:fs'; import path from 'node:path'; import {fileURLToPath} f
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'), dist = path.join(root, 'dist');
 fs.rmSync(dist, {recursive: true, force: true}); fs.mkdirSync(dist, {recursive: true});
 const files = ['index.html', 'privacy.html', 'terms.html', 'launch-config.js', 'astro-config.js', 'collection.js'];
-const dirs = ['css', 'js', 'data', 'fonts', 'assets'];
+const dirs = ['css', 'js', 'data', 'fonts', 'assets', 'signal'];
 const skip = /(\.map|\.psd|\.zip|hero-source\.jpg|\.ttf)$/i;
 function cp(src, dst) {
   const st = fs.statSync(src);
