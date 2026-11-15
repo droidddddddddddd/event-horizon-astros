@@ -59,8 +59,11 @@
     const go = el('button', 'btn primary', 'Open in Astro Studio'); go.type = 'button';
     go.addEventListener('click', () => { $('detail').close(); window.dispatchEvent(new CustomEvent('astro:use', { detail: { id: a.id } })); location.hash = '#studio'; });
     body.append(go);
+    const share = el('button', 'btn ghost', 'Copy Astro link'); share.type = 'button';
+    share.addEventListener('click', async () => { try { const u = new URL(location.href); u.searchParams.set('astro', String(a.id)); u.hash = 'collection'; await navigator.clipboard.writeText(u.href); share.textContent = 'Link copied'; } catch { share.textContent = 'Copy unavailable'; } }); body.append(share);
     $('detail').showModal();
   }
+  window.ASTRO_OPEN_DETAIL = id => { const a = data.find(x => Number(x.id) === Number(id)); if (a) openDetail(a); };
   function render() {
     const q = $('search').value.trim().toLowerCase();
     const items = sorted(data.filter(a => (tier === 'All' || a.tier === tier) && matches(a, q)));
@@ -80,6 +83,7 @@
   $('close').addEventListener('click', () => $('detail').close());
   $('detail').addEventListener('click', e => { if (e.target === $('detail')) $('detail').close(); });
   render();
+  const linked = new URLSearchParams(location.search).get('astro'); if (linked && /^\d{1,4}$/.test(linked)) window.ASTRO_OPEN_DETAIL(linked);
 
   /* ---- mobile menu (below 1100px the section links live in a dropdown) ---- */
   (() => {
@@ -104,7 +108,7 @@
   done = [...new Set(done)].filter(id => [...document.querySelectorAll('.mission')].some(b => b.dataset.id === id));
   function progress() {
     document.querySelectorAll('.mission').forEach(b => { b.textContent = done.includes(b.dataset.id) ? 'Completed ✓' : 'Mark complete'; b.setAttribute('aria-pressed', String(done.includes(b.dataset.id))); });
-    $('progress').textContent = done.length + '/3 missions completed on this device';
+    $('progress').textContent = done.length + '/' + document.querySelectorAll('.mission').length + ' missions completed on this device';
   }
   document.querySelectorAll('.mission').forEach(b => b.addEventListener('click', () => {
     const id = b.dataset.id; done = done.includes(id) ? done.filter(x => x !== id) : [...done, id];
