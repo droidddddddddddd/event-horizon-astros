@@ -12,7 +12,7 @@ window.LAUNCH = Object.freeze({
   "tokenUrl": "",
   "xUrl": "https://x.com/AstrosOnSol",
   "discordUrl": "",
-  "websiteUrl": "",
+  "websiteUrl": "https://astrosonsol.com",
   "tokenPlatform": "Pump.fun",
   "tokenSupply": 1000000000,
   "nftSupply": 1000,
