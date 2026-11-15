@@ -179,3 +179,14 @@ code{background:#1a120b;padding:1px 6px;border-radius:4px;font-size:.9em}
 
 @media(min-width:901px) and (max-width:1100px){.hero-astro{max-width:46vw}.hero-copy{max-width:54vw}}
 @media(max-width:900px){.hero{align-items:flex-end;min-height:740px}.hero-shade{background:linear-gradient(0deg,#050403f2 0%,#050403cc 38%,#05040340 70%,transparent 100%)}.hero-copy{padding:0 20px 28px}.hero-astro{height:auto;width:min(86vw,420px);right:50%;transform:translateX(50%);top:6px;bottom:auto;max-width:none}.hero-astro-cap{right:50%;transform:translateX(50%);bottom:auto;top:calc(100% - 26px);font-size:11px}.hero h1{font-size:clamp(54px,17vw,84px)}.hero-copy{max-width:none}.hero-astro{width:min(70vw,460px)}}
+
+/* Finalization: keep square NFT previews on narrow screens, even when global img height rules differ. */
+.gallery{grid-template-columns:repeat(5,minmax(0,1fr))}
+.astro{min-width:0;align-self:start}
+.astro img,.gallery.mini img{width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain}
+.gallery.mini{grid-template-columns:repeat(auto-fit,minmax(min(100%,120px),1fr))}
+.astro .cap strong{min-width:0;overflow-wrap:anywhere}
+.astro:focus-visible,.archive-open:focus-visible{outline:3px solid var(--c-legendary);outline-offset:3px}
+.archive-open{display:block;width:100%;padding:0;border:0;background:transparent;cursor:pointer}
+@media(max-width:1100px){.gallery:not(.mini){grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.gallery:not(.mini){grid-template-columns:repeat(2,minmax(0,1fr))}.astro .cap{flex-wrap:wrap;gap:2px;padding:16px 8px 6px}.gallery.mini{grid-template-columns:repeat(2,minmax(0,1fr))}}

@@ -12,12 +12,13 @@
     if (status) status.textContent = key ? 'Connected (identity only): ' + short(key) : 'Not connected';
   }
   btn.addEventListener('click', async () => {
-    const p = provider();
+    if (btn.disabled) return;
+    const p = provider(); btn.disabled = true;
     try {
       if (connected) { await (p && p.disconnect()); show(null); return; }
-      if (!p) { if (status) status.textContent = 'Phantom not detected. Install the official Phantom extension or open this site in the Phantom browser.'; label.textContent = 'PHANTOM NOT FOUND'; setTimeout(() => show(null), 2500); return; }
+      if (!p) { if (status) status.textContent = 'Phantom not detected. Install the official Phantom extension or open this site in the Phantom browser.'; label.textContent = 'PHANTOM NOT FOUND'; setTimeout(() => { if (!connected) label.textContent = 'CONNECT WALLET'; }, 2500); return; }
       const r = await p.connect(); show(r.publicKey);
-    } catch { if (status) status.textContent = 'Connection cancelled or unavailable.'; show(null); }
+    } catch { if (!connected) show(null); if (status) status.textContent = 'Wallet action cancelled or unavailable.'; } finally { btn.disabled = false; }
   });
   const p0 = provider();
   if (p0 && p0.on) { p0.on('accountChanged', k => show(k)); p0.on('disconnect', () => show(null)); }

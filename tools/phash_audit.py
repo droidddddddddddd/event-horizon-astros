@@ -21,7 +21,10 @@ def audit(files, thrs=(0.10, 0.15)):
     ids = [num(f) for f in files]
     H = np.array([dhash(f) for f in files], dtype=np.int8)
     n = len(files)
-    D = (H[:, None, :] != H[None, :, :]).sum(-1) / H.shape[1]
+    if not n: raise ValueError('No images matched')
+    D = np.empty((n, n), dtype=np.float32)
+    for i in range(0, n, 16):
+        D[i:i+16] = (H[i:i+16, None, :] != H[None, :, :]).sum(-1) / H.shape[1]
     np.fill_diagonal(D, 9.0)
     res = {'count': n, 'hash': 'dHash 33x32 (1024-bit)', 'thresholds': {}}
     for t in thrs:
@@ -37,7 +40,9 @@ def audit(files, thrs=(0.10, 0.15)):
             'distinct_clusters': len(cl), 'redundant_images': n - len(cl),
             'images_with_a_near_duplicate': int((D.min(1) <= t).sum()),
             'largest_cluster': len(cl[0]), 'clusters_of_2plus': sum(1 for c in cl if len(c) > 1),
-            'examples': [sorted(c)[:10] for c in cl[:6] if len(c) > 1]}
+            'examples': [sorted(c)[:10] for c in cl[:6] if len(c) > 1],
+            'review_clusters': [sorted(c) for c in cl if len(c) > 1],
+            'review_pairs': [[ids[i], ids[j], round(float(D[i,j]), 4)] for i,j in zip(*np.where(np.triu(D <= t, 1)))]}
     iu = np.triu_indices(n, 1); order = np.argsort(D[iu])[:10]
     res['closest_pairs'] = [(ids[iu[0][k]], ids[iu[1][k]], round(float(D[iu][k]), 3)) for k in order]
     res['min_distance'] = round(float(D[iu].min()), 3) if n > 1 else None
