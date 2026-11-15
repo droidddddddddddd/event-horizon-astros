@@ -28,6 +28,7 @@
 <link rel="stylesheet" href="css/site.css">
 <link rel="stylesheet" href="css/modules.css">
 <link rel="stylesheet" href="css/immersion.css">
+<link rel="stylesheet" href="css/lost-signal.css">
 <script defer src="launch-config.js"></script>
 <script defer src="js/gate.js"></script>
 <script defer src="astro-config.js"></script>
@@ -42,6 +43,7 @@
 <script defer src="js/pfp.js"></script>
 <script defer src="js/crew.js"></script>
 <script defer src="js/immersion.js"></script>
+<script defer src="js/lost-signal.js"></script>
 </head>
 <body>
 <svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
@@ -80,6 +82,7 @@
     <a href="#studio">Astro Studio</a>
     <a href="#mission">Mission Control</a>
     <a href="#immersion">Expedition</a>
+    <a href="#lost-signal">Lost Signal</a>
     <a href="#roadmap">Roadmap</a>
     <a href="#faq">FAQ</a>
   </nav>
@@ -372,6 +375,20 @@
     </div>
     <button class="btn ghost" id="eh-share" type="button">Share expedition on X</button>
     <p class="fine">Discoveries and badges are saved locally in this browser and are not NFTs or token rewards.</p>
+  </section>
+
+  <section id="lost-signal" class="sec" aria-labelledby="ls-title">
+    <div class="sec-head"><div><small class="eyebrow">CHAPTER 02 / THE LOST SIGNAL</small><h2 id="ls-title">Beyond the Horizon</h2><p class="muted">A fictional flight simulation. Your choices determine the outcome.</p></div></div>
+    <div class="ls-deck" id="ls-deck"><div class="ls-space" aria-hidden="true"><div class="ls-hole"></div></div>
+      <div class="ls-hud"><span>DISTANCE <b id="ls-distance"></b></span><span>HULL <b id="ls-hull"></b></span><span>SIGNAL <b id="ls-signal"></b></span></div>
+      <div><button class="btn ghost" id="ls-full" type="button">Toggle fullscreen</button> <button class="btn ghost" id="ls-audio" type="button">Enable ambience</button></div>
+      <div><p class="ls-log" id="ls-flight-log" role="status">Flight systems ready.</p><div class="ls-controls"><button class="btn ghost" data-flight="thrust" type="button">Engage thrusters</button><button class="btn ghost" data-flight="scan" type="button">Scan transmission</button><button class="btn ghost" data-flight="shield" type="button">Stabilize shields</button><button class="btn ghost" id="ls-reset" type="button">Restart flight</button></div></div>
+    </div>
+    <div class="mc-grid">
+      <article class="card"><small class="eyebrow">PERSONNEL / CREW REGISTRY</small><h3>Your Astro identity</h3><form id="ls-register"><label>Callsign <input class="ls-input" id="ls-name" required minlength="2" maxlength="24" pattern="[A-Za-z0-9 _.-]{2,24}" placeholder="Choose a callsign"></label><button class="btn ghost" type="submit">Register crew ID</button></form><p class="ls-id" id="ls-id" role="status"></p><p id="ls-badges" role="status"></p><button class="btn ghost" id="ls-download" type="button">Download crew ID</button><p class="fine">Local fictional identity; crew numbers are not globally unique.</p></article>
+      <article class="card"><small class="eyebrow">CLASSIFIED / FILE 007</small><h3>The Lost Astros</h3><p>Recover three clues and decode the missing crew transmission.</p><div class="eh-actions" id="ls-clues"><button class="btn ghost" type="button">Relay 07</button><button class="btn ghost" type="button">Crew log</button><button class="btn ghost" type="button">Final coordinate</button></div><form id="ls-terminal"><label>Access code <input class="ls-input" id="ls-code" required maxlength="32" autocomplete="off"></label><button class="btn ghost" type="submit">Decode</button></form><p id="ls-clue-out" role="status">Awaiting signal.</p></article>
+      <article class="card"><small class="eyebrow">DAILY / CREW DUTY</small><h3>Daily patrol</h3><p>Log your daily check-in and unlock a cosmetic patrol badge.</p><button class="btn ghost" id="ls-daily" type="button">Log patrol</button><p id="ls-daily-out" role="status"></p></article>
+    </div><p class="fine">Progress stays on this device. No financial rewards, NFT ownership or wallet access are involved.</p>
   </section>
 
   <section id="roadmap" class="sec" aria-labelledby="h-road">
