@@ -27,5 +27,5 @@ Nothing below has been guessed or filled in. Items marked ◆ block mainnet.
 
 ## Product
 16. **Numbering**: keep V6's #981-985 for the five 1/1s, or v3's shuffled numbering (current).
-17. **Finish art**: 668 left (8 Legendaries first). Approve generation spend/time. Review the "samey" clusters (ART_STATUS.md).
-18. Whether to hide the 668 unfinished placeholders or keep "in production" labels on the public site (current: honest labels).
+17. **Finish art**: 574 left (Legendary and Epic complete). Approve generation spend/time. Review the "samey" clusters (ART_STATUS.md).
+18. Whether to hide the 574 unfinished placeholders or keep "in production" labels on the public site (current: honest labels).
