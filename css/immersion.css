@@ -1,0 +1,18 @@
+/* IMMERSION: decorative effects never intercept input. */
+.eh-dust{position:absolute;inset:0;pointer-events:none;z-index:1;overflow:hidden;background-image:radial-gradient(circle,#ffb45caa 1px,transparent 2px),radial-gradient(circle,#fff8 1px,transparent 2px);background-size:137px 173px,223px 191px;animation:eh-drift 35s linear infinite;opacity:.45}
+@keyframes eh-drift{to{background-position:137px -173px,-223px 191px}}
+@keyframes eh-float{50%{transform:translateY(-7px)}}
+.hero-astro-img{animation:eh-float 7s ease-in-out infinite}
+.hero-bg img{animation:eh-breathe 18s ease-in-out infinite alternate}
+@keyframes eh-breathe{to{transform:scale(1.035)}}
+.eh-map{position:relative;min-height:300px;aspect-ratio:2/1;background:radial-gradient(ellipse at 70% 48%,#c75b1833,transparent 35%),radial-gradient(circle,#ffb45c55 1px,transparent 1.5px) 0 0/29px 31px,#100c09;border:1px solid #80502c;border-radius:12px;overflow:hidden}
+.eh-map:before{content:"";position:absolute;inset:12%;border:1px dashed #ff9c4055;border-radius:50%;transform:rotate(-15deg);pointer-events:none}
+.eh-node{position:absolute;transform:translate(-50%,-50%);border:1px solid #ffab55;background:#21140d;color:#ffd5a5;border-radius:50%;width:44px;height:44px;cursor:pointer;font:700 16px var(--cond)}
+.eh-node[aria-pressed=true]{background:#ff9b3c;color:#120b05;box-shadow:0 0 16px #ff9b3c88}
+.eh-node:focus-visible{outline:3px solid white;outline-offset:3px}
+.eh-console{margin-top:14px;min-height:100px}
+.eh-actions{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+.eh-quiz label{display:block;margin:10px 0}
+.eh-quiz select{display:block;width:100%;max-width:420px;background:#1d1510;color:#ffe4c5;border:1px solid #80502c;padding:10px;border-radius:6px}
+.eh-paused .eh-dust,.eh-paused .hero-astro-img,.eh-paused .hero-bg img{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.eh-dust,.hero-astro-img,.hero-bg img{animation:none!important}}
