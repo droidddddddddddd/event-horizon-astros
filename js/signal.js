@@ -1,0 +1,4 @@
+// Teaser only: never enables minting or payments.
+const arrival = Date.parse('2026-11-22T00:00:00Z');
+const fragments=['SHBUJO PU ZLCLU KHFZ','19.9.7.14.1.12','01000101 01001000','13.9.19.19.9.14.7','0x564F4944','20.8.5 1.18.18.9.22.1.12','◉ // NO RETURN'];
+function tick(){const remaining=Math.max(0,Math.ceil((arrival-Date.now())/1000));const days=Math.floor(remaining/86400);const parts=[days,Math.floor(remaining/3600)%24,Math.floor(remaining/60)%60,remaining%60];document.getElementById('clock').textContent=parts.map(n=>String(n).padStart(2,'0')).join(' : ');document.getElementById('fragment').textContent=remaining?'FRAGMENT // '+fragments[Math.max(0,Math.min(6,7-Math.ceil(remaining/86400)))]: 'FINAL TRANSMISSION // THE HORIZON HAS BEEN CROSSED';if(!remaining)document.getElementById('message').textContent='The signal is no longer coming from beyond the horizon. It is coming from here.';}tick();setInterval(tick,1000);
