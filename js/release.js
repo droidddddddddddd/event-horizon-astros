@@ -3,8 +3,13 @@
   'use strict';
   const $ = id => document.getElementById(id), cfg = window.LAUNCH;
   const signals = [['TIME FRACTURE', 'Your coffee arrived before you ordered it.'], ['GRAVITY WELL', 'The crew has lost another wrench to the void.'], ['UNKNOWN SIGNAL', 'Houston, we have a liquidity problem.'], ['THE ORIGINAL', 'No thoughts. Just gravity.'], ['EVENT HORIZON', 'There is no return transmission.']];
-  let last = -1;
-  $('scan').onclick = () => { last = (last + 1) % signals.length; $('anomaly-title').textContent = signals[last][0]; $('anomaly-text').textContent = signals[last][1]; };
+  signals.push(['RELAY 07','The signal is repeating. It sounds like our own distress call.'], ['MISSING MINUTE','Every clock on the ship has lost the same sixty seconds.'], ['CREW ECHO','A voice on the radio knows your callsign. Nobody is transmitting.']);
+  let last = -1, found = [];
+  try { const saved = JSON.parse(localStorage.getItem('eh-signals') || '[]'); if (Array.isArray(saved)) found = [...new Set(saved.filter(n => Number.isInteger(n) && n >= 0 && n < signals.length))]; } catch {}
+  const scan = $('scan'), count = document.createElement('p'); count.className = 'fine'; count.setAttribute('role','status'); scan.after(count);
+  function update() { count.textContent = found.length + '/' + signals.length + ' fictional transmissions recovered on this device.'; }
+  update();
+  scan.onclick = () => { const remaining = signals.map((_,i) => i).filter(i => !found.includes(i)); last = remaining.length ? remaining[Math.floor(Math.random()*remaining.length)] : (last+1)%signals.length; if (!found.includes(last)) found.push(last); try { localStorage.setItem('eh-signals',JSON.stringify(found)); } catch {} $('anomaly-title').textContent = signals[last][0]; $('anomaly-text').textContent = signals[last][1]; update(); };
   const arch = $('legendary'), ones = (window.ASTROS || []).filter(a => a.title);
   ones.forEach(a => {
     const fig = document.createElement('figure'), im = document.createElement('img'), cap = document.createElement('figcaption');
