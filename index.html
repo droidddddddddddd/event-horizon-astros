@@ -27,6 +27,7 @@
 <link rel="preload" href="fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/site.css">
 <link rel="stylesheet" href="css/modules.css">
+<link rel="stylesheet" href="css/immersion.css">
 <script defer src="launch-config.js"></script>
 <script defer src="js/gate.js"></script>
 <script defer src="astro-config.js"></script>
@@ -40,6 +41,7 @@
 <script defer src="js/rank.js"></script>
 <script defer src="js/pfp.js"></script>
 <script defer src="js/crew.js"></script>
+<script defer src="js/immersion.js"></script>
 </head>
 <body>
 <svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
@@ -77,6 +79,7 @@
     <a href="#collection">Collection</a>
     <a href="#studio">Astro Studio</a>
     <a href="#mission">Mission Control</a>
+    <a href="#immersion">Expedition</a>
     <a href="#roadmap">Roadmap</a>
     <a href="#faq">FAQ</a>
   </nav>
@@ -353,6 +356,22 @@
     <ol class="chapters" id="chapters"><li class="chapter loading">Loading transmissions…</li></ol>
   </section>
 </div>
+  </section>
+
+  <section id="immersion" class="sec" aria-labelledby="eh-title">
+    <div class="sec-head"><div><small class="eyebrow">IMMERSION / FLIGHT DECK</small><h2 id="eh-title">Enter the Event Horizon</h2><p class="muted">Explore the fictional universe. No wallet, payment or ownership required.</p></div></div>
+    <button class="btn ghost" id="eh-motion" type="button" aria-pressed="false">Pause ambient motion</button>
+    <article class="card"><small class="eyebrow">NAVIGATION / 06 SECTORS</small><h3>Uncharted space</h3><p>Select a numbered signal to recover its transmission.</p><div class="eh-map" id="eh-map" aria-label="Fictional star map"></div><div class="eh-console"><p id="eh-sector" role="status">Awaiting coordinates.</p><p class="fine" id="eh-progress"></p></div></article>
+    <div class="mc-grid">
+      <article class="card"><small class="eyebrow">EXPEDITION / 01</small><h3>Beyond the point of no return</h3><p id="eh-scene" role="status"></p><div class="eh-actions" id="eh-choices"></div><p class="fine" id="eh-expedition-status">Fictional expedition. No financial rewards.</p></article>
+      <article class="card"><small class="eyebrow">CREW PSYCHOLOGY</small><h3>Which Astro are you?</h3><form id="eh-quiz" class="eh-quiz">
+      <label>Unknown signal<select name="q1"><option value="0">Decode it</option><option value="1">Repair the receiver</option><option value="2">Follow it</option></select></label>
+      <label>Ship malfunction<select name="q2"><option value="1">Fix the engine</option><option value="2">Find a new route</option><option value="0">Contact mission control</option></select></label>
+      <label>Beyond the horizon<select name="q3"><option value="2">Explore the unknown</option><option value="0">Record the transmission</option><option value="1">Keep the crew safe</option></select></label>
+      <button class="btn primary" type="submit">Reveal my archetype</button></form><p id="eh-result" role="status"></p></article>
+    </div>
+    <button class="btn ghost" id="eh-share" type="button">Share expedition on X</button>
+    <p class="fine">Discoveries and badges are saved locally in this browser and are not NFTs or token rewards.</p>
   </section>
 
   <section id="roadmap" class="sec" aria-labelledby="h-road">
