@@ -9,10 +9,22 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="EVENT HORIZON · Astros — The Point of No Return">
 <meta property="og:description" content="1,000 planned astronauts. One impossible mission. Prelaunch concept phase — no live mint.">
-<meta property="og:image" content="assets/brand/og.jpg">
+<link rel="canonical" href="{{SITE_URL}}/">
+<meta property="og:url" content="{{SITE_URL}}/">
+<meta property="og:site_name" content="Event Horizon Astros">
+<meta property="og:image" content="{{SITE_URL}}/assets/brand/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Astro #1 The Original, a Legendary Astro in a white suit, in front of a glowing black hole">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EVENT HORIZON · Astros — The Point of No Return">
+<meta name="twitter:description" content="1,000 planned astronauts. One impossible mission. Prelaunch concept phase — no live mint.">
+<meta name="twitter:image" content="{{SITE_URL}}/assets/brand/og.jpg">
+<meta name="twitter:image:alt" content="Astro #1 The Original, a Legendary Astro in a white suit, in front of a glowing black hole">
 <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/Anton-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/BarlowCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/site.css">
 <link rel="stylesheet" href="css/modules.css">
 <script defer src="launch-config.js"></script>
@@ -53,12 +65,13 @@
 </svg>
 
 <a class="skip" href="#collection">Skip to the crew</a>
-<div class="banner-top" role="note">Prelaunch concept phase. No live mint, no sale, no token on sale. Never share a seed phrase.</div>
+<aside class="banner-top" aria-label="Prelaunch notice">Prelaunch concept phase. No live mint, no sale, no token on sale. Never share a seed phrase.</aside>
 <header class="nav" id="top">
-  <a class="brand" href="#home" aria-label="Event Horizon Astros — home">
+  <a class="brand" href="#home">
     <svg class="brand-planet" viewBox="0 0 64 64" aria-hidden="true"><defs><radialGradient id="pg" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#ffb35a"/><stop offset="1" stop-color="#d4540a"/></radialGradient></defs><ellipse cx="32" cy="32" rx="30" ry="9" transform="rotate(-22 32 32)" fill="none" stroke="#ff8a1f" stroke-width="4"/><circle cx="32" cy="32" r="13" fill="url(#pg)"/><path d="M5 40C16 47 47 40 59 24" fill="none" stroke="#ffcf8a" stroke-width="3" stroke-linecap="round"/></svg>
-    <span class="brand-text"><b>EVENT HORIZON</b><i>Astros</i></span>
+    <span class="brand-text"><b>EVENT HORIZON</b><i>Astros</i></span><span class="sr"> home</span>
   </a>
+  <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Menu"><svg class="ic" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
   <nav aria-label="Sections" id="nav">
     <a href="#home" class="on">Home</a>
     <a href="#collection">Collection</a>
@@ -73,9 +86,15 @@
 
 <main>
   <section id="home" class="hero" aria-labelledby="h1">
-    <img class="hero-img" src="assets/brand/hero.webp" width="1280" height="720" alt="An Astro astronaut in a battered rust-and-charcoal suit drifting weightlessly toward a black hole with a glowing orange accretion disk" fetchpriority="high">
+    <picture class="hero-bg">
+      <source media="(max-width: 700px)" srcset="assets/brand/hero-bg-960.webp">
+      <img src="assets/brand/hero-bg.webp" width="1920" height="860" alt="" fetchpriority="high">
+    </picture>
     <canvas id="space" aria-hidden="true"></canvas>
     <div class="hero-shade" aria-hidden="true"></div>
+    <figure class="hero-astro" id="heroAstro"></figure>
+    <script src="js/hero.js"></script>
+    <noscript><figure class="hero-astro is-ready"><img class="hero-astro-img" src="assets/hero/1-768.webp" width="768" height="768" alt="Astro #1 · Legendary · The Original: a real Astro from the collection"><figcaption class="hero-astro-cap">ASTRO #1 · LEGENDARY · THE ORIGINAL</figcaption></figure></noscript>
     <div class="hero-copy">
       <h1 id="h1"><span>EVENT</span><span>HORIZON</span></h1>
       <p class="tag">THE POINT OF NO RETURN.</p>
@@ -376,7 +395,7 @@
   </section>
 </main>
 
-<div class="banner-bottom"><svg class="ic"><use href="#i-warn"/></svg>PRELAUNCH CONCEPT PHASE — NO LIVE MINT</div>
+<aside class="banner-bottom" aria-label="Prelaunch reminder"><svg class="ic"><use href="#i-warn"/></svg>PRELAUNCH CONCEPT PHASE — NO LIVE MINT</aside>
 <footer class="foot"><span>◉ EVENT HORIZON / ASTROS</span><span>Concept project · Not minted · No financial promises · The lore is fiction</span></footer>
 
 <dialog id="detail" aria-label="Astro details"><button id="close" type="button" aria-label="Close">×</button><div id="detailBody"></div></dialog>

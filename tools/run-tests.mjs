@@ -10,5 +10,5 @@ step('mint preflight must still BLOCK mainnet (exit 1 expected)', 'python3', ['l
 step('strict art validation must still FAIL until 1,000 are done (exit 2 expected)', 'python3', ['launch-kit/validate_collection.py'], root, 2);
 step('mint unit + CLI safety tests', 'npm', ['test', '--silent'], path.join(root, 'mint'));
 const up = await fetch('http://127.0.0.1:8802/').then(r => r.ok).catch(() => false);
-if (up) step('browser e2e (server on :8802)', 'python3', ['tests/e2e.py']); else console.log('\n(skipping browser e2e: start `npm run build && npm run serve` first)');
+if (up) { step('browser e2e (server on :8802)', 'python3', ['tests/e2e.py']); step('responsive + hero + Phantom + links (server on :8802)', 'python3', ['tests/e2e_mobile.py']); } else console.log('\n(skipping browser e2e: start `npm run build && npm run serve` first)');
 console.log(failed ? `\n${failed} step(s) FAILED` : '\nAll executed steps passed.'); process.exit(failed ? 1 : 0);

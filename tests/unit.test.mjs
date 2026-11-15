@@ -74,3 +74,19 @@ test('build: dist contains only public files (no art/, mint/, legacy/, launch-ki
   assert.ok(all.includes('index.html')); assert.ok(!all.some(f => /^(art|mint|legacy|launch-kit|reports|tools|tests|screenshots)\//.test(f) || /keypair|\.env|deployment|hero-source/i.test(f)), 'leak');
 });
 test('secret scan is clean', () => { const r = spawnSync('python3', ['tools/secret_scan.py'], { cwd: root, encoding: 'utf8' }); assert.equal(r.status, 0, r.stdout + r.stderr); });
+test('build: canonical/OG/twitter URLs are absolute, come from site.config.json, and no placeholder leaks', () => {
+  const r = spawnSync('node', ['tools/build-site.mjs'], { cwd: root, encoding: 'utf8' }); assert.equal(r.status, 0, r.stderr);
+  const site = JSON.parse(read('site.config.json')).siteUrl; assert.match(site, /^https:\/\/[a-z0-9.-]+$/);
+  for (const f of ['index.html', 'privacy.html', 'terms.html']) assert.ok(!/\{\{SITE_URL\}\}/.test(fs.readFileSync(path.join(root, 'dist', f), 'utf8')), f + ' placeholder left');
+  const h = fs.readFileSync(path.join(root, 'dist', 'index.html'), 'utf8');
+  for (const re of [/rel="canonical" href="([^"]+)"/, /property="og:url" content="([^"]+)"/, /property="og:image" content="([^"]+)"/, /name="twitter:image" content="([^"]+)"/]) { const m = h.match(re); assert.ok(m && m[1].startsWith(site + '/'), String(re)); }
+  assert.ok(fs.existsSync(path.join(root, 'dist', 'sitemap.xml')) && fs.existsSync(path.join(root, 'dist', 'robots.txt')));
+  assert.ok(fs.existsSync(path.join(root, 'dist', 'assets/brand/og.jpg')));
+});
+test('hero pool: every pooled Astro is approved, has both webp sizes, and #1 (fallback) is included', () => {
+  const js = read('js/hero.js'); const pool = JSON.parse(js.match(/\/\*POOL\*\/(.*?)\/\*END\*\//s)[1]); assert.ok(pool.length >= 80, 'pool too small');
+  const src = read('collection.js'); const col = JSON.parse(src.slice(src.indexOf('['), src.lastIndexOf(']') + 1)); const byId = new Map(col.map(a => [a.id, a]));
+  assert.ok(pool.some(p => p.i === 1));
+  for (const p of pool) { const a = byId.get(p.i); assert.ok(a && a.art_status === 'approved' && ['Legendary', 'Epic', 'Rare'].includes(a.tier) && a.tier === p.t, 'bad pool entry ' + p.i); for (const s of [384, 768]) assert.ok(fs.existsSync(path.join(root, `assets/hero/${p.i}-${s}.webp`)), `${p.i}-${s}`); }
+  assert.equal(fs.readdirSync(path.join(root, 'assets/hero')).length, pool.length * 2, 'unused hero files shipped');
+});

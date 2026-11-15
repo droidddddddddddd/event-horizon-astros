@@ -72,6 +72,17 @@
   $('detail').addEventListener('click', e => { if (e.target === $('detail')) $('detail').close(); });
   render();
 
+  /* ---- mobile menu (below 1100px the section links live in a dropdown) ---- */
+  (() => {
+    const tg = $('navToggle'), nv = $('nav'), hd = $('top'); if (!tg || !nv || !hd) return;
+    const set = o => { hd.classList.toggle('open', o); tg.setAttribute('aria-expanded', o ? 'true' : 'false'); };
+    tg.addEventListener('click', () => set(!hd.classList.contains('open')));
+    nv.addEventListener('click', e => { if (e.target.closest('a')) set(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && hd.classList.contains('open')) { set(false); tg.focus(); } });
+    document.addEventListener('click', e => { if (hd.classList.contains('open') && !hd.contains(e.target)) set(false); });
+    matchMedia('(min-width: 1101px)').addEventListener('change', e => { if (e.matches) set(false); });
+  })();
+
   /* ---- nav highlight ---- */
   const links = [...document.querySelectorAll('#nav a')], secs = links.map(a => document.querySelector(a.getAttribute('href')));
   if ('IntersectionObserver' in window) {
@@ -98,12 +109,12 @@
   function resize() { w = cv.width = cv.clientWidth; h = cv.height = cv.clientHeight; }
   function frame(ms) {
     c.clearRect(0, 0, w, h);
-    const cx = w * 0.44, cy = h * 0.43, R = Math.min(w, h) * 0.2;
+    const cx = w * (w < 700 ? 0.58 : 0.365), cy = h * (w < 700 ? 0.42 : 0.52), R = Math.min(w, h) * 0.22;
     c.save(); c.translate(cx, cy); c.rotate(-0.38);
     parts.forEach(p => { const t = p.a + ms * p.s, rr = R * (1.1 + p.r * 0.9); c.globalAlpha = 0.35 + 0.3 * Math.sin(ms * 0.001 + p.a); c.fillStyle = '#ffb057'; c.fillRect(Math.cos(t) * rr * 1.6, Math.sin(t) * rr * 0.5, 2, 2); });
     c.restore(); c.globalAlpha = 1;
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches) raf = requestAnimationFrame(frame);
   }
-  resize(); window.addEventListener('resize', resize); raf = requestAnimationFrame(frame);
+  window.addEventListener('resize', resize); raf = requestAnimationFrame(t => { resize(); raf = requestAnimationFrame(frame); });
   document.addEventListener('visibilitychange', () => { if (document.hidden) cancelAnimationFrame(raf); else if (!matchMedia('(prefers-reduced-motion: reduce)').matches) raf = requestAnimationFrame(frame); });
 })();

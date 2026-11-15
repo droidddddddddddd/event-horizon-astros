@@ -29,9 +29,8 @@
     (C.perks || []).forEach(function (p) {
       var ok = can(p.minRank) && !p.planned, row = el("div", "perk-row" + (ok ? " on" : ""));
       row.setAttribute("role", "row");
-      row.appendChild(el("div", "pn", p.name + (p.note ? " (" + p.note + ")" : "")));
-      row.appendChild(el("div", "pr", p.minRank + (p.minRank === NAMES[0] ? "+" : "+")));
-      row.appendChild(lockLabel(el("div", "ps"), p.planned ? "Planned" : ok ? "Unlocked" : (state.level < 0 ? "Check rank" : "Locked"), !p.planned && !ok && state.level >= 0));
+      var c1 = el("div", "pn", p.name + (p.note ? " (" + p.note + ")" : "")), c2 = el("div", "pr", p.minRank + "+"), c3 = lockLabel(el("div", "ps"), p.planned ? "Planned" : ok ? "Unlocked" : (state.level < 0 ? "Check rank" : "Locked"), !p.planned && !ok && state.level >= 0);
+      [c1, c2, c3].forEach(function (c) { c.setAttribute("role", "cell"); row.appendChild(c); });
       t.appendChild(row);
     });
   }

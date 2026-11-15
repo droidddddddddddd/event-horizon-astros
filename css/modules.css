@@ -1,4 +1,4 @@
-@font-face{font-family:"Oxanium";src:url(../fonts/Oxanium.ttf) format("truetype");font-weight:200 800;font-display:swap}
+@font-face{font-family:"Oxanium";src:url(../fonts/Oxanium.woff2) format("woff2");font-weight:200 800;font-display:swap}
 .eh-mod{
   --bg:#030202; --panel:#0b0806; --line:#2a1c10;
   --gold:#ffb040; --orange:#ff7a1a; --hot:#fff4e1; --dim:#b9a58b; --mute:#8a7a66;
