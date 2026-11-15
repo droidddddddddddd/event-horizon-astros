@@ -1,4 +1,4 @@
 {
-  "siteUrl": "https://event-horizon-astros-r3or.onrender.com",
+  "siteUrl": "https://astrosonsol.com",
   "_note": "Single place for the public origin (no trailing slash). Swap to the final domain here (or set a SITE_URL env var on the Render build). Baked into canonical / og:url / og:image / twitter:image / sitemap by tools/build-site.mjs."
 }
