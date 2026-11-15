@@ -16,3 +16,23 @@
 .eh-quiz select{display:block;width:100%;max-width:420px;background:#1d1510;color:#ffe4c5;border:1px solid #80502c;padding:10px;border-radius:6px}
 .eh-paused .eh-dust,.eh-paused .hero-astro-img,.eh-paused .hero-bg img{animation-play-state:paused}
 @media(prefers-reduced-motion:reduce){.eh-dust,.hero-astro-img,.hero-bg img{animation:none!important}}
+
+/* Flight deck v2 */
+.astro img,.gallery.mini img{height:auto!important;aspect-ratio:1/1!important;object-fit:contain!important}
+.eh-map{isolation:isolate;min-height:340px;background:radial-gradient(ellipse at 70% 48%,#f57c2433,transparent 38%),radial-gradient(circle,#ffb45c55 1px,transparent 1.5px) 0 0/29px 31px,#100c09}
+.eh-map:after{content:"";position:absolute;inset:0;z-index:-1;background:repeating-radial-gradient(circle at 70% 48%,transparent 0 35px,#ff9c4022 36px 37px);pointer-events:none}
+.eh-orbit{position:absolute;inset:15%;border:1px solid #ff9c4055;border-radius:50%;pointer-events:none;animation:eh-spin 24s linear infinite}
+.eh-orbit:before{content:"";position:absolute;top:0;left:50%;width:9px;height:9px;background:#ffc17a;border-radius:50%;box-shadow:0 0 18px #ff8a1f}
+@keyframes eh-spin{to{transform:rotate(360deg)}}
+.eh-node{z-index:2;box-shadow:0 0 12px #ff8a1f44}
+.eh-node:after{content:attr(data-sector);position:absolute;top:100%;left:50%;transform:translateX(-50%);font-size:11px;white-space:nowrap;color:#ffd5a5;text-shadow:0 2px 4px black}
+.eh-scanline{position:absolute;inset:0;pointer-events:none;background:linear-gradient(transparent 45%,#ff9c401c 50%,transparent 55%);animation:eh-sweep 8s linear infinite;z-index:1}
+@keyframes eh-sweep{from{transform:translateY(-100%)}to{transform:translateY(100%)}}
+.eh-actions .btn{white-space:normal;text-align:left;min-height:48px;flex:1 1 160px}
+.eh-meter{height:8px;width:100%;accent-color:#ff9b3c}
+.eh-quiz fieldset{border:0;padding:0;min-width:0}
+.eh-quiz .eh-actions{flex-direction:column}
+.eh-quiz .eh-actions .btn{flex:auto}
+.eh-paused .eh-orbit,.eh-paused .eh-scanline{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.eh-orbit,.eh-scanline{animation:none}}
+@media(max-width:480px){.eh-node:after{font-size:9px;white-space:normal;width:64px}.eh-map{min-height:330px}.eh-node{width:40px;height:40px}}
