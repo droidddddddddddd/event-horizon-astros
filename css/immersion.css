@@ -36,3 +36,26 @@
 .eh-paused .eh-orbit,.eh-paused .eh-scanline{animation-play-state:paused}
 @media(prefers-reduced-motion:reduce){.eh-orbit,.eh-scanline{animation:none}}
 @media(max-width:480px){.eh-node:after{font-size:9px;white-space:normal;width:64px}.eh-map{min-height:330px}.eh-node{width:40px;height:40px}}
+
+/* Premium polish: preserve the approved artwork and layout. */
+.hero-bg img{transform-origin:35% 50%;animation-duration:32s}
+.hero-astro-img{animation-duration:10s}
+.eh-dust{opacity:.28;animation-duration:55s}
+.sec-head{position:relative;padding-bottom:12px}
+.sec-head:after{content:"";position:absolute;bottom:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,#f28a35aa, #75441f55 30%,transparent 85%);pointer-events:none}
+.card,.studio,.eh-mod .panel{box-shadow:inset 0 1px 0 #ffbf7b0a,0 8px 24px #0002}
+.card,.astro,.archive-open,.btn{transition:box-shadow .22s ease,border-color .22s ease,transform .22s ease}
+.astro .cap{background:linear-gradient(0deg,#080604f5 0%,#080604a0 55%,transparent 100%);text-shadow:0 1px 3px #000}
+.astro .cap strong{color:#fff0dc}
+.astro .cap em{font-weight:700}
+.archive-open{border-radius:8px;overflow:hidden}
+#detail{max-height:88dvh;overflow:auto;overscroll-behavior:contain;box-shadow:0 20px 80px #000b}
+#detailBody img{aspect-ratio:1;object-fit:contain;background:#0b0907}
+#close{position:sticky;top:0;z-index:2;min-width:44px;min-height:44px;background:#100b07e8;border-radius:50%;color:#ffe4c5}
+dialog::backdrop{background:#050302e8}
+.btn:focus-visible,.eh-node:focus-visible,.tools button:focus-visible,summary:focus-visible{outline:2px solid #ffd3a0;outline-offset:3px}
+.eh-map{box-shadow:inset 0 0 45px #0008}
+.eh-node[aria-pressed=true]{box-shadow:0 0 12px #ff9b3c66}
+@media(hover:hover) and (pointer:fine){.astro:hover{transform:translateY(-4px);box-shadow:0 10px 28px #0009,0 0 12px color-mix(in srgb,var(--tc) 25%,transparent)}.archive-open:hover{box-shadow:0 0 0 2px #ffb36c88}.btn:not(:disabled):hover{filter:brightness(1.08)}}
+@media(max-width:700px){.card{padding:16px}.gallery{gap:10px}.astro .cap{font-size:13px}.astro .cap em{font-size:10px}.eh-actions .btn{min-height:44px}.sec-head{padding-bottom:10px}}
+@media(prefers-reduced-motion:reduce){.card,.astro,.archive-open,.btn{transition:none!important}}
