@@ -47,6 +47,15 @@
     const rows = [['Backdrop', a.backdrop && a.backdrop.name]].concat(Object.entries(a.traits || {}).filter(([, v]) => v && v !== 'None'));
     rows.forEach(([k, v]) => { if (!v) return; dl.append(el('dt', null, k), el('dd', null, v)); });
     body.append(dl);
+    const roles = ['Navigation','Signal recovery','Engineering','Deep-space survey','Flight operations','Anomaly research'];
+    const origins = ['Luna Relay','Mars Outpost','Ceres Station','Europa Array','Titan Dock','Outer Belt'];
+    const n = Number(a.id);
+    const dossier = el('section', 'astro-dossier');
+    dossier.append(el('h3', null, 'Crew dossier / Fictional lore'));
+    const info = el('dl', 'traits');
+    [['Callsign', 'EH-' + String(n).padStart(4, '0')], ['Assignment', roles[n % roles.length]], ['Origin', origins[Math.floor(n / roles.length) % origins.length]], ['Mission', 'Recover the last signal beyond the horizon']].forEach(([k,v]) => info.append(el('dt',null,k),el('dd',null,v)));
+    dossier.append(info);
+    body.append(dossier);
     const go = el('button', 'btn primary', 'Open in Astro Studio'); go.type = 'button';
     go.addEventListener('click', () => { $('detail').close(); window.dispatchEvent(new CustomEvent('astro:use', { detail: { id: a.id } })); location.hash = '#studio'; });
     body.append(go);
@@ -92,8 +101,9 @@
 
   /* ---- local mission checklist ---- */
   let done = []; try { done = JSON.parse(localStorage.getItem('astro-missions') || '[]'); if (!Array.isArray(done)) done = []; } catch { done = []; }
+  done = [...new Set(done)].filter(id => [...document.querySelectorAll('.mission')].some(b => b.dataset.id === id));
   function progress() {
-    document.querySelectorAll('.mission').forEach(b => { b.textContent = done.includes(b.dataset.id) ? 'Completed ✓' : 'Mark complete'; });
+    document.querySelectorAll('.mission').forEach(b => { b.textContent = done.includes(b.dataset.id) ? 'Completed ✓' : 'Mark complete'; b.setAttribute('aria-pressed', String(done.includes(b.dataset.id))); });
     $('progress').textContent = done.length + '/3 missions completed on this device';
   }
   document.querySelectorAll('.mission').forEach(b => b.addEventListener('click', () => {
