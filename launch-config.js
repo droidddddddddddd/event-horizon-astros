@@ -10,7 +10,7 @@ window.LAUNCH = Object.freeze({
   "collectionMint": "",
   "mintUrl": "",
   "tokenUrl": "",
-  "xUrl": "",
+  "xUrl": "https://x.com/AstrosOnSol",
   "discordUrl": "",
   "websiteUrl": "",
   "tokenPlatform": "Pump.fun",
