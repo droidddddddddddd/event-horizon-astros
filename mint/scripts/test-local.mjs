@@ -73,7 +73,7 @@ await expectFail('non-allowlisted wallet cannot early-mint (client check)', () =
 }
 const tb0 = await bal(admin, treasury.identity.publicKey);
 const e1 = await mintFromPhase({ umi: earlyA, deployment: D, phase: 'early', plan }); await checkAsset(e1, earlyA, pools.early, 'early mint #1 (allowlisted)');
-const tb1 = await bal(admin, treasury.identity.publicKey); check('treasury received exactly 0.025 SOL for the early mint', tb1 - tb0 === 25_000_000, tb1 - tb0);
+const tb1 = await bal(admin, treasury.identity.publicKey); check('treasury received exactly 0.15 SOL for the early mint', tb1 - tb0 === 1250_000_000, tb1 - tb0);
 await expectFail('early wallet limit (1 per wallet) enforced', () => mintFromPhase({ umi: earlyA, deployment: D, phase: 'early', plan }), /./);
 // reserve
 await expectFail('reserve: non-reserve wallet rejected', () => mintFromPhase({ umi: pubA, deployment: D, phase: 'reserve', plan }), /./);
