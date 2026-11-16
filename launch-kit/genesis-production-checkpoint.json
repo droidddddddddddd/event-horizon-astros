@@ -1,0 +1,229 @@
+{
+  "artBaselineCommit": "3a5cfd3a4ed8e6f88b9f6d7b2d650f2a2363e140",
+  "counts": {
+    "target": 1000,
+    "recordedAsApproved": 520,
+    "recordedLegacy": 426,
+    "integratedNew": 94,
+    "pendingNew": 480,
+    "pendingNewByTier": {
+      "Uncommon": 168,
+      "Common": 299,
+      "Rare": 13
+    },
+    "tierTotals": {
+      "Legendary": 20,
+      "Common": 550,
+      "Rare": 120,
+      "Uncommon": 250,
+      "Epic": 60
+    },
+    "newCharacterTypes": {
+      "Dog": 10,
+      "Baby": 7,
+      "Alien": 7,
+      "Female": 43,
+      "Robot": 7,
+      "Male": 11,
+      "Cat": 9
+    },
+    "legacyCharacterTypesUnclassified": 426
+  },
+  "validation": {
+    "scope": "GitHub inventory and metadata reconciliation. Full-resolution archive and final collection QA are outstanding.",
+    "sequentialManifestIds": 1000,
+    "matchingApprovedIdsAcrossManifestGalleryAndHashLedger": 520,
+    "distinctGalleryBlobs": 520,
+    "distinctFullResolutionHashPins": 520,
+    "approvedProductionRowNamesPathsAndTierTraitsMatch": true,
+    "newProvenanceTraitsMatchProduction": true,
+    "legacyHashPinsPreserved": true,
+    "verifiedOriginals": [
+      {
+        "file": "tools/art-pipeline/refs/rare.jpg",
+        "id": 10,
+        "sha256": "c16c1c889b0b9b07930978f390945c95ddf908eb71821e37e58a0021bc3dcb05"
+      },
+      {
+        "file": "tools/art-pipeline/refs/common.jpg",
+        "id": 11,
+        "sha256": "11fbb9b63fb4b45a7d798859b72e7bd51e8a339051cff691de43abc1511cdf72"
+      },
+      {
+        "file": "tools/art-pipeline/refs/uncommon.jpg",
+        "id": 18,
+        "sha256": "a93d2a9bc2d56d6c7bbfdde0d845a2ad12174db83ef4c4e5d65de07a8a7410c8"
+      },
+      {
+        "file": "tools/art-pipeline/refs/epic.jpg",
+        "id": 158,
+        "sha256": "65c2402462d0ee12d506071d79943d749c5966c18254a3318db7e735ca286003"
+      },
+      {
+        "file": "tools/art-pipeline/refs/legendary.jpg",
+        "id": 179,
+        "sha256": "f84096fb49ad6302e0f0f44f469f6eb5013d8d6e41eac06e388e48ac45359375"
+      }
+    ]
+  },
+  "authoritativeFiles": {
+    "productionManifest": "launch-kit/production-manifest.json",
+    "artHashes": "art-manifest.json",
+    "historicalHashes": "launch-kit/historical-art-manifest-v7.json",
+    "pendingIdsAndTierAssignments": "launch-kit/genesis-production-plan.json",
+    "previousQueue": "launch-kit/genesis-resume-01.json",
+    "legacyVisualReview": "reports/GENESIS_LEGACY_VISUAL_REVIEW.json",
+    "lockedBackdrop": "launch-kit/art-sources/orange-background-master.png",
+    "savedArchives": [
+      "ASTROS_Genesis_Reviewed_Masters.zip",
+      "ASTROS_Genesis_Restoration_Candidates.zip"
+    ]
+  },
+  "legacyReview": {
+    "restoredCandidatesPreviouslyReviewed": 426,
+    "alternatesSelectedByPriorReview": [
+      86,
+      296,
+      308,
+      329,
+      332,
+      542
+    ],
+    "edgeCorrectionsSelectedByPriorReview": [
+      25,
+      131,
+      148
+    ],
+    "recordedPairDecisions": {
+      "visuallyDistinct": 27,
+      "revisionRequested": 9
+    },
+    "heldIds": [
+      136,
+      300,
+      340,
+      894
+    ],
+    "galleryPreviewRecheck": [
+      {
+        "id": 136,
+        "note": "Preserve the cracked helmet brow and shoulder patch. Distinguish the helmet profile and patch construction from the near-identical #120 and #129 templates."
+      },
+      {
+        "id": 300,
+        "note": "Preserve olive pressure gear and the tired straight-mouth expression. The helmet, head angle and shoulder profile repeat #129 closely. Distinguish those shapes in the restoration derivative."
+      },
+      {
+        "id": 340,
+        "note": "Retain the mustard gear, smirk and straw. Distinguish the visor latch and torso construction from the shared silhouette."
+      },
+      {
+        "id": 894,
+        "note": "Retain the red eyes and green electrical effect. Use distinct helmet geometry and an effect pattern anchored to the suit to distinguish it from #158's outline and purple halo."
+      }
+    ]
+  },
+  "nextQueuedPending": [
+    {
+      "id": 417,
+      "type": "Female",
+      "detail": "deep skin, eyebrow slit, dark auburn braid under helmet",
+      "tier": "Common",
+      "refs": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 423,
+      "type": "Robot",
+      "detail": "dented aluminum robot face, mechanical lids and linen pressure suit",
+      "tier": "Common",
+      "refs": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 424,
+      "type": "Female",
+      "detail": "tan face, freckles, short lavender hair with gray shell",
+      "tier": "Common",
+      "refs": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 425,
+      "type": "Alien",
+      "detail": "muted teal skin, wide cheeks, three compact brow ridges, graphite shell",
+      "tier": "Common",
+      "refs": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 427,
+      "type": "Female",
+      "detail": "middle-aged light brown woman, round glasses, ivory gasket",
+      "tier": "Common",
+      "refs": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 335,
+      "type": "Female",
+      "detail": "auburn-haired woman, blue collar and small clear field reader",
+      "tier": "Uncommon",
+      "refs": [
+        18,
+        1
+      ]
+    },
+    {
+      "id": 429,
+      "type": "Female",
+      "detail": "dark-skinned woman with cropped black ringlets and dark green latches",
+      "tier": "Common",
+      "refs": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 430,
+      "type": "Male",
+      "detail": "pale gray beard, crooked nose, navy bodice with ivory shoulders",
+      "tier": "Common",
+      "refs": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 337,
+      "type": "Female",
+      "detail": "cream skin, freckles, blonde asymmetric bangs and gray-brown shell",
+      "tier": "Uncommon",
+      "refs": [
+        18,
+        1
+      ]
+    }
+  ],
+  "resume": [
+    "Inventory the two saved archives and any retained source images before generation. Recover exact full-resolution masters by their SHA-256 and record any integrated new master still missing. Keep original masters and historical hashes separate from derivatives.",
+    "Check existing candidates for all nine queued pending IDs and the four held restorations before starting any missing generation. Use the saved queue and preserve every token's tier and the locked references.",
+    "Finish legacy character classification and confirm quota feasibility from the actual art before building the next queue. Compare selected legacy derivatives and targeted revisions side by side at full resolution.",
+    "Normalize candidates with the shared orange background. Compare hashes and perceptual similarity against the legacy restorations and all approved new portraits. Visually check edge quality, framing and traits. Integrate reviewed eligible pending IDs and update this checkpoint after each verified batch.",
+    "Run strict collection validation and the final collection-wide perceptual and visual review when all 1,000 masters and metadata records are available."
+  ],
+  "currentRun": {
+    "integratedNewPortraits": 0,
+    "blocker": "No local execution environment was available to open the saved binary archives, run the imaging pipeline, verify staged candidates against the collection, or build and hash new masters. The named archives were located, but their contents and completeness for this commit are unverified."
+  }
+}
