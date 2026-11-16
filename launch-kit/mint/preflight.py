@@ -6,9 +6,9 @@ p = pathlib.Path(__file__).resolve().parent
 plan = json.loads((p / 'plan.json').read_text()); rows = json.loads((p.parent / 'production-manifest.json').read_text())
 assert sum(x['allocation'] for x in plan['phases']) == plan['supply'] == len(rows) == 1000
 assert Counter(r['tier'] for r in rows) == {'Common': 550, 'Uncommon': 250, 'Rare': 120, 'Epic': 60, 'Legendary': 20}
-assert sum(x['allocation'] * x['lamports'] for x in plan['phases']) == 200 * 25_000_000 + 780 * 50_000_000 == 44_000_000_000
+assert sum(x['allocation'] * x['lamports'] for x in plan['phases']) == 200 * 1250_000_000 + 780 * 250_000_000 == 225_000_000_000
 assert plan['royaltyBasisPoints'] == 250
-print('Supply, rarity, royalty and revenue arithmetic passed (max primary revenue 44 SOL before fees).')
+print('Supply, rarity, royalty and revenue arithmetic passed (max primary revenue 225 SOL before fees).')
 B58 = r'[1-9A-HJ-NP-Za-km-z]{32,44}'; errors = []
 for k in ['treasury', 'reserveWallet', 'collection', 'tokenMint']:
     if not re.fullmatch(B58, plan.get(k) or ''): errors.append('Missing or invalid ' + k)
