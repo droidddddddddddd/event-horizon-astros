@@ -1,8 +1,8 @@
 {"network":"devnet","standard":"Metaplex Core + Core Candy Machine (3 machines: early / public / reserve)","supply":1000,"royaltyBasisPoints":250,
 "tiers":{"Common":550,"Uncommon":250,"Rare":120,"Epic":60,"Legendary":20},
 "phases":[
- {"label":"early","allocation":200,"lamports":25000000,"walletLimit":1,"allowlistRequired":true},
- {"label":"public","allocation":780,"lamports":50000000,"walletLimit":2},
+ {"label":"early","allocation":200,"lamports":1250000000,"walletLimit":1,"allowlistRequired":true},
+ {"label":"public","allocation":780,"lamports":250000000,"walletLimit":2},
  {"label":"reserve","allocation":20,"lamports":0,"addressGateRequired":true}],
 "configLines":{"prefixName":"Astro #","nameLength":4,"uriLength":9,"isSequential":false},
 "treasury":null,"reserveWallet":null,"collection":null,"candyMachines":{"early":null,"public":null,"reserve":null},
