@@ -1,5 +1,5 @@
 {
-  "status": "working plan; no new art approved",
+  "status": "Expanded character design direction approved; individual production artwork pending QA",
   "supply": 1000,
   "approved": 426,
   "pending": 574,
@@ -4051,5 +4051,7 @@
       "status": "pending",
       "review": "required"
     }
-  ]
+  ],
+  "designApproved": true,
+  "designApprovalNote": "User approved expanded family direction; preserve original King and other protected IDs. No promotional sheet is a mintable NFT."
 }
