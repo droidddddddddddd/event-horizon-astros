@@ -22,7 +22,7 @@ test('CLI: test metadata URI is refused unless explicitly allowed', async t => {
 });
 test('CLI: devnet dry run passes validation and sends nothing', async t => {
   if (!await reachable('https://api.devnet.solana.com')) return t.skip('offline');
-  const r = run({ ...base, cluster: 'devnet' }); assert.equal(r.status, 0, r.stderr); assert.match(r.stdout, /DRY RUN/); assert.match(r.stdout, /200 early @ 0.025 SOL/); assert.match(r.stdout, /780 public @ 0.05 SOL/);
+  const r = run({ ...base, cluster: 'devnet' }); assert.equal(r.status, 0, r.stderr); assert.match(r.stdout, /DRY RUN/); assert.match(r.stdout, /200 early @ 0.15 SOL/); assert.match(r.stdout, /780 public @ 0.25 SOL/);
 });
 test('CLI: keypair inside the repo is refused (live run, bad key path)', async t => {
   if (!await reachable('https://api.devnet.solana.com')) return t.skip('offline');
