@@ -9,13 +9,13 @@ function loadLaunch(overrides = {}) {
 function runGate(cfg) { const win = { LAUNCH: Object.freeze(cfg) }; vm.runInNewContext(read('js/gate.js'), { window: win, URL, Date, Number }); return win.RELEASE_READY; }
 const K = '9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin', K2 = 'So11111111111111111111111111111111111111112';
 const LIVE = { status: 'live', cluster: 'mainnet-beta', mainnetPaymentsEnabled: true, artApproved: true, metadataVerified: true, devnetTested: true, securityReviewed: true, mainnetVerified: true, termsApproved: true,
-  tokenMint: K, collectionMint: K2, mintUrl: 'https://example.com/mint', tokenUrl: 'https://pump.fun/coin/' + K, nftPrice: 0.05, launchTime: '2020-01-01T00:00:00Z' };
+  tokenMint: K, collectionMint: K2, mintUrl: 'https://example.com/mint', tokenUrl: 'https://pump.fun/coin/' + K, nftPrice: 0.25, launchTime: '2020-01-01T00:00:00Z' };
 
 test('launch-config: economics match the approved plan exactly', () => {
   const { base: c } = loadLaunch();
   assert.equal(c.nftSupply, 1000); assert.equal(c.earlyAllocation, 200); assert.equal(c.publicAllocation, 780); assert.equal(c.reserveAllocation, 20);
   assert.equal(c.earlyAllocation + c.publicAllocation + c.reserveAllocation, c.nftSupply);
-  assert.equal(c.earlyPrice, 0.025); assert.equal(c.nftPrice, 0.05); assert.equal(c.royaltyBps, 250); assert.equal(c.tokenSupply, 1_000_000_000); assert.equal(c.tokenPlatform, 'Pump.fun'); assert.equal(c.sequence, 'simultaneous');
+  assert.equal(c.earlyPrice, 0.15); assert.equal(c.nftPrice, 0.25); assert.equal(c.royaltyBps, 250); assert.equal(c.tokenSupply, 1_000_000_000); assert.equal(c.tokenPlatform, 'Pump.fun'); assert.equal(c.sequence, 'simultaneous');
 });
 test('launch-config ships fail-closed: prelaunch, devnet, payments off, every approval false, no addresses/urls', () => {
   const { base: c } = loadLaunch();
