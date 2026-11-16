@@ -7,10 +7,10 @@ const T = 'Trea5ury11111111111111111111111111111111111';
 test('plan economics are exactly the approved handoff numbers', () => {
   assert.equal(PLAN.supply, 1000); assert.equal(PLAN.royaltyBps, 250);
   assert.deepEqual([200, 780, 20], PHASES.map(k => PLAN.phases[k].allocation));
-  assert.equal(PLAN.phases.early.lamports, 25_000_000); assert.equal(PLAN.phases.public.lamports, 50_000_000); assert.equal(PLAN.phases.reserve.lamports, 0);
+  assert.equal(PLAN.phases.early.lamports, 1250_000_000); assert.equal(PLAN.phases.public.lamports, 250_000_000); assert.equal(PLAN.phases.reserve.lamports, 0);
   assert.equal(PLAN.phases.public.walletLimit, 2); assert.deepEqual(PLAN.tiers, { Common: 550, Uncommon: 250, Rare: 120, Epic: 60, Legendary: 20 });
   assert.ok(validatePlan());
-  assert.equal(200 * 25_000_000 + 780 * 50_000_000, 44_000_000_000); // 44 SOL if all paid mints sell out
+  assert.equal(200 * 1250_000_000 + 780 * 250_000_000, 225_000_000_000); // 225 SOL if all paid mints sell out
 });
 test('devnet and localnet are allowed', () => {
   assert.equal(assertClusterAllowed({ declared: 'devnet', rpcUrl: 'https://api.devnet.solana.com', genesisHash: GENESIS.devnet }), 'devnet');
