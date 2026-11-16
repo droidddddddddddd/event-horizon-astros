@@ -6,7 +6,7 @@ Square >=1024px NFT portraits; use approved NFT references, same round chubby pr
 1. Recover full-resolution originals and verify SHA-256 against manifest. Review 72 similarity flags and classify all 426. 
 2. Approve individual templates; assign remaining character categories to pending IDs without changing tier totals. Generate in batches; run existing QA and visual review; reject duplicates and off-model work.
 3. Build collection and strict metadata; verify image/trait match, unique IDs, hashes and final counts. Permanent storage upload only after approval.
-4. Preserve existing launch economics: 200 early at 0.025 SOL, 780 public at 0.05 SOL, 20 reserve, 250 bps royalties. No price or token launch changes implied. Confirm reserve policy, rights, brand clearance, treasury and operator terms.
+4. Preserve existing launch economics: 200 allowlist at 0.15 SOL, 780 public at 0.25 SOL, 20 reserve, 250 bps royalties. No price or token launch changes implied. Confirm reserve policy, rights, brand clearance, treasury and operator terms.
 5. Fund devnet wallet only; test actual Phantom mint, guards, marketplace compatibility and reveal fairness. Independent security review. No mainnet or payments until all gates pass.
 6. Prepare allowlist and launch campaign, announce date only when ready. No paid storage, minting or marketplace transactions authorized by this document.
 
@@ -15,3 +15,9 @@ Canonical reference: founder-supplied trio image (Witness blue daisy helmet and 
 
 ## Canonical NFT background and portrait lock — supersedes conflicting prior art directions
 Founder supplied screenshots of the actual NFT gallery on 2026-11-16. The original individual NFT assets, especially #001, are the primary reference, not cinematic trio or promotional illustrations. Every NFT uses the same original orange background treatment, consistent head-and-shoulders framing, helmet geometry, scale, lighting and muted textured rendering. Character traits alone vary; character-attached rarity effects may remain. No scenic planets, black-hole backdrops, starfields, landscapes or spaceship interiors. Use a shared background master from original production assets, not independently generated backgrounds. Previously approved new candidates with scenic backgrounds require correction and QA before integration. Preserve existing production artwork and protected IDs; no bulk replacement without review.
+
+## Gallery-source restoration authorization — 2026-11-16
+
+The founder authorized the 426 gallery WebPs as reference material and potential sources for restored derivatives. The five verified JPEGs and the historical SHA-256 manifest remain preserved. Missing archive files no longer block work. A 512 px proof only verifies the proposed orange treatment and character continuity. Review 1024 px restorations for eye, face, helmet and edge quality before approving them. Reconstruct the common orange field from #001, and preserve character-attached effects.
+
+Keep source and candidate hashes and resolution separate. Classify the retained artworks from visible design and existing character records before issuing the final category quotas. User approval covers routine edits and candidate review. Permanent uploads that cost money and mainnet minting require separate authorization.

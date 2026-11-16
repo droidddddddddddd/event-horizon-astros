@@ -1,6 +1,6 @@
 {
  "note": "sha256 of full-res art/NNNN.jpg for every approved token",
- "approved": 426,
+ "approved": 463,
  "files": {
   "0001.jpg": {
    "sha256": "68ac3bebfc8382b0ab04922db904bca9b0eb4749f3bac2207c4d22e0840e24a0",
@@ -942,6 +942,42 @@
    "sha256": "e791473678945a2ac193f3ab1a9b77bfed460c0d4139ab679135fb660f93ca82",
    "bytes": 470433
   },
+  "0236.jpg": {
+   "sha256": "9fb268b49f9676bef2f2597aaba6883f6c69249d26e19cf41774e6fe64de3d4e",
+   "bytes": 695357,
+   "provenance": {
+    "id": 236,
+    "tier": "Uncommon",
+    "image": "0236.jpg",
+    "sourceName": "exec-c4930f5b-ce0a-4293-8635-e3e40e132b72.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "671c298312281f6eb1fab82777e554eda39696b14409c46244780401601eeaf1",
+    "candidateSha256": "9fb268b49f9676bef2f2597aaba6883f6c69249d26e19cf41774e6fe64de3d4e",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Dog",
+     "Expression": "Unimpressed",
+     "Suit": "Forest Green",
+     "Breed": "Basset Hound",
+     "Neck": "Bronze Tag"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6559,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
   "0237.jpg": {
    "sha256": "eb84560557ff90d422b10cf9663078b391542451558b1899db4d5ed5d3cb0259",
    "bytes": 408005
@@ -949,6 +985,83 @@
   "0238.jpg": {
    "sha256": "2241f30d0bfd4364b7010ee8462a88b0b08f0f4b836ca036cdc4a620f9937022",
    "bytes": 437263
+  },
+  "0239.jpg": {
+   "sha256": "3ad920ee97e097771f30f1a373a8bb782d37522a89911a55affadea637d4c901",
+   "bytes": 823608,
+   "provenance": {
+    "id": 239,
+    "tier": "Uncommon",
+    "image": "0239.jpg",
+    "sourceName": "exec-a4118bcd-b22c-4c5e-ba03-eb248ad489d8.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "06d742f3355da8dc7c64f4eb61ee11f51148b53706468676ee18a0f3ce50e258",
+    "candidateSha256": "3ad920ee97e097771f30f1a373a8bb782d37522a89911a55affadea637d4c901",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Baby",
+     "Expression": "Grumpy",
+     "Suit": "Mustard",
+     "Hair": "Single Curl",
+     "Suit Detail": "Toy Rabbit"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7126,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0240.jpg": {
+   "sha256": "02716334ca9b7142ff83246d0e997c7676c494b25b78824fc1d45d35550c4832",
+   "bytes": 778012,
+   "provenance": {
+    "id": 240,
+    "tier": "Uncommon",
+    "image": "0240.jpg",
+    "sourceName": "exec-29f0821a-a0f0-4ed3-8326-0cb8d5378cf7.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "07aa1b105e464f5f7c96698e9d0f74b875dc69d3a735ea3a14e1f45b19726f3b",
+    "candidateSha256": "02716334ca9b7142ff83246d0e997c7676c494b25b78824fc1d45d35550c4832",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Alien",
+     "Expression": "Bored",
+     "Suit": "Mustard Trim",
+     "Skin": "Muted Sage",
+     "Eyes": "Three Eyes",
+     "Helmet Detail": "Mounted Antenna"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.73,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
   },
   "0241.jpg": {
    "sha256": "9ed7f8f7ab6247387494b30d62ad92f4a0660ce717968511263af67d161ed57c",
@@ -958,9 +1071,89 @@
    "sha256": "24c277b10df64f10f4a7bde6db95eb78c20e07e79a74cd72910c3767108dfbfd",
    "bytes": 502470
   },
+  "0243.jpg": {
+   "sha256": "4f300af57097cab12b496795ec0c76136e75d53d349577b3a543a33105e04178",
+   "bytes": 737589,
+   "provenance": {
+    "id": 243,
+    "tier": "Uncommon",
+    "image": "0243.jpg",
+    "sourceName": "exec-9733060c-1f1b-4853-8d16-3d3bf3f2d79b.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "4a81a5b3e43a622ed45b5759f36504d4f312cd510bcb470c2960e53146ac08f4",
+    "candidateSha256": "4f300af57097cab12b496795ec0c76136e75d53d349577b3a543a33105e04178",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Expression": "Side-Eye",
+     "Suit": "Cobalt",
+     "Hair": "Gray Curls",
+     "Suit Detail": "Shoulder Repair"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7036,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0244.jpg": {
    "sha256": "0f07a69c3592b26f3303917b6900dc029e333e5afcc735c76966f1f01d8aeb4a",
    "bytes": 450561
+  },
+  "0245.jpg": {
+   "sha256": "90a45da9d93d8f8ac428195154221ba2c36e46b541c8a99102243ddcaeb74ebc",
+   "bytes": 839607,
+   "provenance": {
+    "id": 245,
+    "tier": "Uncommon",
+    "image": "0245.jpg",
+    "sourceName": "exec-654fd9b8-d733-43e5-885c-a42e51da23fa.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "40cbc3c17c46a7d8c94197728d8d07b8087190467cb285e4052b641ed50b12cb",
+    "candidateSha256": "90a45da9d93d8f8ac428195154221ba2c36e46b541c8a99102243ddcaeb74ebc",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Dog",
+     "Expression": "Grumpy",
+     "Suit": "Mustard",
+     "Breed": "Pug",
+     "Suit Detail": "Oxygen Gauge"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7309,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
   },
   "0246.jpg": {
    "sha256": "d102574e587530ff50d52b1ab30a21635c9990a07e4b8fd323c5d9775be0362d",
@@ -994,6 +1187,47 @@
    "sha256": "5a8d7b77018c6846f1f5040c0261936d130f8c4c3429f59d0b2a2bf19a11b4b7",
    "bytes": 476325
   },
+  "0254.jpg": {
+   "sha256": "fec8b913c0f5beaf130280b70d3611d4e5b3c4a0139a5e79ae388408d490c57e",
+   "bytes": 791564,
+   "provenance": {
+    "id": 254,
+    "tier": "Uncommon",
+    "image": "0254.jpg",
+    "sourceName": "exec-ec457caa-801e-4d70-be1d-8d7a32759d90.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "8c8ca1905ebb5d21bc9d05685e107509a25710a3db85a6da241ebe44d51a5e8e",
+    "candidateSha256": "fec8b913c0f5beaf130280b70d3611d4e5b3c4a0139a5e79ae388408d490c57e",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Robot",
+     "Expression": "Bored",
+     "Suit": "Oxblood",
+     "Face Material": "Patinated Steel",
+     "Mouth Detail": "Speaker Grille",
+     "Helmet Detail": "Gear Earpiece"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7196,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
   "0255.jpg": {
    "sha256": "e8002d61ea55186bcd1914f7306fd032fd7bfc3fa63c412903d92e768b52b7e1",
    "bytes": 503827
@@ -1009,6 +1243,46 @@
   "0258.jpg": {
    "sha256": "fae3c4778ea5e2fd99d9a8ffc073ae212076b5f99b27cc7b79bfa12220813b2b",
    "bytes": 400966
+  },
+  "0259.jpg": {
+   "sha256": "412103b9fec047886a8af83f335aec1a7cfb42b9a964ec87b050c403daa28ec0",
+   "bytes": 771528,
+   "provenance": {
+    "id": 259,
+    "tier": "Uncommon",
+    "image": "0259.jpg",
+    "sourceName": "exec-1bc30470-8130-4cb2-bfaf-a775a407d758.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "2310fd98baef74f53ae9d91fd1e8c84dc9af0aa7d94a0269a92e6571f17694b5",
+    "candidateSha256": "412103b9fec047886a8af83f335aec1a7cfb42b9a964ec87b050c403daa28ec0",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Cream and Green",
+     "Hair": "White Lock",
+     "Helmet Detail": "Amber Roof Goggles",
+     "Neck": "Boom Mic"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6936,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
   },
   "0260.jpg": {
    "sha256": "fa51ec7a73bab0debf638b979d3e49820627869f5bcf501fe4345ec3a911a070",
@@ -1046,6 +1320,45 @@
    "sha256": "e33872984bde02130b2b2c20b0db27e9017612e6ed56e83647dd9ea732911c1e",
    "bytes": 545663
   },
+  "0269.jpg": {
+   "sha256": "1c465f1d420e99ff066d5f823e4f877e835f9dec7e8af17346173f48cedcbec6",
+   "bytes": 801205,
+   "provenance": {
+    "id": 269,
+    "tier": "Uncommon",
+    "image": "0269.jpg",
+    "sourceName": "exec-deb38a38-4549-4e4b-b4b6-66aabc0dd82c.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "a2ab74ce63acf4f823c95a809c71a3b260fdd615e9ee1bd1cfafe11a35d8531d",
+    "candidateSha256": "1c465f1d420e99ff066d5f823e4f877e835f9dec7e8af17346173f48cedcbec6",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Weathered Teal",
+     "Hair": "Auburn Fringe",
+     "Suit Detail": "Floral Patch"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7256,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0270.jpg": {
    "sha256": "25902ba6fa452bde04253221709a7a746ab1c0664fe19052a5e0331c98f7325a",
    "bytes": 507802
@@ -1053,6 +1366,46 @@
   "0271.jpg": {
    "sha256": "02432f55e06563f37b4f2ca194d23f21e8441d38f488516e14aacf2ee73cc9a6",
    "bytes": 483117
+  },
+  "0272.jpg": {
+   "sha256": "b52dd87c5ac27ec37107adb7c605262461caf2fb392ae057a33035ee252582b2",
+   "bytes": 736250,
+   "provenance": {
+    "id": 272,
+    "tier": "Uncommon",
+    "image": "0272.jpg",
+    "sourceName": "exec-2924e58d-9063-4617-a829-8c4e25dd53f2.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "7e3c4f5652eff94e9512b25987b0b1e46702078cfe564d1e2d49dd00a162ed20",
+    "candidateSha256": "b52dd87c5ac27ec37107adb7c605262461caf2fb392ae057a33035ee252582b2",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Male",
+     "Suit": "Olive Canvas",
+     "Visor Accessory": "Wire Glasses",
+     "Facial Hair": "Heavy Mustache",
+     "Suit Detail": "Medical Patch"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7008,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
   },
   "0273.jpg": {
    "sha256": "653d6818d8037a9979ccae3c3d7a66513103900e0b49a697c924b5a0ac14e5ff",
@@ -1066,6 +1419,85 @@
    "sha256": "673adb37d6bebd8ba1f26229897096c2615b45f7de66d496949a6e70b418f6e3",
    "bytes": 352445
   },
+  "0276.jpg": {
+   "sha256": "d69cb897b35233c8bc7d8d6d2305055624af92dc3ecafbb5f37861be14e0e534",
+   "bytes": 775645,
+   "provenance": {
+    "id": 276,
+    "tier": "Uncommon",
+    "image": "0276.jpg",
+    "sourceName": "exec-8fcb5b63-9d44-4800-9426-39a7af0ca5bb.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "5423bb2e2715db0be4d6245214072477b7cb3a07806e944986e3cacbf87325b9",
+    "candidateSha256": "d69cb897b35233c8bc7d8d6d2305055624af92dc3ecafbb5f37861be14e0e534",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Dog",
+     "Breed": "Corgi",
+     "Suit": "Muted Plum",
+     "Neck": "Breathing Hose"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7284,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.24
+   }
+  },
+  "0277.jpg": {
+   "sha256": "14d516ce4c6c2faefea336603d0829ec343bae5d9d185e44a9735cca1fa9cca2",
+   "bytes": 764718,
+   "provenance": {
+    "id": 277,
+    "tier": "Uncommon",
+    "image": "0277.jpg",
+    "sourceName": "exec-72ace8ee-547f-4e48-b8d3-62e28f0ec80b.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "335c95a8031e20aa66c814a6fd5c6a7fd94b7a049761a7ce37e6a3e9a8d5de3b",
+    "candidateSha256": "14d516ce4c6c2faefea336603d0829ec343bae5d9d185e44a9735cca1fa9cca2",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Alien",
+     "Skin": "Mottled Lilac",
+     "Face Detail": "Side Gills",
+     "Suit": "Sand Canvas",
+     "Helmet Detail": "Olive Shell"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6977,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0278.jpg": {
    "sha256": "db6d18caec828ef0c66afca26e5ee818f9f0c0d5a3368ab42937a0bc1bf5b916",
    "bytes": 502651
@@ -1074,9 +1506,124 @@
    "sha256": "b54728eae9c1585fdb7292c6f730887929a20f153f78539fd120742c6f1e9907",
    "bytes": 435445
   },
+  "0280.jpg": {
+   "sha256": "d9bdfe9b78e5f7a8d3da1e2d90831821694d6e7dedfdc93180fb8ac33c758fcc",
+   "bytes": 736156,
+   "provenance": {
+    "id": 280,
+    "tier": "Uncommon",
+    "image": "0280.jpg",
+    "sourceName": "exec-eed969b0-8d72-4143-802b-9e5d732de98d.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "51353903899e8a275c87446401a24f62cebfbec85cc46b6569dd6b1e33ccd19a",
+    "candidateSha256": "d9bdfe9b78e5f7a8d3da1e2d90831821694d6e7dedfdc93180fb8ac33c758fcc",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Terracotta Rescue",
+     "Hair": "Auburn Fringe",
+     "Face Mark": "Cheek Plaster"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.663,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
+  "0281.jpg": {
+   "sha256": "3ad8f5d17c3b0fc7b7aa1ef131a21eda1d6b37616a7b6732b94ef4d562cd02dc",
+   "bytes": 713987,
+   "provenance": {
+    "id": 281,
+    "tier": "Uncommon",
+    "image": "0281.jpg",
+    "sourceName": "exec-cbfa8a06-de5b-4214-b628-badbe6f17527.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "94236f489a7b09afaaa2f6258cc3dbbd3dc74560233f6dcc877b67568b7620ce",
+    "candidateSha256": "3ad8f5d17c3b0fc7b7aa1ef131a21eda1d6b37616a7b6732b94ef4d562cd02dc",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory Canvas",
+     "Hair": "Black Coils",
+     "Visor Accessory": "Brass Glasses",
+     "Face Mark": "Nose Bandage"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6633,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0282.jpg": {
    "sha256": "e3bc50733955514b0a2823835c359883a95d536f667263d7d150c4e0042cb32e",
    "bytes": 399927
+  },
+  "0284.jpg": {
+   "sha256": "5903629f6be269ddea687f03c0ba9040c931a4ff4dbdfab861f92883ab1820b2",
+   "bytes": 810938,
+   "provenance": {
+    "id": 284,
+    "tier": "Uncommon",
+    "image": "0284.jpg",
+    "sourceName": "exec-31824fe5-7706-4544-b180-ce15609652c4.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "9ea3c5f0ba44ef8c578499eb9b4930d37e88ab8fd19da41e94192559e581dd5a",
+    "candidateSha256": "5903629f6be269ddea687f03c0ba9040c931a4ff4dbdfab861f92883ab1820b2",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Robot",
+     "Face Material": "Ivory Ceramic",
+     "Suit": "Burgundy Canvas",
+     "Eyes": "Nested Mechanical Shutters",
+     "Suit Detail": "Twin Breathing Ports"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6758,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
   },
   "0285.jpg": {
    "sha256": "e3856fdd303a8eb8668e06d88da61a3d3d1bbcf801f42da44c73f5bbc0835720",
@@ -1330,6 +1877,43 @@
    "sha256": "3bffaca055a72affc89613bbcf8fb94b0678187793d2ba6c16aa772bc567f4aa",
    "bytes": 462273
   },
+  "0363.jpg": {
+   "sha256": "85da9c2b4cb5edf717b95164e424f0b422e4ddc58d2f222dc9229b9440083775",
+   "bytes": 700324,
+   "provenance": {
+    "id": 363,
+    "tier": "Common",
+    "image": "0363.jpg",
+    "sourceName": "exec-59236583-64d0-436d-bbad-39e26a443e72.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "921b6a6ed776ba07355ca747c53f90129aaa77be92219b64df1350d85fbd22c8",
+    "candidateSha256": "85da9c2b4cb5edf717b95164e424f0b422e4ddc58d2f222dc9229b9440083775",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Expression": "Side-Eye",
+     "Suit": "Canvas Mechanic",
+     "Hair": "Black Curl",
+     "Face Mark": "Freckles",
+     "Helmet Detail": "Raised Goggles"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6638,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.91
+   }
+  },
   "0364.jpg": {
    "sha256": "02160221af712f4ed68c08ccea9a0a5f3fe94a4fbe1f6d44d9ed89b80d42fced",
    "bytes": 363570
@@ -1341,6 +1925,124 @@
   "0368.jpg": {
    "sha256": "e0aaa12d311f8e9d5e8ea1d0bcc3142dc7b433e95df56bdc79cf3155f7e77f3c",
    "bytes": 423133
+  },
+  "0369.jpg": {
+   "sha256": "5001ef3d9af93d18d876ac4ff05108aff52837476f2c3f8238cbc90fda66cb98",
+   "bytes": 751920,
+   "provenance": {
+    "id": 369,
+    "tier": "Common",
+    "image": "0369.jpg",
+    "sourceName": "exec-7704ad51-13a7-4fda-a398-84bc414c3002.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "02539dd109de29b4ccb0d5cf27d58375f4dbf0721418b1d3974883f3b45758e2",
+    "candidateSha256": "5001ef3d9af93d18d876ac4ff05108aff52837476f2c3f8238cbc90fda66cb98",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Robot",
+     "Expression": "Deadpan",
+     "Suit": "Olive Canvas",
+     "Face Material": "Patinated Steel",
+     "Eyes": "Mechanical Shutters",
+     "Face Mark": "Chipped Cheek"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6639,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0370.jpg": {
+   "sha256": "10c3b9a4417027183594bbd4f778a79f9bdb68f7977a14d452e2b1385210a7d1",
+   "bytes": 789770,
+   "provenance": {
+    "id": 370,
+    "tier": "Common",
+    "image": "0370.jpg",
+    "sourceName": "exec-801c6225-7b75-40ec-876c-cedee61ccae2.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "b560e8f3fb35d456bb6e6ae37fe95a279508bb9cd241f09ea31bbd49a49f1d5a",
+    "candidateSha256": "10c3b9a4417027183594bbd4f778a79f9bdb68f7977a14d452e2b1385210a7d1",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Cat",
+     "Expression": "Unimpressed",
+     "Suit": "Navy Canvas",
+     "Coat": "Tuxedo",
+     "Suit Detail": "Planet Patch"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7051,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0371.jpg": {
+   "sha256": "33f3159f31c5bba295bdd8ec2c8885d627cbf4fd99b824b757a9c59c2285c404",
+   "bytes": 825667,
+   "provenance": {
+    "id": 371,
+    "tier": "Common",
+    "image": "0371.jpg",
+    "sourceName": "exec-7dc88b03-e928-45d1-8352-43c6c690d0b5.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "df4dfa2b797651902bb0ee6f7ed1e8d1f3b04eef54840906fd502ccc846fc683",
+    "candidateSha256": "33f3159f31c5bba295bdd8ec2c8885d627cbf4fd99b824b757a9c59c2285c404",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Male",
+     "Expression": "Sleepy",
+     "Suit": "Dark Slate",
+     "Skin": "Brown",
+     "Facial Hair": "Short Beard",
+     "Suit Detail": "Harness"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7356,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
   },
   "0372.jpg": {
    "sha256": "6bdd15552e526a6449ee1547d0e5d271c92b78dd2cad61b9fd2d39d0af8c2f8c",
@@ -1358,6 +2060,417 @@
    "sha256": "188a38da41fca0b5de708b6580db4355f2c254c9c5d258e60c8e5332d989ed15",
    "bytes": 428499
   },
+  "0378.jpg": {
+   "sha256": "b3a8e048be87dc38b25d2c7ac76f13456f18876a9c233c66709bdf8f3dd0958f",
+   "bytes": 737548,
+   "provenance": {
+    "id": 378,
+    "tier": "Common",
+    "image": "0378.jpg",
+    "sourceName": "exec-59e3ec2f-b540-43ef-bf62-5b06e53913b2.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "d7dd2f0fbdae0a0141dbf547f2827c265046df8276ad4313776739c933b04a75",
+    "candidateSha256": "b3a8e048be87dc38b25d2c7ac76f13456f18876a9c233c66709bdf8f3dd0958f",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Expression": "Bored",
+     "Suit": "Plum Canvas",
+     "Hair": "Blunt Fringe",
+     "Face Mark": "Cheek Bandage",
+     "Suit Detail": "Medical Patch"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6979,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
+  "0379.jpg": {
+   "sha256": "c86b040f29ac9a1c191a72a15b60d9e986e1eaea67c33f67c4b1e9408967b964",
+   "bytes": 804967,
+   "provenance": {
+    "id": 379,
+    "tier": "Common",
+    "image": "0379.jpg",
+    "sourceName": "exec-8964604d-a890-4e1b-b718-71b0474d61a9.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "f81293b28530fb935ebb953116d56f631e019d906587afd00edf89e029267671",
+    "candidateSha256": "c86b040f29ac9a1c191a72a15b60d9e986e1eaea67c33f67c4b1e9408967b964",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Cream Canvas",
+     "Hair": "Sandy Waves",
+     "Helmet Detail": "Maroon Shell"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7232,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
+  "0381.jpg": {
+   "sha256": "46ff78801bd90eed2edf74a41208342253503d6672b4c82bd43fc2ecaed1a90e",
+   "bytes": 697839,
+   "provenance": {
+    "id": 381,
+    "tier": "Common",
+    "image": "0381.jpg",
+    "sourceName": "exec-81946e79-1d4c-42bd-a437-ba3e79bca636.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "ad83b8ed3c0aa0c4892e46f76df71574cf7d373f53ceac73cdca2ee0e1557a47",
+    "candidateSha256": "46ff78801bd90eed2edf74a41208342253503d6672b4c82bd43fc2ecaed1a90e",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Cobalt",
+     "Hair": "Black Curly Fringe",
+     "Expression": "Side-Eye"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6932,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
+  "0382.jpg": {
+   "sha256": "352f2a88a7c0adc3fca1791749ceb778784e35f05a0bb8405eced287c534c9a4",
+   "bytes": 679276,
+   "provenance": {
+    "id": 382,
+    "tier": "Common",
+    "image": "0382.jpg",
+    "sourceName": "exec-c88f2977-e949-4e27-91fb-b0a67fe8fc21.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "87988ae6574b68be59478a1ade811b017b144a97f2d5ffee97460a0f8acb8cac",
+    "candidateSha256": "352f2a88a7c0adc3fca1791749ceb778784e35f05a0bb8405eced287c534c9a4",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory and Sky Blue",
+     "Hair": "Dark Blunt Fringe",
+     "Face Mark": "Windburn"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6988,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0383.jpg": {
+   "sha256": "18f1a6202514fb022636a862a7b8b6ccbf926f47801266d913ec59fd53203353",
+   "bytes": 737422,
+   "provenance": {
+    "id": 383,
+    "tier": "Common",
+    "image": "0383.jpg",
+    "sourceName": "exec-83ba9c6d-d7af-403f-b5f5-251b6aa262d5.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "2b458aa11310e29854f00306451abc96f285f03a1d1d9b0dc716b9316ca07608",
+    "candidateSha256": "18f1a6202514fb022636a862a7b8b6ccbf926f47801266d913ec59fd53203353",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Faded Olive",
+     "Hair": "Gray Crop",
+     "Helmet Detail": "Jaw Mic"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6861,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.24
+   }
+  },
+  "0384.jpg": {
+   "sha256": "44c3ad63908db32c7ca4e21185d8ba7ebafe83980f0ad07e8af33b8445ce1617",
+   "bytes": 774305,
+   "provenance": {
+    "id": 384,
+    "tier": "Common",
+    "image": "0384.jpg",
+    "sourceName": "exec-c71b9446-ad76-4278-a2d8-e3008ab4afb7.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "82e461e3aa9049273646c60db6df85cf9452c7176b16a844174a7eab4bbc3fa1",
+    "candidateSha256": "44c3ad63908db32c7ca4e21185d8ba7ebafe83980f0ad07e8af33b8445ce1617",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Male",
+     "Suit": "Cream Canvas",
+     "Visor": "Raised Welding Lens",
+     "Suit Detail": "Steel Harness"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.704,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
+  "0385.jpg": {
+   "sha256": "69147b0a0c42d16b27bb0f1b2abd1d24c1e980ae9d31c13c6963adad53757816",
+   "bytes": 837901,
+   "provenance": {
+    "id": 385,
+    "tier": "Common",
+    "image": "0385.jpg",
+    "sourceName": "exec-515bb8a4-f2a9-45ac-a024-3a4b2a1d1ecf.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "a71fa6360de56157a39fdf001d6711df6c70711c4d37a01bbde2b5802ff5a97a",
+    "candidateSha256": "69147b0a0c42d16b27bb0f1b2abd1d24c1e980ae9d31c13c6963adad53757816",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Cat",
+     "Coat": "Orange Tabby",
+     "Suit": "Dark Turquoise",
+     "Suit Detail": "Articulated Shoulders"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6985,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
+  "0386.jpg": {
+   "sha256": "d90f5a82c2e699a1f8c0db0c6edd47adc9f9bd47017eae711bf59f87d3a89c61",
+   "bytes": 701776,
+   "provenance": {
+    "id": 386,
+    "tier": "Common",
+    "image": "0386.jpg",
+    "sourceName": "exec-ce2d664e-cee5-44a1-83bd-0ba035372624.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "0c65de0503b07a386b4b337c65bfc86818ccc4dd4995f166fbdfd741276bda8a",
+    "candidateSha256": "d90f5a82c2e699a1f8c0db0c6edd47adc9f9bd47017eae711bf59f87d3a89c61",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Baby",
+     "Suit": "Ivory and Slate",
+     "Hair": "Two Curls",
+     "Suit Detail": "Toy Star"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.7055,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
+  "0387.jpg": {
+   "sha256": "e78dd1e6d62253e92d423cf45a3b105ae2a045496761c94a2a2d7b40b104cc14",
+   "bytes": 819907,
+   "provenance": {
+    "id": 387,
+    "tier": "Common",
+    "image": "0387.jpg",
+    "sourceName": "exec-1718ae23-91d9-429a-88ce-bfae4c953a4f.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "f2f9d3307563a4ca5c3d7611125d898fa82f6d2b28a10bcefe2c9e3bedbebae2",
+    "candidateSha256": "e78dd1e6d62253e92d423cf45a3b105ae2a045496761c94a2a2d7b40b104cc14",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Taupe",
+     "Hair": "Red Ringlets",
+     "Face Mark": "Teardrop Scar"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6703,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0388.jpg": {
+   "sha256": "9f93846569f3f42b7289a6f3b79f32ad02e76788d8e7d9faf968ab41b83f9eab",
+   "bytes": 718784,
+   "provenance": {
+    "id": 388,
+    "tier": "Common",
+    "image": "0388.jpg",
+    "sourceName": "exec-79ea815f-c164-41a4-b6d7-395468601a50.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "f77b9e59531e5067dde24f84aa260d697c54ec874cd19fcb1a3e544fa9ba6d1f",
+    "candidateSha256": "9f93846569f3f42b7289a6f3b79f32ad02e76788d8e7d9faf968ab41b83f9eab",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Plum Canvas",
+     "Hair": "Black Braids",
+     "Suit Detail": "Field Radio"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6678,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.0
+   }
+  },
+  "0389.jpg": {
+   "sha256": "92d25ee081e63ac9dba1e693ae2551b15ee1760ee9296021430c5e13c6595230",
+   "bytes": 824385,
+   "provenance": {
+    "id": 389,
+    "tier": "Common",
+    "image": "0389.jpg",
+    "sourceName": "exec-8ec41140-05cd-454f-b1f4-ede1f76326fc.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "187e339525340c0fff97374ebe89ff116d995074d5c119bbc9655ad44c58b3a3",
+    "candidateSha256": "92d25ee081e63ac9dba1e693ae2551b15ee1760ee9296021430c5e13c6595230",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Faded Peach",
+     "Hair": "Gray Wisps",
+     "Helmet Detail": "Notched Ivory Shell"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6812,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
   "0390.jpg": {
    "sha256": "f4ebf61cc9f904a6a59fe3ae2985bd0ec1ab4aaf50ccb1ec1359b38b40d6e6bf",
    "bytes": 442746
@@ -1366,9 +2479,318 @@
    "sha256": "2896a3f27d81f49d38f9d4d5145c3ffad559b072b1110ae0c0a7af993a370b5b",
    "bytes": 413036
   },
+  "0397.jpg": {
+   "sha256": "c52f5a8ce214a1a3a5a41f32aad6215853b7666249e567d845ea74241d3b2c30",
+   "bytes": 841472,
+   "provenance": {
+    "id": 397,
+    "tier": "Common",
+    "image": "0397.jpg",
+    "sourceName": "exec-932d4594-a449-481d-88bb-e20c678cebda.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "98a110b345fb671c2f62fa81c1b8c95d3410ef5a2f422028f5253a3ffbca62ee",
+    "candidateSha256": "c52f5a8ce214a1a3a5a41f32aad6215853b7666249e567d845ea74241d3b2c30",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ochre Canvas",
+     "Hair": "Black Waves",
+     "Helmet Detail": "Moss Shell"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6769,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0398.jpg": {
+   "sha256": "72f5589dd6b6c3555a8ca7f83b148e942f9cc712054e78b06ccbf462e105eaeb",
+   "bytes": 789331,
+   "provenance": {
+    "id": 398,
+    "tier": "Common",
+    "image": "0398.jpg",
+    "sourceName": "exec-00f91516-e94e-40b3-87d6-44d3a7b55f11.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "fbd35ff0b675f02062648d35749f251f50c0615f63be6586e7e15c220dbae50b",
+    "candidateSha256": "72f5589dd6b6c3555a8ca7f83b148e942f9cc712054e78b06ccbf462e105eaeb",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Faded Khaki",
+     "Hair": "Silver Chestnut Bob",
+     "Neck": "Collar Lamp"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.671,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.0
+   }
+  },
+  "0399.jpg": {
+   "sha256": "aefd10163c092d83db8e6671b2e47162b366e19f09f61db95c66a99ad0a4ee0b",
+   "bytes": 762852,
+   "provenance": {
+    "id": 399,
+    "tier": "Common",
+    "image": "0399.jpg",
+    "sourceName": "exec-0479e945-1528-4d4e-ad9e-b7b9bed33878.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "1f1f15e221dd42183eb5399ea0457de2f2918ee19858dea9196311d605f4c7b2",
+    "candidateSha256": "aefd10163c092d83db8e6671b2e47162b366e19f09f61db95c66a99ad0a4ee0b",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Olive and Slate",
+     "Hair": "Dark Curls",
+     "Face Mark": "Freckles"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6652,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0401.jpg": {
+   "sha256": "3cea01e480ed4a98f1dbee87a3cbe329be4e1e129317780ebf195634690ac7bc",
+   "bytes": 760983,
+   "provenance": {
+    "id": 401,
+    "tier": "Common",
+    "image": "0401.jpg",
+    "sourceName": "exec-9e605bc3-aff4-4b75-97bf-3bd1b9ee6ddc.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "741ab9e5a98f2ff9195482f038dd41aa6dc64b3d1c88376be418d105cd2185a9",
+    "candidateSha256": "3cea01e480ed4a98f1dbee87a3cbe329be4e1e129317780ebf195634690ac7bc",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Male",
+     "Suit": "Ivory",
+     "Facial Hair": "Gray Mustache",
+     "Face Mark": "Cheek Bandage"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6858,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
   "0402.jpg": {
    "sha256": "16972f4d2c833aa36eec7b759f98ba1db0d78561e396fbf03da6304f727b3a59",
    "bytes": 456968
+  },
+  "0403.jpg": {
+   "sha256": "67bc318e53723080230e50cc569d8fad65a055f28aaab290094b91eb46c4b929",
+   "bytes": 781857,
+   "provenance": {
+    "id": 403,
+    "tier": "Common",
+    "image": "0403.jpg",
+    "sourceName": "exec-d31dfa6e-4788-4190-83ef-c5100174f97f.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "d01bc6276a2a8dff50d4a52907175e88652a01f3bdc1b2bd100c289c5a969045",
+    "candidateSha256": "67bc318e53723080230e50cc569d8fad65a055f28aaab290094b91eb46c4b929",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 7,
+      "sha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Male",
+     "Suit": "Olive Canvas",
+     "Facial Hair": "Goatee",
+     "Suit Detail": "Medical Patch"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6721,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
+  "0404.jpg": {
+   "sha256": "351e77718256237b07a023ec72235afecd26e0e4b0d52b16e8b9ff27eab25cab",
+   "bytes": 856277,
+   "provenance": {
+    "id": 404,
+    "tier": "Common",
+    "image": "0404.jpg",
+    "sourceName": "exec-b21ef6e6-cd96-4830-9b1e-aaf1e0f825f7.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "ae145ebc3d1df051fde64631b6ad6daf79aaf8e7dfe391571f005b241179f0d1",
+    "candidateSha256": "351e77718256237b07a023ec72235afecd26e0e4b0d52b16e8b9ff27eab25cab",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Dog",
+     "Breed": "Bull Terrier",
+     "Suit": "Olive Canvas",
+     "Coat": "White with Dark Ear"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6663,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0405.jpg": {
+   "sha256": "04706c463cce1aa3564444fd7e6077ca989783c29dbaf41ffbf9477455bb6e43",
+   "bytes": 881632,
+   "provenance": {
+    "id": 405,
+    "tier": "Common",
+    "image": "0405.jpg",
+    "sourceName": "exec-ac40f280-af0f-41d0-b4ed-7fd29d133b6a.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "52ed43d355d17e7e542c355ff5b8094872f903d3cb3e994aecf790458c328c9d",
+    "candidateSha256": "04706c463cce1aa3564444fd7e6077ca989783c29dbaf41ffbf9477455bb6e43",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Cat",
+     "Coat": "Smoky Brown",
+     "Suit": "Cream Canvas",
+     "Neck": "Maroon Gasket"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6904,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0407.jpg": {
+   "sha256": "2b8310643904f332b56fb638fb3d8ab3f4fed0153be92685d84da8947b6eb3d1",
+   "bytes": 753221,
+   "provenance": {
+    "id": 407,
+    "tier": "Common",
+    "image": "0407.jpg",
+    "sourceName": "exec-4b3a6ff6-0595-41f3-8b85-93962ac37afc.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "92e055e4fbe75f6bb8b61a594b600a27b316eb7ff0f2fdac7f9a39e9d7b881b7",
+    "candidateSha256": "2b8310643904f332b56fb638fb3d8ab3f4fed0153be92685d84da8947b6eb3d1",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Alien",
+     "Skin": "Blue Gray",
+     "Face Mark": "Rust Freckles",
+     "Face Detail": "Small Tusks",
+     "Suit": "Ivory and Slate"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6672,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
   },
   "0433.jpg": {
    "sha256": "4496a0d0a1be94571d6bdc1fdf7f8afc9bb6ffc83befb82adbff59786151ca05",

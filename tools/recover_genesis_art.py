@@ -17,7 +17,9 @@ def main():
             parser.error(f'Source directory does not exist: {source}')
 
     root = Path(__file__).resolve().parents[1]
-    manifest = json.loads((root / 'art-manifest.json').read_text())['files']
+    historical = root / 'launch-kit' / 'historical-art-manifest-v7.json'
+    manifest_path = historical if historical.is_file() else root / 'art-manifest.json'
+    manifest = json.loads(manifest_path.read_text())['files']
     pinned_names = {(row['bytes'], row['sha256']): name for name, row in manifest.items()}
     valid_sizes = {size for size, _ in pinned_names}
     art = root / 'art'
