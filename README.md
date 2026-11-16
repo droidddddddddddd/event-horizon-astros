@@ -28,7 +28,7 @@ Requires Node >=20; Python 3 with Pillow/numpy for audit tools; Playwright + Chr
 The hero shows a **different approved Legendary/Epic/Rare Astro on every load** (161 in the pool: 20 Legendary, 60 Epic, 81 Rare; never the same one twice in a row per browser session) in front of the black-hole scene. Real approved art only: `tools/make_hero_cutouts.py` removes the flat backdrop (soft alpha + colour un-mixing, no regeneration) into `assets/hero/<id>-768.webp` / `-384.webp`; `tools/build_hero_pool.py` writes `js/hero.js` from `tools/hero.template.js` (edit `tools/hero_exclude.json` to drop a token). No-JS fallback and `og.jpg` use Astro #1 "The Original". Public origin for canonical/OG/twitter/sitemap lives in `site.config.json` (`siteUrl`; `SITE_URL` env overrides at build).
 
 ## Economics (preserved exactly, asserted by tests)
-1,000 NFTs: 550 Common / 250 Uncommon / 120 Rare / 60 Epic / 20 Legendary (incl. five 1/1s). 200 early crew @ 0.025 SOL (allowlist, 1 per wallet), 780 public @ 0.05 SOL (2 per wallet), 20 reserve. 2.5% royalty. Simultaneous Pump.fun launch, 1B supply, $ASTRO.
+1,000 NFTs: 550 Common / 250 Uncommon / 120 Rare / 60 Epic / 20 Legendary (incl. five 1/1s). 200 early crew @ 0.15 SOL (allowlist, 1 per wallet), 780 public @ 0.25 SOL (2 per wallet), 20 reserve. 2.5% royalty. Simultaneous Pump.fun launch, 1B supply, $ASTRO.
 
 ## Honest status
 | Area | State |
