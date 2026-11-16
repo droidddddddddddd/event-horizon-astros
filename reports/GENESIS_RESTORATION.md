@@ -7,7 +7,7 @@ reviewed portraits and records their native source dimensions, reference IDs
 and hashes, reconstructed backdrop hash, and delivered JPEG hash. The five
 verified source JPEGs are preserved separately from their orange derivatives.
 
-The 49 additions use existing pending IDs and their assigned Common,
+The 55 additions use existing pending IDs and their assigned Common,
 Uncommon, or Rare tier. Each is a separate native square generation, normalized to
 the same background, checked against the legacy portraits and adjacent batches
 for exact and perceptual duplicates, and reviewed visually for framing,

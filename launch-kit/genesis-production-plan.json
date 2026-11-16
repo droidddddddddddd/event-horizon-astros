@@ -1,8 +1,8 @@
 {
   "status": "Gallery-source restorations and new artwork in production",
   "supply": 1000,
-  "approved": 475,
-  "pending": 525,
+  "approved": 481,
+  "pending": 519,
   "existingCharacterTypes": "unclassified; visually audit before assigning",
   "targetCharacterTypes": {
     "Male": 540,
@@ -23,7 +23,7 @@
   "pendingByTier": {
     "Uncommon": 179,
     "Common": 319,
-    "Rare": 27
+    "Rare": 21
   },
   "protectedIds": [
     1,
@@ -2183,13 +2183,6 @@
       "review": "required"
     },
     {
-      "id": 761,
-      "tier": "Rare",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
       "id": 763,
       "tier": "Common",
       "characterType": null,
@@ -2227,13 +2220,6 @@
     {
       "id": 768,
       "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 769,
-      "tier": "Rare",
       "characterType": null,
       "status": "pending",
       "review": "required"
@@ -2344,13 +2330,6 @@
       "review": "required"
     },
     {
-      "id": 786,
-      "tier": "Rare",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
       "id": 787,
       "tier": "Uncommon",
       "characterType": null,
@@ -2395,13 +2374,6 @@
     {
       "id": 794,
       "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 795,
-      "tier": "Rare",
       "characterType": null,
       "status": "pending",
       "review": "required"
@@ -2505,13 +2477,6 @@
       "review": "required"
     },
     {
-      "id": 810,
-      "tier": "Rare",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
       "id": 811,
       "tier": "Common",
       "characterType": null,
@@ -2584,13 +2549,6 @@
     {
       "id": 824,
       "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 825,
-      "tier": "Rare",
       "characterType": null,
       "status": "pending",
       "review": "required"
@@ -3717,7 +3675,7 @@
     "galleryPreviewCount": 426,
     "exactMastersRecovered": 5,
     "exactMastersMissing": 421,
-    "newArtApproved": 49,
+    "newArtApproved": 55,
     "canonicalBackgroundMasterRecovered": false,
     "backgroundReconstructed": true,
     "legacyRestorationCandidates": 426,

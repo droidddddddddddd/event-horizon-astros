@@ -58252,66 +58252,34 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sky"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Deep"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Smirk"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Glow Rim Orange"
+    "trait_type": "Character Type",
+    "value": "Robot"
    },
    {
     "trait_type": "Suit",
-    "value": "Rose Gold"
+    "value": "Dark Alloy"
    },
    {
-    "trait_type": "Mouth Item",
-    "value": "Lollipop"
+    "trait_type": "Face Material",
+    "value": "Bronze Plate"
    },
    {
-    "trait_type": "Neck",
-    "value": "Scarf"
+    "trait_type": "Eyes",
+    "value": "Oval Shutters"
    },
    {
-    "trait_type": "Headgear",
-    "value": "Antenna"
+    "trait_type": "Visor",
+    "value": "Jade Edge"
    },
    {
-    "trait_type": "Effect",
-    "value": "Sparks"
-   },
-   {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
+    "trait_type": "Face Detail",
+    "value": "Voice Diaphragm"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -58884,66 +58852,30 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sky"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Mint"
+    "trait_type": "Character Type",
+    "value": "Dog"
    },
    {
-    "trait_type": "Expression",
-    "value": "Deadpan"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Glow Rim Green"
+    "trait_type": "Breed",
+    "value": "Saint Bernard"
    },
    {
     "trait_type": "Suit",
-    "value": "Steel Blue"
+    "value": "Ivory with Copper Shell"
    },
    {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Scarf"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Comms Dish"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "Rim Light"
-   },
-   {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
+    "trait_type": "Coat",
+    "value": "Split Brown and White"
    },
    {
     "trait_type": "Suit Detail",
-    "value": "None"
+    "value": "Shoulder Dish"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -60227,66 +60159,30 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sky"
+    "value": "Astro Orange"
+   },
+   {
+    "trait_type": "Character Type",
+    "value": "Alien"
    },
    {
     "trait_type": "Skin",
-    "value": "Deep"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Cocky Grin"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Glow Rim Pink"
-   },
-   {
-    "trait_type": "Suit",
-    "value": "Copper"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Scarf"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Comms Dish"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "Sparks"
-   },
-   {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
+    "value": "Gray Blue"
    },
    {
     "trait_type": "Face Mark",
-    "value": "None"
+    "value": "Pale Speckles"
+   },
+   {
+    "trait_type": "Face Detail",
+    "value": "Slotted Nostrils"
    },
    {
     "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
+    "value": "Deep Teal Visor Shell"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -60938,66 +60834,30 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sky"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Mint"
+    "trait_type": "Character Type",
+    "value": "Dog"
    },
    {
-    "trait_type": "Expression",
-    "value": "Bored"
+    "trait_type": "Breed",
+    "value": "Spaniel"
    },
    {
-    "trait_type": "Eyes",
-    "value": "Glowing Cyan"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Glow Rim Green"
+    "trait_type": "Coat",
+    "value": "Liver Spotted"
    },
    {
     "trait_type": "Suit",
-    "value": "Copper"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "Bubblegum"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Scarf"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "Rim Light"
-   },
-   {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
+    "value": "Blue Burnished Steel"
    },
    {
     "trait_type": "Suit Detail",
-    "value": "None"
+    "value": "Dark Chest Harness"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -62123,66 +61983,30 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sky"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Brown"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Deadpan"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Glowing Cyan"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Glow Rim Green"
+    "trait_type": "Character Type",
+    "value": "Baby"
    },
    {
     "trait_type": "Suit",
-    "value": "Cobalt"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Silver Chain"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Comms Dish"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "Sparks"
+    "value": "Quilted Star Blanket"
    },
    {
     "trait_type": "Hair",
-    "value": "None"
+    "value": "Short Black Wisps"
    },
    {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
+    "trait_type": "Neck",
+    "value": "Rose Gold Collar"
    },
    {
     "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
+    "value": "Boom Mic"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -63308,66 +63132,30 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sky"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Tan"
+    "trait_type": "Character Type",
+    "value": "Cat"
    },
    {
-    "trait_type": "Expression",
-    "value": "Smirk"
+    "trait_type": "Coat",
+    "value": "Dark Persian"
    },
    {
     "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Glow Rim Pink"
+    "value": "Pale Aqua"
    },
    {
     "trait_type": "Suit",
-    "value": "Titanium"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "Straw"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Gold Chain"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Headlamp"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "Rim Light"
-   },
-   {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
+    "value": "Bronze Alloy"
    },
    {
     "trait_type": "Suit Detail",
-    "value": "None"
+    "value": "Leather Bindings"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
