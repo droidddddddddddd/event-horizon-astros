@@ -21838,66 +21838,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mint"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Brown"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Tongue Out"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Hidden by shades"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Amber Goggles"
+    "trait_type": "Character Type",
+    "value": "Female"
    },
    {
     "trait_type": "Suit",
-    "value": "Mustard Trim"
+    "value": "Cobalt gasket"
    },
    {
-    "trait_type": "Hair",
-    "value": "Sideburns"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Headphones"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Black coils"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -22912,66 +22868,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mint"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Pale"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Cocky Grin"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Hidden by shades"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Mirror Shades Gold"
+    "trait_type": "Character Type",
+    "value": "Baby"
    },
    {
     "trait_type": "Suit",
-    "value": "Navy Trim"
+    "value": "Peach pressure suit"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Antenna"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "Planet Sticker"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Short dark hair"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -26151,66 +26063,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mint"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Ruddy"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Cocky Grin"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Hidden by shades"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Amber Goggles"
+    "trait_type": "Character Type",
+    "value": "Female"
    },
    {
     "trait_type": "Suit",
-    "value": "Orange Trim"
+    "value": "Purple pressure suit"
    },
    {
-    "trait_type": "Hair",
-    "value": "Sideburns"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "Mustache"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Bandana"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "Stitched Patches"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Blunt fringe and silver hoops"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -26388,66 +26256,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mint"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Deep"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Smirk"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Hidden by shades"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Mirror Shades Gold"
+    "trait_type": "Character Type",
+    "value": "Female"
    },
    {
     "trait_type": "Suit",
-    "value": "Mustard Trim"
+    "value": "Rust-red helmet"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "Freckles"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Scarf"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "Tape Patch"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "Oil Stains"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Brown waves and collar gauge"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -26467,66 +26291,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mint"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Peach"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Side-Eye"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Hidden by shades"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Mirror Shades Red"
+    "trait_type": "Character Type",
+    "value": "Cat"
    },
    {
     "trait_type": "Suit",
-    "value": "Red Trim"
+    "value": "Red pressure collar"
    },
    {
-    "trait_type": "Hair",
-    "value": "Sideburns"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "Straw"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Scarf"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Headlamp"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Dark pointed cat mask"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -26546,66 +26326,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mint"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Brown"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Unimpressed"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Female"
    },
    {
     "trait_type": "Suit",
-    "value": "Orange Trim"
+    "value": "Ivory pressure suit and red star patch"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "Straw"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Bandana"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Antenna"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Black waves and black hose"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -31038,66 +30774,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sage"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Ruddy"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Smug"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Female"
    },
    {
     "trait_type": "Suit",
-    "value": "Charcoal"
+    "value": "Ivory pressure suit"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "Nose Plaster"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "Stitched Patches"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Freckles and copper bob"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -31117,66 +30809,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Dusty Blue"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Golden"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Yawn"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Male"
    },
    {
     "trait_type": "Suit",
-    "value": "Classic White"
+    "value": "Ivory suit with green shoulder repair"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "Bruise"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Daisy"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Salt-and-pepper stubble"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -31196,66 +30844,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mauve"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Deep"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Deadpan"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Smoked Glass"
+    "trait_type": "Character Type",
+    "value": "Female"
    },
    {
     "trait_type": "Suit",
-    "value": "Sand"
+    "value": "Ivory suit with compass badge"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Daisy"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "Bolt Sticker"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Silver fringe"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -32697,66 +32301,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Dusty Blue"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Pale"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Grumpy"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Cat"
    },
    {
     "trait_type": "Suit",
-    "value": "Ash Grey"
+    "value": "Ivory suit"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "Eyebrow Scar"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Forehead Bandana"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "Tape Patch"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Gray shorthair cat"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -32934,66 +32494,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Stone"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Tan"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Chewing"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Baby"
    },
    {
     "trait_type": "Suit",
-    "value": "Sand"
+    "value": "Ivory suit"
    },
    {
-    "trait_type": "Hair",
-    "value": "Sideburns"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Mint quilted hood"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -33013,66 +32529,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sand"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Deep"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Bored"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Dog"
    },
    {
     "trait_type": "Suit",
-    "value": "Sand"
+    "value": "Slate-blue suit"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "Nose Plaster"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Daisy"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "Stitched Patches"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Black-and-tan Shiba markings"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -33092,66 +32564,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mauve"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Brown"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Smug"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Robot"
    },
    {
     "trait_type": "Suit",
-    "value": "Navy"
+    "value": "Weathered brass armor"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "Dent"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Shutter eyes and rectangular cheek plugs"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -33171,66 +32599,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Mauve"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Tan"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Unimpressed"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Male"
    },
    {
     "trait_type": "Suit",
-    "value": "Olive Drab"
+    "value": "Ivory suit with compass badge"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "Headphones"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "Antenna"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "Tape Patch"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "None"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Close gray beard"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
@@ -33645,66 +33029,22 @@
    },
    {
     "trait_type": "Backdrop",
-    "value": "Sage"
+    "value": "Astro Orange"
    },
    {
-    "trait_type": "Skin",
-    "value": "Tan"
-   },
-   {
-    "trait_type": "Expression",
-    "value": "Unimpressed"
-   },
-   {
-    "trait_type": "Eyes",
-    "value": "Normal"
-   },
-   {
-    "trait_type": "Visor",
-    "value": "Open"
+    "trait_type": "Character Type",
+    "value": "Baby"
    },
    {
     "trait_type": "Suit",
-    "value": "Dusty Blue"
+    "value": "Ivory suit with quilted yellow collar"
    },
    {
-    "trait_type": "Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Facial Hair",
-    "value": "None"
-   },
-   {
-    "trait_type": "Face Mark",
-    "value": "None"
-   },
-   {
-    "trait_type": "Mouth Item",
-    "value": "None"
-   },
-   {
-    "trait_type": "Neck",
-    "value": "None"
-   },
-   {
-    "trait_type": "Headgear",
-    "value": "None"
-   },
-   {
-    "trait_type": "Helmet Detail",
-    "value": "Star Sticker"
-   },
-   {
-    "trait_type": "Suit Detail",
-    "value": "Hazard Tape"
-   },
-   {
-    "trait_type": "Effect",
-    "value": "None"
+    "trait_type": "Signature Detail",
+    "value": "Blond curl"
    }
   ],
-  "art_status": "pending",
+  "art_status": "approved",
   "concept": ""
  },
  {
