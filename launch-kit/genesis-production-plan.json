@@ -1,0 +1,4055 @@
+{
+  "status": "working plan; no new art approved",
+  "supply": 1000,
+  "approved": 426,
+  "pending": 574,
+  "existingCharacterTypes": "unclassified; visually audit before assigning",
+  "targetCharacterTypes": {
+    "Male": 540,
+    "Female": 300,
+    "Baby": 50,
+    "Dog": 35,
+    "Cat": 35,
+    "Robot": 25,
+    "Alien": 15
+  },
+  "tierTargets": {
+    "Common": 550,
+    "Uncommon": 250,
+    "Rare": 120,
+    "Epic": 60,
+    "Legendary": 20
+  },
+  "pendingByTier": {
+    "Uncommon": 193,
+    "Common": 342,
+    "Rare": 39
+  },
+  "protectedIds": [
+    1,
+    7,
+    123,
+    196,
+    224
+  ],
+  "pendingTokens": [
+    {
+      "id": 236,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 239,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 240,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 243,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 245,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 254,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 259,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 269,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 272,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 276,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 277,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 280,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 281,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 283,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 284,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 297,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 301,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 324,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 333,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 335,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 337,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 338,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 341,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 342,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 343,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 345,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 349,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 352,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 354,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 356,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 363,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 366,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 367,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 369,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 370,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 371,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 375,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 376,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 378,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 379,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 380,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 381,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 382,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 383,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 384,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 385,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 386,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 387,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 388,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 389,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 391,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 392,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 393,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 394,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 395,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 397,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 398,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 399,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 400,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 401,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 403,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 404,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 405,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 406,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 407,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 408,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 409,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 410,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 411,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 412,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 413,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 414,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 415,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 416,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 417,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 418,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 419,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 420,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 421,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 422,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 423,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 424,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 425,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 426,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 427,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 428,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 429,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 430,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 431,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 432,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 435,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 436,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 437,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 438,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 439,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 440,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 443,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 444,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 445,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 447,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 448,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 449,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 451,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 453,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 454,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 455,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 457,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 459,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 460,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 463,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 464,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 465,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 466,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 467,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 468,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 469,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 470,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 471,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 474,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 475,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 476,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 477,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 478,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 481,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 482,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 483,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 484,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 485,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 486,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 487,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 488,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 489,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 490,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 492,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 493,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 495,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 500,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 501,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 502,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 504,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 505,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 506,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 507,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 508,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 509,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 511,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 512,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 513,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 514,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 517,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 519,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 520,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 521,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 522,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 523,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 524,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 525,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 526,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 527,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 529,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 530,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 531,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 532,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 533,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 534,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 535,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 536,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 537,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 538,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 539,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 540,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 541,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 544,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 545,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 546,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 548,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 549,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 553,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 554,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 555,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 557,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 558,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 559,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 560,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 562,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 563,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 565,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 568,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 569,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 570,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 571,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 572,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 573,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 574,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 575,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 576,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 577,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 578,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 579,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 581,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 582,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 583,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 585,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 586,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 587,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 588,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 589,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 590,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 591,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 592,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 594,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 595,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 598,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 599,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 600,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 601,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 602,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 603,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 604,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 605,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 606,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 607,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 608,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 609,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 610,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 611,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 612,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 613,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 614,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 615,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 616,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 617,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 618,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 619,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 620,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 621,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 622,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 623,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 624,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 627,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 628,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 631,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 632,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 633,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 634,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 635,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 636,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 637,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 638,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 639,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 640,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 641,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 642,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 643,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 644,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 645,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 646,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 647,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 649,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 650,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 651,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 652,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 653,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 654,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 656,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 657,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 658,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 659,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 661,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 662,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 663,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 664,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 665,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 666,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 669,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 670,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 671,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 674,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 675,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 678,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 679,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 680,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 681,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 682,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 683,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 685,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 687,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 688,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 689,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 690,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 691,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 692,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 693,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 694,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 695,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 696,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 698,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 699,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 700,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 701,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 702,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 703,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 704,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 705,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 706,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 707,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 708,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 709,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 710,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 711,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 712,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 713,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 714,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 716,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 717,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 718,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 719,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 720,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 721,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 722,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 723,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 724,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 725,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 726,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 727,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 728,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 729,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 731,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 732,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 733,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 734,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 735,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 736,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 737,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 738,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 739,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 740,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 741,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 742,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 743,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 744,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 745,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 746,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 747,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 748,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 749,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 750,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 751,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 752,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 753,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 754,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 755,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 756,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 757,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 759,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 760,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 761,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 763,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 764,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 765,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 766,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 767,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 768,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 769,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 770,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 771,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 772,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 773,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 774,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 775,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 776,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 778,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 779,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 780,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 781,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 782,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 783,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 784,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 785,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 786,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 787,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 788,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 790,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 791,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 792,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 793,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 794,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 795,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 796,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 797,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 798,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 799,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 800,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 801,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 802,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 803,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 804,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 805,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 806,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 807,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 808,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 809,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 810,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 811,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 813,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 814,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 815,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 816,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 817,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 818,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 820,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 821,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 822,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 824,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 825,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 826,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 827,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 828,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 829,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 830,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 831,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 833,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 834,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 835,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 836,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 837,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 838,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 839,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 840,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 841,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 842,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 843,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 844,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 845,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 846,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 847,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 848,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 850,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 851,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 852,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 853,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 854,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 855,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 856,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 857,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 858,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 859,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 860,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 861,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 862,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 863,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 864,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 865,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 866,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 867,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 868,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 869,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 871,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 872,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 873,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 874,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 875,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 876,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 877,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 878,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 879,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 881,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 882,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 883,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 884,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 885,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 886,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 887,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 888,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 889,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 890,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 891,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 892,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 895,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 896,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 897,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 898,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 899,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 900,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 901,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 902,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 903,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 904,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 905,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 906,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 907,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 908,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 909,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 910,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 911,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 912,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 913,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 914,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 916,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 919,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 920,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 921,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 922,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 923,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 924,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 925,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 926,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 927,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 928,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 929,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 930,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 931,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 932,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 933,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 934,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 935,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 936,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 937,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 938,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 939,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 940,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 941,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 942,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 944,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 945,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 946,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 947,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 948,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 949,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 950,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 951,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 953,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 955,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 956,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 957,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 958,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 959,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 961,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 962,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 963,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 964,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 965,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 966,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 967,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 968,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 969,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 970,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 971,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 972,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 973,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 974,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 975,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 977,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 978,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 979,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 980,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 981,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 982,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 983,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 984,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 985,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 986,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 987,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 988,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 989,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 990,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 993,
+      "tier": "Rare",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 994,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 995,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 996,
+      "tier": "Uncommon",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 997,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 998,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 999,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    },
+    {
+      "id": 1000,
+      "tier": "Common",
+      "characterType": null,
+      "status": "pending",
+      "review": "required"
+    }
+  ]
+}
