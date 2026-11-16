@@ -1,6 +1,6 @@
 {
  "note": "sha256 of full-res art/NNNN.jpg for every approved token",
- "approved": 496,
+ "approved": 520,
  "files": {
   "0001.jpg": {
    "sha256": "68ac3bebfc8382b0ab04922db904bca9b0eb4749f3bac2207c4d22e0840e24a0",
@@ -1761,6 +1761,44 @@
    "sha256": "676803c02ccf0e8559978b26147fe1adf274774bf7c9c79812324532e84e394e",
    "bytes": 524287
   },
+  "0301.jpg": {
+   "sha256": "ece3d28ec716fedb6edc5e5c186a5013858caa5a52ef48858e752a844b1b62a2",
+   "bytes": 722277,
+   "provenance": {
+    "id": 301,
+    "tier": "Uncommon",
+    "image": "0301.jpg",
+    "sourceName": "301.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "6b3fdc3bce4ac7b238b37feecbaec451dc02f5234f712a611abd26c85ef8e771",
+    "candidateSha256": "ece3d28ec716fedb6edc5e5c186a5013858caa5a52ef48858e752a844b1b62a2",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Dog",
+     "Suit": "Forest-green suit",
+     "Signature Detail": "Wirehaired dachshund and brass neck buckle"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6617,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
   "0302.jpg": {
    "sha256": "67d0a57b76b1f5759ed62a9f82166a5144d048fb68e5dca743864fc3b443a1ac",
    "bytes": 454051
@@ -1849,6 +1887,44 @@
    "sha256": "1b6af953f72ddade811faaaf7390dad21ab94dd184152646af292e8955f76c5f",
    "bytes": 431620
   },
+  "0324.jpg": {
+   "sha256": "3586d1bd9c9f6ff50188d47c3b882e1cc26e9a48fb3c43ba5f4ba9de177677ba",
+   "bytes": 737481,
+   "provenance": {
+    "id": 324,
+    "tier": "Uncommon",
+    "image": "0324.jpg",
+    "sourceName": "324.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "ea1b425ad9779053bdebf5d5ed6eb806b08cf5dd1f093f81976bcb03f41e4b7e",
+    "candidateSha256": "3586d1bd9c9f6ff50188d47c3b882e1cc26e9a48fb3c43ba5f4ba9de177677ba",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory suit with orange shoulder seam",
+     "Signature Detail": "Silver curls and brass earpiece"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6781,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0325.jpg": {
    "sha256": "2c427b499b2971d2516be03a9ec989b63f0d79d897be0398070730b17e214a7e",
    "bytes": 397993
@@ -1880,6 +1956,44 @@
   "0332.jpg": {
    "sha256": "b29541a10430b79a7dec84bd24673b8872ea42a4ad13801aca7e3917ffe01cff",
    "bytes": 407564
+  },
+  "0333.jpg": {
+   "sha256": "134f8038089fc3d767c36fe429ccfebd069c247da380e584b9d93298599b8954",
+   "bytes": 693580,
+   "provenance": {
+    "id": 333,
+    "tier": "Uncommon",
+    "image": "0333.jpg",
+    "sourceName": "333.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "f7ea52bb3c245769c9841be50122466f98facbab15b6547f840aa7cdb8ab09c7",
+    "candidateSha256": "134f8038089fc3d767c36fe429ccfebd069c247da380e584b9d93298599b8954",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Khaki suit",
+     "Signature Detail": "Black waves and copper cheek plate"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6614,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
   },
   "0334.jpg": {
    "sha256": "c6eceed5e79210bd8dfa8af8c5ac3b78006792513541c969b6b51a8239f5a309",
@@ -2053,6 +2167,44 @@
    "sha256": "6ab53f16fea93b2b7f391c5df8c1304c2788273913550dae7bfc12d5e08742d3",
    "bytes": 489783
   },
+  "0345.jpg": {
+   "sha256": "a7e1c8356f2bfac370a1ba2b50212471acdf3d1deecb2d139b0dff919fcbf0e9",
+   "bytes": 652520,
+   "provenance": {
+    "id": 345,
+    "tier": "Uncommon",
+    "image": "0345.jpg",
+    "sourceName": "345.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "91c483aaa5382ee698191be58815b162543fe9ca2de0c4bb09f6f72d5b546dfd",
+    "candidateSha256": "a7e1c8356f2bfac370a1ba2b50212471acdf3d1deecb2d139b0dff919fcbf0e9",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Graphite suit",
+     "Signature Detail": "Ash-brown braid and neck hose"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6515,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0346.jpg": {
    "sha256": "55ca22697f14ab5385fc392b9a691b748f6f368b0d88824af1db1b921061a571",
    "bytes": 414448
@@ -2064,6 +2216,44 @@
   "0348.jpg": {
    "sha256": "3e8a01b0d939f476864571919cf6ea432f1274507cda6da20b2d70181cf5fb1c",
    "bytes": 416787
+  },
+  "0349.jpg": {
+   "sha256": "6d1c37b528db1980e651e890fc8754f6e21c2758fcaf2a7a054a0c5e92b3b9fe",
+   "bytes": 770213,
+   "provenance": {
+    "id": 349,
+    "tier": "Uncommon",
+    "image": "0349.jpg",
+    "sourceName": "349.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "100754b780e9d6110fec487529909ddf6cbd45e573475e15a22a637ba3a1755b",
+    "candidateSha256": "6d1c37b528db1980e651e890fc8754f6e21c2758fcaf2a7a054a0c5e92b3b9fe",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 18,
+      "sha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Male",
+     "Suit": "Blue and tan pressure suit",
+     "Signature Detail": "Short beard and visor lamp"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6773,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
   },
   "0350.jpg": {
    "sha256": "6115546834efd5485fd3a1e22f452b37485cef9bee75e87b0a64cab9af3b1eaf",
@@ -3134,6 +3324,120 @@
     "sourceCornerSpread": 1.41
    }
   },
+  "0414.jpg": {
+   "sha256": "dd55287f45ad1c56fa08b1cef1e879af8beb95f29d7e703ee8f201dfa17dd323",
+   "bytes": 736855,
+   "provenance": {
+    "id": 414,
+    "tier": "Common",
+    "image": "0414.jpg",
+    "sourceName": "414.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "3e91ffe617d1f4c2314e8471178d08e20d19a1643a597faa9467ff0bab25e97a",
+    "candidateSha256": "dd55287f45ad1c56fa08b1cef1e879af8beb95f29d7e703ee8f201dfa17dd323",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Cat",
+     "Suit": "Olive pressure suit",
+     "Signature Detail": "Tortoiseshell coat and square forehead vent"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6682,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0418.jpg": {
+   "sha256": "8ec3cb994b1c3b0a9db7e551a501bc5eea202d3039d759edea144990679a1ff1",
+   "bytes": 601866,
+   "provenance": {
+    "id": 418,
+    "tier": "Common",
+    "image": "0418.jpg",
+    "sourceName": "418.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "3e52a763f3597d1f3bf2f9b92aa24ee120a53736168a15b20a9b97873ce33f15",
+    "candidateSha256": "8ec3cb994b1c3b0a9db7e551a501bc5eea202d3039d759edea144990679a1ff1",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory suit with mint rim",
+     "Signature Detail": "Straight black fringe"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6653,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
+  "0421.jpg": {
+   "sha256": "b484afc16dc4a2b82cf1ae21439b270336eba839515231179418eb48f3a7720b",
+   "bytes": 651694,
+   "provenance": {
+    "id": 421,
+    "tier": "Common",
+    "image": "0421.jpg",
+    "sourceName": "421.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "7a679d901849dccf4a0d484c8cb1b9635549b5a11f57516911ae4260cb17a4f9",
+    "candidateSha256": "b484afc16dc4a2b82cf1ae21439b270336eba839515231179418eb48f3a7720b",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Male",
+     "Suit": "Charcoal pressure suit",
+     "Signature Detail": "Sparse mustache"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6683,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.0
+   }
+  },
   "0432.jpg": {
    "sha256": "319db374f4af121559b78b11294601355766c80683f6a771d4203a820dd08f34",
    "bytes": 690813,
@@ -3332,6 +3636,44 @@
     "sourceCornerSpread": 1.73
    }
   },
+  "0439.jpg": {
+   "sha256": "d5e14452810f2c95b8020b50bd6f9adbc1b78f195af19ccdc8217a03f8599596",
+   "bytes": 721630,
+   "provenance": {
+    "id": 439,
+    "tier": "Common",
+    "image": "0439.jpg",
+    "sourceName": "439.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "a0de70448e3653e6b4e14aacaca881ec66deec3fa5e07f71ef792075d1bc3e71",
+    "candidateSha256": "d5e14452810f2c95b8020b50bd6f9adbc1b78f195af19ccdc8217a03f8599596",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Olive canvas suit",
+     "Signature Detail": "Black bob"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6641,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
   "0441.jpg": {
    "sha256": "3725b1709984ed3523d49e24ac42135bb5ab415cafdc60f5292b9408cfa7d8c5",
    "bytes": 468225
@@ -3339,6 +3681,44 @@
   "0442.jpg": {
    "sha256": "43cd1f71d751b92fa90b2abeb07a19394da8cfce3542dfc1ce1a5710613ae6f6",
    "bytes": 400140
+  },
+  "0443.jpg": {
+   "sha256": "14feb9ba8b45626a4af47cc1cc4402f2166581686f9494ce35f35d626e5a97e6",
+   "bytes": 694383,
+   "provenance": {
+    "id": 443,
+    "tier": "Common",
+    "image": "0443.jpg",
+    "sourceName": "443.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "bf9ad564406ddb884fa87238b118d6300cb0b0ca4749a35a3e04e707b774d214",
+    "candidateSha256": "14feb9ba8b45626a4af47cc1cc4402f2166581686f9494ce35f35d626e5a97e6",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory suit with purple collar",
+     "Signature Detail": "Silver twists and gold hoops"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6654,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
   },
   "0444.jpg": {
    "sha256": "92ed1b0ff483d6563f3fd581db170d285e822da9fcacaa3501644b8bec762184",
@@ -3378,17 +3758,245 @@
     "sourceCornerSpread": 1.41
    }
   },
+  "0445.jpg": {
+   "sha256": "910c5220e1cff0b13b5e33f9cf6ce26b2afc971a75c00d2e31329a9f18a32d1a",
+   "bytes": 643574,
+   "provenance": {
+    "id": 445,
+    "tier": "Common",
+    "image": "0445.jpg",
+    "sourceName": "445.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "62d3d7eefcd511e13e1b00fe7d35336ed61d19788866e0aee8be6add8b1e3f50",
+    "candidateSha256": "910c5220e1cff0b13b5e33f9cf6ce26b2afc971a75c00d2e31329a9f18a32d1a",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Alien",
+     "Suit": "Ivory suit",
+     "Signature Detail": "Lavender face and extended brow ridge"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6667,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 2.0
+   }
+  },
   "0446.jpg": {
    "sha256": "aa86b067846997d2cb9bc71a76c2445ccac82487f56e5533f56edd7576645a8f",
    "bytes": 438785
+  },
+  "0447.jpg": {
+   "sha256": "2bc1e9a9dd94d4d85e31e31af8e48252992e958063ca5a07bf806a7fe6059748",
+   "bytes": 713295,
+   "provenance": {
+    "id": 447,
+    "tier": "Common",
+    "image": "0447.jpg",
+    "sourceName": "447.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "f1f07ff752745b5c968a3ade81d4faffe571bfc7ab9e0268f244600c54d67f8a",
+    "candidateSha256": "2bc1e9a9dd94d4d85e31e31af8e48252992e958063ca5a07bf806a7fe6059748",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Rust red pressure suit",
+     "Signature Detail": "Gray-brown bob"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6653,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
+  "0448.jpg": {
+   "sha256": "bc1b05c44a80f8a1d9677d3797e9b540e201ab03c497e5924ebc98b62f724341",
+   "bytes": 671095,
+   "provenance": {
+    "id": 448,
+    "tier": "Common",
+    "image": "0448.jpg",
+    "sourceName": "448.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "69e4fbdc04f5b158c8ee163620fc06ab39d532d2c8591709d53223ec53ae0a8b",
+    "candidateSha256": "bc1b05c44a80f8a1d9677d3797e9b540e201ab03c497e5924ebc98b62f724341",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Dog",
+     "Suit": "Ivory suit with copper collar",
+     "Signature Detail": "Gray whippet"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6687,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0449.jpg": {
+   "sha256": "5df7df71c4c7ca3785ab74ef11506af07cd16c66fd5cc70bd2188fefad703a28",
+   "bytes": 674592,
+   "provenance": {
+    "id": 449,
+    "tier": "Common",
+    "image": "0449.jpg",
+    "sourceName": "449.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "ed6b63471c405a004f0c238ef9ad330453c7513754e0ec8c6382adc638d5829e",
+    "candidateSha256": "5df7df71c4c7ca3785ab74ef11506af07cd16c66fd5cc70bd2188fefad703a28",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory suit",
+     "Signature Detail": "Red scarf and olive earpiece"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6647,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
   },
   "0450.jpg": {
    "sha256": "4bc7e73ca8cdbfa382a406712e0505beb89523ae07b8ce96761692e63d678ad0",
    "bytes": 407111
   },
+  "0451.jpg": {
+   "sha256": "fb2984ff8b462feec5461b61da96ba0016d3c648de0a6f789e16e9a5184125e4",
+   "bytes": 685347,
+   "provenance": {
+    "id": 451,
+    "tier": "Common",
+    "image": "0451.jpg",
+    "sourceName": "451.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "73a833a52e0ab5d11c4cbbc6cb07ad4a56a062515ebada18a84613be3b31eaf5",
+    "candidateSha256": "fb2984ff8b462feec5461b61da96ba0016d3c648de0a6f789e16e9a5184125e4",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Blue and ivory suit",
+     "Signature Detail": "Tawny fringe"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6653,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0452.jpg": {
    "sha256": "d4a9ed94995c7fc409768c4918409c90e489bcd1ad56a9aeea9262cbef92fe74",
    "bytes": 417639
+  },
+  "0454.jpg": {
+   "sha256": "49f682ea720ce3c1d1280a462668caf83bcb0231d42dde04150c7c2e11d5b917",
+   "bytes": 713877,
+   "provenance": {
+    "id": 454,
+    "tier": "Common",
+    "image": "0454.jpg",
+    "sourceName": "454.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "b068404b240e57481ce105c5bfb0ba3884cd1b8dcfce4181fd20b82dde5344b5",
+    "candidateSha256": "49f682ea720ce3c1d1280a462668caf83bcb0231d42dde04150c7c2e11d5b917",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 11,
+      "sha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory suit with riveted shell",
+     "Signature Detail": "Silver swept hair"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6787,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
   },
   "0456.jpg": {
    "sha256": "ef1b60f2da1f57619909129be584b08aa5fef5b568cec355a7de843be47c2298",
@@ -4362,13 +4970,317 @@
    "sha256": "32ca06257887835e18c30b26a2b7a0ffcd8f1c060a6d0777b792ff37da3c382d",
    "bytes": 429554
   },
+  "0853.jpg": {
+   "sha256": "050e38c5f3f580fd0995bb6f4b6cc69c6d49a776851d96a0e5b1ece6d100704b",
+   "bytes": 712862,
+   "provenance": {
+    "id": 853,
+    "tier": "Rare",
+    "image": "0853.jpg",
+    "sourceName": "853.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "051710855b28a5847efe819b863a8676bc1e9e66f8d4a10dd426b52198fb1a05",
+    "candidateSha256": "050e38c5f3f580fd0995bb6f4b6cc69c6d49a776851d96a0e5b1ece6d100704b",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory alloy suit with rose rim",
+     "Signature Detail": "Wine-red curls and burgundy star patch"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.669,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0858.jpg": {
+   "sha256": "c5abb948cf716eb8647c45ab924de0c3fdf5ae7dff08f4d446a72bf40683b078",
+   "bytes": 670081,
+   "provenance": {
+    "id": 858,
+    "tier": "Rare",
+    "image": "0858.jpg",
+    "sourceName": "858.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "9ac035aedabf913fbe491fba097e579b88dd19f27840a7d6653f4af0726fbef3",
+    "candidateSha256": "c5abb948cf716eb8647c45ab924de0c3fdf5ae7dff08f4d446a72bf40683b078",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Alien",
+     "Suit": "Ivory alloy suit with blue collar",
+     "Signature Detail": "Tan face and four eyes"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6655,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0859.jpg": {
+   "sha256": "d28a04b6b7ad7169388820130b9a2ed40e966c726ed8a089fc6d88d19e3cc807",
+   "bytes": 656162,
+   "provenance": {
+    "id": 859,
+    "tier": "Rare",
+    "image": "0859.jpg",
+    "sourceName": "859.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "a5e2b23ec3b38b96e1e8185315a17b11fe6c1a52447f9850d37cc24772c05e13",
+    "candidateSha256": "d28a04b6b7ad7169388820130b9a2ed40e966c726ed8a089fc6d88d19e3cc807",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Brushed titanium suit",
+     "Signature Detail": "Yellow rangefinder and gold chain"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6739,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0862.jpg": {
+   "sha256": "925e0b064525d5c08923b7d30bf1531f6f6359a67160e3e77d4209b3c689a175",
+   "bytes": 702248,
+   "provenance": {
+    "id": 862,
+    "tier": "Rare",
+    "image": "0862.jpg",
+    "sourceName": "862.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "2079b4e0cd71cd8bca9d8abc3b791817682da05db233892d299f2a981e0c97c4",
+    "candidateSha256": "925e0b064525d5c08923b7d30bf1531f6f6359a67160e3e77d4209b3c689a175",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Cat",
+     "Suit": "Gunmetal pressure fittings",
+     "Signature Detail": "White Angora coat"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6653,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.73
+   }
+  },
+  "0866.jpg": {
+   "sha256": "a770531558f7a86094805e0d860e2c5ca29b796a6d8b989041f11f4389dcb523",
+   "bytes": 813293,
+   "provenance": {
+    "id": 866,
+    "tier": "Rare",
+    "image": "0866.jpg",
+    "sourceName": "866.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "d462b60dc15a52e99ec9595c20e0f1d8ad24b15f7830b105a1d01d274b1f9e2e",
+    "candidateSha256": "a770531558f7a86094805e0d860e2c5ca29b796a6d8b989041f11f4389dcb523",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Robot",
+     "Suit": "Copper and ivory armor",
+     "Signature Detail": "Shutter eyes and ceramic face"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.682,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0870.jpg": {
    "sha256": "b79119d1a0306994cae6f265313145c734a8873a6125eea80d2c9a737709dc30",
    "bytes": 433138
   },
+  "0872.jpg": {
+   "sha256": "d7eeed15aa8518baa929950c08fe2cfcbcce7781243f20954a49269801859750",
+   "bytes": 714992,
+   "provenance": {
+    "id": 872,
+    "tier": "Rare",
+    "image": "0872.jpg",
+    "sourceName": "872.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "b33d2074d96f49b991426f1ff2ec98be605a1d3924289a75b99dcf855e8cf8f6",
+    "candidateSha256": "d7eeed15aa8518baa929950c08fe2cfcbcce7781243f20954a49269801859750",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Female",
+     "Suit": "Ivory suit with cobalt shoulder",
+     "Signature Detail": "Gray side sweep and gold chain"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6643,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
   "0880.jpg": {
    "sha256": "2eb6e9bfd83bfecc03e5f56e4ba262c86c6bd46aefd4a0329a4c0e028e038a26",
    "bytes": 429728
+  },
+  "0887.jpg": {
+   "sha256": "1287ce74cb5dc39517ea33a1d4152b5dcee708b4e81456c31aeaaa08150fdacc",
+   "bytes": 741176,
+   "provenance": {
+    "id": 887,
+    "tier": "Rare",
+    "image": "0887.jpg",
+    "sourceName": "887.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "ebce71d29d4ef5e928bb2736a56148d760ab276a8b5aa444246b800b3c326d95",
+    "candidateSha256": "1287ce74cb5dc39517ea33a1d4152b5dcee708b4e81456c31aeaaa08150fdacc",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Dog",
+     "Suit": "Ivory suit with copper collar",
+     "Signature Detail": "Salt-and-pepper schnauzer"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6633,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
+  },
+  "0891.jpg": {
+   "sha256": "51bc49737dd113f81de27ffb14349c098376f6f2a4365759b706e15cb388b76f",
+   "bytes": 756399,
+   "provenance": {
+    "id": 891,
+    "tier": "Rare",
+    "image": "0891.jpg",
+    "sourceName": "891.png",
+    "sourceDimensions": [
+     1254,
+     1254
+    ],
+    "sourceSha256": "4e154a7b1ba783b715e49447cdd2a45b3b52281d3739cbe98e24158e1e65b430",
+    "candidateSha256": "51bc49737dd113f81de27ffb14349c098376f6f2a4365759b706e15cb388b76f",
+    "backgroundSha256": "738ec60f53025c161a1f9a36a771e11187f7f2288025ab5559c7efc80111a149",
+    "references": [
+     {
+      "id": 10,
+      "sha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4"
+     },
+     {
+      "id": 1,
+      "sha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd"
+     }
+    ],
+    "method": "native raster generation and shared orange background composite",
+    "attributes": {
+     "Backdrop": "Astro Orange",
+     "Character Type": "Baby",
+     "Suit": "Quilted tan suit and bronze collar",
+     "Signature Detail": "Quilted hood and pale blue eyes"
+    },
+    "status": "art-reviewed",
+    "foregroundFraction": 0.6684,
+    "outsideLargestComponentFraction": 0.0,
+    "sourceCornerSpread": 1.41
+   }
   },
   "0893.jpg": {
    "sha256": "e0207a95bf73780e2ea05b8c5678a44aaab7991c18868b93ae424871d4506bbc",
