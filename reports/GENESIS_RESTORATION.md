@@ -7,18 +7,22 @@ reviewed portraits and records their native source dimensions, reference IDs
 and hashes, reconstructed backdrop hash, and delivered JPEG hash. The five
 verified source JPEGs are preserved separately from their orange derivatives.
 
-The 37 additions use existing pending IDs and their assigned Common or
-Uncommon tier. Each is a separate native square generation, normalized to
+The 49 additions use existing pending IDs and their assigned Common,
+Uncommon, or Rare tier. Each is a separate native square generation, normalized to
 the same background, checked against the legacy portraits and adjacent batches
 for exact and perceptual duplicates, and reviewed visually for framing,
 character, edge quality, and traits. Candidate #283 was withheld after
 a similarity hit. All seven character types are represented in the additions.
 Final population totals and rarity ranks require the complete set.
 
-The existing gallery has 426 legacy entries at 512 px. The scripts stage 1024
-px restorations without rewriting their identities or declaring them recovered
+The existing gallery has 426 legacy entries at 512 px. The scripts staged
+426 restorations at 1024 px without rewriting their identities or declaring them recovered
 originals. Handle background spillage and duplicate-like compositions in the
-restoration review before changing gallery or production hashes. A rerun after
+restoration review before changing gallery or production hashes. In the
+first pass, 41 candidates reached the near-duplicate review threshold,
+including #001 against withheld new candidate #283. Alternate designs were
+staged for six close matches, with the same identity cues and IDs. The
+protected IDs and designated 1/1s stay in their historical assignments. A rerun after
 orange normalization is required because the old backdrop colors masked
 similarity in some legacy pairs. The five native originals have candidate
 derivatives, and low-resolution orange-only proofs remain review references.
