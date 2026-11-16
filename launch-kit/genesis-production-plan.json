@@ -4053,5 +4053,14 @@
     }
   ],
   "designApproved": true,
-  "designApprovalNote": "User approved expanded family direction; preserve original King and other protected IDs. No promotional sheet is a mintable NFT."
+  "designApprovalNote": "User approved expanded family direction; preserve original King and other protected IDs. No promotional sheet is a mintable NFT.",
+  "phase1Audit": {
+    "state": "blocked_pending_original_art_archive",
+    "report": "reports/GENESIS_ART_AUDIT.md",
+    "galleryPreviewCount": 426,
+    "exactMastersRecovered": 5,
+    "exactMastersMissing": 421,
+    "newArtApproved": 0,
+    "canonicalBackgroundMasterRecovered": false
+  }
 }

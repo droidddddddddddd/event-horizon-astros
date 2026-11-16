@@ -1,0 +1,3853 @@
+{
+  "sourceCommit": "1a6027ba2e4ab1b7f2503c03cc1e2c563d677be7",
+  "previewCount": 426,
+  "exactMastersRecovered": 5,
+  "recordedBackdrops": {
+    "Amber": 20,
+    "Stone": 62,
+    "Sky": 81,
+    "Sage": 34,
+    "Mint": 57,
+    "Sand": 38,
+    "Violet": 60,
+    "Mauve": 33,
+    "Dusty Blue": 14,
+    "Clay": 27
+  },
+  "tokens": [
+    {
+      "id": 1,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/1.webp",
+      "previewSha256": "bc6b9e90f3081840fb6a647b929a409a38f523de5b4e15ca184c260438a300cd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 2,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/2.webp",
+      "previewSha256": "25af59d7387773303709f5a7d1009aae509b284f4f1aa16087e33e82bb2337a8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 3,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/3.webp",
+      "previewSha256": "4c5cd8b616b7d85c1a092409cecca9b8c0de1dd896487652c70f9c4143147907",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 4,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/4.webp",
+      "previewSha256": "c72719bdeb4ef6f49844d0d13474ccfb2c4f02b9cab75262742502c4bbbe7c03",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 5,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/5.webp",
+      "previewSha256": "96e2c7a53a0fb7397f446882f91539502afb2fa76aa1c6c88fb503a5546a056b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 6,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/6.webp",
+      "previewSha256": "48ff97e31bab598ed85c880998d67cbf68691d1d73bea1540dec7411fe958b33",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 7,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/7.webp",
+      "previewSha256": "082c1f05cfe9765ca0eeffd2d4b7f622db3f39dafd8a51400c5d672750133dd6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 8,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/8.webp",
+      "previewSha256": "90a400aa44b7270d89a4248701c11232d82a0ebe282d73ca20faafc6151e4494",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 9,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/9.webp",
+      "previewSha256": "11fc99d4b81aa134b256c951b3d1c8204d111a2c5bc7a78d4da63f7760610850",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 10,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/10.webp",
+      "previewSha256": "2d91ec5b9f98e89ce702d67a9246b597c4b2efc27a8f99fc366c15a94ae647f4",
+      "exactMasterRecovered": true,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 11,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/11.webp",
+      "previewSha256": "34061648e35918d598e28d8868ef90dcfbda3cfea0887a77439f49c805a8096f",
+      "exactMasterRecovered": true,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 12,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/12.webp",
+      "previewSha256": "9a15d779278d082ce966b4eab7f424e3065ae8483375486e80847c44c1e8f607",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 13,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/13.webp",
+      "previewSha256": "4317df6a2c22a37934389ea7489862dcf7ff5c69bcc731dfc8626c00e649c914",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 14,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/14.webp",
+      "previewSha256": "57cf535469b32b0ead1b0c612d1a367a73a610c937ae0a669ad7617acf574ef2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 15,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/15.webp",
+      "previewSha256": "821557d08d29b5a5b6f3eedb4319c43722e984ca52928656d4f178d48e8c0b67",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 16,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/16.webp",
+      "previewSha256": "6d612b47abda7abb3755edc2ddbb94f648274d048e309b2b8b3d895e827b299c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 17,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/17.webp",
+      "previewSha256": "8be4317aba2ae393e45f419114be9dd96c079d95d0f2a82d8a77bd89c30e8b3c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 18,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/18.webp",
+      "previewSha256": "a5d7747aa32d685b361e4e84cfe51106b5d50217dc23596f9f87b3e470f04a2b",
+      "exactMasterRecovered": true,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 19,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/19.webp",
+      "previewSha256": "d7cac5b463b9561eca262a764947ab36eb6068440b784733d9bcc96c1d3de4c1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 20,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/20.webp",
+      "previewSha256": "5670e194afeef1dc48a8ac4a2ccb4d9a79e3416efa191fec6591c5c983855439",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 21,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/21.webp",
+      "previewSha256": "f355c326f2d647e376ddbe745b9537c707df8b4d46005f4f04f45f6a328123a2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 22,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/22.webp",
+      "previewSha256": "9732b1e7432dea127a669c96ac0d7465ede662606681bf87386e1efe02ca88e2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 23,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/23.webp",
+      "previewSha256": "351b7fb165772d5e41ad3f0e0ac130f05aadc691a21d54539f998d3fc8847aa4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 24,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/24.webp",
+      "previewSha256": "31431f1b3a6809183366d15a0df00ebd852389bd64fa442732fe7932786c3934",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 25,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/25.webp",
+      "previewSha256": "e4e42ad9d7c75df7063d0b6cea04744ab43ff5410269f8aa6fa6469bf8bcdc5b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 26,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/26.webp",
+      "previewSha256": "af7a5cf5feed4ec0ef9bbc0a968941a0eda043ed10c1b40d54d5d7c47f268665",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 27,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/27.webp",
+      "previewSha256": "12f3540364aa44bb89b08d9e15fc948843a460c6c97e24d3f052ef2acd1b31ad",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 28,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/28.webp",
+      "previewSha256": "e679efb8bb597755214147d54e74f41d605ad9943f981a7d9bee6df5e8b7f97a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 29,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/29.webp",
+      "previewSha256": "b79f44de23c87ef401fde8922109695748367f0544e4972e6a24455ca3f728de",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 30,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/30.webp",
+      "previewSha256": "bdd3a0198a6b5dd5e80999fb5877b5e4b95e5ae880a55e6b54847d0a2b52627d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 31,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/31.webp",
+      "previewSha256": "fc67790520980333583bdb5aae354b8198b8d1a6ea8e06cff13513d42cccd6de",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 32,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/32.webp",
+      "previewSha256": "5f4c818700898dfb116063180c0ac48c8b64d362793d9dab282fc5cb35596f6e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 33,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/33.webp",
+      "previewSha256": "8040fdf2906e411bbb4c946cf2c9f9c11464e0edd47177c3f0ef208d68f2395e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 34,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/34.webp",
+      "previewSha256": "6207d082a6e6c9e728afb4d921fe47ff498dfbf0ca70284243e1eddc9c87afb2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 35,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/35.webp",
+      "previewSha256": "e1a14c7cc55e50a73a4cee817c684241d514e688a37336e07d8adfa5c046b615",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 36,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/36.webp",
+      "previewSha256": "dcd5ceba360002d933fc89385c40ec07f3172c8cb6fb050e54e25042b101c2b7",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 37,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/37.webp",
+      "previewSha256": "ce90eee48b47d175bef09f49ba507f74234a20620e07c7836da3042b67e874a7",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 38,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/38.webp",
+      "previewSha256": "f961dc13308820fb4ea12039881142432efe0d7c34c76717cbcedd8060c67ec0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 39,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/39.webp",
+      "previewSha256": "b84ce7fbd0500cce416af2fa9e7bb55d9d682b37788464594d63738351e43df4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 40,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/40.webp",
+      "previewSha256": "155d3323bed9d8596fb2548329922e5b668d270247f476c74a49c1ff35c6c671",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 41,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/41.webp",
+      "previewSha256": "2b43dd40363c3b127ef62d55ef6d8a93b8c487c1c8ef210c222663d489f26b3a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 42,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/42.webp",
+      "previewSha256": "6ff60fd516f43cdd9106350e4220229e3c69e7c2c24a51cc51a5830a8170926d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 43,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/43.webp",
+      "previewSha256": "dc796b60b1ab415db6787a95b5c93e1e91af2475662d7c46b0776ccca9d72d7c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 44,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/44.webp",
+      "previewSha256": "4e492108e55ccec183e9680506806c0cdcb788ed36e52cf4ec681aabc6481ba8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 45,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/45.webp",
+      "previewSha256": "f925bcdab01f45ff5b524be9768e5c0f199dff1949f57d0b0cfbf1bbd9370a07",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 46,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/46.webp",
+      "previewSha256": "b4e923bd389d68ee85035d64a0068b24361c0bd5e8157902aa66c9b33e6a558e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 47,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/47.webp",
+      "previewSha256": "fc2c597c0b808c7c3f5bd21c67e82fa3e3e13088a8fe34fd5b35339bfa456f25",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 48,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/48.webp",
+      "previewSha256": "fd0d3068e32cabfe81e2e32e9f01b99546ce3268108ef0c3611da0a26709081a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 49,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/49.webp",
+      "previewSha256": "c1fb32567eefacaa77685f67c9b80fc0203cc87833d229b3c31f2b0ce7d447ad",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 50,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/50.webp",
+      "previewSha256": "31833cff9dbd3a33ef81a15f4ad0a819e1a3069371f506d1b593d6e0eef4e9fe",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 51,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/51.webp",
+      "previewSha256": "eb4ce09fcd7bd43f9ef66747871558d4e9ac78db37edc29db7b4c66d9320a850",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 52,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/52.webp",
+      "previewSha256": "16c39a1bf3dbb056a9f75bc6af060a9d65c2e3219d2a71fb868d5e3216639437",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 53,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/53.webp",
+      "previewSha256": "eed4b113c1942d8dbdccff628a426ecaaf6342c04aac8a129e8142b192da081f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 54,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/54.webp",
+      "previewSha256": "e0131d966cfb1145b730c6838d44c3ed3a417c1c0a2c99d4847250b7e0862f88",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 55,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/55.webp",
+      "previewSha256": "8118ec1be427e3c2fbd9423b1c4cc3ba38d41f81b1034043bc1773d54c3c9eb5",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 56,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/56.webp",
+      "previewSha256": "34c004009090d84c2c054c3b64a446ab6592ab41a4589aba2005ab6b82894620",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 57,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/57.webp",
+      "previewSha256": "d3be4032d1ea7952953a0f02f44b33327b8a3347fea718518b30b30b2393d3a8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 58,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/58.webp",
+      "previewSha256": "687d5cb9e2ceae0e25c20f0fa9ced73702a4a5c5850a3e171b403d1b7aa55225",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 59,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/59.webp",
+      "previewSha256": "9651d643958d63a4fc6cced9b5fe1ea4c21d60d8bc7773f8160b2251ea695c3c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 60,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/60.webp",
+      "previewSha256": "c5838b676c661a7cceb376d5e9041abbc0029608e2b67154935d2b86ac55e7b7",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 61,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/61.webp",
+      "previewSha256": "461a481ceed9766af668dec07b9f4898bda43a3f3f56e47c6460fe4a53537595",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 62,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/62.webp",
+      "previewSha256": "280f9552f9c3a85305abf2cb09d546842bbc770bb79b89539d797ad18e0efa61",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 63,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/63.webp",
+      "previewSha256": "ea55d24e617e55c4b79dad5124a85d7731249e98a4268e0b08fc3256dcfb03f1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 64,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/64.webp",
+      "previewSha256": "eac09df303e3c5107838097a24498f32322844f2bd61ec10b61e5e9991639a5d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 65,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/65.webp",
+      "previewSha256": "ba331863e6688c67896a5a6213e5bd6ceba370fcc34719d145c7279e810f5088",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 66,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/66.webp",
+      "previewSha256": "01bdcb386c25f49ac6bfd8d3f4c8f16fed900673f208d227da9bc487b4e1c5be",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 67,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/67.webp",
+      "previewSha256": "7944485f1404efb7e201570c2e25ef5baba8b6b1a8d2423c2b08ce0dc8ae0f33",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 68,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/68.webp",
+      "previewSha256": "2170e80ee5dfbf002e49fd89593911552606c0fb638f1be6b96ef0177e556770",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 69,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/69.webp",
+      "previewSha256": "0aaddd72211e75c54b809223267a75eda76d72a59ad4331563b9106c84efa7dd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 70,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/70.webp",
+      "previewSha256": "7fef3e3668ad04fdea187862a02e09de02dcf9a576a82db10c7e8c66fd835298",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 71,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/71.webp",
+      "previewSha256": "0c278802c8a4fb80a226685af8cbee152b2acca34b0f7f1f77e4d5164ef69558",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 72,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/72.webp",
+      "previewSha256": "c3cda05e60a097d2aa5973c2e025da6d2e777dcd107b4f4f14c37f8ace960bcc",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 73,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/73.webp",
+      "previewSha256": "69d5f6e4a4de0db34fd0beeab304a5f48135f58b5eb6a1e666e36fc85cf92349",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 74,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/74.webp",
+      "previewSha256": "a21d31619db07b3b5df4b5d093d6a5cb998fad58b83a18280554541c09a40f35",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 75,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/75.webp",
+      "previewSha256": "e035f2161c6f7751be241138d4c206092062de07ff56ad4a82730ac24f513170",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 76,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/76.webp",
+      "previewSha256": "066731730402ce638480f3039e87532783ae633d75ca759bbb54cc9bb8af438d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 77,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/77.webp",
+      "previewSha256": "86df13d4b5324a3829332b9bdbfc6b1c4396c9ce2e12b7540609cb96254170da",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 78,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/78.webp",
+      "previewSha256": "b98cffb9e16d937bfadc6e1e02e077c338bf0fc78f9bbd60ce2d38f6e2a0d245",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 79,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/79.webp",
+      "previewSha256": "9cea6bf69045ed9f7bc7ad9bcd850374ca2d242060722a546f87a9aafbec8405",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 80,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/80.webp",
+      "previewSha256": "ea4319cd1620209a08203d4f25c1eafcfc1188ef0d5d558eb152785abddbea78",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 81,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/81.webp",
+      "previewSha256": "1276828120b9bfd0fb095db8b35f0407e59ca5130b02b97044654417918a08e4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 82,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/82.webp",
+      "previewSha256": "e38298984d2631431eb6499fa7be26af8b3a7d41cf2103b16c1da1f123314902",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 83,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/83.webp",
+      "previewSha256": "19aeb76c818d6149363fb1551b2e73a42cc760de31087b03d0cf786234a09508",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 84,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/84.webp",
+      "previewSha256": "90b8b402004a442723bce0db825c2f6cdaec3d0d4276933f1052c0fadf3d497b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 85,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/85.webp",
+      "previewSha256": "6632541091c5df75e416f830f6f94cd6ea730646a0f98462df9e4544ff6ab78c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 86,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/86.webp",
+      "previewSha256": "b293eda330785012baa50cf66aee170b0f48b844a166996d1ff37ea959c12df1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 87,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/87.webp",
+      "previewSha256": "3b6a9e2ca7d6ac542a57904ea4ed622027e858763a55e6e37775d1ef602c2977",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 88,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/88.webp",
+      "previewSha256": "1a523123b1675d13eb2f4e1ead0ce8419d64db1a46e2dd3cbd93c2c2dc98ddce",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 89,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/89.webp",
+      "previewSha256": "54883f081911ce559fc6eb9b1649e46b08a75bef71489b4726472f8973b0fc04",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 90,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/90.webp",
+      "previewSha256": "4f2979729ac0dd10223c47e92c8ecad6707f45cfbff166aa2787896d73033284",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 91,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/91.webp",
+      "previewSha256": "e908ae51138c9822db380e823963dea366cf9f4f9d39aa5157424c9c37019de2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 92,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/92.webp",
+      "previewSha256": "6fda7243f9f216b8eb38bbbf0bff0c1864a76867128fa203ca4fd310c64cb034",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 93,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/93.webp",
+      "previewSha256": "471ab47b61d575921bb21146281f0f4cd92be192ab2a268dc0a91ec1ec35c52b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 94,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/94.webp",
+      "previewSha256": "8d6714881edf5b29a561d68d8bd113e3dbf35ae1cfca51980c24d81294635386",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 95,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/95.webp",
+      "previewSha256": "f14c67b68cb9798aa89c6b1d22f2d913a62013642e888574b56d2027e2132a12",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 96,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/96.webp",
+      "previewSha256": "aa0d365ac7369fc07e7705103ba4c6b668fa8aec710947929b0bac07c62e964a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 97,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/97.webp",
+      "previewSha256": "db7ad90267b718d04e138ad31a74c1473f49389fa18d19710d264b040de23245",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 98,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/98.webp",
+      "previewSha256": "3a296c0ad2314d58cd47fd5ac6468c4a4b2c8fd6580782f657ef1d21fefd3b52",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 99,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/99.webp",
+      "previewSha256": "9b6283dbe9ebd8afdaff76437ddef1369fcf8e992fb6dc6fc616e8c4b957b602",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 100,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/100.webp",
+      "previewSha256": "70f2d18d6dd12a067c20c874103de9360914c4965a381090fc780c84e0880be6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 101,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/101.webp",
+      "previewSha256": "43feb8913087fad5294336348e2e2ea4a8abc4eaa4ca9b7366345edd91ba64ff",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 102,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/102.webp",
+      "previewSha256": "26c29ec17f5ee7fa978229161717efeb7bf0d8b8cf1c04c9e3c6edf968e5244d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 103,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/103.webp",
+      "previewSha256": "84fa932cdfe56323cfe1fa09f3d3e5f7a08c866275e468ca2c306ddbb300e965",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 104,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/104.webp",
+      "previewSha256": "aedb3a877e6671e262d20194a838424f8729b49ee5bcc3e3bf6ab02d0ff4be3a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 105,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/105.webp",
+      "previewSha256": "fa2e2600dd163758232597a25a7cc1c7f08154922f6d173c554552b8e2588089",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 106,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/106.webp",
+      "previewSha256": "5220f3ea0069153550647650c28c410ea39873c315173357e39eb95238d8f21b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 107,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/107.webp",
+      "previewSha256": "99ce4c4fec5547fd1c3f0868114d61c1b86d5b0f3b1ed17e642f773d38aeb992",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 108,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/108.webp",
+      "previewSha256": "5a2cbec0bbb3f7d718086560831b33ad459c9f0a0b275e31facc3ccb01fe40e4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 109,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/109.webp",
+      "previewSha256": "179715a17fc061ac7e0a5078207c32faa33d8996abc28216bf958c4e205acccc",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 110,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/110.webp",
+      "previewSha256": "b760233a5c4fa211592b6d261d6a4583d6830e676079b27e50bf95c90b260b7b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 111,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/111.webp",
+      "previewSha256": "31bb8931df1cac45d29aea23154a2e4b6472dcd2061a57c4e3bb79cf1fda7d9e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 112,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/112.webp",
+      "previewSha256": "701b1944c7f3f2a1b2f870eb071bd13843d02ca1651af07ba0c9bc4d41c70c4d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 113,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/113.webp",
+      "previewSha256": "13ebad852989381ff542fc26d690989855d30e930d10e77e4d4262e4b6689175",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 114,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/114.webp",
+      "previewSha256": "7287ff32067bd48289915c2de562a8cd438dfda1aa6be1b5e85ddbc0057b1f55",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 115,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/115.webp",
+      "previewSha256": "6bcf6192039b06249c5bc4c9a46e72c7f334b61d9690825cdfa34452649088c9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 116,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/116.webp",
+      "previewSha256": "c324fd65fa9315b4350a57981ded886d8523ba91e1c6e0e65e28e45c2246dff2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 117,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/117.webp",
+      "previewSha256": "eae8284a1fa283fb9eb4a4cc08578e9de6830ff0f6b7f73182e352ded2583329",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 118,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/118.webp",
+      "previewSha256": "20a7b72e716b189302e4c90612a80dd0450f73720ed5ec04d4281616abf32d98",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 119,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/119.webp",
+      "previewSha256": "bfae32c48ef3b926869f4a375272c9a65326a34648af58c7d01cbf6c8fe4e6be",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 120,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/120.webp",
+      "previewSha256": "142775de0a5a7fecf9ff258f125a4b07622bd5b88ce083f20bd73a83377b237e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 121,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/121.webp",
+      "previewSha256": "243302c3fa2a2ddd71ce86ae4d1358155e3e120a5c81020184905c767c8c267f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 122,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/122.webp",
+      "previewSha256": "b0e52af615a7a0581eabbca9142d46a551bc35562d5408846c1ac5fedc26cb4d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 123,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/123.webp",
+      "previewSha256": "65b600a49a09a095c527dcb8528c5656500ba5a2b0baa17d63aa066ed652e4f0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 124,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/124.webp",
+      "previewSha256": "e494c034140102337cb88d9d6fa43634d22b96e43eeb0f7bcdd863dd02522fb4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 125,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/125.webp",
+      "previewSha256": "10d47234eca7a0e53174507454af6be6a3f4505b4af3f694c530c4fd275e4cc6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 126,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/126.webp",
+      "previewSha256": "c1599a14118553bf5e5c7486f8a0b083ad4fdc75bf571e8825837df46f97ab71",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 127,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/127.webp",
+      "previewSha256": "0fbe85205012c20464e4a912da88442cfb73959b6af50246377a686fd099c182",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 128,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/128.webp",
+      "previewSha256": "c72fec80607d376d473b6a97868ebfe354b87330b28fbe7c87adb33f4961412a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 129,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/129.webp",
+      "previewSha256": "91e61762a9567059b5533891ab435e85e8ca2bc319cd0fd0c0360a31854e92e3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 130,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/130.webp",
+      "previewSha256": "5896eb04071fbfff650df91cb5a33e671533c97b50b9d3030f40fdb83f0bea1a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 131,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/131.webp",
+      "previewSha256": "437924a5e45827946d8fd152b9c3c2f9f2062c441b3023762417828d7ebdf4c2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 132,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/132.webp",
+      "previewSha256": "f16c16d1014055148bed40fbdc472682f93143ef6032e7311691ce36b8b89d2f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 133,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/133.webp",
+      "previewSha256": "75028710e93d195f359842ae5c4434bb3a9d2f3b1685a750fae45b595a7083e4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 134,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/134.webp",
+      "previewSha256": "8b2292364494b2ec5b235de81c2a07709bfdab4aeb25e424d27edb81c5a58c84",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 135,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/135.webp",
+      "previewSha256": "b9a3e5c3bd399fb83a2680296091b5831562c764ed86a46c5bad43fd4960be3a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 136,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/136.webp",
+      "previewSha256": "5e41d91dbeb4243daaa5d791657892afcffb0c9d8c1d50babc3547444463eb72",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 137,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/137.webp",
+      "previewSha256": "991b5fcccb2819184fb395b50581afe118bebcde579775f9a81b33ceb4640600",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 138,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/138.webp",
+      "previewSha256": "bc37d45eb81528211fab1844fce81d12f16d4cc2cfa92b47103fba8c67027574",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 139,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/139.webp",
+      "previewSha256": "a1b3436e9dec802ece405c8ef17875cb6883ec9960ff66b01c0ef8ee7314f3b6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 140,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/140.webp",
+      "previewSha256": "f611f6d5ced3a8f88302f1c8fa260eed8cfe2e982d0086eaa802e0360ee65733",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 141,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/141.webp",
+      "previewSha256": "9f9c0d7fc50744f0b9bb86b5ea092b6efa1ceb709c331fc71f31b33cbb812e12",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 142,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/142.webp",
+      "previewSha256": "c3d68720cfd0b302dfccf5a87fe27079fc20c822ac9a403c27a2707ef622467c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 143,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/143.webp",
+      "previewSha256": "8e5d1063ffb53354b818471bbe4807af318bfb94bc11e72935be7edcbff19c2c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 144,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/144.webp",
+      "previewSha256": "e429bbeacb78d48e1ddce3f6ebf20d542d3d34076972be485e2c156cca3525f9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 145,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/145.webp",
+      "previewSha256": "c7389d5bf809d73ee6ab369fed1eca1ccdcadb7fd486c36a362f7b9d203e6c4b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 146,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/146.webp",
+      "previewSha256": "ade97e6a45eac699fb5dc6b510296e80c392c9462cae290a5948dbeb2944c8f2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 147,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/147.webp",
+      "previewSha256": "66e417be251bbb20a274c5150cdb5dd4a128d6742b95c057215239cd000c39cb",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 148,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/148.webp",
+      "previewSha256": "9050e44005d18deff5a233c7d4da933512c1ec2dd61576386862d7510b1ca2c3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 149,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/149.webp",
+      "previewSha256": "0584982536e479ed2979e10f2c42b8b8b56e8f4f8bd7bc1c38bd172a1a40445b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 150,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/150.webp",
+      "previewSha256": "eedaa8d70b14245a71d4a0077f19a80b8c1317d928ea3f135b142c6f551fe151",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 151,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/151.webp",
+      "previewSha256": "0729748782bdaa3a769907ec9d4bbb297cf2274879bfd4c116320d3ac7d4204d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 152,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/152.webp",
+      "previewSha256": "8fe51be9d7854efe17ccecd3cc7e7a02e6946d9750dbd799302dcf5d574dc246",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 153,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/153.webp",
+      "previewSha256": "fb1e9d7bc55d0f8a980a79c3adcbd8b7e3b28dcd52c05ea73c1d816dce836b11",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 154,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/154.webp",
+      "previewSha256": "9c3bab88f967a4380c8587c3f7a796d9a508287db9c048d49cdafd077fc43df4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 155,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/155.webp",
+      "previewSha256": "c3466a9006adee992c0788ddb2e85fe5f9840f3e34b21904dc122ada167c5140",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 156,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/156.webp",
+      "previewSha256": "5e25fd03c594d6443d62f6508f67cfee21588e18927dbd3daad75694254bbcfd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 157,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/157.webp",
+      "previewSha256": "5c641bbe57dd3252e3f4298ae716d9a794e86c0da307d09a6cabc0fcb1018962",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 158,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/158.webp",
+      "previewSha256": "436a73b36a35d7c916985355c7d1aafd6094f77bce055e05ac8f73fae3126587",
+      "exactMasterRecovered": true,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 159,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/159.webp",
+      "previewSha256": "70f63ebc6bf65428aaa426f5a965658b3ae63b828bc2103e8173b178a42168e3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 160,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/160.webp",
+      "previewSha256": "1cc00b222fffb87790131b8da4704d4c8cab257c26b2f0fa719bd588cdd2bada",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 161,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/161.webp",
+      "previewSha256": "8956f9ddb1d3e96b6bab3fb212571bb19a69731ba1d0ba4c199ff79bb6cb9db9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 162,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/162.webp",
+      "previewSha256": "3718529c744ab3f9de30be68726351845b341b652ee0d813351b5d128fd9fa0c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 163,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/163.webp",
+      "previewSha256": "5c5ece74df45a89f089fb2967d659fd3eae1eacad11148220ec0d102751a8b1c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 164,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/164.webp",
+      "previewSha256": "4e3572aac50cd0404b7110106a5bf6b35ea57acb4717d12319ead7e58a4c2ff0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 165,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/165.webp",
+      "previewSha256": "3e6deac78064591596d5cc81940e09a82b9df97c9bd7e2b78c8834542f78c4da",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 166,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/166.webp",
+      "previewSha256": "ec8723ec96503ed05422585c1000d79d7c285c33b535fc2da87fb2508a2cc7d9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 167,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/167.webp",
+      "previewSha256": "3a2c1f6a464c7e2768092873746be3178242eb37659d142db65260e430968c7f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 168,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/168.webp",
+      "previewSha256": "d4c05319852c50120c1a5264fb7d6940717020b8eb62179764d214f89ff26e9e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 169,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/169.webp",
+      "previewSha256": "0ced89f33d2b26470d26179d96a574fbac5bafcc9fbba9592ee046c01b1000ec",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 170,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/170.webp",
+      "previewSha256": "456bfe4f03ba03bdf5ddce0d7f5f2214ec5a140934aa38f0eb295793366f0a02",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 171,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/171.webp",
+      "previewSha256": "2175afcfdea405be9827b602ea0a62a432baf3e0f35c599d3dfb1839625ccc8f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 172,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/172.webp",
+      "previewSha256": "900d4d3dcae050dad0090e8156a793267b9aea66ce7b98b95bb39bc9a452342c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 173,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/173.webp",
+      "previewSha256": "75646292abff07d63fa32ae9967b4f009196842dace2524d6c4a22d6a97ee25c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 174,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/174.webp",
+      "previewSha256": "b5897315025621eb27f8946e7786b291a14fe2057f8d210fccda4baf19b550e9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 175,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/175.webp",
+      "previewSha256": "d030915d704dd79a90211e16e1234a40e549bb462d6aa1ecc86a9313af67c557",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 176,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/176.webp",
+      "previewSha256": "05ca29a648964c547d5a6fdb9b3629d05cb4d4a44de18af05c579f0690d38e30",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 177,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/177.webp",
+      "previewSha256": "c3fb15b30f8841dcfe106d4071e172f776a513b728fca6e3b94c402c5ad65bcd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 178,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/178.webp",
+      "previewSha256": "17c5b64457d5332b653ab890759d3eb8ee8149e60a588c1885cb9ada1f2a8789",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 179,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/179.webp",
+      "previewSha256": "89e90a16845eabfe48ca3a4db3314e33410e13caac1d7e8d8f41d2e1f6e2e245",
+      "exactMasterRecovered": true,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 180,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/180.webp",
+      "previewSha256": "10392736a799a1ad3c186cacf5556585ff9bc51e8e7f32659298d4c75b766288",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 181,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/181.webp",
+      "previewSha256": "fe7a770cc4a74b5ce70cb74b071d5de6020ea7c069304bdc4151b42d6f24174c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 182,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/182.webp",
+      "previewSha256": "3e908854725315b9389e717251697099667d274832e334fcb5c402b87122f6dc",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 183,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/183.webp",
+      "previewSha256": "1b46372722495533063f0265a3e5f80b9d6a3c2129b589d2f10436f0d17358ae",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 184,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/184.webp",
+      "previewSha256": "220e961b493038afd272150274879b707a9d98be16672a7f7082250696f527d3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 185,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/185.webp",
+      "previewSha256": "f43e93c26db8ad05ed3f927d09c4ffb0201eef5a5a8e51cf4b84b9a19ea7c1ca",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 186,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/186.webp",
+      "previewSha256": "85c896f0c566058c066be3cab5a61b5860ac53e2bfd845b276c738eca7ae3311",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 187,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/187.webp",
+      "previewSha256": "29ccfbb06a0d515c134b0d12dc6e87ace0b2c172ff49a3236a2f4e8a3d5db0de",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 188,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/188.webp",
+      "previewSha256": "fa94eb2c107cc41031ebab273c5be1c93c85d912ee774b5693701a2770c66636",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 189,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/189.webp",
+      "previewSha256": "ea0b38d1d0867df2e46f1cdb18222f9f13133c86569a234a1a0f3353064c08c8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 190,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/190.webp",
+      "previewSha256": "c694165b0a34f377cffc4c5299c3b0572152cca782732383ce0a46baa057f3bb",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 191,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/191.webp",
+      "previewSha256": "c4b02ff2ddb6b7bbb4d9f21825fca01daf1e7359a525c47f91d358f8fcd17958",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 192,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/192.webp",
+      "previewSha256": "7b17ca1b03da9d8e210de7bf02fc2f98797adbafc234b02a4df255cf03c60125",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 193,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/193.webp",
+      "previewSha256": "583b4ce26a863a1388befab9e7636eb3bb9ff4a29605d996f8dc98a063d9e375",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 194,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/194.webp",
+      "previewSha256": "6003a9f588a9cca648e5cd499e6fefb437fda37620175ab6864f41187a0dc2ca",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 195,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/195.webp",
+      "previewSha256": "3d4e933c5cbfa1fe8fb43ffc8bd4bac9b8f7ec48a9773e2de21f44f6d25b334c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 196,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/196.webp",
+      "previewSha256": "1172b973b016cb16ef6ea0b3691fe0405dab8e5ad573f05f526021873b4cd277",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 197,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/197.webp",
+      "previewSha256": "44122734179fea39f1eb78040d7ee8b15333cfda62a6eade4c2fd6692043e7e0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 198,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/198.webp",
+      "previewSha256": "82a201f70e91676ca039f6171ef09b577374c0df11fc9f75086ca035082be79e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 199,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/199.webp",
+      "previewSha256": "be1078d889a7b3adff76d9b7ae8ea70671f98e476dc8b84e65c06d93cad5ed49",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 200,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/200.webp",
+      "previewSha256": "cd9546232f6ee1ee65197f2572469301eebdd4789407cd7eaef6cfe4a47792ed",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 201,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/201.webp",
+      "previewSha256": "c3371c6ce5720c6492fbd114536efea8abed8c6232e3be01d3247c8144ee4af4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 202,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/202.webp",
+      "previewSha256": "6d1ed0177b531640738d6cebcfd62ccd481c109d52bf025f371874ce9e07f8b9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 203,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/203.webp",
+      "previewSha256": "bd01de58dd1c218e2878fa8fa880b9176e4f722435f9ba1a93832e002a0880c6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 204,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/204.webp",
+      "previewSha256": "c3e1d7ad3d2bae633d7619544169d087ed8ae27249c36ca5a438415311ddc41d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 205,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/205.webp",
+      "previewSha256": "78f981ab939b5d050a4a1719361ec1044b7bafb3556b24f271c78a80bfb16d25",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 206,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/206.webp",
+      "previewSha256": "c3afd1ff39487af8e6472cbfa5fd7baccd20dc4abfebc9e6560ec065004fe623",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 207,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/207.webp",
+      "previewSha256": "0a02a13406beadec44e599105e458269efa34eeffad59d0daea526bc4500ad79",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 208,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/208.webp",
+      "previewSha256": "5642bc3634af395a2cf3f98b6be5a7f79e5974ba9e3c40346d8c6f416422985a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 209,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/209.webp",
+      "previewSha256": "f7f092ef0951f84643910f422dc1f299dfa9eed086dc73aadd53654984f31866",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 210,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/210.webp",
+      "previewSha256": "d2f2185828e3c40a7074c29df0154994074b4e0a8dd1ac1376fcf331dd1821ed",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 211,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/211.webp",
+      "previewSha256": "a5d412c5a79e1710bd14309d95dbf7a0d6eb2f5387e58a97cccff9f5bda1a67f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 212,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/212.webp",
+      "previewSha256": "c354f8475350d5e819ab5151817f7c294ddf6b212236632189391aad170d7818",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 213,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/213.webp",
+      "previewSha256": "51be9cc12dc0d8ec403876bfe2796afc78e83b0204a8fcd1fd38b69d20a4ca28",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 214,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/214.webp",
+      "previewSha256": "d0e5f389ea24d8c3cb5eeb29cc7d15047a34946379efff46450ec2eb6510b517",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 215,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/215.webp",
+      "previewSha256": "6b5429f2a1aa6375df32c2b10b4018a47a4056578f667cbc4caa7639412d1d6c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 216,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/216.webp",
+      "previewSha256": "d2030d11cafec218f167cee8b7d9c8804be18cbb4cba5d97fc31f12b5280a4f3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 217,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/217.webp",
+      "previewSha256": "9e34d4a204c0d91714db3f1f988da57f8273bc7ac833f3d54a17ba721bfc8daa",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 218,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/218.webp",
+      "previewSha256": "12cf2489677ecda25b017e1870b51edb9e4e680023fbd13bf844bbc5c7aee475",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 219,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/219.webp",
+      "previewSha256": "8e6526d8d5d0f60820d1742a57e2c2bbbe8fda2eafea3c62d792f0d6bc854ee7",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 220,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/220.webp",
+      "previewSha256": "dad766297b7c5d6181e58b82be32400a50804642f8602bb6b310cd19bb722959",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 221,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/221.webp",
+      "previewSha256": "a2246e806d0d674ffb79aa3b7a70e0dcab8a8e4875e64cadcbcc00ace7764c9a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 222,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/222.webp",
+      "previewSha256": "11b048d37bde845fb912f7d3267126f039bfbe01e0f8b0d65e0c494b2c10d71c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 223,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/223.webp",
+      "previewSha256": "4e00883b73da1169ac198f5b4d885fa34f5dfce77dffbb2d5fc3e8be9e622b9b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 224,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/224.webp",
+      "previewSha256": "f3b6fbafb985e8b0272865cd17d5808c21f7c77fd998d0c31e3038cf57159be0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 225,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/225.webp",
+      "previewSha256": "ba9bd486c91e30c4163a3bcf7c77f012c22f1b806c8e9bad0b30ca809ad6e2e0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 226,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/226.webp",
+      "previewSha256": "d80d3d90ccc941b9f9718d13699cdbd18ef4a1a98557c79ca597ed97b8626e38",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 227,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/227.webp",
+      "previewSha256": "2fbeb0276c358dc2e188d55f147b06f32743000270e1258f6a98704bf5908eca",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 228,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/228.webp",
+      "previewSha256": "62b3cfb24e0bca1d3f48ec216426f75a5033a45c63d71e231677894a7f59cee2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 229,
+      "tier": "Uncommon",
+      "backdropTrait": "Mint",
+      "preview": "assets/astros/229.webp",
+      "previewSha256": "d235d333e9e79755fbe448b0a422e886055eb386c5d6b615a38337244665d8cd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 230,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/230.webp",
+      "previewSha256": "c7ea983635be466d1df2f1fdc571ac5facaf6abc104cab430007c7b834f7b00c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 231,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/231.webp",
+      "previewSha256": "2f4d7b8b05f7263aae1d01850d641ab91f4c7e6daf33a8a415031aed2ad48454",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 232,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/232.webp",
+      "previewSha256": "02a1576c21dd48f636f4b3b006e3b8f3c1d01c4b4c200eff887a902c6c6389bd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 233,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/233.webp",
+      "previewSha256": "01290091d0eb93393290984d83988368d565791159b93b4cd880d8dad3beddb6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 234,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/234.webp",
+      "previewSha256": "647183ca6e72e840f83173d2c9f85230a9ce0f7f07c8f19ea437acf3699cbe36",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 235,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/235.webp",
+      "previewSha256": "3a3b6133b5331f37d0bfc0ba79d31b778c9d140ba24d02b5477793e82c435eab",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 237,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/237.webp",
+      "previewSha256": "b3864bcdf56a471458e8baa679f6c71b767b0a321925cc09d1d409468129e968",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 238,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/238.webp",
+      "previewSha256": "f5a92aa48ba2ce4d5b11ec145620dcb4e6a2eb7bb567a44ae41e5ea202524bf8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 241,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/241.webp",
+      "previewSha256": "54a8a1516e8537b0733d53d0403713b197a7bcdd74d767350fcb47f9538c690e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 242,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/242.webp",
+      "previewSha256": "aa1e6f9f55ef57a6082583050cbdbe09eb15ee9e07d878f1f8eaed981426358b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 244,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/244.webp",
+      "previewSha256": "807d3b1ac6eb9454b0cdeb6d8f451284362f0b14afd2b9850dfafbd75ae746be",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 246,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/246.webp",
+      "previewSha256": "54d2cf9c064518c450a32f3a2122978a35b0440244521bf79f4ed46f9f52b4da",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 247,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/247.webp",
+      "previewSha256": "3046901885edab113684ce21a7cf5450e27c344c380f196290db8f94232f6662",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 248,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/248.webp",
+      "previewSha256": "153757ee028f11d7320913c6c69fe19ff62c839159ada00d523ff213ee763962",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 249,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/249.webp",
+      "previewSha256": "eb18625461b5a4d30b5f8c4a12f786ec9f42ec727cf5b867bcbeeb2a73fc673c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 250,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/250.webp",
+      "previewSha256": "b6705a55cfab2e03e720a9fe79efdc13c78bd86e85bc8d72d0958a339a051766",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 251,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/251.webp",
+      "previewSha256": "9e04f4077783f523a8884f477511550808f0774169b27abb76314908c1ecd419",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 252,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/252.webp",
+      "previewSha256": "56cdeeb8da28056cdff90efeb33e17b5fc1b653aebaf74b5a9c0e242cc6724cf",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 253,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/253.webp",
+      "previewSha256": "5404926916440a9191006ccdbe1e045486619c2ae626f64a1f541ea0c8f2abb6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 255,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/255.webp",
+      "previewSha256": "4ba131bd5f723c59898806e969d7f5ac3634422a6fe9ab347018091189830416",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 256,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/256.webp",
+      "previewSha256": "a57a7f8960349e239365e4fb1a626db3d7f22c7a1e884d7be1c30913803fb0c2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 257,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/257.webp",
+      "previewSha256": "71f4ab985d2923eeb0e4ddb3ecad7fd4d0a4f423e466289e7b6bad2f81aace44",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 258,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/258.webp",
+      "previewSha256": "e36823268949f672a50911f3d3eaba9202ca7268283d943486fd0b5f56e4cad9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 260,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/260.webp",
+      "previewSha256": "7c99f5c60ee6a024240452dc35961dac281d45d88f55c115e6bd64c5c9db739e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 261,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/261.webp",
+      "previewSha256": "532253307c334115c554be92ba8466efd20f7264f451ecfed5de989c8d834b1f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 262,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/262.webp",
+      "previewSha256": "61b5a7c262a95c2b02aada73f91531d1f2137498eda55dc8b69f53f3a6be23c8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 263,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/263.webp",
+      "previewSha256": "9ac792e7051a909c323b5660572f7838e34674c47532c30af76a633c79dee867",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 264,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/264.webp",
+      "previewSha256": "d53d43ef963381c403a9156546936522705963832a9ebebfe2cb8de0425fd71a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 265,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/265.webp",
+      "previewSha256": "61944524969d731f53ffe27f3da339d2eb287072841b690a726ceda450404e44",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 266,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/266.webp",
+      "previewSha256": "a267afe63360ba8912148f47b6f4baed0aa9502c2268cd91d2f0462c5682ec23",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 267,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/267.webp",
+      "previewSha256": "de37fe958729fb3a1630d572701d7f8ef7f147e8585f38e44ac5e072d1291e41",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 268,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/268.webp",
+      "previewSha256": "ec86ec6fbb0a3abedf0dfa6bac4b5d9a234060b03315440a58074e51eaa352ff",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 270,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/270.webp",
+      "previewSha256": "1925b346392672de7aad119385c8a1c59d472c510928a2cf321cc00d90adfa87",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 271,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/271.webp",
+      "previewSha256": "4f88d324fbe9d4d5858e43ab14403f66c936b7b50b676c25faa24e3d07e233bc",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 273,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/273.webp",
+      "previewSha256": "a2ff3051a6813f5960bfbd8f3fbf45078e0e7220ed98c782b12c61de0f82cdea",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 274,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/274.webp",
+      "previewSha256": "46de1ff1d49d379e19fc523dccfe218930e797dfe9859f1c4d654696a10ea80c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 275,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/275.webp",
+      "previewSha256": "20849bb1142c68ae453031638b20faf9d02cdf6f3d185ba102f4232c1af61e66",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 278,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/278.webp",
+      "previewSha256": "b0f5e61e987d8a98702b8411aec100acd8c99098f104b0e3f2d8db11a19010f5",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 279,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/279.webp",
+      "previewSha256": "448a2f704798a696b756f6ea0d69fc5255442854c48edd255fc862f17c5a6473",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 282,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/282.webp",
+      "previewSha256": "eaf5c4c98796703d1a09738411301e2bf2a6b931b37bfc12cae9dffa92e08cff",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 285,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/285.webp",
+      "previewSha256": "215d48f0f0fd7391c9b64e482c6641a1104735b7e152b8222de22a306af838e7",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 286,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/286.webp",
+      "previewSha256": "c875a8ac571b6a41b4c89dac52980d8f85a932f03f5170deaec62ddeb567aabb",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 287,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/287.webp",
+      "previewSha256": "664611fb97536dcf50e144bd34b269e4e20278fc2037499eec60429993cd7bc6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 288,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/288.webp",
+      "previewSha256": "d313e92a51b2771b05c57ac5acff2f010cc259e10e3c0cc78e3ede8df63936d7",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 289,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/289.webp",
+      "previewSha256": "3af81aa502e0cc7a7ff62aa8ce74183131e12e0eb3ee474b96162211c2c86c73",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 290,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/290.webp",
+      "previewSha256": "899b6ce839759a1b6d7e83bbedb4a0eef28b9515145563555a3f06f37752db7c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 291,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/291.webp",
+      "previewSha256": "41844d0e2312600aec2a0cb11fd8f0b71f1a4bf38a291289983977958f4b1ba8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 292,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/292.webp",
+      "previewSha256": "3c52cd1b935918ad1ad5d043f6d28fcf0ab61b19ed058a50bdb36b2a3c10f41c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 293,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/293.webp",
+      "previewSha256": "161a0f481c30bce5777e5f0a6840cd266d9f86df9073a389c2cf963951591f0a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 294,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/294.webp",
+      "previewSha256": "1e2a8e85eb017f7541c1f6e94235e4de4174a2a0a6e912e959fbeaabb104e71f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 295,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/295.webp",
+      "previewSha256": "c1ffa3720abe8aab08504309a648a80d558cde66fab2647316116d8543141a0d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 296,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/296.webp",
+      "previewSha256": "672dad6b2e84077b3c798146f3ebf60c8580e7736c1cc3f8bc7d7fddb7132df3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 298,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/298.webp",
+      "previewSha256": "dc842bf47d7e60019979cdfc14b366b9a2637faed8e933d116933f2eabeaf21a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 299,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/299.webp",
+      "previewSha256": "39fa6e41f66372c8a19da89b6ad58b79a3278cef194ac38e2375af8da6110815",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 300,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/300.webp",
+      "previewSha256": "252de8b3b00c443726b785d0927a7a2620f24f6de45dc166993084976a905dca",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 302,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/302.webp",
+      "previewSha256": "abfff3abcfe9e5290c33e9da21e10c6fc1fbf74dccacad5b0c848eb4e5dd883b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 303,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/303.webp",
+      "previewSha256": "43405becab1cc573d570afd8cd57c48ecf9c5737039d8c6ba9dd5ec76e3f8e3a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 304,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/304.webp",
+      "previewSha256": "70de4ce75e21c5389541efff660c0dc75bbd14467b52f04e20633ea2dfd8ab70",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 305,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/305.webp",
+      "previewSha256": "02cb24bdb5fb4a3c3320577ac804ad6f1fd11b2b9f1e6341992fbe9caa009011",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 306,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/306.webp",
+      "previewSha256": "3cd52da45f4f2820903f176494a03c8e32ef800cb8eb63c9d7f54194d8139124",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 307,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/307.webp",
+      "previewSha256": "3771a9950a081283a57f8f69de17a85cabbbd807872d49c7270b8a7dc2e9c0bd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 308,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/308.webp",
+      "previewSha256": "312e66c8d8c4269082005aaf9d06871f6f4181e639107fc3aaf0051b8825df65",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 309,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/309.webp",
+      "previewSha256": "745a3eb14c9128342a6d45b2c04e371efd2af1be1d10a553064e35e7d1dcaa32",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 310,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/310.webp",
+      "previewSha256": "c55fbdced709c4d0ca8f3391e2fed9dd5965ab793fc580c15c351270b7394c45",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 311,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/311.webp",
+      "previewSha256": "527e59c29ba2275830b2167dfeded4fa1c44c9eb5860350c64142b83796f8144",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 312,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/312.webp",
+      "previewSha256": "66e8165879f82c75dd895b986c1bbf10072b888346e47afd9ec9447a7579105a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 313,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/313.webp",
+      "previewSha256": "ca870315d039bcd17a6dc4e311d8cb7ceae4de393b2c601a25232f21a9eee6ab",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 314,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/314.webp",
+      "previewSha256": "86d527817883cfde43b7d5d840fd0a439bb7799c658b821ec558c0bac3f1c0e3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 315,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/315.webp",
+      "previewSha256": "d1715cba995c6514c4e80b7045ff98ed49d3f7aa23bab966558513cebb6a437c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 316,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/316.webp",
+      "previewSha256": "501b1d83abc8cd9cef457766a3619f8041eff635d2990dad7548673886a7aa44",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 317,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/317.webp",
+      "previewSha256": "bb99f34e22d58d6ed33866a1c1f1ca33a6c8cffaacae4e819da610f52f038a27",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 318,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/318.webp",
+      "previewSha256": "200360253232f02f12d7e97af0d81c9ba32a0f620d70940b4ffdebe53cd5aa38",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 319,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/319.webp",
+      "previewSha256": "1caa3018d40f594f585aab0e8939efbccbe12c85df4b57fcf171a8018dcabadd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 320,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/320.webp",
+      "previewSha256": "eaa1318e5fbd6de09a9871551fcb7596810e488e24ef5a7df052cde06169be99",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 321,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/321.webp",
+      "previewSha256": "c62f58090bab09183d7e486a9001d5e581d1e41a7eb1c46974f115d57bbd4117",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 322,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/322.webp",
+      "previewSha256": "886a3e541ad6c252817b26d9d8d71bfbf1c1f95ca011d2cd3ad24de949db6ab2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 323,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/323.webp",
+      "previewSha256": "d2c88b37ad410989c7a3298fa3325fa2b60bb9f58465bed455236ee721738812",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 325,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/325.webp",
+      "previewSha256": "5a714987fe010c376b911cb4b3c6fb042ab84e07af836181e244916094816bef",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 326,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/326.webp",
+      "previewSha256": "7d9c7c1d10d2780c7479ffb4f9c0298d9b606b57314e3e41e365ad983045e3a3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 327,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/327.webp",
+      "previewSha256": "2a22d2ac428201e9e9476efcd1822c426daf3ed5201a7b398b2c5bfbb4f4fdd6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 328,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/328.webp",
+      "previewSha256": "f1f9999985efd7fda50fdfab7d49b61c1e87d6fa0e10f4288bbc1dbb2ecf23e2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 329,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/329.webp",
+      "previewSha256": "c4d942f8cfacf507f4328dbe9d2fc434ed0243345fe39ae728c4f89f9f42931d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 330,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/330.webp",
+      "previewSha256": "963a6842f85646e03a22c0368597e5725579d0936ed8fa31479ae735c5de9023",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 331,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/331.webp",
+      "previewSha256": "7d31f834f48d64a241b155b6df8a7da58b56a26b2983ff01f3ac5f9e9d6f5705",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 332,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/332.webp",
+      "previewSha256": "7bae02bb1e4b4e61ebc6eb4d87ef928d7a907063f72d26210eba6ee8ac834bd5",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 334,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/334.webp",
+      "previewSha256": "cba23687bab5a21dbb0418ea4e3a0d57353f0ef8c5759af01a2af1d01174777d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 336,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/336.webp",
+      "previewSha256": "8a4d514c6e7afeb484bf059c59321709f992661dca867ec6e13367644f2f5e68",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 339,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/339.webp",
+      "previewSha256": "07c919d0879179e371a3eae8f58f05bc689d63266089d7919eed581c06a6c30c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 340,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/340.webp",
+      "previewSha256": "465de9c88ce17604403e8839d448985c562898968eefb9ca54cbfac5138c0430",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 344,
+      "tier": "Common",
+      "backdropTrait": "Sand",
+      "preview": "assets/astros/344.webp",
+      "previewSha256": "74e0e3676d2031022a0aff7dd01115637fff0f9acb4537eca161966a65286223",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 346,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/346.webp",
+      "previewSha256": "7f50d351373cf3c37bf7e1a200a528eff5106b8ab2a13589419be993f709b284",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 347,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/347.webp",
+      "previewSha256": "d4a664f436c44d0e04b8fbc626183073941db89734ce64afe6d2a2fbe16011de",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 348,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/348.webp",
+      "previewSha256": "1c800aaf30bfd4b2c681eced6e279170b90fc6ab1af8e54f67373a4306ba4d80",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 350,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/350.webp",
+      "previewSha256": "8a83467b205eaf02c10db3403646ee30cd29d856ec446f821aea0ef1007dd806",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 351,
+      "tier": "Common",
+      "backdropTrait": "Clay",
+      "preview": "assets/astros/351.webp",
+      "previewSha256": "e8540c22121d191cc1465d6d7d393cb3badc923fbdc7039a91992f2a71878ff2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 353,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/353.webp",
+      "previewSha256": "a065c4cd0b3938eca4a5dd579dcb3290ccd46cfdbd16fd161136bbe80ac6fa81",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 355,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/355.webp",
+      "previewSha256": "3bc69a83ab73da935d62e9141673457f63bfd4b37ffe148c57e594fad5811dc1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 357,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/357.webp",
+      "previewSha256": "4dc20e7b92a85c2149e11ab73822a2d6f8ea62e4d64147733ad383d422934367",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 358,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/358.webp",
+      "previewSha256": "7baa3562289238ead01d37276f75fcbc3fd34e836ed813f981488e9ef197685c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 359,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/359.webp",
+      "previewSha256": "14a8a1681d630fe47efb92f3a024d1b196f29c22e96fce75e14fe6010c661981",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 360,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/360.webp",
+      "previewSha256": "a9eb3aa255c6113d9a6c0ca27fd71469f460e41f3581ee082142e027dfcf7d09",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 361,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/361.webp",
+      "previewSha256": "9e1f74e119de73069663f4bcf5c79372c8642941bdaba439b7ca2ec3cae56fc2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 362,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/362.webp",
+      "previewSha256": "2330289ccd576d0f0d50c168552a1800d1a1449078b11c5d8767ac226e10c527",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 364,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/364.webp",
+      "previewSha256": "66bacb85a6fa644c8a1803a289ddfa68669dc37b7f13a882621a197e952c8b4b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 365,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/365.webp",
+      "previewSha256": "3316e6c602c9580fcf0880e0da4cf18a6ec202d025158ed6c677acbab471d439",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 368,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/368.webp",
+      "previewSha256": "97e24d425e5ef8ed91aa35cde4fcc93da23d4d62754b2009074826102a91eaf9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 372,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/372.webp",
+      "previewSha256": "f676df20a8a5cc20587ed92a63b3c98ba993611ffc7f6d3e7567b401132d4dc3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 373,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/373.webp",
+      "previewSha256": "0e44836f15e1683a13eb3f7f75a8e72b04c53ade7ad96b55011eefc490674264",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 374,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/374.webp",
+      "previewSha256": "4153381fdabc941c4983107dc1c4ff4560ce839b063a415d5db7f042f42c0c3b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 377,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/377.webp",
+      "previewSha256": "387731c52a23de1dd97a37347b1d68b1ef9b8e3852181c5cc2c86e6c4b8f1ae0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 390,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/390.webp",
+      "previewSha256": "9ab88197fa1c27d1e9df6a827b12b6d3cf52843935cc45ca5ec92c1d95e32248",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 396,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/396.webp",
+      "previewSha256": "e1bacf2f0fd71ee68157cb02fa4cb7fb8b2ff494d997100139c76cfb6efa35b4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 402,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/402.webp",
+      "previewSha256": "78ac5216e49e080747a8d05612e3a97c9d3c2a4d759ae516fc6bf9302d7becc1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 433,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/433.webp",
+      "previewSha256": "4ae2884ed80bedbac62d805472b880df4b2499f73169c63061e79990ea845513",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 434,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/434.webp",
+      "previewSha256": "6f8e341fecb297bc4159f9aa0e2ed47721e29cfecdd7b75e0b23fd0e91208ac2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 441,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/441.webp",
+      "previewSha256": "6cc961bcc96c9e87fc80614fcbe7ca5b65e617a5f3bb661f1a38e176f76424a9",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 442,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/442.webp",
+      "previewSha256": "0097a7a4ac9241da00a209b596c886c5679880dc11532af2b40ca01df6bab75b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 446,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/446.webp",
+      "previewSha256": "90cddc3a8ed91b7b93554a431b2a02df1a2f3acd98878dc67a6e61199804beb1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 450,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/450.webp",
+      "previewSha256": "01871b2211fc3091eece37d5409d95b7ee57a1b8908f2ce9ba5ae4c86d1c840d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 452,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/452.webp",
+      "previewSha256": "9f98e652a19dc89ae099b03b5ae7308052fb75f104435426d25e0beb47ba1add",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 456,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/456.webp",
+      "previewSha256": "21ef3478f495169435d4f11e366ce4124a78e265ce050a005fe50c1c2bc1ec28",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 458,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/458.webp",
+      "previewSha256": "93a5581ad9265246589a271247dd91f1671f1951c818e19263246fbbcf02b90d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 461,
+      "tier": "Common",
+      "backdropTrait": "Sage",
+      "preview": "assets/astros/461.webp",
+      "previewSha256": "35fdeaacf852c0376f21d7ba556f5516e44642cc671835e2bfd00e834937603a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 462,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/462.webp",
+      "previewSha256": "1d6c728f3e0f9bc594ebd6bd241df7753f8dcc97715889c3166a0ed07bac4373",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 472,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/472.webp",
+      "previewSha256": "b8b481acf942b472ba9312b58ef3a10d6cddd5248a52907914d4e516a22ffa4f",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 473,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/473.webp",
+      "previewSha256": "b25d145a03885cfab2626e6a74eeb3cbca88a00a0130166f74ba891499a3e60c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 479,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/479.webp",
+      "previewSha256": "9646d085472b0605cb98a3f5c5cba77b0571b6f6b21200db2ade9c20a8cfa7fc",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 480,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/480.webp",
+      "previewSha256": "ac7cf7c8c1fb323dab4abeb8a7d148adf79fb53459c65674f5a9b9948c79c1d5",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 491,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/491.webp",
+      "previewSha256": "550ebdc3a05615e03b1f1f332bdf1725590d04086f1f0154f584d239edee045c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 494,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/494.webp",
+      "previewSha256": "cd8b17cef5b121235511f52f7b9c346f96f548a6dc7790c9d88582bab54691c4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 496,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/496.webp",
+      "previewSha256": "dfe0e7a0b9152cc4e0e077ac55c1e335cb099c463cb415a1123f66e15a800aa1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 497,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/497.webp",
+      "previewSha256": "368bd1e41a077d041dfdf31ae1f10e25883a015faf34e0245e0911cdade7d9d8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 498,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/498.webp",
+      "previewSha256": "74630b927aa0b9783cc6f3a836d31f7efae8307583df168bf66b06bef05e84a4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 499,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/499.webp",
+      "previewSha256": "6435cbfa8c6bf097104319275dbc01899540aa2d8ceab69c9e421cb362ab455d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 503,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/503.webp",
+      "previewSha256": "88016f94d9dc5a8e7f56b952997d226edb09f812fea8024c0c32ad4774e9ffd2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 510,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/510.webp",
+      "previewSha256": "812b4321280a89b50379d887b782f02f5e9d1154e766e417daae77b5dc5a052d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 515,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/515.webp",
+      "previewSha256": "2bfbbff42e35b19e5c15c7e7d1d34b44c5b008bc3384a78c7db7316019d9bc40",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 516,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/516.webp",
+      "previewSha256": "3540d5d8ca11cec7248f3760019491fa9fba1fad31cf8713676e5d07cc4e7da3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 518,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/518.webp",
+      "previewSha256": "c14f0b7317a402039cfed5a57b9f98c8a2ff9d2f04a9101d3a3ecf6cdd1fff45",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 528,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/528.webp",
+      "previewSha256": "7adec8a2f9e75dd7d7019df25a6558c767faf6bb6885d95fc8dadebdd74bc7f2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 542,
+      "tier": "Common",
+      "backdropTrait": "Dusty Blue",
+      "preview": "assets/astros/542.webp",
+      "previewSha256": "54a7c038f05822cead9125a9982fabcac6dcbff3cfba72fcbed6a10205139cfd",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 543,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/543.webp",
+      "previewSha256": "eae1c500179c32d45fa6b1a60396822970edbf8c6ad08a6bf0c3003c88f57b4d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 547,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/547.webp",
+      "previewSha256": "71e4480b053193222a2aec5bd757adc4a03eb4cfdf1de156af55df651818f40e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 550,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/550.webp",
+      "previewSha256": "11042cdcbb581734d6f9c046b45c5049e6d2410351e1cb14aaeed341329377ce",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 551,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/551.webp",
+      "previewSha256": "92c46f999e52203123f7b149ae0855d48ddd3b9d31615f628bd23bbe956cdbac",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 552,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/552.webp",
+      "previewSha256": "85f513e39dd3fca36b2b8f370e0c52640ec61e79571dba1cff9d6842b2022dcc",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 556,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/556.webp",
+      "previewSha256": "783ce14069bd082d77f329a2a0fe78bbf1246afd7b643a4580538596190c16aa",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 561,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/561.webp",
+      "previewSha256": "84f504686056088c2f89d76a0a86fca67267cad3bc76600b712141b9ce0370a0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 564,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/564.webp",
+      "previewSha256": "a464b600a4dccfd2a7ec364571ac3a75862304d7366858522e88ed23b20a8658",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 566,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/566.webp",
+      "previewSha256": "e08530fe21129d58a83ceeb0ed0b7b7f28322fa31aac1748b58a8764a5b03f43",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 567,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/567.webp",
+      "previewSha256": "f16522ee8c314aa2bff2ec6abc6aac1839bec231dfce3513eb8412608f3099d2",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 580,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/580.webp",
+      "previewSha256": "7e7dbe4e19402f908ecbd19ab68987ff58a4c1ae04511664ed97b43d227aec70",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 584,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/584.webp",
+      "previewSha256": "53232562bc8295a1af002e18fcdddef04c429f22af27374ec33cff4e6435c4f5",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 593,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/593.webp",
+      "previewSha256": "9ec14dafa704e746099eac980bfe2d49fdbb87c10eb4f1d9cc881915ee913bac",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 596,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/596.webp",
+      "previewSha256": "02b51cd6b602c7be9effb3518e4f055358bec8a8ce6343a551862f626a328392",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 597,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/597.webp",
+      "previewSha256": "4b474076158bcc6041468cab06e47416e6e50a6b46ad463f5a8fcaa98bf40e21",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 625,
+      "tier": "Common",
+      "backdropTrait": "Mauve",
+      "preview": "assets/astros/625.webp",
+      "previewSha256": "dca511945c2233dd58c7ab8371449a49aca157d508e3e6f8003651cfe71b460b",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 626,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/626.webp",
+      "previewSha256": "e772d3245ecfac2485fc39b497fa8f5fc8e731730a0210d752543b6d71a94404",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 629,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/629.webp",
+      "previewSha256": "7fc64d5710e5c0ddfeb1226167c15f7e6cdc9d09f68315e7eaa0d0830bc6c14e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 630,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/630.webp",
+      "previewSha256": "151edcd6ca8ff3b818b09b22dc78e2acd161c50eecb1a37bfe0f00949aba7a16",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 648,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/648.webp",
+      "previewSha256": "f625319fdbf80958565042b2fdd3e1996d322ce007a62e076f26d3b3a9091053",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 655,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/655.webp",
+      "previewSha256": "8477162a0d86f8bbe9d211e3063d47b9e60b74476f127860e19a8ec3acd77fad",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 660,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/660.webp",
+      "previewSha256": "7bc693d01ad764c3c3494187ab3a876671076a12cfbd25190ee643a2479dc1e3",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 667,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/667.webp",
+      "previewSha256": "47b5409f721d5907c2a364bc5182e8d5640a2ac3c477706d28eee273e6718f2a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 668,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/668.webp",
+      "previewSha256": "ede678e7dee6a9d3fa4dfea817b6f4fefc54275926a3dda3b3223b1394041165",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 672,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/672.webp",
+      "previewSha256": "5710bb7a1484ec7ca4db2e83acd648cc729e76b426e342c67d4dfe975dc7526c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 673,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/673.webp",
+      "previewSha256": "7df7801d2bfbee380bd8911e9f67cdbf5716396307328281782f37ce756bcc49",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 676,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/676.webp",
+      "previewSha256": "1f39b03100a200b561dcfa86fb75fd48d5627e67bc754c797c1db96dd7522683",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 677,
+      "tier": "Rare",
+      "backdropTrait": "Sky",
+      "preview": "assets/astros/677.webp",
+      "previewSha256": "b3f132e10bcf7b6c4d13cfdde4490cc2fc8797e1bf4e74e91d8fe497efefac53",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 684,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/684.webp",
+      "previewSha256": "047dde306f2aff32837bbfdaca60c419a84a8cd25f1a8cd623f79c7eb6d7d1d4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 686,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/686.webp",
+      "previewSha256": "e17d189a16812e5871ffd51b4e36162883ee18a575ad6f43c3dafcbc0ce3d8c4",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 697,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/697.webp",
+      "previewSha256": "81fe205412736bbacf1cb32cb511353597abd2e680e130f6b78e6f1e3605c5e8",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 715,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/715.webp",
+      "previewSha256": "19c7931f932a0c5b51431456a77aafa375ca2c44403deddffbee449742ed509d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 730,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/730.webp",
+      "previewSha256": "7d89ea3d7a832986071a6660ab6e1c04ed43dd56e8cb6c2f2ef0eb4e95658207",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 758,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/758.webp",
+      "previewSha256": "db451f3068d060ce2aba86ad762641b69bacd228dafb7d9ef8469819e0ca4abc",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 762,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/762.webp",
+      "previewSha256": "b025cecff76f0f97e7bc18f34e1eabb04e71c2cdc0199bf4cc9cd74ab9d75f8a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 777,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/777.webp",
+      "previewSha256": "65ab5ed2970d03f4502578cdcccce549183d6f4747be8260c6f19e8e9cd50095",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 789,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/789.webp",
+      "previewSha256": "ba00dd33fb8043a2f7e1e75c77165755c3bad41c4ebca8091ac2a5a986308273",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 812,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/812.webp",
+      "previewSha256": "f7d3c0ab0ec0ccab54fe4ea3a22b99d2076bbc2b14a9f6851798580370f722c6",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 819,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/819.webp",
+      "previewSha256": "514b0665c0deb54748e7704f8c2a708b85b35474c65a8ac3d5194e8637261e5d",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 823,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/823.webp",
+      "previewSha256": "c9ce906abccd940430659e0d777417562734ae608acd8054e4ad7a24cdf25349",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 832,
+      "tier": "Common",
+      "backdropTrait": "Stone",
+      "preview": "assets/astros/832.webp",
+      "previewSha256": "e6f63fadb285a413bed3903b903dbc5ad48eab8a0106199dee47a52fed56a61a",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 849,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/849.webp",
+      "previewSha256": "9575fb64ed3d36d5ce91d61f990614df91a3050869b41a5db1b1020936b332ab",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 870,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/870.webp",
+      "previewSha256": "4c11e8a42960599529a1ad59b0ec6d026f0f1d799e3e5526fdd769f1dc8609f0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 880,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/880.webp",
+      "previewSha256": "59f8ff99d2b4d7956b9034dcb74ee66c8f5e450da389ab370db7c7352ed2d7bb",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 893,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/893.webp",
+      "previewSha256": "6d225a7dd7fcb0ba269a7d15d8b78facf71fd93640438edd5b0478aa77f62b94",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 894,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/894.webp",
+      "previewSha256": "f49910e09939f0948eaa1d293e8991bc6d962bd4d987d0f04e46533e87984efa",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": true
+    },
+    {
+      "id": 915,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/915.webp",
+      "previewSha256": "99785883356b388cd313a8e1d4806939da4ceba310a8052bac78ae2e08ebff37",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 917,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/917.webp",
+      "previewSha256": "67e391af3cde42f8b5768eb55879c7e653fb97a70db7879e40320bb1237f308e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 918,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/918.webp",
+      "previewSha256": "8273ffc165e7d5709f7718305bdbb00f9e1d6cb2bcf76799c50a77631cf2d7ac",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 943,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/943.webp",
+      "previewSha256": "346e3229556e80896ff6aba807a669e5ab79b84c29c10259e72831424d7493df",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 952,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/952.webp",
+      "previewSha256": "2a874d1e4e307d5d7f6dec4a9cb420a50fd8350ca96b3c619c6fe5474065dda1",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 954,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/954.webp",
+      "previewSha256": "dcf06b57025af32287977ecdaec3918b78e7dcbafbc04ea953913fac86d61e9e",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 960,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/960.webp",
+      "previewSha256": "351da1a6f24532b39b08d6b58655b0a51b68d9fecc23db713baa434538591286",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 976,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/976.webp",
+      "previewSha256": "ac04292ef0627ace9c3fdd18bd1e26b84cd92a1d96f9a34e35c686e60c71faf0",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 991,
+      "tier": "Legendary",
+      "backdropTrait": "Amber",
+      "preview": "assets/astros/991.webp",
+      "previewSha256": "05b75e609207a13c6f2851d9c23b06ed9dfae0fbd107f1dfc667d469cc01ed29",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    },
+    {
+      "id": 992,
+      "tier": "Epic",
+      "backdropTrait": "Violet",
+      "preview": "assets/astros/992.webp",
+      "previewSha256": "a3231b789d0990b23f2250c9cae0001faf140c3f10fe75019b4dfe768491b23c",
+      "exactMasterRecovered": false,
+      "previewSimilarityFlag": false
+    }
+  ]
+}
