@@ -1,0 +1,482 @@
+[
+  {
+    "id": 411,
+    "type": "Female",
+    "detail": "freckled redhead surveyor, copper bob, broken ivory latch",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 283,
+    "type": "Female",
+    "detail": "dark brown skin, cropped coils, cobalt pressure collar",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 412,
+    "type": "Male",
+    "detail": "salt-and-pepper stubble, green repair patch, flat slate visor",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 413,
+    "type": "Female",
+    "detail": "olive complexion, silver fringe, pale gray headset",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 297,
+    "type": "Baby",
+    "detail": "round-cheeked baby with black wisps, peach-padded suit",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 414,
+    "type": "Cat",
+    "detail": "tortoiseshell, muted olive suit, square forehead vent",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 417,
+    "type": "Female",
+    "detail": "deep skin, eyebrow slit, dark auburn braid under helmet",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 301,
+    "type": "Dog",
+    "detail": "wirehaired dachshund, dark green suit and dented silver visor hinge",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 418,
+    "type": "Female",
+    "detail": "pale skin, dark straight fringe, pale teal helmet rim",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 421,
+    "type": "Male",
+    "detail": "broad cheekbones, sparse black mustache, charcoal ceramic shell",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 324,
+    "type": "Female",
+    "detail": "older brown woman, silver temples, orange shoulder seam",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 423,
+    "type": "Robot",
+    "detail": "dented aluminum robot face, mechanical lids and linen pressure suit",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 424,
+    "type": "Female",
+    "detail": "tan face, freckles, short lavender hair with gray shell",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 333,
+    "type": "Female",
+    "detail": "black hair in tight waves, copper cheek plate and khaki shell",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 425,
+    "type": "Alien",
+    "detail": "muted teal skin, wide cheeks, three compact brow ridges, graphite shell",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 427,
+    "type": "Female",
+    "detail": "middle-aged light brown woman, round glasses, ivory gasket",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 335,
+    "type": "Female",
+    "detail": "auburn-haired woman, blue collar and small clear field reader",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 429,
+    "type": "Female",
+    "detail": "dark-skinned woman with cropped black ringlets and dark green latches",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 430,
+    "type": "Male",
+    "detail": "pale gray beard, crooked nose, navy bodice with ivory shoulders",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 337,
+    "type": "Female",
+    "detail": "cream skin, freckles, blonde asymmetric bangs and gray-brown shell",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 432,
+    "type": "Cat",
+    "detail": "grey shorthair cat with one nicked ear and faded ivory chest fittings",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 435,
+    "type": "Baby",
+    "detail": "brown baby with sleepy amber eyes and pale mint quilted hood",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 338,
+    "type": "Female",
+    "detail": "deep-brown face, blunt bangs, dark purple helmet and silver ear ring",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 436,
+    "type": "Dog",
+    "detail": "black-and-tan shiba with cream cheek markings, scuffed slate-blue shell",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 437,
+    "type": "Robot",
+    "detail": "weathered brass droid, rectangular cheek plugs and sleepy shutters",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 341,
+    "type": "Female",
+    "detail": "olive skin, wavy brown hair, rust red ceramic pressure helmet",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 438,
+    "type": "Male",
+    "detail": "older dark man, close gray beard, scuffed ivory flight shell",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 439,
+    "type": "Female",
+    "detail": "tan woman with black bob, broad eyebrows and olive canvas suit",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 342,
+    "type": "Cat",
+    "detail": "short-haired pointed Siamese, dark ears, patched red pressure collar",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 443,
+    "type": "Female",
+    "detail": "brown skin and short silver twists, purple collar and ruby visor latch",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 444,
+    "type": "Baby",
+    "detail": "sleepy fair-skinned baby, wispy blonde curl, quilted yellow collar",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 343,
+    "type": "Female",
+    "detail": "black-haired woman, pale silver rim with a raspberry shoulder patch",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 445,
+    "type": "Alien",
+    "detail": "soft lavender face, large nose ridge, low yellow eyes, ivory collar",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 447,
+    "type": "Female",
+    "detail": "tanned older woman with gray bob and muted red shell",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 345,
+    "type": "Female",
+    "detail": "faint freckles and ash-brown braid, high graphite suit collar",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 448,
+    "type": "Dog",
+    "detail": "gray whippet with long muzzle, copper helmet inner rim",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 449,
+    "type": "Female",
+    "detail": "dark-skinned younger woman, tucked red scarf and scratched green earpiece",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 349,
+    "type": "Male",
+    "detail": "deep tan face and short black beard, split tan-and-blue collar",
+    "tier": "Uncommon",
+    "refs": [
+      18,
+      1
+    ]
+  },
+  {
+    "id": 451,
+    "type": "Female",
+    "detail": "pale green eyes, short tawny fringe, navy shoulders",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 454,
+    "type": "Female",
+    "detail": "brown-skinned older woman, double row of silver helmet rivets",
+    "tier": "Common",
+    "refs": [
+      11,
+      1
+    ]
+  },
+  {
+    "id": 853,
+    "type": "Female",
+    "detail": "short wine-red curls and rose-tinted brushed alloy visor rim",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  },
+  {
+    "id": 858,
+    "type": "Alien",
+    "detail": "tan clay skin with four pale pupils and brushed blue-metal pressure cuff",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  },
+  {
+    "id": 859,
+    "type": "Female",
+    "detail": "black hair, worn yellow rangefinder and gold chain over a brushed titanium collar",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  },
+  {
+    "id": 862,
+    "type": "Cat",
+    "detail": "white angora, icy half-lidded eyes, blackened gunmetal chest bindings",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  },
+  {
+    "id": 866,
+    "type": "Robot",
+    "detail": "ceramic-and-brass droid face, narrow shutter eyes, copper highlights on shell",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  },
+  {
+    "id": 872,
+    "type": "Female",
+    "detail": "gray undercut, round cheeks, brushed cobalt shoulder panel",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  },
+  {
+    "id": 887,
+    "type": "Dog",
+    "detail": "salt-and-pepper schnauzer, worn copper collar and rusty audio buckle",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  },
+  {
+    "id": 891,
+    "type": "Baby",
+    "detail": "tired dark-skinned baby in quilted hood with burnished bronze collar",
+    "tier": "Rare",
+    "refs": [
+      10,
+      1
+    ]
+  }
+]

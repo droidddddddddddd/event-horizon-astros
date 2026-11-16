@@ -1,0 +1,2871 @@
+{
+  "reviewed": 426,
+  "reviewScope": "Visual contact sheets of all restorations, original/current/alternate comparisons, and side-by-side review of every retained threshold pairing.",
+  "diversityAlternatesSelected": [
+    86,
+    296,
+    308,
+    329,
+    332,
+    542
+  ],
+  "edgeCorrectionsSelected": [
+    25,
+    131,
+    148
+  ],
+  "holdIds": [
+    136,
+    300,
+    340,
+    894
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "sha256": "604809951c67a04f0a9bfd5ecb3f4dcead541b93f3642c4796f4a622065cd05f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 2,
+      "sha256": "589da43c2ae9c7b7522ee90bf1357cfaee05abda5321c506d46b046c1a3d991d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 3,
+      "sha256": "cca9edb1c3e37c26b283452cb076e9daf6aa51635a2f1d840319f2d11a1e18ae",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 4,
+      "sha256": "2dc0d5244812799ae6aa6317b35e1a9fa91296d0d1c1175987ddf114623bf835",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 5,
+      "sha256": "c6d59a7e5ddeff01283f6925b54af94ba555bd2767603432a4fd4a3dcb6276b6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 6,
+      "sha256": "d384ba746874451ef016c412032000f14a16e5262c837598e3b7b431d4319865",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 7,
+      "sha256": "782eb9c4d3a950ab1be2ed310a5a8252f3066fd73d422d27b1a14c72e3397b73",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 8,
+      "sha256": "56428a9dd830385479c60baf54bed71b4ca0b47aad46ed6ef2eed758271db5bc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 9,
+      "sha256": "22de76cfa01d4d8db2d96a788fcface9c507172cefebd031e3af7b5da5dfcea7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 10,
+      "sha256": "ca35fa039998638bc226a722bfab4ef0ea6423f8dca067b7d555b3a098e2a7dc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 11,
+      "sha256": "741bad996cca0c8188bcb9a4eeddfef144ae6e14bfc16fe19f2024425bcbf5f6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 12,
+      "sha256": "8e3f02391e305bf44ac165f26333382912e2d519ccddf7d0d30d39e51314d1e5",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 13,
+      "sha256": "72e125a8c8e4158aea546402764b05daf0d9062577f775468fb253d16e0bdec1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 14,
+      "sha256": "7a226343bb94ddf8cd75c3a9f104350210dd7b249feabce5352cb8190f17ecf6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 15,
+      "sha256": "29e7f0e8349e5760475821192de7ddced194f73ec2b2bc8ff2ee99e4e8a8f2f8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 16,
+      "sha256": "693d3c5f0c3d94d3253e8faa5a3f82d175822ae9034a0c1a0a8bc36192597ff3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 17,
+      "sha256": "f8b752da848853efd450f7f834589657be83ff25a864b3d8b14cb1db386ddae8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 18,
+      "sha256": "288284c8465ee2b1fc9be70f822ea97218faec6e128492f745a7d4786ccb15fc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 19,
+      "sha256": "4338b0415bb7a023372caf0fee9b5908c85ebf5695092804a97e274f939f5f08",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 20,
+      "sha256": "040ee62c5900702c4a9b00bf5904261bf1faedce74b6be65eaf35375ebbad88c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 21,
+      "sha256": "eca23a7d5dac4130892f960f2f2d22b0ee30d68cb20da7f1d13f0ccaaae1a4d9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 22,
+      "sha256": "67ed81b14436c36b303119e65918db62bfd5001a7e9c5e2b32989451262f1926",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 23,
+      "sha256": "bc58491d02e8f625309d78956670084e17194165e44830a733f0357fac644c2e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 24,
+      "sha256": "1b301dcc57f86289cf73bb5e0684b295dbd6f6a9fcecad3ad35e29aa4738dc9c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 25,
+      "sha256": "3863abae4f3e483560cadd0acc260ad944b600edacddf05c06433a039a895d3b",
+      "selection": "edge correction",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 26,
+      "sha256": "3039c27f35e74a5828a367a1eee8fcf28cb1a21bc72445ec3b67feb4ab4c3eca",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 27,
+      "sha256": "84a9dc2cf2f585a3829db865d8cf1953ef69589e451370f12aee1ede9defbc30",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 28,
+      "sha256": "1dfbcc77c780ff551944274143c81b2683279309630a6a0c032993a52280f3ef",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 29,
+      "sha256": "0a6467b50db64d15f0968e19edecbc26c2ef055e520f0c3bf3509317a494ef0d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 30,
+      "sha256": "b92d4dec93862710ecd911eae1609d580a8352d72a7be5bad5e4597355beeb8b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 31,
+      "sha256": "a034dc99763de8df99d4148ce80231a825f5950051af05c3880523cb0ebf9382",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 32,
+      "sha256": "4fcf69d123a218b16a2a7e9d911df22b9575628d4631c27dce8efe33358d9d43",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 33,
+      "sha256": "717bfff893471da1f7a22f3197cd73e5c8aa93119bfeb27317ab78ccabdc1994",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 34,
+      "sha256": "b26f80edad7c6c86a6c9c015933626f4648b408e5015c5b03a929a7a506b948c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 35,
+      "sha256": "2fc4a9cf4e21ec02f3576e12385c7ed86700c2f6cb779a61081d30308d11496d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 36,
+      "sha256": "468185f2b3b8f3597d98fe31e2dd965d474afbc9a90fa4da5553bc7edfd4b719",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 37,
+      "sha256": "a10c668834c43101a41fd9a2e7a15d6c3f19d7221852c0a52a8030748c8b4cb7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 38,
+      "sha256": "5f78741fd204517dcf777d73937890e545426c0a26bd9dd815005f5a5237682b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 39,
+      "sha256": "1b9f76bcb8f9afb8fa888494a67ded7b2272212050cd34f133bf4e50fc627ea6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 40,
+      "sha256": "910786346b23870be95badc6f4a956e67b777c4cd66faed67993e72301d819e1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 41,
+      "sha256": "685217a37e905ab9d35063915b51cc08c4741b0b9216059ddd1240bdf754a6cf",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 42,
+      "sha256": "96d747173db9ec343eecd5b571aa1cbd180b30cdad9c651a0490b95e4b81ade0",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 43,
+      "sha256": "35edb6ad51390c07534999a6a627bbc94f1580a8705a3ae2bd9cf3292a724305",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 44,
+      "sha256": "1ab02380c6df1f66e62af42e6f20d369e9e3058520d77c47c392e507f19394bb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 45,
+      "sha256": "d6b42d5b7c477099f9ce8435da29e2fa6156eff32427b3ac0d8f12c5ec83c911",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 46,
+      "sha256": "460b5aeed1f89c0013f93e68be4e2c525e833a5e4bba5051d0b00ccffc068b57",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 47,
+      "sha256": "3d04b06b8a98b552f8ebdf439773e0d148ab9d36c92fb3d5bae9653bf083dc33",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 48,
+      "sha256": "3c23d05d2bb27bba6e200e597bbaa42502c674982a3d8f1c6cc75e2b68b87da4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 49,
+      "sha256": "aa0e7a72ef5f78e4a6c2f1d6e413590f22a619e0864da5146cfa0940dd321db8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 50,
+      "sha256": "dcd28af0ea3e011893ec474c89af12838268f6d7288ea35bb7cb925cc35b4040",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 51,
+      "sha256": "b40090816bf53d32b1f02170bf678b771b859722ce5d66f0db5411fa6651afac",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 52,
+      "sha256": "66eda8b3f9c1af6dd4c5aa66ff63f533bc70c0aa453974173b125173f7b07e68",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 53,
+      "sha256": "6b8db6833c21006b3c67189993b29cd95305b0b3fd7d4433fc552a016bb2a3ba",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 54,
+      "sha256": "5cb838aa55724af78aec01876658fa37e7df29d9a624d9aa9b4cd4bb2244cff5",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 55,
+      "sha256": "c1d697e12c0b687a43f25fa73722be57ed5cf86cef8a9fe42ea34cd2f133f691",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 56,
+      "sha256": "ba8be74934eda0b5b292581153207e6e0e107da9697313f96053b16ddac14a99",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 57,
+      "sha256": "21d094304c234b3a296844da10dc6159e59042bebd29044b310551501570a49b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 58,
+      "sha256": "abf2b0345fbd55ef3d6129eaa7f46e42b5c906d92ce13bb14ce20fd1c3d384f1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 59,
+      "sha256": "4a9d25c2e2de5b73b402481aaf027ec000d5b5288b225d764802130f397f2607",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 60,
+      "sha256": "b2759fd2cfe115fa7a5ec213daaa8e4dad4643433fe7c84f0c96b7f35a54f072",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 61,
+      "sha256": "9604e60241eeeeb2f7cdcb4cd6f234755b430baa39e343b77b6b3efa921b3668",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 62,
+      "sha256": "c083df4e9e5a0a60ea6abd7ad1337ac04c784dededb20fc44d4617221a6051bb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 63,
+      "sha256": "d8be7caf2b64e8e843a1bc1df82db9f1552f0eb0048a52086a2e452876a69b2d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 64,
+      "sha256": "911f3ea78ff53214c56e9085bf761cd5056352fc18c8369aabab5053b52810a7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 65,
+      "sha256": "ba32726ffc5523ed84ca3cbb4420a7a1ccc6120371ee83bc3471e8219b6a616d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 66,
+      "sha256": "694baba48d5e2310d716f5a71c596a19c38aa16bfc085dba074f690d913937db",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 67,
+      "sha256": "d3f3a7884c7c58ce789e8c332160a60c89d3b95ac18cd7449d038068ac280804",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 68,
+      "sha256": "73700dee26e61fe1dc35b65edd2bd00c6ce3d18e4e18814990343130ddd1428a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 69,
+      "sha256": "32fb5b91d7565fc1bd2906e77022c7df57a9ab6963ac6848edcdbd9c0f45979a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 70,
+      "sha256": "b12fc02f3545770eda0f0afa71b20cf7cb37bc7a6e328264f980a046f87c9d6b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 71,
+      "sha256": "1e3f3f31fddf234e4c996572d63ba7e8b0c16bce07de200361b7a24599852c07",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 72,
+      "sha256": "c0d1864dfa155cbad3f7eb6a64ece948e4599c1329fcf4636a6f287dcd6baab6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 73,
+      "sha256": "18c5cca16955837b713538c56cc9a28930e4ddbbe09eca3d3eed57e2adcabc84",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 74,
+      "sha256": "d75fe881cc1ebc6aa99a39b6c60c211d5b209daff8d64dfe8c6b9abadea445c2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 75,
+      "sha256": "81926641bdcf8add9d489a24524be9e1ba772b522ddfbdf4b8537856a263f11f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 76,
+      "sha256": "f5154ed511720dbb22d6033429e0e4b44a5f90f4ff84cbdb47840fbca6b20c20",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 77,
+      "sha256": "bd269d0ba5169d44e84a0ce35e5be3800b611120777baf59d67dd4292338a68a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 78,
+      "sha256": "726e92aa073659dd758c0a16fffbe8cb3051fafe5c56ea0ffa22ab00c940c0e4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 79,
+      "sha256": "9ec162c14a05842b592c7419c2b9217c6fc5baa90329fc545c775d9c02b945d0",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 80,
+      "sha256": "abd86700d54c9de42b950603c3266a54c9d29f8512c99f5efb86ba15cd3df630",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 81,
+      "sha256": "b458a539a627661ba7b176ee0c04f95cc46c95ea6028a9ecbb610c67dbe1ba11",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 82,
+      "sha256": "f984ac00b083a8fc80ad8d1a8709e2963b2de43725bf9a442bf4dfa34e1c84f7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 83,
+      "sha256": "ed5b5c2af8199b71352e7a9eb47cc6420e4e10a2cf986dc100882363effc3a18",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 84,
+      "sha256": "25cf03796dd30ba16ff2c4a890aaa632be8103fb41ad52d441bd394bcb0f319b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 85,
+      "sha256": "6e30beb3eb39b0b7dc177a23c226bdb772f85068e468ce24cecc469afb86a7bf",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 86,
+      "sha256": "3f616c2b68fa8bc27288df8a350fd16673460bc3424688b3b4cf2d9bb29d4874",
+      "selection": "diversity alternate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 87,
+      "sha256": "d40877814049416fe552d0082bcb34d4f2633905f5734d0a07a91acd08f968e4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 88,
+      "sha256": "95e22f6c6bbb0049bfa1eb20f6d7253ed49bfe4768eb7da81aba9003a25237c2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 89,
+      "sha256": "d832485a20b791449ca1f06c94c772250b0ebfef6a6c07994f53471e7e65218f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 90,
+      "sha256": "d4ed8a9e5c916ebf1e7634abef926989b1673e308ba1a17abd760afaf6f886ae",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 91,
+      "sha256": "4db40d2b0f78983186ff5fbb57ff393afa5de0df68bf41de759bc66d3c7382ba",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 92,
+      "sha256": "7a99b7d079ee936b32debeef50a8b4d3a6184ee2e609e826af038b35cc98bbe6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 93,
+      "sha256": "530647a7fe356e69b80b973c0e91f1da8eceba604a1ea30832ed9a8cbb0c62dc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 94,
+      "sha256": "1e3836f5b59f1a1dba6620da6488cac61f4e5338c4557935abc9164839c41d45",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 95,
+      "sha256": "5e281b0d6cf891fe25ef0359f0c0c6c53c4203c00203dd93bcfaf9f6e3cb39c3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 96,
+      "sha256": "354a99a843173db06ab87f126d8711736f7a7ddb1fc3a06dd9e448f51e283a24",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 97,
+      "sha256": "f2c023fccbeb573dd17248ec2503dcbe0ba60b103049ef21086a992f1dc6afeb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 98,
+      "sha256": "a5fdeb28038babb2a92dd5e762ef0f97b02c9f748088028d49a1334db446dad0",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 99,
+      "sha256": "dc9aeae287a48d516f47a7dacfc41fd83e81e7c42346209ba47d1cb9bdf9b7fa",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 100,
+      "sha256": "20ac629960ab549ea2dfab94df31e657a4d05d0bda588346c0e3fa4d43ba05aa",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 101,
+      "sha256": "a3290fbdbf2ec5066b7cc6006139a5d509ab6cb79b0d41e3c2911414999313ed",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 102,
+      "sha256": "61df1a706b206ee876c56f17b6fcc0d4a712191f4d2298eb0074bf6ebe40ea82",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 103,
+      "sha256": "18f0d588452f0c616f2f90b483d96e163e3aacbd8ed80f2dd4e2614e8cb651d1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 104,
+      "sha256": "acaace28670211b0ab5b385e12b86a4545181ab02dc4c846f07369aabc75af19",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 105,
+      "sha256": "8111575e66dc62f327773ad81b925545585b5696ad544793ec28543c8a563dea",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 106,
+      "sha256": "506c994f25f5eaaa9c51c220bb8901e137a56076784dde3190fba91bb1d8410f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 107,
+      "sha256": "b62b379439ddb740f39aedc24a52e372c77576b8c9e612bb83cd5f0d1084ca63",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 108,
+      "sha256": "db42379ebfc588463aa57fc298a1e6c673bec93450382d92df923cd428e875c8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 109,
+      "sha256": "026223b4626205119facc9a10a8842615a342b77869deb0a8692edab57d74f30",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 110,
+      "sha256": "9d94489d0bc0340067fd9398e8a6105c14027f08e16fcf347d222a2ec8d541fb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 111,
+      "sha256": "732ca92aa99da6b4e5dbc37f26cc62dca6df823d3e6b30469554fc3a2eee384f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 112,
+      "sha256": "8884a87d158601323105a04354390e6cfad919565c144f9e7d767bf349f483aa",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 113,
+      "sha256": "77f12e5ee8e92a571cdc99b1078587f49410e56a69b92beee99fd43ca641945d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 114,
+      "sha256": "e1d894a85bfb9b9f65403f1fb9669a094caa29048d060780d2c4ad6af28ca9df",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 115,
+      "sha256": "d12738090342e551fdbb2afdc23a7243a698962e89a3302a580cb64f3ef8173c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 116,
+      "sha256": "6c27ea061a0f0432b4b43e7c022c027434d531955dbe19302edff87fb5e759bc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 117,
+      "sha256": "6b6e2a3b5b344ded7026bb9377b9edf3b115d1abb175c5074fb1f753162b0ce4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 118,
+      "sha256": "e5962c581181b28fe2979cf417525a39521e275c216a54b7e1943e0c6a324f78",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 119,
+      "sha256": "8945b9a4af4d1ead5f0e8c9240e9bb4d620c5e2608bef5a3d46834b48fab83cd",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 120,
+      "sha256": "5bbad0b290c835cb71542b5c180b01b2b983ad67abd9b5e504408184707abb36",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 121,
+      "sha256": "0d932df91d48bf36f802896cdc617ba6134f772b9268090216e155a3c04582c1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 122,
+      "sha256": "7b1a1f1b6feb512d892cc48c84b8443edbc894ad8360c78e282ecd24a374ad23",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 123,
+      "sha256": "74202308402d3a4761d9667d3a47e2a0c94195f970833ec838f177bc554f0eee",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 124,
+      "sha256": "4fb8248b34ca600fb5a9b9d31f82ff7fb54bcf6c8d80f8b4c4f658c29a2087b0",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 125,
+      "sha256": "2d847f1021ebf72b871da4ea819e5817342113b1e7abcd7c485a8040da30fc1e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 126,
+      "sha256": "179cfc86d45c444806f09158434436c72910d33e4148437637e910e75266e05b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 127,
+      "sha256": "27d3c2c3f0e6784254e55834054018ed93ccab2fb485b83329b1033564862e38",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 128,
+      "sha256": "9fe173696049ec92ccfbd67661b304ab14d9598fdf3f80d82a87918e774b8222",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 129,
+      "sha256": "c554ccfa80510d065089f99ec30b6a9a4fad47713921b8ec011e8ae5c36bc237",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 130,
+      "sha256": "c112669abc7e3520e16d5a09f80c100a5ecb06ffaf125a09fdceed1fdb72ca63",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 131,
+      "sha256": "3655f7e39dd62e4d9385596415daee6a0d81f0ded798fa330d5f8b556f3311c8",
+      "selection": "edge correction",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 132,
+      "sha256": "683fc9191a06e44dbfddd48e15fde9126a8d20e524ac88675c90068d21ae00aa",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 133,
+      "sha256": "e429958998593a39e7dc0ec878600495c3881a0991d2e2a68200824127c764ad",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 134,
+      "sha256": "88b9e1767c99467bb944bd386be2f93460179a2e5b661797c95cb3c60dc08248",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 135,
+      "sha256": "7dcff5e5e77e693285375e6b5f5db02b3ad3b5684a091c0d5fdd2ec394669dac",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 136,
+      "sha256": "6c1caf9d8ff9b9b33153033a9b3632809b48db5a4a613f4c70fec46e2b306544",
+      "selection": "restored candidate",
+      "review": "needs-distinct-restoration"
+    },
+    {
+      "id": 137,
+      "sha256": "6b5642b9c0eb4cd557f5093499025c859c693c3433a50da2e7902536515a49e2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 138,
+      "sha256": "e2cd649a86ba47599dabda8c644fb2cf6ebc6631b7eb63a7ba102eef0b077b70",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 139,
+      "sha256": "1394f890f95e17c38a0846c518319e627a1c2c5d52037e64a9c772b913192309",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 140,
+      "sha256": "8b5742053e4a0c32171b4160bb91f4ce55ee40a3b32b303a4db6c54acaeecd94",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 141,
+      "sha256": "c77b17c72f7b26c36792e0b91b9d08c37895a0b7c4ab5b8927db3c637c173e13",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 142,
+      "sha256": "604b03d9d6ac6f7a60c99a5193599f620f3628785cf2e746564ead50cdaa4d77",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 143,
+      "sha256": "3819bc43fef9a5f1748e6f0dbb8ec5f6b3399424dee545e9a544103779796f39",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 144,
+      "sha256": "6de268bceab31abe412ab4838c9972da3ab80f382c79fa62e377d51180d3cf58",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 145,
+      "sha256": "b674c4572b1da52953acadee5fec8764348be4defce24036e0a7213cff6fbf1e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 146,
+      "sha256": "fcb2b0bf7ad76d0a45e85940636b51fd3dbe7da1399181e82816dd792c954795",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 147,
+      "sha256": "87a30bf2a5a400b2fc6cd641c4396c5be2d34e36480a08aea1d7c70603c41a97",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 148,
+      "sha256": "581acf37fd4aa6f9809c44a5ac51bc5cb9849bef0b0370e757763d7501bddb4b",
+      "selection": "edge correction",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 149,
+      "sha256": "11813b3c65a3a5b2f051070e531600d7f3e068da6d291ae9cd9264e107a6bbef",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 150,
+      "sha256": "42fc1ec3ae57b00051ee959038a8c1227b5a888524e12dddb56a428615132e02",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 151,
+      "sha256": "4e88ece81a350fb2f896595e5336a68391f66c52c36d2e073ff51491a4bc92bb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 152,
+      "sha256": "cf66cc7a6e72b6d7aea3947cb002c763ec1b55ae574246a2d81277f47a75ca74",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 153,
+      "sha256": "df052c46d96d87ce458a1148eea9181cd411193554242432e1a414c59251e4b4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 154,
+      "sha256": "a310e141cd9ce34f4043aab618ee7907392f137c289689b6bd0c153aa84fc8e9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 155,
+      "sha256": "08d707661cfdda78232df10b84c0d7a202b995d7a5652f8e1b1aca78b521080b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 156,
+      "sha256": "1e3bec130d2675076ca1d28a0f5ac842b37ef312a254adbc8f85a4f96d91c5e9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 157,
+      "sha256": "36ab46b9734f9385b742c06a60d14f6aea75693c95131521658a2597685c2084",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 158,
+      "sha256": "d971c28888d29f8a818929a2c18cdccb02136d6b481c413d0f08bac25195abb4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 159,
+      "sha256": "609c0dff328d0cbf337e352dfc3a959e9e7def4ab3b9968b95e36f495675cf91",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 160,
+      "sha256": "cf7f49ece9c4b4d80c0b3b715af9f9ea52b292161cb91493e65a3679254ec013",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 161,
+      "sha256": "6de97cbc36e081438b89fc6933f8dc02d732f1a472dc62fb5238dc0da8b2ee50",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 162,
+      "sha256": "481c16f628160697c39475ccf501f72e91d97c669051818ee24b0a485b330ce4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 163,
+      "sha256": "bfd45aa5a49c57adf1daede072ea5b5ee3c7d7b114bc67e08bcedbf20f0364b5",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 164,
+      "sha256": "abd9f0a111cac692e3dffa8273088e1f81ce1a5b45e71b72381d9b18ead3b0c3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 165,
+      "sha256": "b87d05c16caf0a2e879e816e10d20fad1445c587e5c25bfc49ea1f578d50b529",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 166,
+      "sha256": "0aae582b09b7b91f834043960ff5ef2692576262b17fca8622e285dc885a9eea",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 167,
+      "sha256": "5e789d9a965a168b0223422881226e7dff41540d2326ea9d586ca5ad949eae10",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 168,
+      "sha256": "40e5b38aae3b2e33906a06090d3d1bb235ed80ed78db2a715d4b09458d652bd2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 169,
+      "sha256": "a268bec3846f5b2850db79a825114186c0a2bb0664be03b71a1eabcf156c0fa2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 170,
+      "sha256": "a1e601cb7bac0bb45371e60d3d6bc805f2a40dafd7c900de5d4f68650d150175",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 171,
+      "sha256": "96891c61efc961f399137a58076ac33cb9c74e896f000200a89c70dfcc50e922",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 172,
+      "sha256": "564a520be6978ca76441dc81ffa6081c7a940d221953edbbca060539c3342c83",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 173,
+      "sha256": "099bc086418f408f7dc1795d46ec184af5002b8522c4d4fc4512c4e2d94c1333",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 174,
+      "sha256": "7d363ec76a0647b62fa06d00a6b6077f1b2c77dd847d441c96cf421200d3e7dd",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 175,
+      "sha256": "b72a63bc0059953e44032fe4f2175454169ec5d3afea6be4ae4faea03429ccfb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 176,
+      "sha256": "e277e10dba992b43a9e5d18886f47617b71edeb92811578bcce0cf4fdd775bf2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 177,
+      "sha256": "0dc0ba47029c4625c71b3635e2ec902c0c7c8d507427587bcf77ab89c9df323e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 178,
+      "sha256": "a798a6f7c199c8ca690eb8d64aa5edc50e730b1701f841f61fc45e591af1fad5",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 179,
+      "sha256": "4b1ee0cad71366528480decbfcbc3450451d42e322d91a691d5e86b51ec7d979",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 180,
+      "sha256": "d9b7dca56383918343a3c4d3d8b46533c5c194c4d2d1a4b0ba3853a72460ffeb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 181,
+      "sha256": "3ea2201a2019d84a6cade57a217c185a15bd35e6b847c035258e003e14f4272b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 182,
+      "sha256": "eb28af741305205e85e959aa4d4b20abaeb5117221486332553743eb2d031da3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 183,
+      "sha256": "c21b039e74c6f059e17061072cadaeca68e6934d598a62b8c3932520c3f00eb9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 184,
+      "sha256": "88bc7acbcbfbc9ee64a6f771bb7ba04f12123a060fd09abc1196986a9e125dff",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 185,
+      "sha256": "9413d13403f45a2d03acb7fd1a7c3fb0fac8bbcdc1373ce8a6aa08fb213b5023",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 186,
+      "sha256": "dbc7e1740ea602651f7994ed7dea10a8cefef085770c60bca2394ef377fe33a2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 187,
+      "sha256": "7f8d058685af11f14971ffb14c84c03d2f6fccb817ee67ef321e05ead19e8f97",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 188,
+      "sha256": "36485b06bf9f3f76f6a8e737a8b20bfc1777ab16cce4d300c0262963fe531884",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 189,
+      "sha256": "594415df0630a9ec3bd4c9eb9499ca449450ec392c35a3d1ca3468896d986646",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 190,
+      "sha256": "216bc2fbeebc4c97afe07661bedb16b10c8860ae77f781658f81e1c0b46f4ea3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 191,
+      "sha256": "4cb77f9b18357df560666ee8e4a94bc91f3a8577e3cd1a170214c94c489df81a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 192,
+      "sha256": "3af2b3422c1b4d39a8ec4426a6a188645e811a4df73da6bdac47c5780f68b76d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 193,
+      "sha256": "bd1936a92856a88db8bf20cb0505f5a5a20d3aab75e37247f30127f08428e8b6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 194,
+      "sha256": "70846e0d0207862f905e4449012876b8c017c07e14de266ef3f49958e7e47053",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 195,
+      "sha256": "36f500ded227c20c19c2a9fed5ebfd0178fec6fe757a0f53ccbfdae2d43002f7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 196,
+      "sha256": "543de364f11fd3026b3a47c6407412fe257859a6002a5d66548bf16a48c34a49",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 197,
+      "sha256": "25f80680f37a7c80b0c29709f0d25ed0834997c26fe3eff955bcabc457ac5035",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 198,
+      "sha256": "7e91a48455759511a04216c3b4f7f60cf2767cfde4fae2658fa718937a8a4970",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 199,
+      "sha256": "d3701da51236bc0c56ed1bba1871db8a8766283446baf58edae151da06da8030",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 200,
+      "sha256": "1c04f8798dcf4d5a55791fe56a24b214973fd9317e9d7420f7f47c4bd7237965",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 201,
+      "sha256": "2f7e663f4b67a9043c3ca140df1bccde9d86a8f26e39e43f3e8a0f7ffeb85bfb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 202,
+      "sha256": "cc8044706dc91b6d0a7ce2625388d4d636b6f8d05ccde1fd4a1b6eaa7859ea07",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 203,
+      "sha256": "285f9e82383b6306f3a488b641c4e4822b4bafb0d9f1d8e8cb449def47072af4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 204,
+      "sha256": "cebfbf7d93a1fdd86ce9cd825d33a9a8416bf8d4f6bd1b64d51e645963c59ab5",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 205,
+      "sha256": "f0656a21c637f68e36c08c5d8d45552df7e7e5fb1705b4e73386ca395949c76a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 206,
+      "sha256": "41a7f57051ecb1948b1795d6d4f7531739fd08f141b874d7daeaae5afa1dcac2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 207,
+      "sha256": "806ef5536f2d86a35c158e9175b1ef3c4995418040a1616453d483ef6113b4ef",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 208,
+      "sha256": "0c99d7c967dc7d4d630357084eb752819e792a5770169a4d8602f681d1e912c5",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 209,
+      "sha256": "fd9f09d6a4e069f7c342ff6bc214006383eaaad0c08684a4235d7d0ba1ff5db6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 210,
+      "sha256": "acc114118b40d844c04de6e8932ba723b831da2ca0e110d3d89fb51fe7ba3c0f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 211,
+      "sha256": "153a11abb0fda4f67866c02584c9811d019ffe54e337f8422916ed4a77ca2a99",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 212,
+      "sha256": "a819c8319214bbb3c88f45d2fea28c5235d65e74567eb6f067f5978e627e435e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 213,
+      "sha256": "0f195a097df7c4582823cece1ddbfc3e465a97ba86ae3e37e7d2dd955b516512",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 214,
+      "sha256": "d98f881b13f8b948b64f2366c0989ef7dde80d1e50533eee4ced8a863442c735",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 215,
+      "sha256": "0f8691aff0c8101d1bcf8d30f37125762e4f7d657c3f8e4c626ce668e23ef656",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 216,
+      "sha256": "f91c6d92e7770a210edea49e2969dc3ce780f4b6c1aafea4a4aaab96d692920f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 217,
+      "sha256": "ef295e9bb12a2c764f8c13e49e71e5421a0d57bf0d97ef04e4f4607726360c47",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 218,
+      "sha256": "39bda6e535a6dee60d11ec76c7b986b32b89ce76136ddb8ca36cd9a68b5b8983",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 219,
+      "sha256": "512edafa018a40b2bf3094699d36f1ba2466bb9194da5aeb61dbc5f445d6033e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 220,
+      "sha256": "90e268f077294c7a8e167aa68ead4cf91bc9d8b5e3d2644094dd46176d71b419",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 221,
+      "sha256": "bf4da1f0222147379df54762567d90068fff333a7ea1074dfefedb0d7b10e648",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 222,
+      "sha256": "2e6715fe4f5f789f4d7ee4ed955f88d8521314a99964b134e14c9ddda8d0dccf",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 223,
+      "sha256": "91faa74b5f24ae4d2741b1134bc0499266913cb7a926a2aa61d80409f24d32f9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 224,
+      "sha256": "d39dbd23c0091e6080226c54ed8922a3f1a30437641c6780203d047e0eb06a56",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 225,
+      "sha256": "e0cfaabb55fbf447d438f000609ec42f44fe8fcd018011ddafc5b281bfaca05c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 226,
+      "sha256": "4bb7efeb1cd94a8bdb37301f64d003076fc63d739069b51e56cbdcaf9e5434fc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 227,
+      "sha256": "9565d7ddb23f095af17b409ee5c07e1ff89264ecb5f85c99f3a4f5459de38d10",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 228,
+      "sha256": "1466c2360c734717f250c9960a157479128401d05a12c631bfd3bcea1249eccc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 229,
+      "sha256": "1055bb4b297bad2039ee9a1cfc09c9dbfd7d3719886f76f5c9b88deb29e2824d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 230,
+      "sha256": "7baaadbeeb2bde0a03a63c1c48c8aee36ef37bdd56444e483f62df55822947d8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 231,
+      "sha256": "fbf444d8eb211aa6ddbf29d6f5a010eb4798aec63e93359195005ab970385d37",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 232,
+      "sha256": "3dcc1f77e995fc4e7bf0dfb2a44e780411a25b37589da84869ef3b763c9442c8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 233,
+      "sha256": "a2e4e8dd49bec6d66b8a3c3ba00d3daf1fc60f1e0bf19c1ebaab931b5682bae3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 234,
+      "sha256": "5be0873eeae18f20e987e0992b26840b308e9bb6c54f34c59ae454abbd61dd85",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 235,
+      "sha256": "34a68672c70f6081a4d54a39664efb20b6d6a6fdac85e1c3d99c0c4f9b286d1c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 237,
+      "sha256": "3ea9633aba3b918c4844ec3b881a579e009b44fd09331e178fa9afe82f2c2a02",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 238,
+      "sha256": "1f10c38fa66e21a3408afdeeca39a65182240d23290e7295243be6fbb0fdfc54",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 241,
+      "sha256": "09ba6c2ae50100ab04f92c0ea15227dd249e76d9d86b059e11b9613958ce119d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 242,
+      "sha256": "623180d299f3d64445c8bba5b31b9f30651584bb6990c9e91d4fbab6b3748c88",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 244,
+      "sha256": "bdd7b317ae9f24071204015e95eb84f1c7c9fabc6b2b42e3630175be7a407ea1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 246,
+      "sha256": "e54e767a6a0f0d6d814e964a7430f8309ea0103272fc30b6afbd05cedb11b880",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 247,
+      "sha256": "6e5d922a711c8c4a8da9749474e36018379031662ccee60a15c1279f687837cc",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 248,
+      "sha256": "2e7699a5fde1b7fabb7fc97e682c2e524d44db2391ac93519dbf4d220622050f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 249,
+      "sha256": "541a83c08225600b6b60260ecb0fcdfdb7189805bc3f9297b22aa633e41b7a26",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 250,
+      "sha256": "e61df0d711748772a4a75063645f095f5bcae799332b0d6965bedc88fef781a8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 251,
+      "sha256": "54c335a193e56467f772169106c5b17b8e16ff3f7ab9bf7406a37aa19212680b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 252,
+      "sha256": "d670d14641f4e9ab8c83963d216ff90c1d1fe5a1292c3899345130255c48eb1f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 253,
+      "sha256": "cc3e7ac64997b9e6b81808bad20c0be8d0cbb70076b558cdaf1e788be017a07f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 255,
+      "sha256": "cc02cc180aac2df24ddc00ebcf3a2b3e81e334cbe52d14d679a5e4bd9b937db9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 256,
+      "sha256": "d8388359ee5f74975c73d84da02160132f610af723672222cf250a564af13b42",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 257,
+      "sha256": "f35b06b0dc814655766c686b847352cb6de245bfcfcc52e67960f89ac2d86f5d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 258,
+      "sha256": "338d8369b12df811e0f762ae9c9c7a590ceb62b5dcfc183ad79db72a706dc38e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 260,
+      "sha256": "4a21a394b06121c4adb62f3abf377db20318956f464628d324740b6959863f92",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 261,
+      "sha256": "185a5418c6d89aa3997d73dfabfe512d7fd52c256632b5d2b5743f9d2468b7cd",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 262,
+      "sha256": "913cbc71212e537dcf3408237f40ce906e4c6311dbb80347cb69e72a79f41781",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 263,
+      "sha256": "095ec7d680d2d6e585f08dd19c647c6c6a2e5289197bd2cdf1f0f70c330654a8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 264,
+      "sha256": "437dbcfd94149ddf0d27c4c3fa870fa907495c1c2800e407a940034f85c987df",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 265,
+      "sha256": "4e477a7461d0781ca66d2ac4cfddd69af4925fb522e660635006e4b0d050f9e2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 266,
+      "sha256": "ad414368cb5e2561719a1295b4f710a041b5a6e031e21975a41bcc7d8f6743c7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 267,
+      "sha256": "42a773e44fc8d6a88b4b257409b29df1ce6178f1b40de46e85fe782972d4c482",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 268,
+      "sha256": "ecfa6941bc186aafc52c3ad9cec72ad3fc3a9a807d9f6ec6b827c50c4ce72570",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 270,
+      "sha256": "f8024653039382208d44c5591e3e49c559950ed37ba054e7460c58740072e337",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 271,
+      "sha256": "f9832d4868d0ada510e1519d162da56a5a04b228cfc69868ce4a4ddf825393b3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 273,
+      "sha256": "f58c4e760998fbae50d5a482398da6f81128a06497239e46dded7a724804e74b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 274,
+      "sha256": "6390a48e16d3daf8c43d03d1622602a57e8d4f78723229e6ea69a5802c676ab4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 275,
+      "sha256": "fa125990e8cd71b5ad5216083f5c83c4c0021c94eefee2721e405a3295698765",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 278,
+      "sha256": "2723c638427ec1b8dedb27c66fdf833e50f9fcb2d17e9067a2480c3c5c04de5b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 279,
+      "sha256": "305dc6febc55b4797bf676a0435da861e2b8ad9b05525314ab245855879fdcff",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 282,
+      "sha256": "3b10cbc0ce38280514c5406375626765348b9c543884fdfc99e768c44ef19e76",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 285,
+      "sha256": "652bed6d58d993137da8356b437092f8a27e9c766c86540e7c77d8505052017c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 286,
+      "sha256": "872d2bd2b1cf76826bffb3a1927c860f543118341c8b4e4dd4f67539ab03cbd1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 287,
+      "sha256": "1b813ed2a61eeedc060aa4a5e8f998895020721c136657b63af8c3fff90e1c2c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 288,
+      "sha256": "1b17c708f9d09c3a114e47431a84fa28ce3848e1e3e973c57fdc780ab1a3d53a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 289,
+      "sha256": "d98a80e99bc3d2e6354e9d8fda042098f1ef5105fcea5637ad7bf01b4cd92e05",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 290,
+      "sha256": "7229ee47d88db44626ca4a2c8060dbf3389956b5f12d45212d8831f469fa7baf",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 291,
+      "sha256": "cdf82792a978f2ccdfc31fb9e067adbc69aece65064d72deb0069108d99e41a1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 292,
+      "sha256": "446cceb6e33bbf19e50a2ff4d65f27a6d172fbb5ac299d6836344ed2372a08c0",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 293,
+      "sha256": "019560355db588532e12f0033e2a958b420813b1ceb0d5ff46f3a3e2d708e34f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 294,
+      "sha256": "e48de0936cc3cb160e88beeea394cd558695d10ee5a5089966ee8e8099e7dcde",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 295,
+      "sha256": "96224546bc5727cafae2686db73ae8342f762fdd8cefd3aaf9580fde8c2d4b92",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 296,
+      "sha256": "a03144aa1df0375d8cc97da3f34b403623a885678bd467a5a4b851481800eecd",
+      "selection": "diversity alternate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 298,
+      "sha256": "19637a80d17aa892dcdf4f40038a7e467f2072eabd09ea7a473468e73acd4219",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 299,
+      "sha256": "df71e23779ccfe371ac0acff67d89dbcc5fdcc8b515ee9447379e965366c5a19",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 300,
+      "sha256": "5fab566167154ff54984fef61f36ab0b13346cbbb413886a203056328dc9e4be",
+      "selection": "restored candidate",
+      "review": "needs-distinct-restoration"
+    },
+    {
+      "id": 302,
+      "sha256": "20c6f907d51f06567c29bf73ab0923194a17270602d4d8d9f139bd58fee6c329",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 303,
+      "sha256": "55ae1c7728e5bc7cce292852e84534bbdaa5b42e4636d4815314c15f3b827190",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 304,
+      "sha256": "08a7fe214845a25b01e4c8aa57f589b86675263f6558f4bd7795c7f1eecc5cd8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 305,
+      "sha256": "cb7adfbd21a22da9deceb2cfed6c135abc536d3ad35029e033bd3d781f138151",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 306,
+      "sha256": "2ee4094e88eadf45c3b765ac531e01573e7e5c6f80f771b0c995b92774d4ec72",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 307,
+      "sha256": "4499967bbdede40b8d6791b32178e32a98aedb8457aee4083ba0c81751fd9b65",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 308,
+      "sha256": "80c68521ba15a043664d0fa9694226a0575305dcbb9cc56789b76bff60a84ee7",
+      "selection": "diversity alternate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 309,
+      "sha256": "b788ea15975e6c0a875911d06b02940e1878a0cc24e092470325657d37b6295f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 310,
+      "sha256": "2e55cd5832b334a542bec771c775b52a3d8ecef371c779da2b062628c215901d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 311,
+      "sha256": "2e5086f5812a157b2518d0e081ce1e2e83e81c7935ffeb8cdc0270e73ce42a6a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 312,
+      "sha256": "e784a1ca11f489c63d7594445a960c1f09bf24102a95f7c93f2353a4e9f3f557",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 313,
+      "sha256": "9e8e4738ff4d29305f06323018362993fc4d6569c528d068d32679fee2c69023",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 314,
+      "sha256": "9e8d048d7e50ab28feb2a86ee378642471db4c00bf4a1e1fb0b72f18792940c7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 315,
+      "sha256": "ff2cd84e4f56f346e0d530a2d78141e93cd5f666d9071392c1f8b16c7effe432",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 316,
+      "sha256": "f5420045117467789cd732a3b6b0db06aa259e72b143418a9143db1443daaf13",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 317,
+      "sha256": "b4c05c8cd92ee1cc1a2b1d9bc55c77ba00f3fd00453efacc598a1b4fa6013d2c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 318,
+      "sha256": "03e928dc4a1f1f139d0cf8019005495c3eac6e4a65054221116b0ab2907c403f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 319,
+      "sha256": "011d64c7e9f037da343766f90898452d47b58d618b8e85100edafb342a6c6446",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 320,
+      "sha256": "716d421435c807e9e99df57448843a9cb3b109479253a648486334bd33d2b97e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 321,
+      "sha256": "69746fed3f56f46aac1ac17b11eafdc5e1bab05923681a8c217518ecd7d49bcb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 322,
+      "sha256": "095d5096d4a22f30f35e2b03b90d5eec5eaaa561ad3244d238e751fa781b467d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 323,
+      "sha256": "403378a63e7837eb5f27f6f7a674c0910a08387c0881d3c03b6fcd3ea4e455ae",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 325,
+      "sha256": "d0ff22583691338a3625e02069f78f9ed711a02e3801ae041ef5e8b471d42177",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 326,
+      "sha256": "c3b7ef7dd58df200c8b9716ed14e2f21332299af1ea1d2c22d7b92e2042c3b29",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 327,
+      "sha256": "e09330191eb2b203576a7b4d0ecbc6fa0d9baa396e274e3a99d3d8f2029f0e4a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 328,
+      "sha256": "79fd753eed8b5698b8f0d28e419f63184eb490db486efafa716476fcdadeb74f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 329,
+      "sha256": "d7d246dab66877d2a877cb99f659e52cb85e196c91e39a76d0f31039355cc5fd",
+      "selection": "diversity alternate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 330,
+      "sha256": "6e6dabd02540fa87238ddb15ac25428345e9aee9c402b5b08a05f1ae03ddc6d3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 331,
+      "sha256": "558d0f6f17951ad43cd92a410d365d9f6694eefd358591b84157c1de96180ebb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 332,
+      "sha256": "90c8522c24735fd9aa8db766466c9ff1bc53f390d174441bc1aac0c93555c2f2",
+      "selection": "diversity alternate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 334,
+      "sha256": "a11e91640025bf0441bc241f37ac9252620b5224c876450d815c870934b318f6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 336,
+      "sha256": "1dce97a0d018269221ad80583748fce7f9d6812bba0c7aa41c42de9d57884f2b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 339,
+      "sha256": "589673cc27e2d94d3a591b69ea388b374df33073aafba129c7356d912e8c25f4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 340,
+      "sha256": "bdc3b2bd8fd19862bde5634f09a33f1cba0d97dfcba69c45737fe036e092e419",
+      "selection": "restored candidate",
+      "review": "needs-distinct-restoration"
+    },
+    {
+      "id": 344,
+      "sha256": "2927e9d120b60725aa67f17f0ec9e7cbbc0d1ed007c45da2c730ea568b8c990c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 346,
+      "sha256": "6b80496ecc1005a0b3b43cb3c6cc622c598b2eadd5300a0792aee3d8218513e3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 347,
+      "sha256": "4c825ce0b6e56fc022b4a7b934bd063f4d43efe27493ba2cd69deddbb715bf15",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 348,
+      "sha256": "20de06c75a35028b66e4ba3a0fe3c4afca0e71b0a8e5e328ac9eb06a89946b27",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 350,
+      "sha256": "2b8548726440f3c52a9c9857c524e59a7a0c68106b6946d06bbe6444ee0ca6c1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 351,
+      "sha256": "0aff85894b2a4b89a3d18412d62692e041b5b7a02c62fa3233a1a055e22168f7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 353,
+      "sha256": "86b74ac1e07f5646b7ce818d4824e400db70cda75d37db34c9c83911eaeadb72",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 355,
+      "sha256": "9ced169c5f1a460f9dbc17d70532f3193bb821040ef8aea3ca06cc4462b5e756",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 357,
+      "sha256": "09f2a8055718b44c82b15d52bdb28cbc47016e137fa8801cf488ec589538684b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 358,
+      "sha256": "3424fcdd2989dc6c44ba048bae38419a9de4aa133b54a9bd44ede1e419f8fb28",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 359,
+      "sha256": "d402b0d7d2460cf6129f23d78decfd218fc30291a073efdfb329281bd676e583",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 360,
+      "sha256": "c5cc1aef1f65b9ce24b2b8d24916d04bf1347e8b545efcf9ece785631ab1cb99",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 361,
+      "sha256": "800ff0e2dc339e3ec59fda618f3053a65fba5b1698565ae5748aed250c279e5a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 362,
+      "sha256": "c7d226d61551a2192f28f9324cea2f7234f13957445bdb89ae42af17cc4468a8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 364,
+      "sha256": "15bc5611629b4ac85954ec9be1af67cdc206303e31dc8349ad94dfeb2232d4b9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 365,
+      "sha256": "d3b3282acdf20c70244f773da9b92eed6e6d5bd11e608c6905efc50b880e441f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 368,
+      "sha256": "59b574577e542d7b087d41b28316f1eb2a749b83f0440947e007bfd01d28c550",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 372,
+      "sha256": "60cd207be42b63df9198e793a51f67495c8d81e2fba7ac3469ae876d41291f37",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 373,
+      "sha256": "b7a05601d2dfe8ec4161b0c2cb983aa6a0476f919da5bde72c31da3ec6ba901e",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 374,
+      "sha256": "7524fb88e0cec68acfdbbfe6148cf915eb40657478ab51f8b0e8b7caf209bf37",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 377,
+      "sha256": "8c340d2eda69bf8c63b8bea7a364bf79ab3c823cad77e1a888a55aed1077d055",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 390,
+      "sha256": "57f598d2076d20986722e753f3f7edb67077e4ef2b388bad683f1c007f2467af",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 396,
+      "sha256": "9e744c67a535b46a10d7237d03288388a9a44434daf86f583cac7cd195450d28",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 402,
+      "sha256": "239a05931a903f65d72717324d441f13cb06b40a8ae4db1a68717f068af6c300",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 433,
+      "sha256": "89ea55251891cb10c811baf960fcf64ab58592494787e90733354bf881b190a4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 434,
+      "sha256": "cc5e20f6806ec34f12297e066d944e09a3eec51c0e71ec323e9951f0beac33b3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 441,
+      "sha256": "80aa15a226d846f5d7bb5d772d9088642fc7292f49507eefd5004bb73efb0d35",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 442,
+      "sha256": "5f2cbef26a4c5294e2bf9549d06a3053a841b3c1d50d970a442bd772a39b784c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 446,
+      "sha256": "bcd7065b003494eec13765665cecf971bacd5d4c67321314448ef35939fe842f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 450,
+      "sha256": "2ff4cb13434946c324b9fd170dc40be993611a107c39f44dcff2debe08af3c3c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 452,
+      "sha256": "42636f5bcc6081ae64f7ed85b1db6cb5931b26b1e387740828d2bb260a214554",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 456,
+      "sha256": "a64ec37e4878369111e2af5426da003d6d53c909603a4b47a15e1b0e12afbb6a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 458,
+      "sha256": "f7bce7dd34010eb6e781b4d21381dc72701b6eb1acde83aa9a3ded07223a7250",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 461,
+      "sha256": "e051ee0c846a2f18f503fe0705d68883d1980a15e0ae290cd30bdd9e23c62325",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 462,
+      "sha256": "362479cad14a64662cd0c8cc37a5753c71681e81005cfb1f5691b691712efc96",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 472,
+      "sha256": "606392e38ff5e55459bd2f2b4e254de7ec989fc70df02cf3678efc36903a9069",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 473,
+      "sha256": "d561fc43f51f18df55a81645dfc68d2dedfa086dad2e23e36213f80c66041bfb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 479,
+      "sha256": "253f56cb43acd09393a2bf35bfe47b6c7d16d35e3f9b67b22f5613f37e1e2601",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 480,
+      "sha256": "c6ca14431090176e6c7b61bc45e09fd00f0dda807a75132aa7393944c1d5dda6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 491,
+      "sha256": "9cf86f3b0e4115001172c5ff3bd782c10633d9d0e88b0cd586f2af7a716be28b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 494,
+      "sha256": "1456e19588d15686f66777eedb82bcadb36fb91cafee563555246e179c082143",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 496,
+      "sha256": "9066988ea1936f669b2ddbbcd7b5467ae2acf724d97d1ba3b34d4569b59c785a",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 497,
+      "sha256": "f388a6078f60661bdca5d829f07643262102aaf6d04799b5bf6d83cc11c211ee",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 498,
+      "sha256": "4b421650190fa8960a98fdaba23425c222201c85c49af37f176bdc5463857053",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 499,
+      "sha256": "22ebca3c457d35c382e13a65ba0b326076b0875a637dacd93aba671ac2314d82",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 503,
+      "sha256": "0def9e9422b112a7cd8e422337ab8568626b7fab223c8fc068947407a182cfb6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 510,
+      "sha256": "de45e31869ab35a8c276cd3d1ac5876d0a70e8de7e1d5efcc38bdc6edf36b0a4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 515,
+      "sha256": "f1c9760f36963cba65e39f3cc2c688521a5667f876dd6438bbe98c87d0d1e3d7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 516,
+      "sha256": "2c360778e7fba16a07b7df1ece74072407c66636d3dcc454c586cb7e456219de",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 518,
+      "sha256": "8ffc6c9cafea38d824428c1ec20b4b4ce69c5a33ad35eaf3bada585dde0187f0",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 528,
+      "sha256": "e74be54315086c3c589064f37721331f69393384672522a3f0b0282f74d86817",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 542,
+      "sha256": "7c79e174c7c5d5cde1017967a72c7e308e532b9119ecc3dedceee92a7203191c",
+      "selection": "diversity alternate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 543,
+      "sha256": "10754dc80f1e3ca0a72102e7c8e8d082c9c38f6cecc956b21e8300b8af8fc2d7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 547,
+      "sha256": "ed6b563a30c7f8ec965732e30b43988fb589e2b5ead69b26c0197901b274d4f7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 550,
+      "sha256": "be87d831ce77c660d7452c4ea1a1a3e208695d20e230402a9d59da2100b3299c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 551,
+      "sha256": "9300589dd6c29b4eae528f42d1f9b2796ef9b8ca5443d6e8eb876c997e925dec",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 552,
+      "sha256": "211129562265e2be5080bcddad1344729f05dc741b13dfd36a06eb3d646d3ca4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 556,
+      "sha256": "a952bca0e6d09a1361ae2627fa8a17735cc9e2ab3759c23a446ba7a97689f1e6",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 561,
+      "sha256": "7ba961a4677171a0c90e68dad16af98830608520d936a8fb76cca8e85d6dcec7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 564,
+      "sha256": "c1a5bd32dba139ab9fa4eed000aef902b19611ab17ad7eba929466bc5cab7fd3",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 566,
+      "sha256": "8f0077b44b88fee93a8e3a11d9699ad1689d5b320a11f0d69ad68fcf1345708c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 567,
+      "sha256": "664430f7b7cf3de2bda9b0521be296210cb73a3c489aee87b955184fecd4a0c7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 580,
+      "sha256": "1f68ec90d172ea36b371407a1a35e129df26585f6746b54ca80b6474086abd91",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 584,
+      "sha256": "cc40567280766bd8e8b6c61fe5ac27d5507ed10d566a6af4e6b31bcd8314298c",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 593,
+      "sha256": "7140c5116fd8f07a1c4955c06872e444422b2eb2d03c172ae2dd242e4ae306d1",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 596,
+      "sha256": "45e6cf8844e0acbdc015c6d044f7e7ce7fd785bd99b5dfbbd7f6702e048f7e8d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 597,
+      "sha256": "3fa956e7706f1e1a00f68e2c3244b3b74facfbcc6e1056962251369a2a05c6e5",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 625,
+      "sha256": "22c23a37e51b7b98124f2b0a697f9d8f68edc834411d53b52a246f121b791527",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 626,
+      "sha256": "d0e4ac679bcea973f62be0e959e5e9edb1a4145976a4db9913206c0ac358b1fb",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 629,
+      "sha256": "3c50e89cc37405940492c03c8b946b3560f786165284e4a13c69f19a6aaf4f41",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 630,
+      "sha256": "625d5bd2cf0c4b7ed61b9a2f70c9e40215cfe47c2972dd710bb4f6f625decf77",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 648,
+      "sha256": "a02bb5dc2d213742de72b429a4daac76cca1bb03de4ad4828470a47cc1f8ecee",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 655,
+      "sha256": "3b2f17460f5d0ec8c8fbdb601d6fe6fc518237bacce55284bcbc981c00d6fad9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 660,
+      "sha256": "8066b28f1544068ae520d5fab8ef124c2731444969221ef811183937e542666d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 667,
+      "sha256": "319274fdf95e48215e07928740e0a772a6d55dc6bcf9fde00e93dd1555a5985b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 668,
+      "sha256": "74f53c1c17d7ccdd9ab8064597888973577353fda950c987b342c58360ac24e2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 672,
+      "sha256": "b36f98d9251dc04cf035a083b1b3b9e5fef9f47d68f196f77ac291f6b5b5dc04",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 673,
+      "sha256": "aba69c6981240023456858861e03939d75d3ea45d80a3b321341b82bf2bc4b75",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 676,
+      "sha256": "06aa97cddcb36ef5ae24cb81bb328dab6d5dbaee3f1b4abbbea8c9f5161e15ab",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 677,
+      "sha256": "0fcaf79eda4b24a729b0e40c432c1f688b1218d5e1a5eff8a659cf2778682406",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 684,
+      "sha256": "d131de7dfcf317ca7d9970c62d78c432dd12a309506c05605953ab84d1326fb9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 686,
+      "sha256": "7f69cb430fbed130ab9f033bc63474edfe62f5d0efef4e0050c82028c1f2cca8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 697,
+      "sha256": "2055fec59b3f028e0d3e4d7b44aa8c5ff6760480cf424d6ace47da8e5cb76fe4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 715,
+      "sha256": "1a77d6569d98b4184a53e30f4ebf7a1df915d70c23a8ed6970b09c69f43c8201",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 730,
+      "sha256": "4a9ba55296de83651d20976dad3c68856cf18b35379b8da0679cdacad0d4f474",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 758,
+      "sha256": "5ac580bc117ce3f3279ec7ee8cbe4ada1ab6520bf214d8db895973231b1e4892",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 762,
+      "sha256": "1e4b72ec924a53998b0305507b073f77418e2072525c1b42096a160349156f9d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 777,
+      "sha256": "7d6618b8d494e5db1116792fdb18997c88748490ee40d9350aa936762fac89b8",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 789,
+      "sha256": "b5440806f77ec83c745ebf44ccfa800bdce7ad12e5eea6aad35e39b3dba43477",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 812,
+      "sha256": "0ccdae56d2cfcae891659f18b784612300c8ce13684c0bfd9fbf0f9e4f9658e9",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 819,
+      "sha256": "8bdbc7be45091fa135dc227179cae2be4c8bf87bcbdea61f388b663ae9dcffa7",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 823,
+      "sha256": "6cb24e52ea236b25a5770b64bfc061b3c1f5ad7ec44e133b447f331b3a530e74",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 832,
+      "sha256": "569a239b6cce659f78ba250d617b186f494a4f4d55c515b7fe2ae190fbc6fad0",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 849,
+      "sha256": "533209b55cc93a15c7ef5a836593cde17bee147f59946bb98d8ffc1f0d9924a4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 870,
+      "sha256": "25a5146d56352a858440bceafa38be44ab5bdf50b7bd6e90187830d97bac7a27",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 880,
+      "sha256": "0887f90ee18608b5bdf7191bb618f50a83bfc21c1fa9115f2ac8c889da706679",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 893,
+      "sha256": "2ae7619a4a7f5a0f6e95fc57a73308fe1334638e006f835adf8d8be0f320bd08",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 894,
+      "sha256": "f9377cf6aa1cf8ffac59bf318efc69a6870b9f9660e1d6d003c1fa3f591f02f0",
+      "selection": "restored candidate",
+      "review": "needs-distinct-restoration"
+    },
+    {
+      "id": 915,
+      "sha256": "f6c0311fbe3ec3cd0414af8689ae630f2ded49d98d2e959f478516598a90ba74",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 917,
+      "sha256": "175ee46bbaf58063fd22c304ac20f3f124ab30789e1ae699de22833115ea12de",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 918,
+      "sha256": "d3bfc98bb1dd83b9dfb14ab5760ca748d9a38ec05a5e1578244020287baa2f95",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 943,
+      "sha256": "91b2cbca81c8300d7de733b205557a6a798236bb8bbd29c32bcedd83d44923e2",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 952,
+      "sha256": "16bf5183fa4c3eb360c5ce5773ae47ca61d05d58f3801f2cbfba6f147af4fc8d",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 954,
+      "sha256": "d0f7f94154d564210b38287cab7067f1648dccb156409f74d073a11f1b094d36",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 960,
+      "sha256": "b5956cb08222aa0c9218765ac2032cd90fc942dabb6d8461b590a10a9e15738b",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 976,
+      "sha256": "e0eabe6a391f59bf711be0aedfba3f644d5b0a2e0ca1b4e5579a3b65aba3ed0f",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 991,
+      "sha256": "760b464a84b83d4ef086610447c8af69064a85b7864a2ca7da7ef9ed07a15c03",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    },
+    {
+      "id": 992,
+      "sha256": "4dff881a0727009ae43addb10e2ba14e602fe7eb45d34f84bd676e8d12376cc4",
+      "selection": "restored candidate",
+      "review": "contact-sheet-reviewed"
+    }
+  ],
+  "similarityPairs": [
+    {
+      "ids": [
+        10,
+        597
+      ],
+      "decision": "visually distinct",
+      "evidence": "Visor rim color, bubblegum and distinct chest details."
+    },
+    {
+      "ids": [
+        11,
+        109
+      ],
+      "decision": "visually distinct",
+      "evidence": "Suit color, mouth accessory and chest panel."
+    },
+    {
+      "ids": [
+        11,
+        289
+      ],
+      "decision": "visually distinct",
+      "evidence": "Chest emblem versus blank shoulder patch, pressure suit and brow."
+    },
+    {
+      "ids": [
+        11,
+        340
+      ],
+      "decision": "revision requested",
+      "evidence": "Helmet latch, collar pattern and shoulder armor."
+    },
+    {
+      "ids": [
+        41,
+        348
+      ],
+      "decision": "visually distinct",
+      "evidence": "Headband versus loose bangs, expression and torso fold."
+    },
+    {
+      "ids": [
+        51,
+        173
+      ],
+      "decision": "visually distinct",
+      "evidence": "Gaze, mustache and face shape."
+    },
+    {
+      "ids": [
+        51,
+        220
+      ],
+      "decision": "visually distinct",
+      "evidence": "Bangs, eye direction, shoulder chevrons and suit color."
+    },
+    {
+      "ids": [
+        79,
+        134
+      ],
+      "decision": "visually distinct",
+      "evidence": "Facial hair versus boom mic, eye direction and outfit."
+    },
+    {
+      "ids": [
+        79,
+        832
+      ],
+      "decision": "visually distinct",
+      "evidence": "Facial hair versus face marks and headset."
+    },
+    {
+      "ids": [
+        109,
+        129
+      ],
+      "decision": "visually distinct",
+      "evidence": "Straw, chest emblem and distinct gaze."
+    },
+    {
+      "ids": [
+        109,
+        207
+      ],
+      "decision": "visually distinct",
+      "evidence": "Straw versus bubblegum, vivid rim and suit seams."
+    },
+    {
+      "ids": [
+        114,
+        203
+      ],
+      "decision": "visually distinct",
+      "evidence": "Round spectacles versus shaded visor and nose shape."
+    },
+    {
+      "ids": [
+        114,
+        289
+      ],
+      "decision": "visually distinct",
+      "evidence": "Spectacles versus plain face, blue versus gray shoulder panel."
+    },
+    {
+      "ids": [
+        119,
+        134
+      ],
+      "decision": "visually distinct",
+      "evidence": "Open mouth versus mic and gaze, collar shape."
+    },
+    {
+      "ids": [
+        119,
+        832
+      ],
+      "decision": "visually distinct",
+      "evidence": "Open mouth versus boom mic, freckles and cheek mark."
+    },
+    {
+      "ids": [
+        120,
+        136
+      ],
+      "decision": "revision requested",
+      "evidence": "Slight expression and trim differences. Make #136 more distinct."
+    },
+    {
+      "ids": [
+        129,
+        136
+      ],
+      "decision": "revision requested",
+      "evidence": "Shared suit template and similar expression. Make #136 more distinct."
+    },
+    {
+      "ids": [
+        129,
+        206
+      ],
+      "decision": "visually distinct",
+      "evidence": "Cheek color and eye direction, chin detail and earpiece."
+    },
+    {
+      "ids": [
+        129,
+        289
+      ],
+      "decision": "visually distinct",
+      "evidence": "Suit panel, earpiece shape and eyebrow crease."
+    },
+    {
+      "ids": [
+        129,
+        300
+      ],
+      "decision": "revision requested",
+      "evidence": "Very similar helmet and framing. Make #300 more distinct."
+    },
+    {
+      "ids": [
+        134,
+        159
+      ],
+      "decision": "visually distinct",
+      "evidence": "Headband, cheek color and gaze."
+    },
+    {
+      "ids": [
+        134,
+        832
+      ],
+      "decision": "visually distinct",
+      "evidence": "Facial marks, boom position, suit seams and color."
+    },
+    {
+      "ids": [
+        136,
+        289
+      ],
+      "decision": "revision requested",
+      "evidence": "Similar helmet and eye direction. Make #136 more distinct."
+    },
+    {
+      "ids": [
+        136,
+        300
+      ],
+      "decision": "revision requested",
+      "evidence": "Very similar pose and facial features. Review new artwork for both."
+    },
+    {
+      "ids": [
+        154,
+        289
+      ],
+      "decision": "visually distinct",
+      "evidence": "Headband versus bare brow, eyes and collar crease."
+    },
+    {
+      "ids": [
+        158,
+        894
+      ],
+      "decision": "revision requested",
+      "evidence": "Existing effect and framing are similar. Preserve #158 and vary #894."
+    },
+    {
+      "ids": [
+        159,
+        289
+      ],
+      "decision": "visually distinct",
+      "evidence": "Headband, cheek color, eyes and shoulder seam."
+    },
+    {
+      "ids": [
+        159,
+        832
+      ],
+      "decision": "visually distinct",
+      "evidence": "Headband versus boom, cheek markings and suit color."
+    },
+    {
+      "ids": [
+        193,
+        208
+      ],
+      "decision": "visually distinct",
+      "evidence": "Helmet stripe, facial marks and side panel."
+    },
+    {
+      "ids": [
+        193,
+        230
+      ],
+      "decision": "visually distinct",
+      "evidence": "Short bangs, lip curl and brow line."
+    },
+    {
+      "ids": [
+        193,
+        832
+      ],
+      "decision": "visually distinct",
+      "evidence": "Helmet stripe versus boom, cheek marks and suit details."
+    },
+    {
+      "ids": [
+        203,
+        289
+      ],
+      "decision": "visually distinct",
+      "evidence": "Visor, eye direction and repaired blue shoulder panel."
+    },
+    {
+      "ids": [
+        203,
+        832
+      ],
+      "decision": "visually distinct",
+      "evidence": "Visor shade versus open helmet, boom mic and cheek marks."
+    },
+    {
+      "ids": [
+        289,
+        832
+      ],
+      "decision": "visually distinct",
+      "evidence": "Mic and cheek marks versus bare face and shoulder pad."
+    },
+    {
+      "ids": [
+        300,
+        351
+      ],
+      "decision": "revision requested",
+      "evidence": "Suit silhouette and low gaze are close. Make #300 more distinct."
+    },
+    {
+      "ids": [
+        340,
+        832
+      ],
+      "decision": "revision requested",
+      "evidence": "Distinct mic, face and neckline. Make #340 more distinct from other mustard-suit poses."
+    }
+  ]
+}
