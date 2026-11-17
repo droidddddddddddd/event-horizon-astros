@@ -224,6 +224,8 @@
   ],
   "currentRun": {
     "integratedNewPortraits": 0,
-    "blocker": "No local execution environment was available to open the saved binary archives, run the imaging pipeline, verify staged candidates against the collection, or build and hash new masters. The named archives were located, but their contents and completeness for this commit are unverified."
+    "archiveRecovery": "Both named ZIP archives accessible in execution environment; 874 and 79 entries respectively. Nine queued IDs absent by filename. Four held restoration candidates inspected alongside comparison portraits; holds remain open.",
+    "blocker": "Full-resolution reconciliation and new image generation/validation remain outstanding. No new artwork integrated.",
+    "next": "Reconstruct held IDs with locked visual references and generate queued portraits; validate before integrating."
   }
 }
