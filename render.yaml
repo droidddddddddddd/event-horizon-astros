@@ -13,7 +13,7 @@ services:
     headers:
       - path: /*
         name: Content-Security-Policy
-        value: "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://api.dexscreener.com https://solana-rpc.publicnode.com https://api.mainnet-beta.solana.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
+        value: "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob: https://astros-mission-control.onrender.com; font-src 'self'; connect-src 'self' https://api.dexscreener.com https://solana-rpc.publicnode.com https://api.mainnet-beta.solana.com https://astros-mission-control.onrender.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
       - path: /*
         name: X-Content-Type-Options
         value: nosniff

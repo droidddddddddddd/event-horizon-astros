@@ -1,0 +1,43 @@
+/* Crew Manifest (V7: retro sci-fi, burnt orange / black / cream) */
+.manifest .sec-head{align-items:flex-end}
+.mf-founding{min-width:260px;border:1px solid var(--orange);background:#1d0f0555;border-radius:8px;padding:12px 16px}
+.mf-founding small{font:700 13px var(--cond);letter-spacing:.16em;color:var(--orange)}
+.mf-founding strong{display:block;font:italic 400 44px/1 var(--disp);color:var(--cream)}
+.mf-founding strong span{color:var(--orange)}
+.mf-meter{height:10px;border:1px solid var(--line2);border-radius:5px;background:#120d08;overflow:hidden;margin:8px 0 4px}
+.mf-meter i{display:block;height:100%;width:0;background:repeating-linear-gradient(135deg,#ff9a38 0 8px,#f27a0e 8px 16px);transition:width .6s ease}
+.mf-total{font-size:14px;color:var(--dim)}
+.mf-how{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0 0 18px;padding:0;list-style:none;counter-reset:mf}
+.mf-how li{counter-increment:mf;border:1px solid var(--line2);border-radius:8px;background:var(--panel);padding:16px 16px 14px 62px;position:relative}
+.mf-how li::before{content:"0" counter(mf);position:absolute;left:14px;top:12px;font:italic 400 34px/1 var(--disp);color:var(--orange)}
+.mf-how b{display:block;font:700 16px var(--cond);letter-spacing:.1em;text-transform:uppercase;color:var(--cream);margin-bottom:4px}
+.mf-how p{margin:0;font-size:15px;color:var(--dim)}
+.mf-how code{font:600 15px var(--cond);letter-spacing:.04em;color:var(--orange2);background:#120d08;border:1px solid var(--line2);border-radius:4px;padding:1px 6px;white-space:nowrap}
+.mf-how a{color:var(--orange2);text-decoration:underline}
+.mf-roles{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px;padding:0;list-style:none}
+.mf-roles li{font:700 13px var(--cond);letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--line2);border-radius:4px;padding:5px 10px;color:var(--cream);background:#120d08}
+.mf-ranks{font-size:15px;color:var(--dim);margin:0 0 16px}
+.mf-ranks b{color:var(--orange2);font-family:var(--cond);letter-spacing:.08em;text-transform:uppercase}
+.mf-statusbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:18px 0 14px}
+.mf-statusbar p{margin:0;font:600 15px var(--cond);letter-spacing:.08em;color:var(--orange2)}
+.manifest[data-state=waking] .mf-statusbar p::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--orange);margin-right:9px;animation:mfPulse 1.2s infinite}
+@keyframes mfPulse{50%{opacity:.25}}
+.mf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.mf-card{margin:0;border:1px solid var(--line2);border-radius:8px;background:var(--panel);overflow:hidden;box-shadow:0 6px 22px #0008}
+.mf-card.founder{border-color:var(--orange);box-shadow:0 0 0 1px #ff8a1f55,0 6px 22px #0008}
+.mf-card img{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#1b140d;filter:sepia(.08) contrast(1.02)}
+.mf-card figcaption{padding:10px 14px 12px;display:grid;gap:2px}
+.mf-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.mf-no{font:italic 400 24px/1.1 var(--disp);color:var(--orange)}
+.mf-tag{font:700 11px var(--cond);letter-spacing:.14em;text-transform:uppercase;color:#1a0d03;background:var(--orange);border-radius:3px;padding:3px 7px}
+.mf-name{font:700 17px var(--cond);letter-spacing:.04em;color:var(--cream);overflow-wrap:anywhere}
+.mf-meta{font-size:14px;color:var(--dim)}
+@media(max-width:1100px){.mf-grid{grid-template-columns:repeat(2,1fr)}.mf-how{grid-template-columns:1fr}}
+@media(max-width:700px){.mf-grid{grid-template-columns:1fr}.mf-founding{min-width:0;width:100%}}
+#mf-retry[hidden]{display:none}
+/* one more nav link: tighten desktop link padding so the bar stays on one line */
+@media(min-width:1101px){.nav nav a{padding:9px 11px;letter-spacing:.1em}}
+@media(min-width:1101px) and (max-width:1300px){.nav nav a{padding:9px 7px;font-size:13px;letter-spacing:.08em}}
+@media(min-width:1101px) and (max-width:1180px){.nav nav a{padding:9px 4px;font-size:12px;letter-spacing:.06em}.nav .btn-wallet{padding:9px 10px}}
+.mf-how a.mf-link{display:inline-flex;align-items:center;min-height:36px;margin-top:6px;font:700 14px var(--cond);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border:1px solid var(--orange);border-radius:5px;padding:0 12px}
+.mf-how a.mf-link:hover{background:#2a150666}

@@ -55,11 +55,11 @@ test('static XSS scan: no innerHTML/eval/Function/document.write/inline handlers
   assert.deepEqual(bad, []);
 });
 test('static scan: JS only talks to the CSP allow-listed hosts', () => {
-  const allowed = new Set(['api.dexscreener.com', 'dexscreener.com', 'jup.ag', 'pump.fun', 'solana-rpc.publicnode.com', 'api.mainnet-beta.solana.com', 'x.com']);
+  const allowed = new Set(['api.dexscreener.com', 'dexscreener.com', 'jup.ag', 'pump.fun', 'solana-rpc.publicnode.com', 'api.mainnet-beta.solana.com', 'x.com', 'twitter.com', 'astros-mission-control.onrender.com']);
   const csp = read('render.yaml'); const hosts = new Set();
   for (const f of fs.readdirSync(path.join(root, 'js')).map(x => 'js/' + x).concat(['astro-config.js'])) for (const m of read(f).matchAll(/https?:\/\/([a-z0-9.-]+)/gi)) hosts.add(m[1]);
   for (const h of hosts) assert.ok(allowed.has(h), 'unexpected host ' + h);
-  for (const h of ['api.dexscreener.com', 'solana-rpc.publicnode.com', 'api.mainnet-beta.solana.com']) assert.ok(csp.includes('https://' + h), 'CSP connect-src missing ' + h);
+  for (const h of ['api.dexscreener.com', 'solana-rpc.publicnode.com', 'api.mainnet-beta.solana.com', 'astros-mission-control.onrender.com']) assert.ok(csp.includes('https://' + h), 'CSP connect-src missing ' + h);
 });
 test('render.yaml: CSP has no unsafe-inline/unsafe-eval/wildcards; all security headers present; publishes dist only', () => {
   const y = read('render.yaml'); const csp = y.match(/Content-Security-Policy\n\s+value: "([^"]+)"/)[1];
@@ -89,4 +89,11 @@ test('hero pool: every pooled Astro is approved, has both webp sizes, and #1 (fa
   assert.ok(pool.some(p => p.i === 1));
   for (const p of pool) { const a = byId.get(p.i); assert.ok(a && a.art_status === 'approved' && ['Legendary', 'Epic', 'Rare'].includes(a.tier) && a.tier === p.t, 'bad pool entry ' + p.i); for (const s of [384, 768]) assert.ok(fs.existsSync(path.join(root, `assets/hero/${p.i}-${s}.webp`)), `${p.i}-${s}`); }
   assert.equal(fs.readdirSync(path.join(root, 'assets/hero')).length, pool.length * 2, 'unused hero files shipped');
+});
+
+test('crew manifest: section, nav link, recognition-only notice, read-only API and card images allowed by CSP', () => {
+  const h = read('index.html'); const csp = read('render.yaml').match(/Content-Security-Policy\n\s+value: "([^"]+)"/)[1];
+  assert.match(h, /<a href="#manifest">Crew Manifest<\/a>/); assert.match(h, /id="manifest"/); assert.match(h, /Recognition only\./);
+  assert.match(h, /src="js\/manifest.js"/); assert.match(csp, /img-src[^;]*https:\/\/astros-mission-control\.onrender\.com/);
+  const js = read('js/manifest.js'); assert.ok(!/innerHTML/.test(js), 'manifest.js must build DOM with textContent'); assert.match(js, /\/crew'/);
 });
