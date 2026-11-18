@@ -96,5 +96,6 @@ test('crew manifest: section, nav link, recognition-only notice, read-only API a
   assert.match(h, /<a href="#manifest">Crew Manifest<\/a>/); assert.match(h, /id="manifest"/); assert.match(h, /Recognition only\./);
   assert.match(h, /src="js\/manifest.js"/); assert.match(csp, /img-src[^;]*https:\/\/astros-mission-control\.onrender\.com/);
   const js = read('js/manifest.js'); assert.ok(!/innerHTML/.test(js), 'manifest.js must build DOM with textContent'); assert.match(js, /\/crew'/); assert.match(js, /LIVE = false/);
-  const d = JSON.parse(read('data/crew.json')); assert.ok(Array.isArray(d.crew) && d.crew.some(m => m.id === 'FC-0000')); for (const m of d.crew) assert.ok(m.card === null || /^assets\/crew\/cards\/\d+\.jpg$/.test(m.card));
+  assert.ok(Array.isArray(JSON.parse(read('data/crew.json')).entries), 'crew wall file (js/crew.js) must keep its entries list');
+  const d = JSON.parse(read('data/crew-manifest.json')); assert.ok(Array.isArray(d.crew) && d.crew.some(m => m.id === 'FC-0000')); for (const m of d.crew) assert.ok(m.card === null || /^assets\/crew\/cards\/\d+\.jpg$/.test(m.card));
 });

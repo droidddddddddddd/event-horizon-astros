@@ -1,10 +1,10 @@
 /* Crew Manifest: approved crew from Mission Control. Recognition only.
-   Default source is the same-origin snapshot data/crew.json (synced from Mission Control GET /crew by tools/sync-crew.mjs),
+   Default source is the same-origin snapshot data/crew-manifest.json (synced from Mission Control GET /crew by tools/sync-crew.mjs),
    which keeps the strict CSP. Set LIVE = true only after the hosting CSP allows https://astros-mission-control.onrender.com
    in connect-src and img-src; the page then reads Mission Control directly and falls back to the snapshot. */
 (function () {
   'use strict';
-  var API = 'https://astros-mission-control.onrender.com', LIVE = false, SNAPSHOT = 'data/crew.json';
+  var API = 'https://astros-mission-control.onrender.com', LIVE = false, SNAPSHOT = 'data/crew-manifest.json';
   var root = document.getElementById('manifest');
   if (!root) return;
   var grid = document.getElementById('mf-grid'), status = document.getElementById('mf-status'), retry = document.getElementById('mf-retry');

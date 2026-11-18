@@ -1,22 +1,4 @@
 {
- "crew": [
-  {
-   "crew_no": 0,
-   "id": "FC-0000",
-   "handle": "@AstrosOnSol",
-   "name": "Mission Control",
-   "role": "Founder",
-   "rank": "Mission Control",
-   "founding": false,
-   "founder": true,
-   "enlisted": "2026-11-18",
-   "checkins": 0,
-   "card": "assets/crew/cards/0.jpg"
-  }
- ],
- "total": 0,
- "founding_count": 0,
- "founding_limit": 100,
- "manifest_post": null,
- "synced_at": "2026-11-18T19:03:57.447Z"
+ "_note": "Self-declared, opt-in crew wall. An entry is added ONLY after the person asks to be listed and the team has checked their rank. Never put wallet addresses here: callsign + rank only.",
+ "entries": []
 }

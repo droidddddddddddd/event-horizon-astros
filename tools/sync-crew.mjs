@@ -1,4 +1,4 @@
-// Sync the public Crew Manifest from Mission Control into same-origin files (data/crew.json + assets/crew/cards/N.jpg),
+// Sync the public Crew Manifest from Mission Control into same-origin files (data/crew-manifest.json + assets/crew/cards/N.jpg),
 // so the site keeps its strict CSP (connect-src/img-src 'self'). Read-only: GET /crew and the card images. No secrets.
 // Usage: node tools/sync-crew.mjs   (exit 0 = synced or unchanged; exit 2 = Mission Control unreachable, nothing written)
 import fs from 'node:fs'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
@@ -36,7 +36,7 @@ const keep = new Set(crew.map(m => `${m.crew_no}.jpg`));
 for (const f of fs.readdirSync(cardsDir)) if (/^\d+\.jpg$/.test(f) && !keep.has(f)) fs.unlinkSync(path.join(cardsDir, f));   // removed members
 const post = /^https:\/\/x\.com\/AstrosOnSol\/status\/\d+$/.test(d.manifest_post || '') ? d.manifest_post : null;
 const out = { crew, total: Number.isInteger(d.total) ? d.total : 0, founding_count: Number.isInteger(d.founding_count) ? d.founding_count : 0, founding_limit: 100, manifest_post: post };
-const file = path.join(root, 'data', 'crew.json'); const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null;
+const file = path.join(root, 'data', 'crew-manifest.json'); const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null;
 if (prev) { const { synced_at, ...rest } = prev; if (JSON.stringify(rest) === JSON.stringify(out)) { console.log('crew manifest unchanged (' + crew.length + ' entries)'); process.exit(0); } }
 fs.writeFileSync(file, JSON.stringify({ ...out, synced_at: new Date().toISOString() }, null, 1) + '\n');
 console.log('crew manifest synced: ' + crew.length + ' entries, founding ' + out.founding_count + '/100');

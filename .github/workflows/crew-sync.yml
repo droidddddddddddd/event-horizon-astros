@@ -35,7 +35,7 @@ jobs:
       - name: Commit if changed
         if: steps.gate.outputs.run == 'true'
         run: |
-          git add data/crew.json assets/crew/cards
+          git add data/crew-manifest.json assets/crew/cards
           if git diff --cached --quiet; then echo "No changes."; exit 0; fi
           git -c user.name="astros-crew-sync" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Crew manifest sync"
           git push
