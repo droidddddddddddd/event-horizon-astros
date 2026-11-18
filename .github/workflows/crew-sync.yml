@@ -1,0 +1,41 @@
+# Copies the public Crew Manifest (approved members only) from Mission Control into the site, so the page stays same-origin
+# under the strict CSP. Runs ~20 minutes after each editorial run (9 AM, 2 PM, 8 PM ET), when the free bot instance is
+# already awake, so it is not a keep-alive. Commits only when something changed; Render then redeploys the static site.
+name: Crew manifest sync
+on:
+  schedule:
+    - cron: '27 13,14 * * *'
+    - cron: '27 18,19 * * *'
+    - cron: '27 0,1 * * *'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: crew-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Only at the ET hours the bot is awake (cron fires at both EDT and EST UTC times)
+        id: gate
+        run: |
+          h=$(TZ=America/New_York date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$h" = "09" ] || [ "$h" = "14" ] || [ "$h" = "20" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; else echo "Off-season trigger ($h ET); nothing to do."; fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          node-version: 20
+      - name: Sync
+        if: steps.gate.outputs.run == 'true'
+        run: node tools/sync-crew.mjs
+      - name: Commit if changed
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git add data/crew.json assets/crew/cards
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          git -c user.name="astros-crew-sync" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Crew manifest sync"
+          git push
