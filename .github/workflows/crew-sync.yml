@@ -1,12 +1,12 @@
 # Copies the public Crew Manifest (approved members only) from Mission Control into the site, so the page stays same-origin
-# under the strict CSP. Runs ~20 minutes after each editorial run (9 AM, 2 PM, 8 PM ET), when the free bot instance is
+# under the strict CSP. Runs ~12 minutes after each editorial run (9 AM, 2 PM, 8 PM ET), when the free bot instance is
 # already awake, so it is not a keep-alive. Commits only when something changed; Render then redeploys the static site.
 name: Crew manifest sync
 on:
   schedule:
-    - cron: '27 13,14 * * *'
-    - cron: '27 18,19 * * *'
-    - cron: '27 0,1 * * *'
+    - cron: '19 13,14 * * *'
+    - cron: '19 18,19 * * *'
+    - cron: '19 0,1 * * *'
   workflow_dispatch: {}
 permissions:
   contents: write
