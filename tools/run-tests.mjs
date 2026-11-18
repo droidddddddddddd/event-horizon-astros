@@ -7,7 +7,7 @@ function step(name, cmd, args, cwd = root, expect = 0) { process.stdout.write(`\
 step('root unit + static security tests', 'node', ['--test', 'tests/unit.test.mjs']);
 step('art integrity (partial allowed)', 'python3', ['launch-kit/validate_collection.py', '--allow-partial']);
 step('mint preflight must still BLOCK mainnet (exit 1 expected)', 'python3', ['launch-kit/mint/preflight.py'], root, 1);
-step('strict art validation must still FAIL until all 500 are done (exit 2 expected)', 'python3', ['launch-kit/validate_collection.py'], root, 2);
+step('strict art validation: all 420 art-approved and intact (needs the full-res art/ folder)', 'python3', ['launch-kit/validate_collection.py'], root, 0);
 step('mint unit + CLI safety tests', 'npm', ['test', '--silent'], path.join(root, 'mint'));
 const up = await fetch('http://127.0.0.1:8802/').then(r => r.ok).catch(() => false);
 if (up) { step('browser e2e (server on :8802)', 'python3', ['tests/e2e.py']); step('responsive + hero + Phantom + links (server on :8802)', 'python3', ['tests/e2e_mobile.py']); } else console.log('\n(skipping browser e2e: start `npm run build && npm run serve` first)');

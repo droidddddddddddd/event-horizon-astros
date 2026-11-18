@@ -1,5 +1,5 @@
 {
-  "_note": "Production plan of 1,000 entries. Collection supply is 500 (launch-kit/supply.json, 2026-11-18); entries outside it are not part of the collection.",
+  "_note": "Production plan of 1,000 entries. Collection supply is 420 (launch-kit/supply.json, 2026-11-18): 420 of the 426 done entries; 6 done lookalikes are excluded and nothing pending is in the collection.",
   "supply": 1000,
   "seed": 20261112,
   "tiers": {

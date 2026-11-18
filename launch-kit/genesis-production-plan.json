@@ -1,29 +1,20 @@
 {
-  "status": "Expanded character design direction approved; individual production artwork pending QA",
-  "supply": 500,
-  "approved": 426,
-  "pending": 74,
-  "existingCharacterTypes": "unclassified; visually audit before assigning",
+  "status": "Supply 420 (2026-11-18): all 420 illustrated and approved; no new artwork to produce",
+  "supply": 420,
+  "approved": 420,
+  "pending": 0,
+  "existingCharacterTypes": "All 420 are the original v3 astronaut design; not classified by gender. The expanded family (female, baby, dog, cat, robot, alien) was planned only for new art, which is no longer needed.",
   "targetCharacterTypes": {
-    "Male": 270,
-    "Female": 150,
-    "Baby": 25,
-    "Dog": 18,
-    "Cat": 17,
-    "Robot": 12,
-    "Alien": 8
+    "Astronaut (original design, gender not classified)": 420
   },
   "tierTargets": {
-    "Common": 233,
-    "Uncommon": 106,
+    "Common": 202,
+    "Uncommon": 57,
     "Rare": 81,
     "Epic": 60,
     "Legendary": 20
   },
-  "pendingByTier": {
-    "Common": 25,
-    "Uncommon": 49
-  },
+  "pendingByTier": {},
   "protectedIds": [
     1,
     7,
@@ -31,527 +22,52 @@
     196,
     224
   ],
-  "pendingTokens": [
-    {
-      "id": 236,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 239,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 240,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 243,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 245,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 254,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 259,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 269,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 272,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 276,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 277,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 280,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 281,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 283,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 284,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 297,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 301,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 324,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 333,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 335,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 337,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 338,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 341,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 342,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 343,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 345,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 349,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 352,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 354,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 356,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 363,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 366,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 367,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 369,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 370,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 371,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 375,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 376,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 378,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 379,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 380,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 381,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 382,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 383,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 384,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 385,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 386,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 387,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 388,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 389,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 391,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 392,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 393,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 394,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 395,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 397,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 398,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 399,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 400,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 401,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 403,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 404,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 405,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 406,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 407,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 408,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 409,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 410,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 411,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 412,
-      "tier": "Common",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 415,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 416,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 419,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    },
-    {
-      "id": 420,
-      "tier": "Uncommon",
-      "characterType": null,
-      "status": "pending",
-      "review": "required"
-    }
-  ],
+  "pendingTokens": [],
   "designApproved": true,
   "designApprovalNote": "User approved expanded family direction; preserve original King and other protected IDs. No promotional sheet is a mintable NFT.",
-  "targetCharacterTypesNote": "Halved from the 1,000 targets (540/300/50/35/35/25/15). Only 74 pieces remain, so final mix depends on classifying the 426 existing Astros; needs Christopher review."
+  "targetCharacterTypesNote": "Targets = actual counts of the 420. The 1,000-era targets (540/300/50/35/35/25/15) and the 500-era halves are retired.",
+  "excludedTokens": [
+    {
+      "id": 11,
+      "tier": "Common",
+      "reason": "near-duplicate lookalike",
+      "lookalikeOf": 178,
+      "clipCosine": 0.9867
+    },
+    {
+      "id": 176,
+      "tier": "Common",
+      "reason": "near-duplicate lookalike",
+      "lookalikeOf": 214,
+      "clipCosine": 0.983
+    },
+    {
+      "id": 266,
+      "tier": "Common",
+      "reason": "near-duplicate lookalike",
+      "lookalikeOf": 289,
+      "clipCosine": 0.9817
+    },
+    {
+      "id": 119,
+      "tier": "Common",
+      "reason": "near-duplicate lookalike",
+      "lookalikeOf": 832,
+      "clipCosine": 0.9804
+    },
+    {
+      "id": 296,
+      "tier": "Common",
+      "reason": "near-duplicate lookalike",
+      "lookalikeOf": 51,
+      "clipCosine": 0.9791
+    },
+    {
+      "id": 223,
+      "tier": "Common",
+      "reason": "near-duplicate lookalike",
+      "lookalikeOf": 124,
+      "clipCosine": 0.9791
+    }
+  ]
 }

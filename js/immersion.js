@@ -9,7 +9,7 @@ function motionState(){document.documentElement.classList.toggle('eh-paused',pau
 motionState();motion.onclick=()=>{paused=!paused;save('paused',paused);motionState()};
 const sectors=[
 ['Luna Relay','The last routine message: all systems nominal. The timestamp is tomorrow.',14,65],
-['Ceres Station','An empty docking bay. Five hundred crew tags remain on the wall.',31,27],
+['Ceres Station','An empty docking bay. Four hundred twenty crew tags remain on the wall.',31,27],
 ['Europa Array','The receiver hears a heartbeat from beyond the mapped stars.',49,69],
 ['Titan Dock','A navigation chart shows a route that should not exist.',62,23],
 ['Gravity Well','A clock runs backwards as the ship approaches the anomaly.',77,70],

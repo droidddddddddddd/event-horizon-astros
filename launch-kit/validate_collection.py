@@ -3,7 +3,7 @@
 
 usage: python3 launch-kit/validate_collection.py [--allow-partial]
 
-Strict mode (default, required before any mainnet work): all 500 collection tokens (launch-kit/supply.json) must be art-approved, tier totals exact,
+Strict mode (default, required before any mainnet work): all 420 collection tokens (launch-kit/supply.json) must be art-approved, tier totals exact,
 every approved image present, square JPEG >= 1024px, byte-unique, and matching art-manifest.json hashes.
 --allow-partial: same integrity checks on what exists, reports pending counts, exits 0. It NEVER reports the collection complete.
 """

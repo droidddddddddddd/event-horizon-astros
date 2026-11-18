@@ -5,7 +5,7 @@
   const data = Array.isArray(window.ASTROS) ? window.ASTROS : [];
   const status = window.ASTROS_STATUS || {};
   const TIERS = ['Common', 'Uncommon', 'Rare', 'Epic', 'Legendary'];
-  const PLANNED = { Common: 233, Uncommon: 106, Rare: 81, Epic: 60, Legendary: 20 }; // 500 total (launch-kit/supply.json)
+  const PLANNED = { Common: 202, Uncommon: 57, Rare: 81, Epic: 60, Legendary: 20 }; // 420 total (launch-kit/supply.json)
   const RANK = { Common: 1, Uncommon: 2, Rare: 3, Epic: 4, Legendary: 5 };
   let tier = 'All', limit = 15;
   const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
@@ -23,7 +23,8 @@
   (() => {
     const done = TIERS.reduce((n, t) => n + ((status[t] || {}).done || 0), 0);
     const parts = TIERS.map(t => t + ' ' + ((status[t] || {}).done || 0) + '/' + PLANNED[t]).join(' · ');
-    $('revealStatus').textContent = done + ' of 500 Astros illustrated and reviewed so far (' + parts + '). The rest are still in production.';
+    const total = TIERS.reduce((n, t) => n + PLANNED[t], 0);
+    $('revealStatus').textContent = done >= total ? 'All ' + total + ' Astros illustrated and reviewed (' + parts + '). The crew is complete.' : done + ' of ' + total + ' Astros illustrated and reviewed so far (' + parts + ').';
   })();
 
   function matches(a, q) {

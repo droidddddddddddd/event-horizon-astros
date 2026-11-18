@@ -1,9 +1,9 @@
-{"network":"devnet","standard":"Metaplex Core + Core Candy Machine (3 machines: early / public / reserve)","supply":500,"royaltyBasisPoints":250,
-"tiers":{"Common":233,"Uncommon":106,"Rare":81,"Epic":60,"Legendary":20},"tokenIds":"launch-kit/supply.json (500 non-contiguous IDs; the 426 approved Astros keep their numbers)",
+{"network":"devnet","standard":"Metaplex Core + Core Candy Machine (3 machines: early / public / reserve)","supply":420,"royaltyBasisPoints":250,
+"tiers":{"Common":202,"Uncommon":57,"Rare":81,"Epic":60,"Legendary":20},"tokenIds":"launch-kit/supply.json (420 non-contiguous IDs; every Astro keeps its number)",
 "phases":[
- {"label":"early","allocation":100,"lamports":150000000,"walletLimit":1,"allowlistRequired":true},
- {"label":"public","allocation":390,"lamports":250000000,"walletLimit":2},
- {"label":"reserve","allocation":10,"lamports":0,"addressGateRequired":true}],
+ {"label":"early","allocation":84,"lamports":150000000,"walletLimit":1,"allowlistRequired":true},
+ {"label":"public","allocation":328,"lamports":250000000,"walletLimit":2},
+ {"label":"reserve","allocation":8,"lamports":0,"addressGateRequired":true}],
 "configLines":{"prefixName":"Astro #","nameLength":3,"uriLength":8,"isSequential":false},
 "treasury":null,"reserveWallet":null,"collection":null,"candyMachines":{"early":null,"public":null,"reserve":null},
 "earlyStart":null,"publicStart":null,"metadataBase":null,"tokenMint":null}

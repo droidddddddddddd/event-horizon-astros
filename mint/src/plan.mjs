@@ -4,19 +4,19 @@ export const LAMPORTS_PER_SOL = 1_000_000_000;
 // Compact ID ranges ('1-5,7') -> [1,2,3,4,5,7]. Kept as ranges so the list is readable and is not mistaken for a key array.
 export function expandRanges(s) { return s.split(',').flatMap(x => { const [a, b = a] = x.split('-').map(Number); return Array.from({ length: b - a + 1 }, (_, i) => a + i); }); }
 export const PLAN = Object.freeze({
-  supply: 500,                           // Christopher approved 500 (2026-11-18); was 1,000
+  supply: 420,                           // Christopher set 420 (2026-11-18); was 1,000, briefly 500
   royaltyBps: 250,                       // 2.5% secondary royalty, advisory (ruleSet None) unless marketplace allow-list enforcement is chosen
   symbol: 'ASTROS',
   namePrefix: 'Astro #',
   phases: Object.freeze({
-    early:   Object.freeze({ allocation: 100, lamports: 150_000_000,  walletLimit: 1, mintLimitId: 1, allowlist: true }),   // 0.15 SOL, allowlist, 1/wallet
-    public:  Object.freeze({ allocation: 390, lamports: 250_000_000, walletLimit: 2, mintLimitId: 2, allowlist: false }),  // 0.25 SOL, 2/wallet
-    reserve: Object.freeze({ allocation: 10,  lamports: 0,          walletLimit: 0, mintLimitId: 0, allowlist: false })    // disclosed community reserve, address-gated, free
+    early:   Object.freeze({ allocation: 84,  lamports: 150_000_000,  walletLimit: 1, mintLimitId: 1, allowlist: true }),   // 0.15 SOL, allowlist, 1/wallet
+    public:  Object.freeze({ allocation: 328, lamports: 250_000_000, walletLimit: 2, mintLimitId: 2, allowlist: false }),  // 0.25 SOL, 2/wallet
+    reserve: Object.freeze({ allocation: 8,   lamports: 0,          walletLimit: 0, mintLimitId: 0, allowlist: false })    // disclosed community reserve, address-gated, free
   }),
-  // Rare/Epic/Legendary equal the art already approved (none dropped); the 74 still to make are Common/Uncommon.
-  tiers: Object.freeze({ Common: 233, Uncommon: 106, Rare: 81, Epic: 60, Legendary: 20 }),
-  // The 500 token numbers (mirror of launch-kit/supply.json tokenIds; a test asserts they match). Not contiguous: the 426 approved Astros keep their IDs.
-  tokenIds: Object.freeze(expandRanges('1-412,415-416,419-420,433-434,441-442,446,450,452,456,458,461-462,472-473,479-480,491,494,496-499,503,510,515-516,518,528,542-543,547,550-552,556,561,564,566-567,580,584,593,596-597,625-626,629-630,648,655,660,667-668,672-673,676-677,684,686,697,715,730,758,762,777,789,812,819,823,832,849,870,880,893-894,915,917-918,943,952,954,960,976,991-992'))
+  // Actual tier counts of the 420 (all illustrated and approved; 6 Common lookalikes excluded, see supply.json).
+  tiers: Object.freeze({ Common: 202, Uncommon: 57, Rare: 81, Epic: 60, Legendary: 20 }),
+  // The 420 token numbers (mirror of launch-kit/supply.json tokenIds; a test asserts they match). Not contiguous: every Astro keeps its original number.
+  tokenIds: Object.freeze(expandRanges('1-10,12-118,120-175,177-222,224-235,237-238,241-242,244,246-253,255-258,260-265,267-268,270-271,273-275,278-279,282,285-295,298-300,302-323,325-332,334,336,339-340,344,346-348,350-351,353,355,357-362,364-365,368,372-374,377,390,396,402,433-434,441-442,446,450,452,456,458,461-462,472-473,479-480,491,494,496-499,503,510,515-516,518,528,542-543,547,550-552,556,561,564,566-567,580,584,593,596-597,625-626,629-630,648,655,660,667-668,672-673,676-677,684,686,697,715,730,758,762,777,789,812,819,823,832,849,870,880,893-894,915,917-918,943,952,954,960,976,991-992'))
 });
 export const PHASES = ['early', 'public', 'reserve'];
 export function validatePlan(p = PLAN) {

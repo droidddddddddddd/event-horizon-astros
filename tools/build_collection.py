@@ -7,7 +7,7 @@ Reads v3 plan.json (token n -> tier/traits/title/backdrop) and manifest.json (st
   art-manifest.json            sha256 + size per final image (committed; lets anyone verify the archive)
   assets/astros/N.webp         640px web thumbnails used by the site (committed)
   collection.js                window.ASTROS (final art only) + window.ASTROS_STATUS (counts incl. pending)
-  launch-kit/production-manifest.json  the 500 collection rows (launch-kit/supply.json tokenIds), art_status approved|pending
+  launch-kit/production-manifest.json  the 420 collection rows (launch-kit/supply.json tokenIds), art_status approved|pending
 Never invents art: pending tokens stay pending and are NOT shown as part of the collection."""
 import json, os, sys, shutil, hashlib, collections
 from PIL import Image
@@ -15,13 +15,14 @@ V3 = sys.argv[1] if len(sys.argv) > 1 else '/workspace/event-horizon/astros/v3'
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 plan = json.load(open(f'{V3}/plan.json')); man = json.load(open(f'{V3}/manifest.json'))
 TIERS = ['Common', 'Uncommon', 'Rare', 'Epic', 'Legendary']; LEVEL = {t: i + 1 for i, t in enumerate(TIERS)}
-SUPPLY = json.load(open(f'{ROOT}/launch-kit/supply.json'))   # collection supply source of truth (500)
-EXPECT = SUPPLY['tiers']; IDS = set(SUPPLY['tokenIds'])
-# plan.json still holds the original 1,000 deterministic plan entries; only the 500 in supply.json are the collection.
+SUPPLY = json.load(open(f'{ROOT}/launch-kit/supply.json'))   # collection supply source of truth (420)
+EXPECT = SUPPLY['tiers']; IDS = set(SUPPLY['tokenIds']); EXCLUDED = {e['id'] for e in SUPPLY.get('excluded', [])}
+# plan.json still holds the original 1,000 deterministic plan entries; only the 420 in supply.json are the collection.
+# EXCLUDED approved lookalikes keep their art/ file and art-manifest.json hash but are not in the manifest, collection.js or the mint.
 assert [p['n'] for p in plan] == list(range(1, 1001))
 plan = [p for p in plan if p['n'] in IDS]
 assert len(plan) == SUPPLY['supply'] and collections.Counter(p['tier'] for p in plan) == EXPECT
-assert all(man['tokens'][str(n)]['status'] != 'done' or n in IDS for n in range(1, 1001)), 'an approved Astro is missing from supply.json'
+assert all(man['tokens'][str(n)]['status'] != 'done' or n in IDS or n in EXCLUDED for n in range(1, 1001)), 'an approved Astro is in neither tokenIds nor excluded'
 os.makedirs(f'{ROOT}/art', exist_ok=True); os.makedirs(f'{ROOT}/assets/astros', exist_ok=True)
 prod, final, amani = [], [], {}
 for p in plan:
@@ -45,5 +46,7 @@ status = {t: {'total': EXPECT[t], 'done': sum(1 for r in prod if r['tier'] == t 
 for t in TIERS: status[t]['pending'] = status[t]['total'] - status[t]['done']
 open(f'{ROOT}/collection.js', 'w').write('window.ASTROS=' + json.dumps(final, separators=(',', ':')) + ';window.ASTROS_STATUS=' + json.dumps(status, separators=(',', ':')) + ';')
 json.dump(prod, open(f'{ROOT}/launch-kit/production-manifest.json', 'w'), indent=1)
-json.dump({'note': 'sha256 of full-res art/NNNN.jpg for every approved token', 'approved': len(amani), 'files': {f'{n:04}.jpg': v for n, v in amani.items()}}, open(f'{ROOT}/art-manifest.json', 'w'), indent=1)
+for n in sorted(EXCLUDED):  # keep the excluded lookalikes' hashes so their archived art stays verifiable
+    b = open(f'{ROOT}/art/{n:04}.jpg', 'rb').read(); amani[n] = {'sha256': hashlib.sha256(b).hexdigest(), 'bytes': len(b), 'excluded': True}
+json.dump({'note': 'sha256 of full-res art/NNNN.jpg for every approved token (entries marked excluded are archived lookalikes, not in the collection)', 'approved': len(amani), 'files': {f'{n:04}.jpg': v for n, v in amani.items()}}, open(f'{ROOT}/art-manifest.json', 'w'), indent=1)
 print('approved', len(final), status)

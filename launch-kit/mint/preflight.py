@@ -5,12 +5,12 @@ from collections import Counter
 p = pathlib.Path(__file__).resolve().parent
 plan = json.loads((p / 'plan.json').read_text()); rows = json.loads((p.parent / 'production-manifest.json').read_text())
 supply = json.loads((p.parent / 'supply.json').read_text())
-assert sum(x['allocation'] for x in plan['phases']) == plan['supply'] == len(rows) == supply['supply'] == 500
+assert sum(x['allocation'] for x in plan['phases']) == plan['supply'] == len(rows) == supply['supply'] == 420
 assert Counter(r['tier'] for r in rows) == plan['tiers'] == supply['tiers']
 assert sorted(r['id'] for r in rows) == sorted(supply['tokenIds'])
-assert sum(x['allocation'] * x['lamports'] for x in plan['phases']) == 100 * 150_000_000 + 390 * 250_000_000 == 112_500_000_000
+assert sum(x['allocation'] * x['lamports'] for x in plan['phases']) == 84 * 150_000_000 + 328 * 250_000_000 == 94_600_000_000
 assert plan['royaltyBasisPoints'] == 250
-print('Supply, rarity, royalty and revenue arithmetic passed (max primary revenue 112.5 SOL before fees).')
+print('Supply, rarity, royalty and revenue arithmetic passed (max primary revenue 94.6 SOL before fees).')
 B58 = r'[1-9A-HJ-NP-Za-km-z]{32,44}'; errors = []
 for k in ['treasury', 'reserveWallet', 'collection', 'tokenMint']:
     if not re.fullmatch(B58, plan.get(k) or ''): errors.append('Missing or invalid ' + k)
