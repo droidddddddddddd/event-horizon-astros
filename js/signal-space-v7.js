@@ -1,5 +1,5 @@
 // Visual teaser only. No mint or payment controls.
-const arrival=Date.parse('2026-11-22T00:00:00Z'), clock=document.getElementById('clock');
+const arrival=Date.parse('2026-12-02T15:31:48Z'), clock=document.getElementById('clock');
 const alphabet='0123456789ABCDEF';
 function tick(){const left=Math.max(0,Math.ceil((arrival-Date.now())/1000));if(!left){clock.textContent='◉';return;}const encoded=(left^0xA7F31).toString(16).toUpperCase().padStart(6,'0');const check=((left*31)>>>0).toString(16).toUpperCase().padStart(8,'0');clock.textContent=encoded.slice(0,2)+'∷'+encoded.slice(2,4)+'∷'+encoded.slice(4)+'  '+check.slice(-4);}
 tick();setInterval(tick,1000);
