@@ -18,7 +18,7 @@
   });
   const note = $('legendary-note');
   note.textContent = ones.length === 5 ? 'All five 1/1 pieces are illustrated.' : ones.length + ' of 5 one-of-one pieces shown.';
-  for (const [label, key] of [['Official X', 'xUrl'], ['Discord', 'discordUrl'], ['Mint', 'mintUrl']]) {
+  for (const [label, key] of [['Official X', 'xUrl'], ['Official Telegram', 'telegramUrl'], ['Discord', 'discordUrl'], ['Mint', 'mintUrl']]) {
     if (!cfg[key] || (key === 'mintUrl' && !window.RELEASE_READY)) continue;
     try { const url = new URL(cfg[key]); if (url.protocol !== 'https:' || url.username || url.password) continue; const a = document.createElement('a'); a.href = url.href; a.textContent = label; a.className = 'btn ghost'; a.rel = 'noopener noreferrer'; $('official-links').append(a); } catch { /* ignore */ }
   }

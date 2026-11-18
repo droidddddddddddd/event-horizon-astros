@@ -41,3 +41,15 @@
 @media(min-width:1101px) and (max-width:1180px){.nav nav a{padding:9px 4px;font-size:12px;letter-spacing:.06em}.nav .btn-wallet{padding:9px 10px}}
 .mf-how a.mf-link{display:inline-flex;align-items:center;min-height:36px;margin-top:6px;font:700 14px var(--cond);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border:1px solid var(--orange);border-radius:5px;padding:0 12px}
 .mf-how a.mf-link:hover{background:#2a150666}
+/* Telegram links (site-wide) */
+.nav-tg{display:inline-flex;align-items:center;gap:8px;font:700 14px var(--cond);letter-spacing:.12em;text-transform:uppercase;color:var(--cream);border:1px solid #6b4a2a;border-radius:5px;padding:9px 14px;white-space:nowrap;min-height:44px;box-sizing:border-box}
+.nav-tg:hover{border-color:var(--orange);color:var(--orange2)}
+.nav-tg .ic{color:var(--orange)}
+.mf-cta,.community-ctas{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 0}
+.community-band{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;border:1px solid var(--orange);border-radius:10px;background:linear-gradient(180deg,#1d0f05aa,#120d08);padding:24px 28px}
+.community-band p{max-width:60ch}
+.foot-links a{color:var(--orange2);text-decoration:underline}
+@media(min-width:1101px) and (max-width:1600px){.nav-tg span{display:none}.nav-tg{padding:9px 11px}}
+@media(max-width:700px){.nav-tg{padding:0 11px}.nav-tg span{display:none}.community-band{padding:18px}}
+@media(min-width:1101px){.nav nav a.nav-tg-menu{display:none}}
+@media(max-width:480px){.nav-tg{display:none}}

@@ -11,6 +11,7 @@ window.LAUNCH = Object.freeze({
   "mintUrl": "",
   "tokenUrl": "",
   "xUrl": "https://x.com/AstrosOnSol",
+  "telegramUrl": "https://t.me/AstrosOnSol",
   "discordUrl": "",
   "websiteUrl": "https://astrosonsol.com",
   "tokenPlatform": "Pump.fun",

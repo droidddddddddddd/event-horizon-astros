@@ -97,7 +97,7 @@
   })();
 
   /* ---- nav highlight ---- */
-  const links = [...document.querySelectorAll('#nav a')], secs = links.map(a => document.querySelector(a.getAttribute('href')));
+  const links = [...document.querySelectorAll('#nav a[href^="#"]')], secs = links.map(a => document.querySelector(a.getAttribute('href')));
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) links.forEach((a, i) => a.classList.toggle('on', secs[i] === e.target)); }), { rootMargin: '-35% 0px -55% 0px' });
     secs.forEach(s => s && io.observe(s));

@@ -18,7 +18,7 @@ with sync_playwright() as p:
     alerts = []; pg.on("dialog", lambda d: (alerts.append(d.message), d.dismiss()))
     pg.goto(BASE + "?demo_mcap=300000&demo_rank=Navigator", wait_until="networkidle"); pg.wait_for_timeout(1000)
     check("no console errors/CSP violations on load", errs == [], errs)
-    check("hero + nav present", pg.locator("h1").inner_text().replace("\n", " ").strip() == "EVENT HORIZON" and pg.locator("#nav a").count() == 8)
+    check("hero + nav present", pg.locator("h1").inner_text().replace("\n", " ").strip() == "EVENT HORIZON" and pg.locator("#nav a").count() == 9)
     check("prelaunch banners shown (>=3)", pg.locator("text=PRELAUNCH CONCEPT PHASE").count() >= 3)
     # gallery
     n0 = pg.locator("#gallery .astro").count(); check("gallery shows first page (15)", n0 == 15, n0)
