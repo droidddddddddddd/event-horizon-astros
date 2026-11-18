@@ -60,7 +60,7 @@ with sync_playwright() as p:
     check("Black Hole Scene (ported PFP generator) visible and drawn", pg.is_visible("#pfpCanvas") and pg.evaluate("(()=>{const c=document.getElementById('pfpCanvas');const d=c.getContext('2d').getImageData(0,0,c.width,c.height).data;let n=0;for(let i=0;i<d.length;i+=4003)n+=d[i];return n>0})()"))
     # mission control
     pg.locator("#mission").scroll_into_view_if_needed()
-    check("mint plan rows present", all(pg.locator(f"#mint-plan >> text={t}").count() >= 1 for t in ["200 Early Crew", "780 Public Mint", "20 Community Reserve", "0.025 SOL", "0.05 SOL"]))
+    check("mint plan rows present", all(pg.locator(f"#mint-plan >> text={t}").count() >= 1 for t in ["100 Early Crew", "390 Public Mint", "10 Community Reserve", "0.15 SOL", "0.25 SOL"]))
     check("no live mint control exists", pg.locator("#mint-plan a[href], #mint-plan button").count() == 0 and "Mint closed" in pg.inner_text("#mint-state"))
     pg.click('.mission[data-id="1"]'); check("mission checklist persists", pg.evaluate("localStorage.getItem('astro-missions')")=='["1"]')
     pg.click("#scan"); check("anomaly scanner works", pg.inner_text("#anomaly-title") == "TIME FRACTURE")
