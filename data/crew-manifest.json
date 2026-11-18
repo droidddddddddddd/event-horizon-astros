@@ -25,11 +25,24 @@
    "enlisted": "2026-11-18",
    "checkins": 0,
    "card": "assets/crew/cards/1.jpg"
+  },
+  {
+   "crew_no": 2,
+   "id": "FC-0002",
+   "handle": null,
+   "name": "Michael",
+   "role": "Misfit",
+   "rank": "Cadet",
+   "founding": true,
+   "founder": false,
+   "enlisted": "2026-11-18",
+   "checkins": 0,
+   "card": "assets/crew/cards/2.jpg"
   }
  ],
- "total": 1,
- "founding_count": 1,
+ "total": 2,
+ "founding_count": 2,
  "founding_limit": 100,
  "manifest_post": "https://x.com/AstrosOnSol/status/2123152801870307797",
- "synced_at": "2026-11-18T20:53:46.758Z"
+ "synced_at": "2026-11-18T21:34:31.590Z"
 }
