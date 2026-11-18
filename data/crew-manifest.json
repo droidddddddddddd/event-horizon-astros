@@ -12,11 +12,24 @@
    "enlisted": "2026-11-18",
    "checkins": 0,
    "card": "assets/crew/cards/0.jpg"
+  },
+  {
+   "crew_no": 1,
+   "id": "FC-0001",
+   "handle": "@DroidOnSol",
+   "name": "DROID",
+   "role": "Pilot",
+   "rank": "Cadet",
+   "founding": true,
+   "founder": false,
+   "enlisted": "2026-11-18",
+   "checkins": 0,
+   "card": "assets/crew/cards/1.jpg"
   }
  ],
- "total": 0,
- "founding_count": 0,
+ "total": 1,
+ "founding_count": 1,
  "founding_limit": 100,
  "manifest_post": "https://x.com/AstrosOnSol/status/2123152801870307797",
- "synced_at": "2026-11-18T20:35:03.084Z"
+ "synced_at": "2026-11-18T20:53:46.758Z"
 }
