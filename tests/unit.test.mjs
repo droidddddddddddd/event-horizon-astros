@@ -13,7 +13,7 @@ const LIVE = { status: 'live', cluster: 'mainnet-beta', mainnetPaymentsEnabled: 
 
 test('launch-config: economics match the approved plan exactly', () => {
   const { base: c } = loadLaunch();
-  assert.equal(c.nftSupply, 1000); assert.equal(c.earlyAllocation, 200); assert.equal(c.publicAllocation, 780); assert.equal(c.reserveAllocation, 20);
+  assert.equal(c.nftSupply, 500); assert.equal(c.earlyAllocation, 100); assert.equal(c.publicAllocation, 390); assert.equal(c.reserveAllocation, 10);
   assert.equal(c.earlyAllocation + c.publicAllocation + c.reserveAllocation, c.nftSupply);
   assert.equal(c.earlyPrice, 0.15); assert.equal(c.nftPrice, 0.25); assert.equal(c.royaltyBps, 250); assert.equal(c.tokenSupply, 1_000_000_000); assert.equal(c.tokenPlatform, 'Pump.fun'); assert.equal(c.sequence, 'simultaneous');
 });
@@ -32,11 +32,13 @@ test('gate: flipping ANY single requirement closes it', () => {
   for (const [k, v] of Object.entries(mut)) assert.equal(runGate({ ...b, [k]: v }), false, `gate stayed open with ${k}=${v}`);
   assert.equal(runGate({ ...b, mintUrl: 'https://user:pw@example.com/mint' }), false); assert.equal(runGate({ ...b, launchTime: 'nonsense' }), false); assert.equal(runGate({ ...b, nftPrice: NaN }), false);
 });
-test('collection manifest: 1,000 tokens, exact tier counts, unique ids, tiers match attributes', () => {
-  const rows = JSON.parse(read('launch-kit/production-manifest.json')); const n = {};
-  assert.equal(rows.length, 1000); assert.equal(new Set(rows.map(r => r.id)).size, 1000);
+test('collection manifest: 500 tokens (supply.json), exact tier counts, unique ids, tiers match attributes, every approved Astro kept', () => {
+  const rows = JSON.parse(read('launch-kit/production-manifest.json')); const n = {}; const sup = JSON.parse(read('launch-kit/supply.json'));
+  assert.equal(sup.supply, 500); assert.equal(rows.length, 500); assert.equal(new Set(rows.map(r => r.id)).size, 500);
+  assert.deepEqual(rows.map(r => r.id).sort((a, b) => a - b), sup.tokenIds.slice().sort((a, b) => a - b));
+  assert.equal(rows.filter(r => r.art_status === 'approved').length, 426); assert.equal(rows.filter(r => r.art_status !== 'approved').length, 74);
   for (const r of rows) { n[r.tier] = (n[r.tier] || 0) + 1; assert.equal(r.attributes.find(a => a.trait_type === 'Tier').value, r.tier); }
-  assert.deepEqual(n, { Common: 550, Uncommon: 250, Rare: 120, Epic: 60, Legendary: 20 });
+  assert.deepEqual(n, { Common: 233, Uncommon: 106, Rare: 81, Epic: 60, Legendary: 20 }); assert.deepEqual(n, sup.tiers);
 });
 test('site collection.js only publishes art-approved entries and reports the honest per-tier status', () => {
   const win = {}; vm.runInNewContext(read('collection.js'), { window: win });

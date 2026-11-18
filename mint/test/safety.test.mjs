@@ -1,16 +1,18 @@
-import test from 'node:test'; import assert from 'node:assert/strict';
+import test from 'node:test'; import assert from 'node:assert/strict'; import fs from 'node:fs';
 import { assertClusterAllowed, GENESIS, mainnetPhrase, validMetadataBase, assertScaledPlanAllowed, isLoopback } from '../src/safety.mjs';
 import { PLAN, PHASES, validatePlan, scaledPlan } from '../src/plan.mjs';
 import { seededShuffle } from '../src/shuffle.mjs';
 import { buildPools, configLineSettings } from '../src/deployLogic.mjs';
 const T = 'Trea5ury11111111111111111111111111111111111';
 test('plan economics are exactly the approved handoff numbers', () => {
-  assert.equal(PLAN.supply, 1000); assert.equal(PLAN.royaltyBps, 250);
-  assert.deepEqual([200, 780, 20], PHASES.map(k => PLAN.phases[k].allocation));
+  assert.equal(PLAN.supply, 500); assert.equal(PLAN.royaltyBps, 250);
+  assert.deepEqual([100, 390, 10], PHASES.map(k => PLAN.phases[k].allocation));
   assert.equal(PLAN.phases.early.lamports, 150_000_000); assert.equal(PLAN.phases.public.lamports, 250_000_000); assert.equal(PLAN.phases.reserve.lamports, 0);
-  assert.equal(PLAN.phases.public.walletLimit, 2); assert.deepEqual(PLAN.tiers, { Common: 550, Uncommon: 250, Rare: 120, Epic: 60, Legendary: 20 });
+  assert.equal(PLAN.phases.public.walletLimit, 2); assert.deepEqual(PLAN.tiers, { Common: 233, Uncommon: 106, Rare: 81, Epic: 60, Legendary: 20 });
   assert.ok(validatePlan());
-  assert.equal(200 * 150_000_000 + 780 * 250_000_000, 225_000_000_000); // 225 SOL if all paid mints sell out
+  assert.equal(100 * 150_000_000 + 390 * 250_000_000, 112_500_000_000); // 112.5 SOL if all paid mints sell out
+  const sup = JSON.parse(fs.readFileSync(new URL('../../launch-kit/supply.json', import.meta.url), 'utf8'));
+  assert.equal(sup.supply, PLAN.supply); assert.deepEqual([...PLAN.tokenIds], sup.tokenIds); assert.deepEqual({ ...PLAN.tiers }, sup.tiers);
 });
 test('devnet and localnet are allowed', () => {
   assert.equal(assertClusterAllowed({ declared: 'devnet', rpcUrl: 'https://api.devnet.solana.com', genesisHash: GENESIS.devnet }), 'devnet');
@@ -41,11 +43,11 @@ test('metadata base must be permanent storage; test base only when allowed', () 
 test('pools are disjoint, exact size, deterministic per seed, and differ across seeds', () => {
   const a = buildPools(PLAN, 'seed-one-xx'), b = buildPools(PLAN, 'seed-one-xx'), c = buildPools(PLAN, 'seed-two-xx');
   assert.deepEqual(a, b); assert.notDeepEqual(a.early, c.early);
-  assert.deepEqual([a.early.length, a.public.length, a.reserve.length], [200, 780, 20]);
-  const all = [...a.early, ...a.public, ...a.reserve]; assert.equal(new Set(all).size, 1000); assert.equal(Math.min(...all), 1); assert.equal(Math.max(...all), 1000);
+  assert.deepEqual([a.early.length, a.public.length, a.reserve.length], [100, 390, 10]);
+  const all = [...a.early, ...a.public, ...a.reserve]; assert.equal(new Set(all).size, 500); assert.deepEqual(all.slice().sort((x, y) => x - y), [...PLAN.tokenIds].sort((x, y) => x - y));
   assert.equal(seededShuffle([1, 2, 3], 'x').length, 3);
 });
 test('config line settings fit the Candy Machine limits', () => {
-  const s = configLineSettings('https://arweave.net/' + 'a'.repeat(43), PLAN); assert.equal(s.nameLength, 4); assert.equal(s.uriLength, 9); assert.ok(s.prefixUri.length <= 200); assert.equal(s.prefixName + '1000', 'Astro #1000');
+  const s = configLineSettings('https://arweave.net/' + 'a'.repeat(43), PLAN); assert.equal(s.nameLength, 3); assert.equal(s.uriLength, 8); assert.ok(s.prefixUri.length <= 200); assert.equal(s.prefixName + String(Math.max(...PLAN.tokenIds)), 'Astro #992');
 });
 test('isLoopback', () => { assert.ok(isLoopback('http://localhost:8899')); assert.ok(isLoopback('http://127.0.0.1:8899')); assert.ok(!isLoopback('https://api.devnet.solana.com')); });

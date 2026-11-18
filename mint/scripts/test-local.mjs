@@ -29,7 +29,7 @@ const treasury = gen(), reserve = gen(), earlyA = gen(), earlyB = gen(), outside
 for (const w of [reserve, earlyA, earlyB, outsider, pubA, pubB, pubC]) await fund(admin, w.identity.publicKey, 5);
 const dep = (state, cfg, plan) => ({ network: 'localnet', collection: String(state.collection), treasury: cfg.treasury, allowlist: cfg.allowlist, machines: Object.fromEntries(Object.entries(state.machines).map(([k, v]) => [k, { address: String(v.address) }])) });
 
-// ============ A. FULL production-size deployment (200/780/20) ============
+// ============ A. FULL production-size deployment (100/390/10 = 500) ============
 {
   const cfg = { treasury: String(treasury.identity.publicKey), reserveWallet: String(reserve.identity.publicKey), allowlist: [earlyA, earlyB].map(w => String(w.identity.publicKey)),
     earlyStart: new Date(Date.now() + 3600e3).toISOString(), publicStart: new Date(Date.now() + 7200e3).toISOString(), shuffleSeed: 'local-test-seed-full', collectionUri: 'https://example.invalid/local-test/collection.json',
@@ -37,10 +37,10 @@ const dep = (state, cfg, plan) => ({ network: 'localnet', collection: String(sta
   const t0 = Date.now(); const state = await deployAll({ umi: admin, config: cfg });
   console.log(`full deployment took ${((Date.now() - t0) / 1000).toFixed(1)}s`);
   const v = await verifyDeployment({ umi: admin, state, config: cfg });
-  check('FULL: early=200 / public=780 / reserve=20 items loaded on-chain', v.phases.early.loaded === 200 && v.phases.public.loaded === 780 && v.phases.reserve.loaded === 20, JSON.stringify(v.phases));
+  check('FULL: early=100 / public=390 / reserve=10 items loaded on-chain', v.phases.early.loaded === 100 && v.phases.public.loaded === 390 && v.phases.reserve.loaded === 10, JSON.stringify(v.phases));
   check('FULL: on-chain guards match plan (prices, treasury, limits, gate, allowlist, end date)', v.ok, JSON.stringify(v.phases));
   const pools = buildPools(PLAN, cfg.shuffleSeed); const all = [...pools.early, ...pools.public, ...pools.reserve];
-  check('FULL: pools are disjoint and cover tokens 1..1000', new Set(all).size === 1000 && Math.min(...all) === 1 && Math.max(...all) === 1000);
+  check('FULL: pools are disjoint and cover exactly the 500 collection token IDs', new Set(all).size === 500 && all.every(n => PLAN.tokenIds.includes(n)));
   await expectFail('FULL: early mint before start is rejected on-chain', () => mintFromPhase({ umi: earlyA, deployment: dep(state, cfg), phase: 'early' }), /./);
   await expectFail('FULL: public mint before start is rejected on-chain', () => mintFromPhase({ umi: pubA, deployment: dep(state, cfg), phase: 'public' }), /./);
   const col = await fetchCollectionV1(admin, publicKey(state.collection));

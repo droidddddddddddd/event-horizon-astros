@@ -1,16 +1,16 @@
 {
- "_note": "Written by astros/v3/plan.py. Concept collection of 1,000 AI-illustrated Astros; nothing minted.",
+ "_note": "Written by astros/v3/plan.py, supply updated to 500 (2026-11-18; tier split in launch-kit/supply.json). Concept collection of 500 AI-illustrated Astros; nothing minted.",
  "collection": {
   "name": "Astros",
   "symbol": "ASTRO",
-  "supply": 1000,
+  "supply": 500,
   "seed": 20261112
  },
  "tiers": [
   {
    "id": "Common",
    "level": 1,
-   "share": 0.55,
+   "share": 0.466,
    "color": "#b9b4ac",
    "stars": 1,
    "look": "A chubby astronaut in a worn pastel suit, visor lifted, a bored face. Plain and proud.",
@@ -19,7 +19,7 @@
   {
    "id": "Uncommon",
    "level": 2,
-   "share": 0.25,
+   "share": 0.212,
    "color": "#3fcf8e",
    "stars": 2,
    "look": "Trim stripes, mirrored shades or goggles, and a hand-drawn extra: lollipop, straw, bubblegum, a silly hat.",
@@ -28,7 +28,7 @@
   {
    "id": "Rare",
    "level": 3,
-   "share": 0.12,
+   "share": 0.162,
    "color": "#4aa3ff",
    "stars": 3,
    "look": "Shiny metallic suit, glowing visor rim, gold chain or comms gear, sparks in the air.",
@@ -37,7 +37,7 @@
   {
    "id": "Epic",
    "level": 4,
-   "share": 0.06,
+   "share": 0.12,
    "color": "#a56bff",
    "stars": 4,
    "look": "Dark plasma-veined suit, glowing eyes, alien skin, a halo, particles and dripping plasma.",
@@ -46,7 +46,7 @@
   {
    "id": "Legendary",
    "level": 5,
-   "share": 0.02,
+   "share": 0.04,
    "color": "#ffb040",
    "stars": 5,
    "look": "Gilded, void or cosmic suit, a face lost to fire or void, crown or halo, wings, aura rays. Includes five hand-made 1/1s.",

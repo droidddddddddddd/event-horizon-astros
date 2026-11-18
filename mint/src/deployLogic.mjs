@@ -8,16 +8,17 @@ import { seededShuffle } from './shuffle.mjs';
 import { isBase58Address } from './safety.mjs';
 
 export const LINES_PER_TX = 25;
-/** items: token numbers 1..supply, shuffled with the disclosed seed and sliced into disjoint pools [early | public | reserve]. */
+/** items: the plan's token numbers (plan.tokenIds, else 1..supply), shuffled with the disclosed seed and sliced into disjoint pools [early | public | reserve]. */
 export function buildPools(plan, shuffleSeed) {
   validatePlan(plan);
-  const tokens = seededShuffle(Array.from({ length: plan.supply }, (_, i) => i + 1), shuffleSeed);
+  const tokens = seededShuffle(tokenNumbers(plan), shuffleSeed);
   let o = 0; const pools = {};
   for (const k of PHASES) { pools[k] = tokens.slice(o, o + plan.phases[k].allocation); o += plan.phases[k].allocation; }
   return pools;
 }
+export function tokenNumbers(plan) { return plan.tokenIds ? plan.tokenIds.slice() : Array.from({ length: plan.supply }, (_, i) => i + 1); }
 export function configLineSettings(metadataBase, plan) {
-  const maxN = String(plan.supply).length;
+  const maxN = String(Math.max(...tokenNumbers(plan))).length;
   return { prefixName: plan.namePrefix, nameLength: maxN, prefixUri: metadataBase + '/', uriLength: maxN + '.json'.length, isSequential: false };
 }
 export function checkConfig(c, plan) {

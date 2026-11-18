@@ -1,4 +1,5 @@
 {
+ "_note": "Production plan of 1,000 entries. Collection supply is 500 (launch-kit/supply.json, 2026-11-18); entries outside it are not part of the collection.",
  "supply": 1000,
  "stats": {
   "calls": 445,

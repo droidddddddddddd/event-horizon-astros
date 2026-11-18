@@ -1,4 +1,6 @@
-"""Astros v3 plan: 1,000 AI-illustrated pieces (option b). Deterministic from SEED.
+"""Astros v3 plan: originally 1,000 AI-illustrated pieces (option b). Deterministic from SEED.
+SUPPLY IS NOW 500 (2026-11-18): the collection is the 500 tokenIds in launch-kit/supply.json (426 approved + 74 pending).
+Do NOT re-run with N = 500: that re-rolls every token, including the 426 approved Astros. plan.json stays the 1,000-entry plan.
 Writes: plan.json (traits + prompt per token), metadata/<n>.json (Metaplex standard), distribution.json,
         manifest.json (resumable progress; only created if missing), ../../site/astros.json + site examples.
 Run: python3 astros/v3/plan.py   (safe to re-run; manifest.json is never overwritten, plan is stable for a given SEED)"""

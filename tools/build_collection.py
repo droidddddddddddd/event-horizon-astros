@@ -7,7 +7,7 @@ Reads v3 plan.json (token n -> tier/traits/title/backdrop) and manifest.json (st
   art-manifest.json            sha256 + size per final image (committed; lets anyone verify the archive)
   assets/astros/N.webp         640px web thumbnails used by the site (committed)
   collection.js                window.ASTROS (final art only) + window.ASTROS_STATUS (counts incl. pending)
-  launch-kit/production-manifest.json  all 1000 rows, art_status approved|pending
+  launch-kit/production-manifest.json  the 500 collection rows (launch-kit/supply.json tokenIds), art_status approved|pending
 Never invents art: pending tokens stay pending and are NOT shown as part of the collection."""
 import json, os, sys, shutil, hashlib, collections
 from PIL import Image
@@ -15,8 +15,13 @@ V3 = sys.argv[1] if len(sys.argv) > 1 else '/workspace/event-horizon/astros/v3'
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 plan = json.load(open(f'{V3}/plan.json')); man = json.load(open(f'{V3}/manifest.json'))
 TIERS = ['Common', 'Uncommon', 'Rare', 'Epic', 'Legendary']; LEVEL = {t: i + 1 for i, t in enumerate(TIERS)}
-EXPECT = {'Common': 550, 'Uncommon': 250, 'Rare': 120, 'Epic': 60, 'Legendary': 20}
-assert collections.Counter(p['tier'] for p in plan) == EXPECT and [p['n'] for p in plan] == list(range(1, 1001))
+SUPPLY = json.load(open(f'{ROOT}/launch-kit/supply.json'))   # collection supply source of truth (500)
+EXPECT = SUPPLY['tiers']; IDS = set(SUPPLY['tokenIds'])
+# plan.json still holds the original 1,000 deterministic plan entries; only the 500 in supply.json are the collection.
+assert [p['n'] for p in plan] == list(range(1, 1001))
+plan = [p for p in plan if p['n'] in IDS]
+assert len(plan) == SUPPLY['supply'] and collections.Counter(p['tier'] for p in plan) == EXPECT
+assert all(man['tokens'][str(n)]['status'] != 'done' or n in IDS for n in range(1, 1001)), 'an approved Astro is missing from supply.json'
 os.makedirs(f'{ROOT}/art', exist_ok=True); os.makedirs(f'{ROOT}/assets/astros', exist_ok=True)
 prod, final, amani = [], [], {}
 for p in plan:
