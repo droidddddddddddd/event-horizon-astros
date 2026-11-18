@@ -7,7 +7,7 @@ export const PLAN = Object.freeze({
   symbol: 'ASTROS',
   namePrefix: 'Astro #',
   phases: Object.freeze({
-    early:   Object.freeze({ allocation: 200, lamports: 1250_000_000, walletLimit: 1, mintLimitId: 1, allowlist: true }),   // 0.15 SOL, allowlist, 1/wallet
+    early:   Object.freeze({ allocation: 200, lamports: 150_000_000,  walletLimit: 1, mintLimitId: 1, allowlist: true }),   // 0.15 SOL, allowlist, 1/wallet
     public:  Object.freeze({ allocation: 780, lamports: 250_000_000, walletLimit: 2, mintLimitId: 2, allowlist: false }),  // 0.25 SOL, 2/wallet
     reserve: Object.freeze({ allocation: 20,  lamports: 0,          walletLimit: 0, mintLimitId: 0, allowlist: false })    // disclosed community reserve, address-gated, free
   }),
