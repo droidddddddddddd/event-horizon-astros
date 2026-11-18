@@ -27,5 +27,5 @@ Nothing below has been guessed or filled in. Items marked ◆ block mainnet.
 
 ## Product
 16. **Numbering**: keep V6's #981-985 for the five 1/1s, or v3's shuffled numbering (current).
-17. **Finish art**: 74 left of 500 (25 Common, 49 Uncommon) (Legendary and Epic complete). Approve generation spend/time. Review the "samey" clusters (ART_STATUS.md).
-18. Whether to hide the 74 unfinished placeholders or keep "in production" labels on the public site (current: honest labels).
+17. **Finish art**: done. Supply is 420, all approved (6 Common lookalikes excluded). Review the "samey" clusters (ART_STATUS.md).
+18. (Resolved) Nothing is unfinished; the site shows all 420.

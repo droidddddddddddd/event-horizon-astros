@@ -1,7 +1,7 @@
 # Coordinated launch
 Confirmed preferences: Pump.fun, target 1 billion token supply, simultaneous NFT/token release, NFT price undecided. Platform mechanics and supply must be verified before launch.
 
-1. Approve artwork rights and all 500 final images; production-manifest.json is a work order, not finished artwork. Five named legendary slots are IDs 981–985. Add actual visual traits and mark approved only after review.
+1. Approve artwork rights and all 420 final images (already art-approved); production-manifest.json is a work order, not finished artwork. Five named legendary slots are IDs 981–985. Add actual visual traits and mark approved only after review.
 2. Place final PNGs in launch-kit/art; install Pillow and run build_metadata.py with the verified permanent image base URI. Upload metadata permanently and verify all URIs.
 3. Configure maintained Metaplex mint tooling on devnet, choose price, treasury, royalty, mint limits, reveal and authorities; independently test and review. No mint transaction code or credentials are included.
 4. Verify current Pump.fun launch rules, supply, fees and creator allocation; use official interface and independently verify the resulting mint.

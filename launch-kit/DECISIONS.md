@@ -1,6 +1,6 @@
 # Founder approval sheet
 Proposed brand: Event Horizon / Astros / $ASTRO (not cleared).
-Proposed chain: Solana. NFT supply: 500 (was 1,000; changed 2026-11-18); 233/106/81/60/20 by tier (see supply.json).
+Proposed chain: Solana. NFT supply: 420 (was 1,000, briefly 500; changed 2026-11-18); 202/57/81/60/20 by tier (see supply.json).
 
 Before accepting payments, record and approve:
 - Operator identity, contact, jurisdiction, artwork rights and holder license.

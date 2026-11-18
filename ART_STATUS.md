@@ -1,6 +1,6 @@
 # Art audit and status (honest)
 
-**Supply is now 500 (approved by Christopher 2026-11-18; source of truth `launch-kit/supply.json`). The collection art is NOT finished: 426 of 500 are approved. 74 are pending (25 Common, 49 Uncommon). The site shows only the 426 and labels the rest "in production".**
+**Supply is 420 (set by Christopher 2026-11-18; source of truth `launch-kit/supply.json`). The art is COMPLETE: all 420 are illustrated and approved. Six approved Common lookalikes (#11, #119, #176, #223, #266, #296, the closest CLIP near-duplicates in `reports/similarity/audit.json`) are excluded from the collection; their art and hashes stay on disk.**
 
 ## Audit of the restored V6 drafts
 `tools/phash_audit.py` (1024-bit dHash, 33x32; thresholds calibrated on known pairs: <=0.10 near-duplicate, <=0.15 "similar, review"):
@@ -13,16 +13,16 @@ The v3 pipeline (`tools/art-pipeline/`, copied from `/workspace/event-horizon/as
 
 | Tier | Target | Approved | Pending |
 |---|---|---|---|
-| Common | 233 | 208 | 25 |
-| Uncommon | 106 | 57 | 49 |
+| Common | 202 | 202 | 0 |
+| Uncommon | 57 | 57 | 0 |
 | Rare | 81 | 81 | 0 |
 | Epic | 60 | 60 | 0 |
 | Legendary (incl. five 1/1s) | 20 | 20 | 0 |
-| **Total** | **500** | **426** | **74** |
+| **Total** | **420** | **420** | **0** |
 
-At 1,000 the targets were 550/250/120/60/20. Halving those exactly (275/125/60/30/10) would drop 21 approved Rares, 30 Epics and 10 Legendaries, so Rare/Epic/Legendary are set to the approved art and the remaining 339 are split Common/Uncommon in the old 55:25 ratio. The 74 pending slots are the lowest-numbered pending plan entries of those tiers (`supply.json` `pendingIds`); the other plan entries are out of the collection.
+History: 1,000 (550/250/120/60/20), briefly 500, now 420 = the actual approved art minus 6 Common lookalikes. Percentages: Common 48.1%, Uncommon 13.6%, Rare 19.3%, Epic 14.3%, Legendary 4.8%.
 
-Tier targets are encoded in the plan and the manifest (`launch-kit/supply.json` and `launch-kit/production-manifest.json`, 500 rows, per-tier counts asserted by tests). Metadata for approved tokens is generated; the rest cannot be built until art exists (strict mode refuses).
+Tier targets are encoded in the plan and the manifest (`launch-kit/supply.json` and `launch-kit/production-manifest.json`, 420 rows, per-tier counts asserted by tests). Metadata for approved tokens is generated; the rest cannot be built until art exists (strict mode refuses).
 
 ## Resume plan (exact commands, from repo root)
 ```bash
@@ -37,15 +37,15 @@ python3 visual.py approve --tokens 12,13        # promote reviewed tokens to don
 cd ../..
 python3 tools/build_collection.py tools/art-pipeline    # rebuilds art/NNNN.jpg, art-manifest.json, assets/astros/*.webp, collection.js, production-manifest.json
 python3 tools/phash_audit.py art "*.jpg" --out reports/phash-current.json # full similarity pairs and clusters
-python3 launch-kit/validate_collection.py         # STRICT: must pass with 500/500 before any mainnet step
+python3 launch-kit/validate_collection.py         # STRICT: passes with 420/420 (needs art/)
 python3 launch-kit/build_metadata.py --image-base https://arweave.net/<images-folder-id>
 ```
-Cost to finish: 74 generations plus rework (v3 so far: 445 generations for 426 accepted, 21 rejected). Rarity tiers Legendary and Epic are complete; Commons and Uncommons are next.
+Cost to finish: none; no further generation is needed (v3 total: 445 generations, 426 accepted, 21 rejected; 420 in the collection).
 
 ## Risks to resolve
 * **Character resemblance:** the original mockup hero (a slouched, smoking astronaut) read close to a well-known TV cartoon character, so it was **replaced with an original generated hero** (drifting astronaut, mirrored visor). The collection Astros themselves share a round-head / heavy-eyelid cartoon look; counsel should review the whole collection for resemblance. See DECISIONS.md.
 * **AI-generated art rights:** copyright status and platform terms for AI-generated images vary by jurisdiction; get advice before sale. Holder license text is not written.
-* **Full-resolution art** (`art/`, 146 MB now, about 175 MB at 500) is gitignored on purpose. Back it up and put it on permanent storage; the SHA-256 of every file is in `art-manifest.json`.
+* **Full-resolution art** (`art/`, 146 MB now, 420 in the collection plus the 6 excluded) is gitignored on purpose. Back it up and put it on permanent storage; the SHA-256 of every file is in `art-manifest.json`.
 * **Numbering:** V6 reserved #981-985 for the five 1/1s; v3 numbers tokens by its shuffled plan (Legendary #1 is "The Original"). Decide which scheme is final before uploading metadata.
 
 ## Finalization art direction

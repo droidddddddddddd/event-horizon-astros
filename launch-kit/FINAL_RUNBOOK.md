@@ -1,8 +1,8 @@
 # Release runbook
-Confirmed: Pump.fun, target 1B, 500 Astros, coordinated release. Price undecided. No actual launch performed.
+Confirmed: Pump.fun, target 1B, 420 Astros, coordinated release. Price undecided. No actual launch performed.
 
 ## Artwork and metadata
-Commission or generate original layered artwork with rights. Approve all 500 images individually against the production manifest; do not use cropped preview images as mint assets. Five named legendary slots are reserved. Record actual traits and run validate_collection.py and build_metadata.py. Upload images and JSON to permanent storage; verify every URI. Keep the approved hashes and manifest offline.
+Commission or generate original layered artwork with rights. All 420 images are approved; re-check them individually against the production manifest; do not use cropped preview images as mint assets. Five named legendary slots are reserved. Record actual traits and run validate_collection.py and build_metadata.py. Upload images and JSON to permanent storage; verify every URI. Keep the approved hashes and manifest offline.
 
 ## NFT deployment
 Use the official Metaplex Candy Machine documentation (https://developers.metaplex.com/candy-machine) and maintained tooling. Select treasury, price, royalty, mint limits, collection authority, reveal policy and creator address. Test on devnet with separate keys: successful mint, rejected mint, sold-out behavior, payment destination, metadata and authority. Have the configuration independently reviewed before mainnet. No private keys in the website. The V7 repo now contains devnet/localnet-tested mint tooling in `mint/` (see mint/README.md); there is still no mainnet deployment.
