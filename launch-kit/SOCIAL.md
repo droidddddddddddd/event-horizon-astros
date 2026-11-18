@@ -1,6 +1,6 @@
 # Social launch kit
 ## Bio
-1,000 planned astronauts. One impossible mission. No way back. Meet the Astros at Event Horizon. Concept collection in development.
+500 planned astronauts. One impossible mission. No way back. Meet the Astros at Event Horizon. Concept collection in development.
 ## Pinned post
 We were promised the moon. We found something else. EVENT HORIZON — the point of no return. Meet the Astros, make your own crew PFP and explore Mission Control. No mint or token is live yet. Official links will be published here.
 ## Reaction captions

@@ -1,6 +1,6 @@
 # EVENT HORIZON / ASTROS: V7
 
-Solana NFT collection (1,000 "Astros") + $ASTRO Pump.fun token plan. **PRELAUNCH CONCEPT PHASE: no live mint, no token on sale.** Never run on mainnet. Hosted in a private GitHub repo (`droidddddddddddd/event-horizon-astros`) so the static site can be previewed on Render; see Deploying.
+Solana NFT collection (500 "Astros"; reduced from 1,000 on 2026-11-18, see `launch-kit/supply.json`) + $ASTRO Pump.fun token plan. **PRELAUNCH CONCEPT PHASE: no live mint, no token on sale.** Never run on mainnet. Hosted in a private GitHub repo (`droidddddddddddd/event-horizon-astros`) so the static site can be previewed on Render; see Deploying.
 
 ## Layout
 | Path | What |
@@ -10,7 +10,7 @@ Solana NFT collection (1,000 "Astros") + $ASTRO Pump.fun token plan. **PRELAUNCH
 | `js/rank.js`, `js/crew.js`, `js/meter.js`, `js/pfp.js` | Ported $HORIZON features rebranded to $ASTRO: rank checker/rank card, crew perks and badges, DexScreener meter, photo PFP. Rank checker and meter stay closed until a verified CA exists. |
 | `launch-config.js`, `js/gate.js` | Release gate, fail-closed: every approval flag false |
 | `mint/` | Metaplex Core + Core Candy Machine tooling, devnet/localnet only (see `mint/README.md`) |
-| `launch-kit/` | manifest (1,000 rows), `validate_collection.py`, `build_metadata.py`, mainnet `preflight.py`, runbooks incl. `PUMPFUN_RUNBOOK.md` |
+| `launch-kit/` | `supply.json` (the 500 token IDs + tier split), manifest (500 rows), `validate_collection.py`, `build_metadata.py`, mainnet `preflight.py`, runbooks incl. `PUMPFUN_RUNBOOK.md` |
 | `tools/` | build, local server, art pipeline (`art-pipeline/`), pHash audit, collection builder, secret scan, test runner |
 | `legacy/` | The restored V6 site and V6 drafts, kept, not published |
 | `render.yaml` | Render static blueprint with security headers (prepared only) |
@@ -28,15 +28,15 @@ Requires Node >=20; Python 3 with Pillow/numpy for audit tools; Playwright + Chr
 The hero shows a **different approved Legendary/Epic/Rare Astro on every load** (161 in the pool: 20 Legendary, 60 Epic, 81 Rare; never the same one twice in a row per browser session) in front of the black-hole scene. Real approved art only: `tools/make_hero_cutouts.py` removes the flat backdrop (soft alpha + colour un-mixing, no regeneration) into `assets/hero/<id>-768.webp` / `-384.webp`; `tools/build_hero_pool.py` writes `js/hero.js` from `tools/hero.template.js` (edit `tools/hero_exclude.json` to drop a token). No-JS fallback and `og.jpg` use Astro #1 "The Original". Public origin for canonical/OG/twitter/sitemap lives in `site.config.json` (`siteUrl`; `SITE_URL` env overrides at build).
 
 ## Economics (preserved exactly, asserted by tests)
-1,000 NFTs: 550 Common / 250 Uncommon / 120 Rare / 60 Epic / 20 Legendary (incl. five 1/1s). 200 early crew @ 0.15 SOL (allowlist, 1 per wallet), 780 public @ 0.25 SOL (2 per wallet), 20 reserve. 2.5% royalty. Simultaneous Pump.fun launch, 1B supply, $ASTRO.
+500 NFTs: 233 Common / 106 Uncommon / 81 Rare / 60 Epic / 20 Legendary (incl. five 1/1s; Rare/Epic/Legendary equal the art already approved so no approved Astro is dropped). 100 early crew @ 0.15 SOL (allowlist, 1 per wallet), 390 public @ 0.25 SOL (2 per wallet), 10 reserve. The 426 approved Astros keep their token numbers, so IDs are not contiguous 1..500. 2.5% royalty. Simultaneous Pump.fun launch, 1B supply, $ASTRO.
 
 ## Honest status
 | Area | State |
 |---|---|
 | Website, studio, mission control, ported modules | Built; **33/33 desktop + 59/59 responsive/hero/Phantom(mock)/link checks pass** under the strict CSP (375/390/768/1440 px). Real Phantom wallet (browser extension or phone app) **not tested**; only a mocked provider. |
-| Art | **426 / 1,000 approved**, 574 pending (`ART_STATUS.md`). Not complete. |
-| Metadata | Generated in draft mode for the approved pieces only; strict build refuses until 1,000 exist. |
-| Mint (Metaplex Core, 3 machines) | **30/30 local-validator checks pass at full 200/780/20 size.** Never run on real devnet. Mainnet disabled and triple-gated. |
+| Art | **426 / 500 approved**, 74 pending (25 Common, 49 Uncommon) (`ART_STATUS.md`). Not complete. |
+| Metadata | Generated in draft mode for the approved pieces only; strict build refuses until all 500 exist. |
+| Mint (Metaplex Core, 3 machines) | **30/30 local-validator checks pass at the old full 200/780/20 size; not yet re-run at 100/390/10.** Never run on real devnet. Mainnet disabled and triple-gated. |
 | Token | Documented runbook only. |
 | Security | Self-review plus automated checks; **no independent audit**. 16 moderate npm advisories in mint tooling (transitive). |
 | Deploy | `render.yaml` validated and ready (static site); private GitHub repo created; Render service not created yet. |
