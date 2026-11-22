@@ -6,7 +6,9 @@
     "approved": false
   },
   "astro": {
-    "candidate_voice_id": null,
+    "candidate_voice_id": "WAYsiv3Yudejrr5Di4lf",
+    "candidate_name": "Jake",
+    "selected_from": "ElevenLabs voice search",
     "approved": false
   },
   "notes": "No speech has been generated. Check commercial license and approve casting before paid API calls."
