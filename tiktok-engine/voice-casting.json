@@ -1,0 +1,15 @@
+{
+  "mission_control": {
+    "candidate_voice_id": "1aPDmPEYltTp3yDMQLiT",
+    "candidate_name": "Jacob L. - Villain, Horror, Cinematic",
+    "selected_from": "ElevenLabs voice search",
+    "approved": false
+  },
+  "astro": {
+    "candidate_voice_id": "WAYsiv3Yudejrr5Di4lf",
+    "candidate_name": "Jake",
+    "selected_from": "ElevenLabs voice search",
+    "approved": false
+  },
+  "notes": "No speech has been generated. Check commercial license and approve casting before paid API calls."
+}

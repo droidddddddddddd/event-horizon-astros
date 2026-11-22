@@ -1,0 +1,51 @@
+name: ASTROS TikTok content engine (review-only)
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: 'Stage to run (or due)'
+        required: true
+        default: 'due'
+        type: choice
+        options: [due, scout, writer, director, editor, publisher, analyst]
+      force:
+        description: 'Ignore stage hour (manual tests only)'
+        required: false
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: astros-tiktok-engine
+  cancel-in-progress: false
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run due stage
+        env:
+          STAGE: ${{ inputs.stage || 'due' }}
+          FORCE: ${{ inputs.force || false }}
+        run: |
+          args=(--stage "$STAGE")
+          if [ "$FORCE" = "true" ]; then args+=(--force); fi
+          python tiktok-engine/engine.py "${args[@]}"
+      - name: Persist draft state on branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tiktok-engine/runs/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(tiktok): checkpoint daily content stage"
+            git push
+          fi

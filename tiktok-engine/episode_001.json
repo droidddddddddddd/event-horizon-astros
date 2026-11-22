@@ -1,0 +1,57 @@
+{
+  "episode_id": "ASTROS-001",
+  "title": "Earth Has Lost The Plot",
+  "status": "storyboard_ready_not_rendered",
+  "duration_seconds": 25,
+  "aspect_ratio": "9:16",
+  "style": "Locked ASTROS distressed retro comic, black/burnt orange, cream italic wordmark",
+  "character_reference": "Use existing approved NFT art; never substitute generic astronauts",
+  "voice_cast": {
+    "mission_control": {
+      "voice_id": "1aPDmPEYltTp3yDMQLiT",
+      "voice_name": "Jacob L. - Villain, Horror, Cinematic",
+      "status": "candidate_not_generated"
+    },
+    "astro": {
+      "voice_id": "WAYsiv3Yudejrr5Di4lf",
+      "voice_name": "Jake",
+      "status": "candidate_not_generated"
+    }
+  },
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "visual": "Bridge alarms. Incoming transmission hologram",
+      "dialogue": "MISSION CONTROL: Incoming transmission from Earth."
+    },
+    {
+      "start": 5,
+      "end": 10,
+      "visual": "Astro close-up, suspiciously calm",
+      "dialogue": "ASTRO: Is it another emergency?"
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "visual": "Mission Control shows a screen labeled INTERNET",
+      "dialogue": "MISSION CONTROL: Worse. The internet is arguing again."
+    },
+    {
+      "start": 15,
+      "end": 20,
+      "visual": "Astro silently reaches for the emergency launch switch",
+      "dialogue": "ASTRO: Can we go back to the black hole?"
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "visual": "Ship jumps to hyperspace, distressed ASTROS end card",
+      "dialogue": "MISSION CONTROL: Honestly? Approved."
+    }
+  ],
+  "caption": "Earth update received. Crew immediately requested evacuation. 🚀 #ASTROS #SciFi #AIAnimation",
+  "ai_label_required": true,
+  "rights_review_required": true,
+  "public_posting": false
+}

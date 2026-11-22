@@ -1,0 +1,18 @@
+{
+  "episode": "ASTROS-001",
+  "rendered_locally": true,
+  "duration_seconds": 25,
+  "format": "mp4",
+  "dimensions": "720x1280",
+  "cost_additional_elevenlabs_credits": 0,
+  "video_generation": "Local FFmpeg animated stills, not ElevenLabs AI video",
+  "audio": "Local synthesized voices, not ElevenLabs generated audio",
+  "character_art": "Original placeholders; approved ASTROS artwork NOT incorporated",
+  "distribution": "Review only; no public upload",
+  "remaining_steps": [
+    "Replace placeholders with approved artwork",
+    "Integrate previously generated ElevenLabs audio once export accessible",
+    "Quality-review and authorize posting"
+  ],
+  "last_verified": "2026-11-22"
+}

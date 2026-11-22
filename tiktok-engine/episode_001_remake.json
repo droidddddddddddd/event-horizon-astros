@@ -1,0 +1,43 @@
+{
+  "episode": "ASTROS-001-REMAKE",
+  "status": "production_ready_pending_original_media_export",
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "quality_bar": "No generic astronaut art, no synthetic fallback voices, no slide transitions",
+  "source": {
+    "storyboard_asset_id": "7S1wLjqCfR6nwC8KVSJt",
+    "mission_control_generation_id": "vIf7kxoiF6LZvYGpP1K1",
+    "astro_generation_id": "n8BdqVIHVrmzHdz4yHH7",
+    "flow_id": "jXYnwKfyfUiBnW5VqMB9"
+  },
+  "edit": [
+    {
+      "time": "0.0-2.0",
+      "visual": "Extreme closeup of approved Astro helmet visor, Earth distress signal reflected; orange alarm flicker",
+      "audio": "Short original alarm sting; Mission Control: Incoming transmission from Earth."
+    },
+    {
+      "time": "2.0-5.5",
+      "visual": "Slow dolly toward the Astro, eyebrow/helmet tilt; emergency alert changes to Earth social feed",
+      "audio": "Mission Control: The internet is arguing again."
+    },
+    {
+      "time": "5.5-8.0",
+      "visual": "Astro slowly turns away toward vast black hole outside bridge window",
+      "audio": "Astro: Can we go back to the black hole?"
+    },
+    {
+      "time": "8.0-10.0",
+      "visual": "Hard smash cut to engines igniting, ship racing toward black hole; orange EVENT HORIZON end-card",
+      "audio": "Mission Control: Approved. Deep bass hit and radio static."
+    }
+  ],
+  "restrictions": [
+    "Use only the actual approved storyboard/characters",
+    "Do not use the old local TTS or placeholder frames",
+    "No public publishing until review",
+    "Do not spend remaining credits on speculative renders"
+  ],
+  "blocker": "Actual source artwork and generated audio cannot yet be exported to the local editing environment using available connector actions",
+  "publishing_enabled": false
+}
