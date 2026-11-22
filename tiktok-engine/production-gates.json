@@ -1,0 +1,28 @@
+{
+  "pilot": "ASTROS-001",
+  "rendering": {
+    "status": "not_started",
+    "estimated_video_credits_per_5s": 1454.4,
+    "scene_count": 5,
+    "estimated_five_scene_video_credits": 7272,
+    "estimated_mission_control_speech_credits": 91,
+    "estimated_total_before_other_voice_audio_and_retries": 7363,
+    "estimate_only": true
+  },
+  "required_before_generation": [
+    "Confirm approved ASTROS NFT portrait reference assets and usage rights",
+    "Select model and verify image-reference compatibility",
+    "Set a maximum credits budget and retry policy",
+    "Confirm final voice casting"
+  ],
+  "required_before_publication": [
+    "Review factual statements and creative rights",
+    "Confirm original audio and correct subtitles",
+    "Verify portrait identity consistency in all shots",
+    "Confirm AI content disclosure",
+    "Authorize TikTok publishing integration and review the final video"
+  ],
+  "posting_enabled": false,
+  "website_modified": false,
+  "nft_art_modified": false
+}
