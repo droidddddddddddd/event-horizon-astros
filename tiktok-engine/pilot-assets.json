@@ -1,0 +1,33 @@
+{
+  "episode": "ASTROS-001",
+  "elevenlabs_flow_id": "jXYnwKfyfUiBnW5VqMB9",
+  "reference": {
+    "asset_id": "7S1wLjqCfR6nwC8KVSJt",
+    "node_id": "lnolOlOivyJPj5AEODLv",
+    "name": "ASTROS Episode 001 original storyboard"
+  },
+  "audio": [
+    {
+      "speaker": "MISSION CONTROL",
+      "voice_id": "1aPDmPEYltTp3yDMQLiT",
+      "node_id": "p2qhkIypUa8MLCyVh9PS",
+      "generation_id": "vIf7kxoiF6LZvYGpP1K1",
+      "status": "completed",
+      "credits": 150
+    },
+    {
+      "speaker": "ASTRO",
+      "voice_id": "WAYsiv3Yudejrr5Di4lf",
+      "node_id": "jzGW17dGZ52KfHIgiRKl",
+      "generation_id": "n8BdqVIHVrmzHdz4yHH7",
+      "status": "completed",
+      "credits": 85
+    }
+  ],
+  "video": {
+    "status": "blocked_insufficient_credits",
+    "required_for_first_scene": 1454.4,
+    "available_at_attempt": 979
+  },
+  "publishing_enabled": false
+}
