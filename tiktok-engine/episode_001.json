@@ -13,8 +13,9 @@
       "status": "candidate_not_generated"
     },
     "astro": {
-      "voice_id": null,
-      "status": "casting_pending"
+      "voice_id": "WAYsiv3Yudejrr5Di4lf",
+      "voice_name": "Jake",
+      "status": "candidate_not_generated"
     }
   },
   "scenes": [
