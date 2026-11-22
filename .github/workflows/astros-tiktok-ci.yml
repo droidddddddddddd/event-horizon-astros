@@ -1,0 +1,24 @@
+name: ASTROS TikTok engine tests
+on:
+  pull_request:
+    paths:
+      - 'tiktok-engine/**'
+      - '.github/workflows/astros-tiktok-*.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python -m unittest discover -s tiktok-engine -p 'test_*.py' -v
+      - name: Syntax checks
+        run: python -m py_compile tiktok-engine/engine.py tiktok-engine/assemble.py
+      - name: Validate pilot JSON
+        run: python -m json.tool tiktok-engine/episode_001.json >/dev/null
